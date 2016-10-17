@@ -1,1 +1,1 @@
-worker:  exec startRedLoop.bat
+worker:  cmd startRedLoop.bat
