@@ -1,0 +1,22 @@
+{
+    "AVCONV" : false,
+    "MAX_CACHE" : 0,
+    "MAX_LENGTH" : 3700,
+    "QUEUE_MODE" : true,
+    "SERVERS" : {
+        "107249192564449280" : {
+            "QUEUE_MODE" : true,
+            "VOLUME" : 15,
+            "VOTE_ENABLED" : true,
+            "VOTE_THRESHOLD" : 50
+        }
+    },
+    "SERVER_SFX_ON" : {
+        "107249192564449280" : false
+    },
+    "SOUNDCLOUD_CLIENT_ID" : "0585956a348350b3ec7338ac7fea684e",
+    "TITLE_STATUS" : true,
+    "VOLUME" : 0.05,
+    "VOTE_ENABLED" : true,
+    "VOTE_THRESHOLD" : 50
+}
