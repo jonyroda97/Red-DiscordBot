@@ -1,0 +1,18 @@
+{
+    "107249192564449280" : {
+        "ADMIN_ROLE" : "Dono",
+        "MOD_ROLE" : "Admin"
+    },
+    "EMAIL" : "MTc2MTcwODYxMTEwMzYyMTE0.CgcH-Q.__JCEaewmDilEz0d5FqbcEIUsX0",
+    "LOGIN_TYPE" : "token",
+    "OWNER" : "98159081583292416",
+    "PASSWORD" : "",
+    "PREFIXES" : [
+        ".",
+        "!"
+    ],
+    "default" : {
+        "ADMIN_ROLE" : "Admin",
+        "MOD_ROLE" : "Admin"
+    }
+}

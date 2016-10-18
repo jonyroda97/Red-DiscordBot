@@ -1,0 +1,1192 @@
+2016-05-21 17:49:33.423000 #geral @jonyroda97#9104: .logger
+2016-05-21 17:49:33.980000 #geral @Amigos Prováveis#6605: Logging enabled for #geral
+2016-05-21 17:49:52.626000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-21 17:50:41.418000 #geral @jonyroda97#9104: .say @Tunes_NetWork é estúpido
+2016-05-21 17:50:41.787000 #geral @Amigos Prováveis#6605: @Tunes_NetWork é estúpido
+2016-05-21 17:50:58.510000 #geral @jonyroda97#9104: .say
+2016-05-21 17:50:58.787000 #geral @Amigos Prováveis#6605: ```
+.say <text>
+
+Repeats what you tell it.
+
+Can use `message`, `channel`, `server`, and `discord`
+
+```
+2016-05-21 17:51:26.961000 #geral @jonyroda97#9104: .message hi
+2016-05-21 17:52:01.567000 #geral @jonyroda97#9104: .say geral hi
+2016-05-21 17:52:02.143000 #geral @Amigos Prováveis#6605: geral hi
+2016-05-21 17:52:17.592000 #geral @jonyroda97#9104: .say 'geral' hi
+2016-05-21 17:52:17.895000 #geral @Amigos Prováveis#6605: 'geral' hi
+2016-05-21 17:53:50.106000 #geral @jonyroda97#9104: .say `channel` hi
+2016-05-21 17:53:50.652000 #geral @Amigos Prováveis#6605: `channel` hi
+2016-05-21 17:54:07.500000 #geral @jonyroda97#9104: .say `geral` hi
+2016-05-21 17:54:07.809000 #geral @Amigos Prováveis#6605: `geral` hi
+2016-05-21 17:55:12.841000 #geral @jonyroda97#9104: .say geral: ji
+2016-05-21 17:55:13.410000 #geral @Amigos Prováveis#6605: geral: ji
+2016-05-21 17:55:50.604000 #geral @jonyroda97#9104: .say channel: geral hi
+2016-05-21 17:55:51.079000 #geral @Amigos Prováveis#6605: channel: geral hi
+2016-05-21 17:56:40.088000 #geral @jonyroda97#9104: .say hi geral
+2016-05-21 17:56:40.539000 #geral @Amigos Prováveis#6605: hi geral
+2016-05-21 17:57:47.371000 #geral @jonyroda97#9104: .say hi `geral`
+2016-05-21 17:57:47.919000 #geral @Amigos Prováveis#6605: hi `geral`
+2016-05-21 17:57:56 #geral @jonyroda97#9104: <geral>
+2016-05-21 17:58:00.225000 #geral @jonyroda97#9104: 'gearael'
+2016-05-21 17:58:05.627000 #geral @jonyroda97#9104: ´geral´
+2016-05-21 17:58:10.625000 #geral @jonyroda97#9104: `geral`
+2016-05-21 17:58:16.252000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-21 17:59:03.148000 #geral @jonyroda97#9104: .say ola `geral`
+2016-05-21 17:59:03.823000 #geral @Amigos Prováveis#6605: ola `geral`
+2016-05-21 17:59:07.358000 #geral @jonyroda97#9104: *ola*
+2016-05-21 17:59:09.817000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-21 18:04:55.670000 #geral @jonyroda97#9104: .help audio´
+2016-05-21 18:04:56.168000 #geral @Amigos Prováveis#6605: No command called "audio´" found.
+2016-05-21 18:05:00.276000 #geral @jonyroda97#9104: .help audio
+2016-05-21 18:05:00.578000 #geral @Amigos Prováveis#6605: No command called "audio" found.
+2016-05-21 18:05:19.396000 #geral @jonyroda97#9104: .audiostat
+2016-05-21 18:05:19.697000 #geral @Amigos Prováveis#6605: ```
+.audiostat
+
+General stats on audio stuff.
+
+Commands:
+  servers Number of servers currently playing.
+
+Type .audiostat command for more info on a command.
+You can also type .audiostat category for more info on a category.
+```
+2016-05-21 18:05:32.023000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-21 18:12:52.681000 #geral @jonyroda97#9104: .emote
+2016-05-21 18:12:52.990000 #geral @Amigos Prováveis#6605: ```
+.emote <emote_name>
+
+Enabled emote and all emotes from same twitch channel
+
+```
+2016-05-21 18:12:58.437000 #geral @jonyroda97#9104: .emote Kappa
+2016-05-21 18:12:58.671000 #geral @Amigos Prováveis#6605: Emotes are not enabled on this server.
+2016-05-21 18:13:53.479000 #geral @jonyroda97#9104: .emotes
+2016-05-21 18:13:58.654000 #geral @jonyroda97#9104: .help emote
+2016-05-21 18:13:59.096000 #geral @Amigos Prováveis#6605: ```
+.emote <emote_name>
+
+Enabled emote and all emotes from same twitch channel
+
+```
+2016-05-21 18:14:16.272000 #geral @jonyroda97#9104: .emote kappa
+2016-05-21 18:14:16.612000 #geral @Amigos Prováveis#6605: Emotes are not enabled on this server.
+2016-05-21 18:14:47.220000 #geral @jonyroda97#9104: .emoteset
+2016-05-21 18:14:47.575000 #geral @Amigos Prováveis#6605: ```
+.emoteset
+
+Various emote settings
+
+Commands:
+  limit   Emote limit per message.
+  enabled Bool to see if emotes are enabled on this server.
+
+Type .emoteset command for more info on a command.
+You can also type .emoteset category for more info on a category.
+```
+2016-05-21 18:14:58.118000 #geral @jonyroda97#9104: .emoteenabled
+2016-05-21 18:15:05.089000 #geral @jonyroda97#9104: .emoteset enabled
+2016-05-21 18:15:05.286000 #geral @Amigos Prováveis#6605: ```
+.emoteset enabled <setting>
+
+Bool to see if emotes are enabled on this server.
+
+```
+2016-05-21 18:15:19.047000 #geral @jonyroda97#9104: .emoteset enabled true
+2016-05-21 18:15:19.430000 #geral @Amigos Prováveis#6605: @João Roda, emotes are now enabled.
+2016-05-21 18:15:24.042000 #geral @jonyroda97#9104: .claer~
+2016-05-21 18:15:25.965000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-21 18:15:29.035000 #geral @jonyroda97#9104: Kappa
+2016-05-21 18:15:33.432000 #geral @jonyroda97#9104: .emote Kappa
+2016-05-21 18:15:33.740000 #geral @Amigos Prováveis#6605: Retrieving emotes from 'Kappa'. Please wait a moment.
+2016-05-21 18:16:01.442000 #geral @jonyroda97#9104: .emote global
+2016-05-21 18:16:01.750000 #geral @Amigos Prováveis#6605: Retrieving emotes from 'global'. Please wait a moment.
+2016-05-21 18:16:02.079000 #geral @Amigos Prováveis#6605: No such emote 'global' found.
+2016-05-21 18:16:10.253000 #geral @Amigos Prováveis#6605: 'Kappa' and other channel emotes added.
+2016-05-21 18:16:22.626000 #geral @jonyroda97#9104: .emote all
+2016-05-21 18:16:22.901000 #geral @Amigos Prováveis#6605: Retrieving emotes from 'all'. Please wait a moment.
+2016-05-21 18:16:23.224000 #geral @Amigos Prováveis#6605: No such emote 'all' found.
+2016-05-21 18:16:30.322000 #geral @jonyroda97#9104: Kappa
+2016-05-21 18:16:30.576000 #geral @Amigos Prováveis#6605: 
+2016-05-21 18:16:41.443000 #geral @jonyroda97#9104: .emote kappa
+2016-05-21 18:16:41.748000 #geral @Amigos Prováveis#6605: Retrieving emotes from 'kappa'. Please wait a moment.
+2016-05-21 18:16:42.184000 #geral @Amigos Prováveis#6605: No such emote 'kappa' found.
+2016-05-21 18:16:47.786000 #geral @jonyroda97#9104: .emote Kappa
+2016-05-21 18:16:47.957000 #geral @Amigos Prováveis#6605: Retrieving emotes from 'Kappa'. Please wait a moment.
+2016-05-21 18:16:48.045000 #geral @Amigos Prováveis#6605: 
+2016-05-21 18:16:48.537000 #geral @Amigos Prováveis#6605: 'Kappa' and other channel emotes added.
+2016-05-21 18:23:37.528000 #geral @jonyroda97#9104: .emote Twitch Global
+2016-05-21 18:23:38.153000 #geral @Amigos Prováveis#6605: Retrieving emotes from 'Twitch'. Please wait a moment.
+2016-05-21 18:23:38.485000 #geral @Amigos Prováveis#6605: No such emote 'Twitch' found.
+2016-05-21 18:23:46.718000 #geral @jonyroda97#9104: .emote twitch
+2016-05-21 18:23:47.044000 #geral @Amigos Prováveis#6605: Retrieving emotes from 'twitch'. Please wait a moment.
+2016-05-21 18:23:47.429000 #geral @Amigos Prováveis#6605: No such emote 'twitch' found.
+2016-05-21 18:26:10.751000 #geral @jonyroda97#9104: .unload emote
+2016-05-21 18:26:11.162000 #geral @Amigos Prováveis#6605: That module file doesn't exist. I will not turn off autoloading at start just in case this isn't supposed to happen.
+2016-05-21 18:26:11.526000 #geral @Amigos Prováveis#6605: Module disabled.
+2016-05-21 18:26:33.439000 #geral @jonyroda97#9104: .help emote
+2016-05-21 18:26:33.649000 #geral @Amigos Prováveis#6605: ```
+.emote <emote_name>
+
+Enabled emote and all emotes from same twitch channel
+
+```
+2016-05-21 18:26:41.987000 #geral @jonyroda97#9104: .cog
+2016-05-21 18:26:42.331000 #geral @Amigos Prováveis#6605: ```
+.cog
+
+Additional cogs management
+
+Commands:
+  info    Shows info about the specified cog
+  repo    Repo management commands
+  update  Updates cogs
+  list    Lists installable cogs
+  install Installs specified cog
+
+Type .cog command for more info on a command.
+You can also type .cog category for more info on a category.
+```
+2016-05-21 18:27:05.621000 #geral @jonyroda97#9104: .unload emotes
+2016-05-21 18:27:05.816000 #geral @Amigos Prováveis#6605: Module disabled.
+2016-05-21 18:27:08.426000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-21 18:33:01.107000 #geral @jonyroda97#9104: .mention
+2016-05-21 18:33:01.342000 #geral @Amigos Prováveis#6605: ```
+.mention
+
+Saves your mentions when you're not online.
+
+Commands:
+  register   Register yourself for mention tracking
+  unregister Unregister yourself from mention tracking
+  read       Read all mentions since you've been away.
+
+Type .mention command for more info on a command.
+You can also type .mention category for more info on a category.
+```
+2016-05-21 18:33:17.555000 #geral @jonyroda97#9104: .mention register
+2016-05-21 18:33:19.444000 #geral @Amigos Prováveis#6605: @João Roda, thanks for registering.
+2016-05-21 18:33:22.520000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-21 18:33:26.231000 #geral @jonyroda97#9104: .mentionset
+2016-05-21 18:33:26.431000 #geral @Amigos Prováveis#6605: ```
+.mentionset
+
+Manage mentiontracker settings
+
+Commands:
+  limit Number of minutes to wait in between saving mentions.
+
+Type .mentionset command for more info on a command.
+You can also type .mentionset category for more info on a category.
+```
+2016-05-21 18:33:26.710000 #geral @Amigos Prováveis#6605: ```MENTION_TIME_LIMIT: 5
+```
+2016-05-21 18:34:21.532000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-22 21:10:08.627000 #geral @jonyroda97#9104: .playlist
+2016-05-22 21:10:09.208000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  extend Extends a playlist with a playlist link
+  queue  Adds a song to the playlist loop.
+  mix    Plays and mixes a playlist.
+  remove Deletes a saved playlist.
+  add    Add a YouTube or Soundcloud playlist.
+  start  Plays a playlist.
+  list   Lists all available playlists
+  append Appends to a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2016-05-22 21:10:52.292000 #geral @jonyroda97#9104: .playlist remove proximity
+2016-05-22 21:10:53.353000 #geral @Amigos Prováveis#6605: Playlist deleted.
+2016-05-22 21:10:57.172000 #geral @jonyroda97#9104: .queue
+2016-05-22 21:10:57.503000 #geral @Amigos Prováveis#6605: ```
+.queue <url>
+
+Queues a song to play next. Extended functionality in `!help`
+
+If you use `queue` when one song is playing, your new song will get
+    added to the song loop (if running). If you use `queue` when a
+    playlist is running, it will temporarily be played next and will
+    NOT stay in the playlist loop.
+
+```
+2016-05-22 21:12:51.988000 #geral @jonyroda97#9104: .playlist add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg
+2016-05-22 21:12:51.988000 #geral @jonyroda97#9104: .playlist add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg
+2016-05-22 21:12:52.309000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-05-22 21:12:56.606000 #geral @Amigos Prováveis#6605: Playlist 'proximity' saved. Tracks: 527
+2016-05-22 21:13:36.753000 #geral @jonyroda97#9104: .playlist start proximity
+2016-05-22 21:13:38.356000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-05-22 21:14:21.768000 #geral @jonyroda97#9104: .audioset
+2016-05-22 21:14:22.155000 #geral @Amigos Prováveis#6605: ```
+.audioset
+
+Audio settings.
+
+Commands:
+  maxlength Maximum track length (seconds) for requested links
+  cachemax  Set the max cache size in MB
+  volume    Sets the volume (0 - 100)
+  player    Toggles between Ffmpeg and Avconv
+  vote      Percentage needed for the masses to skip songs.
+
+Type .audioset command for more info on a command.
+You can also type .audioset category for more info on a category.
+```
+2016-05-22 21:14:29.558000 #geral @jonyroda97#9104: .audiostat
+2016-05-22 21:14:29.874000 #geral @Amigos Prováveis#6605: ```
+.audiostat
+
+General stats on audio stuff.
+
+Commands:
+  servers Number of servers currently playing.
+
+Type .audiostat command for more info on a command.
+You can also type .audiostat category for more info on a category.
+```
+2016-05-22 21:14:49.668000 #geral @jonyroda97#9104: .audiostat volume
+2016-05-22 21:14:49.964000 #geral @Amigos Prováveis#6605: ```
+.audiostat
+
+General stats on audio stuff.
+
+Commands:
+  servers Number of servers currently playing.
+
+Type .audiostat command for more info on a command.
+You can also type .audiostat category for more info on a category.
+```
+2016-05-22 21:15:03.998000 #geral @jonyroda97#9104: .audioset cachemax
+2016-05-22 21:15:04.221000 #geral @Amigos Prováveis#6605: ```
+.audioset cachemax <size>
+
+Set the max cache size in MB
+
+```
+2016-05-22 21:15:29.924000 #geral @jonyroda97#9104: .audioset volume 0.05
+2016-05-22 21:15:30.187000 #geral @Amigos Prováveis#6605: ```
+.audioset volume <percent>
+
+Sets the volume (0 - 100)
+
+```
+2016-05-22 21:15:41.158000 #geral @jonyroda97#9104: .audioset volume 5
+2016-05-22 21:15:41.500000 #geral @Amigos Prováveis#6605: Volume is now set at 5. It will take effect after the current track.
+2016-05-22 21:15:51.564000 #geral @jonyroda97#9104: .playlist start proximity
+2016-05-22 21:15:51.921000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-05-22 21:16:01.970000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-22 21:16:15.624000 #geral @jonyroda97#9104: .pause
+2016-05-22 21:16:16.028000 #geral @Amigos Prováveis#6605: Paused.
+2016-05-22 21:25:22.035000 #geral @jonyroda97#9104: .resume
+2016-05-22 21:25:22.509000 #geral @Amigos Prováveis#6605: Resuming.
+2016-05-22 21:25:23.365000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-22 21:25:29.787000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-22 21:31:33.603000 #geral @jonyroda97#9104: .stop
+2016-05-22 21:31:35.702000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-23 21:22:35.979000 #geral @jonyroda97#9104: .play https://www.youtube.com/watch?v=QKqP36nymV4
+2016-05-23 21:22:35.979000 #geral @jonyroda97#9104: .play https://www.youtube.com/watch?v=QKqP36nymV4
+2016-05-23 21:22:44.496000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-23 21:27:21.455000 #geral @jonyroda97#9104: .play https://www.youtube.com/watch?v=QKqP36nymV4
+2016-05-23 21:35:07.244000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-23 21:35:11.009000 #geral @jonyroda97#9104: .play https://www.youtube.com/watch?v=QKqP36nymV4
+2016-05-23 21:35:13.036000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-28 01:42:55.791000 #geral @jonyroda97#9104: .queue
+2016-05-28 01:42:56.295000 #geral @Amigos Prováveis#6605: ```
+.queue <url>
+
+Queues a song to play next. Extended functionality in `!help`
+
+If you use `queue` when one song is playing, your new song will get
+    added to the song loop (if running). If you use `queue` when a
+    playlist is running, it will temporarily be played next and will
+    NOT stay in the playlist loop.
+
+```
+2016-05-28 01:43:04.402000 #geral @jonyroda97#9104: .aliaslist
+2016-05-28 01:43:05.026000 #geral @Amigos Prováveis#6605: ```Alias list:
+	add
+	aliases
+	clear
+	np
+	pl
+```
+2016-05-28 01:43:13.448000 #geral @jonyroda97#9104: .alias
+2016-05-28 01:43:13.755000 #geral @Amigos Prováveis#6605: ```
+.alias
+
+Manage per-server aliases for commands
+
+Commands:
+  del  Deletes an alias
+  show Shows what command the alias executes.
+  help Tries to execute help for the base command of the alias
+  add  Add an alias for a command
+
+Type .alias command for more info on a command.
+You can also type .alias category for more info on a category.
+```
+2016-05-28 01:43:20.850000 #geral @jonyroda97#9104: .alias add q queue
+2016-05-28 01:43:21.198000 #geral @Amigos Prováveis#6605: Alias 'q' added.
+2016-05-28 01:43:23.983000 #geral @jonyroda97#9104: .queue
+2016-05-28 01:43:24.307000 #geral @Amigos Prováveis#6605: ```
+.queue <url>
+
+Queues a song to play next. Extended functionality in `!help`
+
+If you use `queue` when one song is playing, your new song will get
+    added to the song loop (if running). If you use `queue` when a
+    playlist is running, it will temporarily be played next and will
+    NOT stay in the playlist loop.
+
+```
+2016-05-28 01:43:26.303000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-31 19:22:11.076000 #geral @jonyroda97#9104: !sing
+2016-05-31 19:22:12.778000 #geral @Amigos Prováveis#6605: You must join a voice channel before I can play anything.
+2016-05-31 19:22:27.489000 #geral @jonyroda97#9104: !sing
+2016-05-31 19:22:29.189000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-05-31 19:23:14.627000 #geral @jonyroda97#9104: !audioset
+2016-05-31 19:23:15.292000 #geral @Amigos Prováveis#6605: ```
+!audioset
+
+Audio settings.
+
+Commands:
+  cachemax  Set the max cache size in MB
+  player    Toggles between Ffmpeg and Avconv
+  volume    Sets the volume (0 - 100)
+  maxlength Maximum track length (seconds) for requested links
+  vote      Percentage needed for the masses to skip songs.
+
+Type !audioset command for more info on a command.
+You can also type !audioset category for more info on a category.
+```
+2016-05-31 19:41:44.368000 #geral @jonyroda97#9104: !sing
+2016-05-31 19:42:01.515000 #geral @jonyroda97#9104: !sing
+2016-05-31 19:42:02.059000 #geral @Amigos Prováveis#6605: Queued.
+2016-05-31 19:42:08.045000 #geral @jonyroda97#9104: .skip
+2016-05-31 19:42:08.341000 #geral @Amigos Prováveis#6605: Skipping...
+2016-05-31 19:42:13.110000 #geral @jonyroda97#9104: .skip
+2016-05-31 19:42:13.282000 #geral @Amigos Prováveis#6605: Skipping...
+2016-05-31 19:42:17.423000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-07 21:07:03.262000 #geral @jonyroda97#9104: >me cagar
+2016-06-13 21:27:42.500000 #geral @jonyroda97#9104: !queue
+2016-06-13 21:27:43.275000 #geral @Amigos Prováveis#6605: Nothing playing on this server!
+2016-06-13 21:27:46.499000 #geral @jonyroda97#9104: .clea
+2016-06-13 21:27:48.724000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-13 21:27:52.333000 #geral @jonyroda97#9104: .p
+2016-06-13 21:27:56.136000 #geral @jonyroda97#9104: .aliaslist
+2016-06-13 21:27:56.764000 #geral @Amigos Prováveis#6605: ```Alias list:
+	add
+	aliases
+	clear
+	np
+	pl
+	q
+```
+2016-06-13 21:28:01.057000 #geral @jonyroda97#9104: .playlist
+2016-06-13 21:28:01.361000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  mix    Plays and mixes a playlist.
+  append Appends to a playlist.
+  start  Plays a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2016-06-14 00:38:45.126000 #geral @jonyroda97#9104: .playlist add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg
+2016-06-14 00:38:45.126000 #geral @jonyroda97#9104: .playlist add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg
+2016-06-14 00:38:45.757000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-14 00:38:50.522000 #geral @Amigos Prováveis#6605: Playlist 'proximity' saved. Tracks: 543
+2016-06-14 00:38:55.651000 #geral @jonyroda97#9104: .playlist list
+2016-06-14 00:38:55.956000 #geral @Amigos Prováveis#6605: Available playlists:
+```xl
+monstercat, 50rock, trap, future_bass, neo_scavenger, top40, transistor, proximity```
+2016-06-14 00:39:46.398000 #geral @jonyroda97#9104: .playlist add trap https://www.youtube.com/playlist?list=UUa10nxShhzNrCE1o2ZOPztg
+2016-06-14 00:39:46.398000 #geral @jonyroda97#9104: .playlist add trap https://www.youtube.com/playlist?list=UUa10nxShhzNrCE1o2ZOPztg
+2016-06-14 00:39:46.910000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-14 00:39:53.466000 #geral @Amigos Prováveis#6605: Playlist 'trap' saved. Tracks: 763
+2016-06-14 00:40:07.346000 #geral @jonyroda97#9104: .playlist start top40
+2016-06-14 00:40:07.869000 #geral @Amigos Prováveis#6605: You must be in a voice channel to start a playlist.
+2016-06-14 00:40:18.941000 #geral @jonyroda97#9104: .playlist start top40
+2016-06-14 00:40:19.996000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-14 00:41:29.113000 #geral @jonyroda97#9104: .queue
+2016-06-14 00:41:29.563000 #geral @Amigos Prováveis#6605: Gathering information...
+2016-06-14 00:41:34.132000 #geral @Amigos Prováveis#6605: 
+***Now playing:***
+Alan Walker - Faded
+
+***Next up:***
+1. DJ Snake - Middle ft. Bipolar Sunshine
+2. Mike Posner - I Took A Pill In Ibiza (Seeb Remix) (Explicit)
+3. Jonas Blue - Fast Car ft. Dakota
+4. DJ Snake, Lil Jon - Turn Down for What
+5. David Guetta - Bang My Head (Official Video) feat Sia & Fetty Wap
+2016-06-14 00:47:05.034000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 00:47:11.071000 #geral @jonyroda97#9104: .stop
+2016-06-14 00:47:13.462000 #geral @jonyroda97#9104: .clea
+2016-06-14 00:47:15.631000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 00:47:42.497000 #geral @jonyroda97#9104: .playlist add top50 https://www.youtube.com/playlist?list=PL5qu2o_qt3FPMfqkLdFFPwOFU8cCduQj_
+2016-06-14 00:47:42.497000 #geral @jonyroda97#9104: .playlist add top50 https://www.youtube.com/playlist?list=PL5qu2o_qt3FPMfqkLdFFPwOFU8cCduQj_
+2016-06-14 00:47:42.777000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-14 00:47:43.621000 #geral @Amigos Prováveis#6605: Playlist 'top50' saved. Tracks: 39
+2016-06-14 00:47:48.508000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 00:48:14.292000 #geral @jonyroda97#9104: .playlist add rafael https://www.youtube.com/playlist?list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2016-06-14 00:48:14.292000 #geral @jonyroda97#9104: .playlist add rafael https://www.youtube.com/playlist?list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2016-06-14 00:48:14.550000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-14 00:48:15.454000 #geral @Amigos Prováveis#6605: Playlist 'rafael' saved. Tracks: 25
+2016-06-14 00:48:19.498000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 00:52:28.890000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-14 00:52:28.890000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-14 00:52:29.449000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-14 00:52:30.894000 #geral @Amigos Prováveis#6605: Playlist 'joao' saved. Tracks: 59
+2016-06-14 00:52:35.169000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 00:52:40.929000 #geral @jonyroda97#9104: .playlist start joao
+2016-06-14 00:52:42.331000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-14 00:52:51.701000 #geral @jonyroda97#9104: .aliaslist
+2016-06-14 00:52:52.093000 #geral @Amigos Prováveis#6605: ```Alias list:
+	add
+	aliases
+	clear
+	np
+	pl
+	q
+```
+2016-06-14 00:56:00.162000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-14 00:56:00.788000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-14 00:56:01.620000 #geral @Amigos Prováveis#6605: Playlist 'joao' saved. Tracks: 59
+2016-06-14 00:56:07.133000 #geral @jonyroda97#9104: .playlist start joao
+2016-06-14 00:56:07.249000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-14 00:56:13.338000 #geral @jonyroda97#9104: .queue
+2016-06-14 00:56:13.703000 #geral @Amigos Prováveis#6605: Gathering information...
+2016-06-14 00:56:14.771000 #geral @Amigos Prováveis#6605: 
+***Now playing:***
+Jay Sean - Make My Love Go (Official Video) ft. Sean Paul
+
+***Next up:***
+1. Cali Y El Dandee - Por Fin Te Encontré ft. Juan Magan, Sebastian Yatra
+2. April - Be Ok
+3. The Chainsmokers - Don't Let Me Down (Audio) ft. Daya
+4. Fifth Harmony - Work from Home ft. Ty Dolla $ign
+5. Desiigner- Panda (OFFICIAL SONG) Prod. By: Menace
+2016-06-14 00:56:22.847000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 00:56:26.631000 #geral @jonyroda97#9104: .aliaslist
+2016-06-14 00:56:27.194000 #geral @Amigos Prováveis#6605: ```Alias list:
+	add
+	aliases
+	clear
+	np
+	pl
+	q
+```
+2016-06-14 00:56:30.576000 #geral @jonyroda97#9104: .queue
+2016-06-14 00:56:30.876000 #geral @Amigos Prováveis#6605: Gathering information...
+2016-06-14 00:56:31.975000 #geral @Amigos Prováveis#6605: 
+***Now playing:***
+Jay Sean - Make My Love Go (Official Video) ft. Sean Paul
+
+***Next up:***
+1. Cali Y El Dandee - Por Fin Te Encontré ft. Juan Magan, Sebastian Yatra
+2. April - Be Ok
+3. The Chainsmokers - Don't Let Me Down (Audio) ft. Daya
+4. Fifth Harmony - Work from Home ft. Ty Dolla $ign
+5. Desiigner- Panda (OFFICIAL SONG) Prod. By: Menace
+2016-06-14 00:56:38.577000 #geral @jonyroda97#9104: .alias add
+2016-06-14 00:56:39.061000 #geral @Amigos Prováveis#6605: ```
+.alias add <command> <to_execute>
+
+Add an alias for a command
+
+Example: !alias add test flip @Twentysix
+
+```
+2016-06-14 00:56:52.949000 #geral @jonyroda97#9104: .aliaslist add
+2016-06-14 00:56:53.244000 #geral @Amigos Prováveis#6605: ```Alias list:
+	add
+	aliases
+	clear
+	np
+	pl
+	q
+```
+2016-06-14 00:57:01.397000 #geral @jonyroda97#9104: .alias list
+2016-06-14 00:57:01.755000 #geral @Amigos Prováveis#6605: ```
+.alias
+
+Manage per-server aliases for commands
+
+Commands:
+  show Shows what command the alias executes.
+  add  Add an alias for a command
+  del  Deletes an alias
+  help Tries to execute help for the base command of the alias
+
+Type .alias command for more info on a command.
+You can also type .alias category for more info on a category.
+```
+2016-06-14 00:57:13.659000 #geral @jonyroda97#9104: .alias show add
+2016-06-14 00:57:13.974000 #geral @Amigos Prováveis#6605: ```queue```
+2016-06-14 00:57:23.173000 #geral @jonyroda97#9104: .alias show 1
+2016-06-14 00:57:23.501000 #geral @Amigos Prováveis#6605: That alias doesn't exist.
+2016-06-14 00:57:27.708000 #geral @jonyroda97#9104: .alias show q
+2016-06-14 00:57:28.019000 #geral @Amigos Prováveis#6605: ```queue```
+2016-06-14 00:57:41.336000 #geral @jonyroda97#9104: .queue https://www.youtube.com/watch?v=_kxz7WX4mLU&index=2&list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-14 00:57:41.336000 #geral @jonyroda97#9104: .queue https://www.youtube.com/watch?v=_kxz7WX4mLU&index=2&list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-14 00:57:41.744000 #geral @Amigos Prováveis#6605: Queued.
+2016-06-14 00:57:44.580000 #geral @jonyroda97#9104: .queue
+2016-06-14 00:57:44.989000 #geral @Amigos Prováveis#6605: Gathering information...
+2016-06-14 00:57:47.030000 #geral @Amigos Prováveis#6605: 
+***Now playing:***
+Jay Sean - Make My Love Go (Official Video) ft. Sean Paul
+
+***Next up:***
+1. Cali Y El Dandee - Por Fin Te Encontré ft. Juan Magan, Sebastian Yatra
+2. Cali Y El Dandee - Por Fin Te Encontré ft. Juan Magan, Sebastian Yatra
+3. April - Be Ok
+4. The Chainsmokers - Don't Let Me Down (Audio) ft. Daya
+5. Fifth Harmony - Work from Home ft. Ty Dolla $ign
+2016-06-14 00:57:57.637000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 00:58:06.191000 #geral @jonyroda97#9104: .help queue
+2016-06-14 00:58:06.466000 #geral @Amigos Prováveis#6605: ```
+.queue [url]
+
+Queues a song to play next. Extended functionality in `!help`
+
+If you use `queue` when one song is playing, your new song will get
+    added to the song loop (if running). If you use `queue` when a
+    playlist is running, it will temporarily be played next and will
+    NOT stay in the playlist loop.
+
+```
+2016-06-14 00:58:12.035000 #geral @jonyroda97#9104: .help
+2016-06-14 00:59:44.443000 #geral @jonyroda97#9104: .stop
+2016-06-14 00:59:46.597000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:02:38.497000 #geral @jonyroda97#9104: .aliaslist
+2016-06-14 01:02:39.110000 #geral @Amigos Prováveis#6605: ```Alias list:
+	add
+	aliases
+	clear
+	np
+	pl
+	q
+```
+2016-06-14 01:02:46.766000 #geral @jonyroda97#9104: .alias show np
+2016-06-14 01:02:46.912000 #geral @Amigos Prováveis#6605: ```song```
+2016-06-14 01:02:56.721000 #geral @jonyroda97#9104: .playlist start joao
+2016-06-14 01:02:57.021000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-14 01:03:02.917000 #geral @jonyroda97#9104: .song
+2016-06-14 01:03:03.283000 #geral @Amigos Prováveis#6605: 
+**Title:** Jay Sean - Make My Love Go (Official Video) ft. Sean Paul
+**Uploader:** JaySeanVEVO
+**Views:** 10441978
+
+<https://www.youtube.com/watch?v=ovhm9TIQFws>
+2016-06-14 01:03:07.990000 #geral @jonyroda97#9104: .song
+2016-06-14 01:03:08.311000 #geral @Amigos Prováveis#6605: 
+**Title:** Jay Sean - Make My Love Go (Official Video) ft. Sean Paul
+**Uploader:** JaySeanVEVO
+**Views:** 10441978
+
+<https://www.youtube.com/watch?v=ovhm9TIQFws>
+2016-06-14 01:03:15.685000 #geral @jonyroda97#9104: .song https://www.youtube.com/watch?v=_kxz7WX4mLU&index=2&list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-14 01:03:16.171000 #geral @Amigos Prováveis#6605: 
+**Title:** Jay Sean - Make My Love Go (Official Video) ft. Sean Paul
+**Uploader:** JaySeanVEVO
+**Views:** 10441978
+
+<https://www.youtube.com/watch?v=ovhm9TIQFws>
+2016-06-14 01:03:20.980000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:03:23.125000 #geral @jonyroda97#9104: .aliaslist
+2016-06-14 01:03:23.496000 #geral @Amigos Prováveis#6605: ```Alias list:
+	add
+	aliases
+	clear
+	np
+	pl
+	q
+```
+2016-06-14 01:04:16.368000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:04:32.571000 #geral @jonyroda97#9104: .queue
+2016-06-14 01:04:32.959000 #geral @Amigos Prováveis#6605: Gathering information...
+2016-06-14 01:04:34.639000 #geral @Amigos Prováveis#6605: 
+***Now playing:***
+Jay Sean - Make My Love Go (Official Video) ft. Sean Paul
+
+***Next up:***
+1. Cali Y El Dandee - Por Fin Te Encontré ft. Juan Magan, Sebastian Yatra
+2. April - Be Ok
+3. The Chainsmokers - Don't Let Me Down (Audio) ft. Daya
+4. Fifth Harmony - Work from Home ft. Ty Dolla $ign
+5. Desiigner- Panda (OFFICIAL SONG) Prod. By: Menace
+2016-06-14 01:04:37.264000 #geral @jonyroda97#9104: .list
+2016-06-14 01:04:41.808000 #geral @jonyroda97#9104: .help list
+2016-06-14 01:04:42.046000 #geral @Amigos Prováveis#6605: No command called "list" found.
+2016-06-14 01:04:48.821000 #geral @jonyroda97#9104: .playlist
+2016-06-14 01:04:49.040000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  mix    Plays and mixes a playlist.
+  append Appends to a playlist.
+  start  Plays a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2016-06-14 01:04:55.037000 #geral @jonyroda97#9104: .playlist list queu
+2016-06-14 01:04:55.640000 #geral @Amigos Prováveis#6605: Available playlists:
+```xl
+monstercat, rafael, top50, joao, 50rock, trap, future_bass, neo_scavenger, top40, transistor, proximity```
+2016-06-14 01:05:00.278000 #geral @jonyroda97#9104: .playlist list queue
+2016-06-14 01:05:00.586000 #geral @Amigos Prováveis#6605: Available playlists:
+```xl
+monstercat, rafael, top50, joao, 50rock, trap, future_bass, neo_scavenger, top40, transistor, proximity```
+2016-06-14 01:05:14.151000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:05:15.629000 #geral @jonyroda97#9104: .stop
+2016-06-14 01:05:17.557000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:05:50.131000 #geral @jonyroda97#9104: .cog update
+2016-06-14 01:05:51.200000 #geral @Amigos Prováveis#6605: Downloading updated cogs. Wait 10 seconds...
+2016-06-14 01:06:01.833000 #geral @Amigos Prováveis#6605: Cogs updated. Reload all installed cogs? (yes/no)
+2016-06-14 01:06:04.580000 #geral @jonyroda97#9104: yes
+2016-06-14 01:06:05.166000 #geral @Amigos Prováveis#6605: Done.
+2016-06-14 01:06:09.854000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:11:29.128000 #geral @jonyroda97#9104: .sudo
+2016-06-14 01:11:29.843000 #geral @Amigos Prováveis#6605: ```
+.sudo <user> <command>
+
+Runs the [command] as if [user] had run it. DON'T ADD A PREFIX
+        
+
+```
+2016-06-14 01:11:40.050000 #geral @jonyroda97#9104: .sudo jonyroda97 q
+2016-06-14 01:11:57.071000 #geral @jonyroda97#9104: .sudo @João Roda q
+2016-06-14 01:12:20.660000 #geral @jonyroda97#9104: .sudo clear
+2016-06-14 01:12:21.235000 #geral @Amigos Prováveis#6605: ```
+.sudo <user> <command>
+
+Runs the [command] as if [user] had run it. DON'T ADD A PREFIX
+        
+
+```
+2016-06-14 01:12:28.175000 #geral @jonyroda97#9104: .sudo @João Roda clear
+2016-06-14 01:12:38.576000 #geral @jonyroda97#9104: .sudo @João Roda .clear
+2016-06-14 01:12:54.613000 #geral @jonyroda97#9104: . sudo @João Roda clear
+2016-06-14 01:12:57.821000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:13:29.938000 #geral @jonyroda97#9104: .say @João Roda é fixe
+2016-06-14 01:13:30.446000 #geral @Amigos Prováveis#6605: @João Roda é fixe
+2016-06-14 01:14:35.628000 #geral @jonyroda97#9104: .sing
+2016-06-14 01:14:38.729000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:15:27.144000 #geral @jonyroda97#9104: .cog list
+2016-06-14 01:15:27.676000 #geral @Amigos Prováveis#6605: ```Available repos:
+	community                         
+	jumper-cogs      Gaming related cogs
+	refactored-cogs  Utility & Moderation cogs.
+	squid            Growing collection of useful plugins
+```
+2016-06-14 01:15:34.642000 #geral @jonyroda97#9104: .cog jumper
+2016-06-14 01:15:34.937000 #geral @Amigos Prováveis#6605: ```
+.cog
+
+Additional cogs management
+
+Commands:
+  info      Shows info about the specified cog
+  update    Updates cogs
+  install   Installs specified cog
+  repo      Repo management commands
+  list      Lists installable cogs
+  uninstall Uninstalls a cog
+
+Type .cog command for more info on a command.
+You can also type .cog category for more info on a category.
+```
+2016-06-14 01:15:46.850000 #geral @jonyroda97#9104: .cog info jumper-cogs
+2016-06-14 01:15:47.122000 #geral @Amigos Prováveis#6605: ```Jumper Cogs by Redjumpman```
+
+Thank you for using Jumper Cogs
+If you have issues with your cog PM me directly on discord, Redjumpman#2375
+ Don't forget to star my repo and watch for new commits here: https://github.com/Redjumpman/Jumper-Cogs
+2016-06-14 01:16:01.194000 #geral @jonyroda97#9104: .cog list jumper-cogs
+2016-06-14 01:16:01.596000 #geral @Amigos Prováveis#6605: ```Available cogs:
+	animelist        Provides anime & manga info
+	coupon           Creates coupons redeemable for points
+	dicetable        Can roll multiple die and outputs to a table
+	fortune          Gives a random fortune
+	lottery          Can host lotteries for server users
+	pokedex          Returns movesets, locations, and more on Pokemon
+	roulette                          
+	russianroulette  Play a game of russian roulette with up to 6 players
+	shop             Allows server owner to create a shop
+	tibia            Returns Tibia items/monsters/server info
+```
+2016-06-14 01:16:56.740000 #geral @jonyroda97#9104: .cog install jumper-cogs russianroulette
+2016-06-14 01:16:57.372000 #geral @Amigos Prováveis#6605: This cog has no library requirements.
+PM me at Redjumpman#2375 on Discord if you have issues.
+2016-06-14 01:16:57.798000 #geral @Amigos Prováveis#6605: Installation completed. Load it now? (yes/no)
+2016-06-14 01:17:00.558000 #geral @jonyroda97#9104: yes
+2016-06-14 01:17:00.985000 #geral @Amigos Prováveis#6605: Module enabled.
+2016-06-14 01:17:30.461000 #geral @jonyroda97#9104: .cog list squid´
+2016-06-14 01:17:30.811000 #geral @Amigos Prováveis#6605: ```Available repos:
+	community                         
+	jumper-cogs      Gaming related cogs
+	refactored-cogs  Utility & Moderation cogs.
+	squid            Growing collection of useful plugins
+```
+2016-06-14 01:17:37.977000 #geral @jonyroda97#9104: .cog list squid
+2016-06-14 01:17:38.542000 #geral @Amigos Prováveis#6605: ```Available cogs:
+	admin           My growing collection of admin tools.
+	ascii           ASCII-fy text   
+	autoapprove     Auto-Approve BOT account join requests.
+	botinfo         Various bot information commands.
+	channellogger   Logs chat to file.
+	emotes          Twitch emotes for your servers.
+	hublinker                       
+	karma           Award people with Karma points.
+	lastfm          LastFM Scrobbler
+	logger          Manage bot logging levels.
+	mentiontracker  Tracks your mentions when you're not online
+	nickometer      Measures the lameness of names
+	permissions     Custom command permissions
+	quotes          Save quotes and read them later
+	rss             Read RSS Feeds  
+	rules           The Rules of the Internet
+	runescape       Basic Runescape commands
+	scheduler       Schedule commands to run.
+	stats                           
+	tickets         Allow users to create tickets for mods to read.
+```
+2016-06-14 01:17:53.518000 #geral @jonyroda97#9104: .cog intall squid scheduler
+2016-06-14 01:17:53.833000 #geral @Amigos Prováveis#6605: ```
+.cog
+
+Additional cogs management
+
+Commands:
+  info      Shows info about the specified cog
+  update    Updates cogs
+  install   Installs specified cog
+  repo      Repo management commands
+  list      Lists installable cogs
+  uninstall Uninstalls a cog
+
+Type .cog command for more info on a command.
+You can also type .cog category for more info on a category.
+```
+2016-06-14 01:18:05.725000 #geral @jonyroda97#9104: .cog install squid scheduler
+2016-06-14 01:18:06.091000 #geral @Amigos Prováveis#6605: 
+Message from Squid:
+
+Hi there. I see you've loaded one of my cogs. Congratulations! I'm glad you've made it this far. If, throughout your journey, you happen to find any problems with any Squid cogs, please feel free to jump in my support server (link below). Also, if you really like my cogs and would like to contribute to further development, please consider becoming a patron for my owner (link also below). Thanks and have fun!
+
+Support: <http://discord.me/Squid>
+Patron: <https://www.patreon.com/tekulvw>
+2016-06-14 01:18:06.404000 #geral @Amigos Prováveis#6605: Installation completed. Load it now? (yes/no)
+2016-06-14 01:18:21.816000 #geral @Amigos Prováveis#6605: Ok then, you can load it with `.load scheduler`
+2016-06-14 01:18:31.910000 #geral @jonyroda97#9104: yes
+2016-06-14 01:18:39.360000 #geral @jonyroda97#9104: .load scheduler
+2016-06-14 01:18:39.748000 #geral @Amigos Prováveis#6605: Module enabled.
+2016-06-14 01:18:43.932000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 01:19:10.822000 #geral @jonyroda97#9104: .scheduler
+2016-06-14 01:19:11.123000 #geral @Amigos Prováveis#6605: ```
+.scheduler
+
+Commands:
+  add    Add a command to run in [time_interval] seconds.
+  repeat Add a command to run every [time_interval] seconds.
+  remove Removes scheduled command from running.
+  list   Lists all repeated commands
+
+Type .scheduler command for more info on a command.
+You can also type .scheduler category for more info on a category.
+```
+2016-06-14 01:19:51.159000 #geral @jonyroda97#9104: .scheduler category
+2016-06-14 01:19:51.720000 #geral @Amigos Prováveis#6605: ```
+.scheduler
+
+Commands:
+  add    Add a command to run in [time_interval] seconds.
+  repeat Add a command to run every [time_interval] seconds.
+  remove Removes scheduled command from running.
+  list   Lists all repeated commands
+
+Type .scheduler command for more info on a command.
+You can also type .scheduler category for more info on a category.
+```
+2016-06-14 01:20:09.033000 #geral @jonyroda97#9104: .scheduler repeat
+2016-06-14 01:20:09.276000 #geral @Amigos Prováveis#6605: ```
+.scheduler repeat <name> <time_interval> <command>
+
+Add a command to run every [time_interval] seconds.
+
+Times are formed as follows: 1s, 2m, 3h, 5d, 1w
+
+```
+2016-06-14 01:21:13.584000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 12:18:50.997000 #geral @jonyroda97#9104: .playlist start joao
+2016-06-14 12:18:53.833000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-14 12:18:56.765000 #geral @jonyroda97#9104: .help start
+2016-06-14 12:18:57.060000 #geral @Amigos Prováveis#6605: No command called "start" found.
+2016-06-14 12:19:50.696000 #geral @jonyroda97#9104: .help play
+2016-06-14 12:19:50.901000 #geral @Amigos Prováveis#6605: ```
+.play <url_or_search_terms>
+
+Plays a link / searches and play
+
+```
+2016-06-14 12:20:04.068000 #geral @jonyroda97#9104: .playlist start joao
+2016-06-14 12:20:05.075000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-14 12:20:07.893000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 20:54:23.283000 #geral @jonyroda97#9104: .playlist start joao
+2016-06-14 20:54:29.349000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-14 20:54:33.006000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 20:54:41.098000 #geral @jonyroda97#9104: .skip
+2016-06-14 20:54:41.437000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-14 20:54:47.761000 #geral @jonyroda97#9104: .skip
+2016-06-14 20:54:48.147000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-14 20:54:56.436000 #geral @jonyroda97#9104: .skip
+2016-06-14 20:54:56.677000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-14 20:55:17.343000 #geral @jonyroda97#9104: .skip
+2016-06-14 20:55:17.651000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-14 20:55:34.581000 #geral @jonyroda97#9104: .skip
+2016-06-14 20:55:34.891000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-14 20:55:40.742000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 20:55:42.334000 #geral @jonyroda97#9104: .queue
+2016-06-14 20:55:42.661000 #geral @Amigos Prováveis#6605: Gathering information...
+2016-06-14 20:55:43.808000 #geral @Amigos Prováveis#6605: 
+***Now playing:***
+Desiigner- Panda (OFFICIAL SONG) Prod. By: Menace
+
+***Next up:***
+1. Major Lazer - Light It Up (feat. Nyla & Fuse ODG) [Remix] (Official Lyric Video)
+2. G-Eazy X Bebe Rexha - Me, Myself & I (Audio)
+3. Chawki - Time Of Our Lives (Official Music Video)
+4. MUNDO SEGUNDO & SAM THE KID "TU NAO SABES"
+5. Kevin Gates - 2 Phones (Official Video)
+2016-06-14 20:55:51.800000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 20:56:21.263000 #geral @jonyroda97#9104: .pause
+2016-06-14 20:56:21.652000 #geral @Amigos Prováveis#6605: Paused.
+2016-06-14 21:25:12.904000 #geral @jonyroda97#9104: .resume
+2016-06-14 21:25:14.507000 #geral @Amigos Prováveis#6605: Resuming.
+2016-06-14 21:25:14.803000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 21:36:19.223000 #geral @jonyroda97#9104: .prev
+2016-06-14 21:36:19.851000 #geral @Amigos Prováveis#6605: Going back 1 song.
+2016-06-14 21:36:25.977000 #geral @jonyroda97#9104: .prev
+2016-06-14 21:36:26.162000 #geral @Amigos Prováveis#6605: Going back 1 song.
+2016-06-14 21:36:30.291000 #geral @jonyroda97#9104: .skip
+2016-06-14 21:36:30.648000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-14 21:36:31.735000 #geral @jonyroda97#9104: .skip
+2016-06-14 21:36:31.953000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-14 21:36:43.187000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 21:36:51.630000 #geral @jonyroda97#9104: .skip
+2016-06-14 21:36:52.026000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-14 21:36:53.813000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-14 21:39:22.496000 #geral @jonyroda97#9104: .song
+2016-06-14 21:39:22.981000 #geral @Amigos Prováveis#6605: 
+**Title:** MUNDO SEGUNDO & SAM THE KID "TU NAO SABES"
+**Uploader:** MUNDO SEGUNDO E SAM THE KID
+**Views:** 3467857
+
+<https://www.youtube.com/watch?v=UX6vao_sfso>
+2016-06-15 19:44:42.819000 #geral @jonyroda97#9104: .playlist start joao
+2016-06-15 19:44:44.641000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-15 19:44:45.315000 #geral @jonyroda97#9104: .skip
+2016-06-15 19:44:46.822000 #geral @Amigos Prováveis#6605: Can't skip if I'm not playing.
+2016-06-15 19:44:48.726000 #geral @jonyroda97#9104: .skip
+2016-06-15 19:44:49.187000 #geral @Amigos Prováveis#6605: Can't skip if I'm not playing.
+2016-06-15 19:45:11.334000 #geral @jonyroda97#9104: .resume
+2016-06-15 19:45:11.650000 #geral @Amigos Prováveis#6605: Nothing paused, nothing to resume.
+2016-06-15 19:45:28.050000 #geral @jonyroda97#9104: .skip
+2016-06-15 19:45:28.362000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-15 19:45:33.807000 #geral @jonyroda97#9104: .skip 2
+2016-06-15 19:45:34.100000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-15 19:45:39.921000 #geral @jonyroda97#9104: .skip
+2016-06-15 19:45:40.174000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-15 19:45:42.037000 #geral @jonyroda97#9104: .ski+
+2016-06-15 19:45:45.661000 #geral @jonyroda97#9104: .skip
+2016-06-15 19:45:45.946000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-15 19:45:48.140000 #geral @jonyroda97#9104: .skip
+2016-06-15 19:45:49.539000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-15 19:46:32.086000 #geral @jonyroda97#9104: .stop
+2016-06-15 19:46:35.515000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-15 23:58:25.672000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-15 23:58:25.672000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-15 23:58:26.845000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-15 23:58:28.253000 #geral @Amigos Prováveis#6605: Playlist 'joao' saved. Tracks: 59
+2016-06-15 23:58:35.593000 #geral @jonyroda97#9104: .playlist
+2016-06-15 23:58:36.048000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  start  Plays a playlist.
+  remove Deletes a saved playlist.
+  add    Add a YouTube or Soundcloud playlist.
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  append Appends to a playlist.
+  queue  Adds a song to the playlist loop.
+  extend Extends a playlist with a playlist link
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2016-06-16 00:04:20.626000 #geral @jonyroda97#9104: ola
+2016-06-16 00:08:40.652000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-16 13:58:13.849000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-16 13:58:13.849000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-16 13:58:14.715000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-16 13:58:16.067000 #geral @Amigos Prováveis#6605: Playlist 'joao' saved. Tracks: 58
+2016-06-16 13:58:19.033000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-16 13:59:31.062000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-16 13:59:31.500000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-16 13:59:32.303000 #geral @Amigos Prováveis#6605: Playlist 'joao' saved. Tracks: 58
+2016-06-16 13:59:35.841000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-19 03:08:06.567000 #geral @jonyroda97#9104: .info
+2016-06-19 03:08:07.123000 #geral @Amigos Prováveis#6605: This is an instance of Red, an open source Discord bot created by Twentysix and improved by many.
+
+**Github:**
+<https://github.com/Twentysix26/Red-DiscordBot/>
+**Official server:**
+<https://discord.me/Red-DiscordBot>
+2016-06-19 03:08:18.006000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-19 03:08:23.099000 #geral @jonyroda97#9104: .contact
+2016-06-19 03:08:23.337000 #geral @Amigos Prováveis#6605: ```
+.contact <message>
+
+Sends message to the owner
+
+```
+2016-06-19 03:08:32.530000 #geral @jonyroda97#9104: .contact hello
+2016-06-19 03:08:57.778000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-25 23:30:34.103000 #geral @jonyroda97#9104: !playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-25 23:30:34.103000 #geral @jonyroda97#9104: !playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-25 23:30:35.908000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-25 23:30:37.285000 #geral @Amigos Prováveis#6605: Playlist 'joao' saved. Tracks: 59
+2016-06-25 23:30:40.210000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-25 23:31:45.054000 #geral @jonyroda97#9104: .playlist add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo
+2016-06-25 23:31:45.593000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-25 23:31:46.422000 #geral @Amigos Prováveis#6605: Playlist 'joao' saved. Tracks: 62
+2016-06-25 23:31:56.493000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-26 15:27:48.804000 #geral @jonyroda97#9104: .playlist
+2016-06-26 15:27:49.368000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  mix    Plays and mixes a playlist.
+  append Appends to a playlist.
+  add    Add a YouTube or Soundcloud playlist.
+  start  Plays a playlist.
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  remove Deletes a saved playlist.
+  queue  Adds a song to the playlist loop.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2016-06-26 15:27:57.613000 #geral @jonyroda97#9104: .playlist mix joao
+2016-06-26 15:27:58.336000 #geral @Amigos Prováveis#6605: You must be in a voice channel to start a playlist.
+2016-06-26 15:28:06.645000 #geral @jonyroda97#9104: .playlist mix joao
+2016-06-26 15:28:07.914000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-06-26 15:28:08.500000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-26 16:09:22.939000 #geral @jonyroda97#9104: .skip
+2016-06-26 16:09:23.496000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-26 16:09:25.409000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-26 16:12:27.747000 #geral @jonyroda97#9104: oi
+2016-06-26 16:12:27.747000 #geral @jonyroda97#9104: EDIT: 
+Before: oi
+After: oi
+2016-06-26 16:33:50.954000 #geral @jonyroda97#9104: .skip
+2016-06-26 16:33:51.586000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-26 16:33:52.709000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-26 18:00:02.024000 #geral @jonyroda97#9104: .song
+2016-06-26 18:00:02.451000 #geral @Amigos Prováveis#6605: 
+**Title:** Kevin Gates - 2 Phones (Official Video)
+**Uploader:** kevingatesTV
+**Views:** 114046330
+
+<https://www.youtube.com/watch?v=oiY_iKSpWLM>
+2016-06-26 18:00:11.651000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-26 18:00:13.802000 #geral @jonyroda97#9104: .pause
+2016-06-26 18:00:14.132000 #geral @Amigos Prováveis#6605: Paused.
+2016-06-26 18:00:15.509000 #geral @jonyroda97#9104: -clear
+2016-06-26 18:00:20.789000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-26 19:42:58.300000 #geral @jonyroda97#9104: .resume
+2016-06-26 19:42:58.882000 #geral @Amigos Prováveis#6605: Resuming.
+2016-06-26 19:43:00.439000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-26 19:48:10.013000 #geral @jonyroda97#9104: .skip
+2016-06-26 19:48:11.668000 #geral @Amigos Prováveis#6605: Skipping...
+2016-06-26 19:48:14.524000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-26 19:48:20.315000 #geral @jonyroda97#9104: .pause
+2016-06-26 19:48:20.682000 #geral @Amigos Prováveis#6605: Paused.
+2016-06-26 19:48:25.316000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-06-27 22:14:42.100000 #geral @jonyroda97#9104: .playlist add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg
+2016-06-27 22:14:42.100000 #geral @jonyroda97#9104: .playlist add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg
+2016-06-27 22:14:44.976000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-06-27 22:14:49.820000 #geral @Amigos Prováveis#6605: Playlist 'proximity' saved. Tracks: 553
+2016-06-27 22:14:55.049000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-07-08 02:12:04.093000 #geral @jonyroda97#9104: **hello**
+2016-07-12 20:07:13.122000 #geral @jonyroda97#9104: .commands
+2016-07-12 20:07:53.866000 #geral @jonyroda97#9104: @AwesomeBot commands
+2016-07-12 20:08:16.516000 #geral @jonyroda97#9104: @AwesomeBot help
+2016-07-12 20:08:17.402000 #geral @AwesomeBot#8353: @João Roda Check your PMs
+2016-07-12 20:08:22.842000 #geral @AwesomeBot#8353: @João Roda Have you ever been to Europe?
+2016-07-12 20:08:51.534000 #geral @jonyroda97#9104: yes
+2016-07-12 20:08:58.639000 #geral @jonyroda97#9104: @AwesomeBot yes
+2016-07-12 20:09:25.380000 #geral @AwesomeBot#8353: @João Roda Which countries have you visited?
+2016-07-12 20:11:21.992000 #geral @jonyroda97#9104: @AwesomeBot config
+2016-07-12 20:11:44.855000 #geral @AwesomeBot#8353: @João Roda That is deep.
+2016-07-12 20:13:24.370000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-07-12 20:15:12.640000 #geral @jonyroda97#9104: @AwesomeBot help
+2016-07-12 20:15:13.162000 #geral @AwesomeBot#8353: @João Roda Check your PMs
+2016-07-12 20:15:43.906000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-07-13 02:54:13.284000 #geral @jonyroda97#9104: .resume
+2016-07-13 02:54:13.775000 #geral @Amigos Prováveis#6605: Not voice connected in this server.
+2016-07-13 02:54:21.595000 #geral @jonyroda97#9104: .resume
+2016-07-13 02:54:21.949000 #geral @Amigos Prováveis#6605: Not voice connected in this server.
+2016-07-13 02:54:35.215000 #geral @jonyroda97#9104: .playlist start proximity
+2016-07-13 02:54:36.207000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-07-13 02:55:27.404000 #geral @jonyroda97#9104: .stop
+2016-07-13 20:50:17.408000 #geral @jonyroda97#9104: .playlist list
+2016-07-13 20:50:19.105000 #geral @Amigos Prováveis#6605: Available playlists:
+```xl
+proximity, top50, trap, top40, monstercat, joao```
+2016-07-13 20:50:32.683000 #geral @jonyroda97#9104: .playlist mix top50
+2016-07-13 20:50:33.900000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-07-13 20:50:57.979000 #geral @jonyroda97#9104: .stop
+2016-07-13 20:50:59.723000 #geral @jonyroda97#9104: .cache
+2016-07-13 20:51:00.095000 #geral @Amigos Prováveis#6605: ```
+.cache
+
+Cache management tools.
+
+Commands:
+  dump    Dumps the cache.
+  size    Current size of the cache.
+  minimum Current minimum cache size, based on server count.
+
+Type .cache command for more info on a command.
+You can also type .cache category for more info on a category.
+```
+2016-07-13 20:51:20.323000 #geral @jonyroda97#9104: .cache dump
+2016-07-13 20:51:20.682000 #geral @Amigos Prováveis#6605: Dumped 18.898 MB of audio files.
+2016-07-14 01:39:06.315000 #geral @jonyroda97#9104: .scheduler
+2016-07-14 01:39:07.442000 #geral @Amigos Prováveis#6605: ```
+.scheduler
+
+Commands:
+  list   Lists all repeated commands
+  add    Add a command to run in [time_interval] seconds.
+  remove Removes scheduled command from running.
+  repeat Add a command to run every [time_interval] seconds.
+
+Type .scheduler command for more info on a command.
+You can also type .scheduler category for more info on a category.
+```
+2016-07-14 01:39:20.724000 #geral @jonyroda97#9104: .scheduler list
+2016-07-14 01:39:21.609000 #geral @Amigos Prováveis#6605: ```
+Names:
+	pljoao
+	plmonstercat
+	plproximity
+	pltop40
+	pltop50
+	pltrap
+```
+2016-07-14 01:39:47.104000 #geral @jonyroda97#9104: .scheduler remove pljoao
+2016-07-14 01:39:47.321000 #geral @Amigos Prováveis#6605: "pljoao" has successfully been removed.
+2016-07-14 01:40:06.124000 #geral @jonyroda97#9104: .scheduler remove plmonstercat
+2016-07-14 01:40:06.475000 #geral @Amigos Prováveis#6605: "plmonstercat" has successfully been removed.
+2016-07-14 01:40:16.333000 #geral @jonyroda97#9104: .scheduler remove plproximity
+2016-07-14 01:40:16.741000 #geral @Amigos Prováveis#6605: "plproximity" has successfully been removed.
+2016-07-14 01:40:24.034000 #geral @jonyroda97#9104: .scheduler removetop40
+2016-07-14 01:40:24.331000 #geral @Amigos Prováveis#6605: ```
+.scheduler
+
+Commands:
+  list   Lists all repeated commands
+  add    Add a command to run in [time_interval] seconds.
+  remove Removes scheduled command from running.
+  repeat Add a command to run every [time_interval] seconds.
+
+Type .scheduler command for more info on a command.
+You can also type .scheduler category for more info on a category.
+```
+2016-07-14 01:40:37.016000 #geral @jonyroda97#9104: .scheduler remove pltop40
+2016-07-14 01:40:37.390000 #geral @Amigos Prováveis#6605: "pltop40" has successfully been removed.
+2016-07-14 01:40:54.198000 #geral @jonyroda97#9104: .scheduler remove pltop50
+2016-07-14 01:40:54.512000 #geral @Amigos Prováveis#6605: "pltop50" has successfully been removed.
+2016-07-14 01:40:59.999000 #geral @jonyroda97#9104: .scheduler remove pltrap
+2016-07-14 01:41:00.512000 #geral @Amigos Prováveis#6605: "pltrap" has successfully been removed.
+2016-07-14 01:41:09.654000 #geral @jonyroda97#9104: .scheduler list
+2016-07-14 01:41:10.126000 #geral @Amigos Prováveis#6605: No events scheduled for this server.
+2016-07-14 01:41:32.115000 #geral @jonyroda97#9104: .playlist start trap
+2016-07-14 01:41:33.608000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-07-14 01:41:58.157000 #geral @jonyroda97#9104: .stop
+2016-07-21 01:42:34.246000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-07-21 12:16:23.280000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-07-21 12:16:51.783000 #geral @jonyroda97#9104: .playlist start cate
+2016-07-21 12:16:52.397000 #geral @Amigos Prováveis#6605: That playlist does not exist.
+2016-07-21 12:16:57.150000 #geral @jonyroda97#9104: .playlist list
+2016-07-21 12:16:57.516000 #geral @Amigos Prováveis#6605: Available playlists:
+```xl
+proximity, trap, monstercat, joao, top50, top40```
+2016-07-21 12:18:18.535000 #geral @jonyroda97#9104: .playlist add cate https://www.youtube.com/playlist?list=PLFX0HcKT6TMCoBtRg9azERAAGXQVCAphZ
+2016-07-21 12:18:18.535000 #geral @jonyroda97#9104: .playlist add cate https://www.youtube.com/playlist?list=PLFX0HcKT6TMCoBtRg9azERAAGXQVCAphZ
+2016-07-21 12:18:19.160000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2016-07-21 12:18:20.485000 #geral @Amigos Prováveis#6605: Playlist 'cate' saved. Tracks: 60
+2016-07-21 12:18:23.526000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-07-21 12:18:39.190000 #geral @jonyroda97#9104: .playlist start cate
+2016-07-21 12:18:40.184000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-07-21 12:22:37.716000 #geral @jonyroda97#9104: .playlist mix cate
+2016-07-21 12:22:38.979000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-07-21 12:31:34.170000 #geral @jonyroda97#9104: .cleanup messages 500
+2016-08-28 21:33:42.946000 #geral @jonyroda97#9104: .scheduler
+2016-08-28 21:33:43.090000 #geral @Amigos Prováveis#6605: ```
+.scheduler
+
+Commands:
+  list   Lists all repeated commands
+  add    Add a command to run in [time_interval] seconds.
+  repeat Add a command to run every [time_interval] seconds.
+  remove Removes scheduled command from running.
+
+Type .scheduler command for more info on a command.
+You can also type .scheduler category for more info on a category.
+```
+2016-08-28 21:33:55.479000 #geral @jonyroda97#9104: .scheduler repeat
+2016-08-28 21:33:55.700000 #geral @Amigos Prováveis#6605: ```
+.scheduler repeat <name> <time_interval> <command>
+
+Add a command to run every [time_interval] seconds.
+
+Times are formed as follows: 1s, 2m, 3h, 5d, 1w
+
+```
+2016-08-28 21:40:35.354000 #geral @jonyroda97#9104: .clear

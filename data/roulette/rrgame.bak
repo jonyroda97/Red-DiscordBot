@@ -1,0 +1,13 @@
+{
+    "Config" : {
+        "Min Bet" : 50
+    },
+    "Players" : {},
+    "System" : {
+        "Active" : false,
+        "Player Count" : 0,
+        "Pot" : 0,
+        "Roulette Initial" : false,
+        "Start Bet" : 0
+    }
+}
