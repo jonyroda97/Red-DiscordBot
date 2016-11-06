@@ -784,7 +784,8 @@ class Mod:
                 await self.bot.delete_messages(messages[:100])
                 messages = messages[100:]
             else:
-                await self.bot.delete_message(messages)
+                await self.bot.delete_message(messages[0])
+                messages = []
             await asyncio.sleep(1.5)
 
     async def slow_deletion(self, messages):
@@ -836,7 +837,7 @@ class Mod:
             tmp["reason"] = "Type [p]reason {} <reason> to add it".format(case_n)
         if case["moderator"] is None:
             tmp["moderator"] = "Unknown"
-            tmp["moderator_id"] = "Nobody has claimed responsability yet"
+            tmp["moderator_id"] = "Nobody has claimed responsibility yet"
 
         case_msg = ("**Case #{case}** | {action}\n"
                     "**User:** {user} ({user_id})\n"
@@ -950,7 +951,8 @@ class Mod:
         return False
 
     async def on_message(self, message):
-        if message.channel.is_private or self.bot.user == message.author:
+        if message.channel.is_private or self.bot.user == message.author \
+         or isinstance(message.author, discord.User):
             return
         elif self.is_mod_or_superior(message):
             return
