@@ -3,7 +3,7 @@ from discord.ext import commands
 from cogs.utils import checks
 from __main__ import set_cog, send_cmd_help, settings
 from .utils.dataIO import dataIO
-from .utils.chat_formatting import pagify
+from .utils.chat_formatting import pagify, box
 
 import importlib
 import traceback
@@ -172,7 +172,6 @@ class Owner:
 
         Modified function, originally made by Rapptz"""
         code = code.strip('` ')
-        python = '```py\n{}\n```'
         result = None
 
         global_vars = globals().copy()
@@ -186,13 +185,15 @@ class Owner:
         try:
             result = eval(code, global_vars, locals())
         except Exception as e:
-            await self.bot.say(python.format(type(e).__name__ + ': ' + str(e)))
+            await self.bot.say(box('{}: {}'.format(type(e).__name__, str(e)),
+                                   lang="py"))
             return
 
         if asyncio.iscoroutine(result):
             result = await result
 
-        result = python.format(result)
+        result = str(result)
+
         if not ctx.message.channel.is_private:
             censor = (settings.email, settings.password)
             r = "[EXPUNGED]"
@@ -201,7 +202,8 @@ class Owner:
                     result = result.replace(w, r)
                     result = result.replace(w.lower(), r)
                     result = result.replace(w.upper(), r)
-        await self.bot.say(result)
+        for page in pagify(result, shorten_by=12):
+            await self.bot.say(box(page, lang="py"))
 
     @commands.group(name="set", pass_context=True)
     async def _set(self, ctx):
@@ -548,6 +550,45 @@ class Owner:
                 break
 
     @commands.command(pass_context=True)
+    @checks.is_owner()
+    async def servers(self, ctx):
+        """Lists and allows to leave servers"""
+        owner = ctx.message.author
+        servers = sorted(list(self.bot.servers),
+                         key=lambda s: s.name.lower())
+        msg = ""
+        for i, server in enumerate(servers):
+            msg += "{}: {}\n".format(i, server.name)
+        msg += "\nTo leave a server just type its number."
+
+        for page in pagify(msg, ['\n']):
+            await self.bot.say(page)
+
+        while msg is not None:
+            msg = await self.bot.wait_for_message(author=owner, timeout=15)
+            try:
+                msg = int(msg.content)
+                await self.leave_confirmation(servers[msg], owner, ctx)
+                break
+            except (IndexError, ValueError, AttributeError):
+                pass
+
+    async def leave_confirmation(self, server, owner, ctx):
+        await self.bot.say("Are you sure you want me "
+                    "to leave {}? (yes/no)".format(server.name))
+
+        msg = await self.bot.wait_for_message(author=owner, timeout=15)
+
+        if msg is None:
+            await self.bot.say("I guess not.")
+        elif msg.content.lower().strip() in ("yes", "y"):
+            await self.bot.leave_server(server)
+            if server != ctx.message.server:
+                await self.bot.say("Done.")
+        else:
+            await self.bot.say("Alright then.")
+
+    @commands.command(pass_context=True)
     async def contact(self, ctx, *, message : str):
         """Sends message to the owner"""
         if settings.owner == "id_here":
@@ -582,24 +623,6 @@ class Owner:
         "Twentysix and improved by many.\n\n**Github:**\n"
         "<https://github.com/Twentysix26/Red-DiscordBot/>\n"
         "**Official server:**\n<https://discord.me/Red-DiscordBot>")
-
-    async def leave_confirmation(self, server, owner, ctx):
-        if not ctx.message.channel.is_private:
-            current_server = ctx.message.server
-        else:
-            current_server = None
-        answers = ("yes", "y")
-        await self.bot.say("Are you sure you want me "
-                    "to leave {}? (yes/no)".format(server.name))
-        msg = await self.bot.wait_for_message(author=owner, timeout=15)
-        if msg is None:
-            await self.bot.say("I guess not.")
-        elif msg.content.lower().strip() in answers:
-            await self.bot.leave_server(server)
-            if server != current_server:
-                await self.bot.say("Done.")
-        else:
-            await self.bot.say("Alright then.")
 
     @commands.command()
     async def uptime(self):
@@ -637,12 +660,8 @@ class Owner:
             raise CogUnloadError
 
     def _list_cogs(self):
-        cogs = glob.glob("cogs/*.py")
-        clean = []
-        for c in cogs:
-            c = c.replace("/", "\\")  # Linux fix
-            clean.append("cogs." + c.split("\\")[1].replace(".py", ""))
-        return clean
+        cogs = [os.path.basename(f) for f in glob.glob("cogs/*.py")]
+        return ["cogs." + os.path.splitext(f)[0] for f in cogs]
 
     def _does_cogfile_exist(self, module):
         if "cogs." not in module:
