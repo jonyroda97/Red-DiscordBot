@@ -6,9 +6,9 @@
     "SERVERS" : {
         "107249192564449280" : {
             "QUEUE_MODE" : true,
-            "VOLUME" : 10,
+            "VOLUME" : 25,
             "VOTE_ENABLED" : true,
-            "VOTE_THRESHOLD" : 50
+            "VOTE_THRESHOLD" : 51
         }
     },
     "SERVER_SFX_ON" : {

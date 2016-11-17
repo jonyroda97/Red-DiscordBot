@@ -1,10 +1,9 @@
 {
     "107249192564449280" : {
-        "add" : "queue",
-        "aliases" : "aliaslist",
-        "clear" : "cleanup messages 500",
+        "clear" : "cleanup messages",
         "np" : "song",
         "pl" : "playlist",
-        "q" : "queue"
+        "q" : "queue",
+        "volume" : "audioset volume"
     }
 }

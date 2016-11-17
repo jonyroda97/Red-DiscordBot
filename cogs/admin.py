@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from cogs.utils import checks
 from cogs.utils.dataIO import dataIO
+from cogs.utils.chat_formatting import box, pagify
 from __main__ import settings, send_cmd_help
 from copy import deepcopy
 import asyncio
@@ -164,23 +165,31 @@ class Admin:
             else:
                 await self.bot.say("I'm not in that server")
         else:
-            servers = list(self.bot.servers)
-            server_list = {}
             msg = ""
-            for i in range(0, len(servers)):
-                server_list[str(i)] = servers[i]
-                msg += "{}: {}\n".format(str(i), servers[i].name)
+            servers = sorted(self.bot.servers, key=lambda s: s.name)
+            for i, server in enumerate(servers, 1):
+                msg += "{}: {}\n".format(i, server.name)
             msg += "\nTo post an invite for a server just type its number."
-            try:
-                await self.bot.say(msg)
-            except discord.errors.HTTPException:
-                await self.bot.say("List too long...sorry")
-                return
+            for page in pagify(msg, delims=["\n"]):
+                await self.bot.say(box(page))
+                await asyncio.sleep(1.5)  # Just in case for rate limits
             msg = await self.bot.wait_for_message(author=owner, timeout=15)
             if msg is not None:
-                msg = msg.content.strip()
-                if msg in server_list.keys():
-                    await self._confirm_invite(server_list[msg], owner, ctx)
+                try:
+                    msg = int(msg.content.strip())
+                    server = servers[msg - 1]
+                except ValueError:
+                    await self.bot.say("You must enter a number.")
+                except IndexError:
+                    await self.bot.say("Index out of range.")
+                else:
+                    try:
+                        await self._confirm_invite(server, owner, ctx)
+                    except discord.Forbidden:
+                        await self.bot.say("I'm not allowed to make an invite"
+                                           " for {}".format(server.name))
+            else:
+                await self.bot.say("Response timed out.")
 
     @commands.command(no_pm=True, pass_context=True)
     @checks.admin_or_permissions(manage_roles=True)
@@ -289,6 +298,31 @@ class Admin:
         new_msg.author = user
         new_msg.content = self.bot.command_prefix[0] + command
         await self.bot.process_commands(new_msg)
+
+    @commands.command(pass_context=True, hidden=True)
+    @checks.is_owner()  # I don't know how permissive this should be yet
+    async def whisper(self, ctx, id, *, text):
+        author = ctx.message.author
+
+        target = discord.utils.get(self.bot.get_all_members(), id=id)
+        if target is None:
+            target = self.bot.get_channel(id)
+            if target is None:
+                target = self.bot.get_server(id)
+
+        prefix = "Hello, you're getting a message from {} ({})".format(
+            author.name, author.id)
+        payload = "{}\n\n{}".format(prefix, text)
+
+        try:
+            for page in pagify(payload, delims=[" ", "\n"], shorten_by=10):
+                await self.bot.send_message(target, box(page))
+        except discord.errors.Forbidden:
+            log.debug("Forbidden to send message to {}".format(id))
+        except (discord.errors.NotFound, discord.errors.InvalidArgument):
+            log.debug("{} not found!".format(id))
+        else:
+            await self.bot.say("Done.")
 
     async def announcer(self, msg):
         server_ids = map(lambda s: s.id, self.bot.servers)

@@ -36,6 +36,15 @@
             "starttime" : 1472420317,
             "timedelta" : 43200
         },
+        "pltop" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add top https://www.youtube.com/playlist?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG",
+            "name" : "pltop",
+            "repeat" : true,
+            "starttime" : 1477345241,
+            "timedelta" : 43200
+        },
         "pltrap" : {
             "author" : "98159081583292416",
             "channel" : "193925434273038346",
@@ -43,6 +52,15 @@
             "name" : "pltrap",
             "repeat" : true,
             "starttime" : 1472420361,
+            "timedelta" : 43200
+        },
+        "pltrend" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add trend https://www.youtube.com/playlist?list=PLw-VjHDlEOgvWPpRBs9FRGgJcKpDimTqf",
+            "name" : "pltrend",
+            "repeat" : true,
+            "starttime" : 1477345247,
             "timedelta" : 43200
         }
     }

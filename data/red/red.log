@@ -34196,3 +34196,440 @@ TypeError: __init__() got multiple values for keyword argument 'max_size'
     super().__init__(*args, max_size=None, **kwargs)
 TypeError: __init__() got multiple values for keyword argument 'max_size'
 
+[18/10/2016 04:20] ERROR red load_cogs 354: You need to run `pip3 install pyfiglet`
+Traceback (most recent call last):
+  File "red.py", line 351, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 620, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 724, in load_extension
+    lib.setup(self)
+  File "/root/redbot-amigosprovaveis/cogs/ascii.py", line 29, in setup
+    raise NameError("You need to run `pip3 install pyfiglet`")
+NameError: You need to run `pip3 install pyfiglet`
+[18/10/2016 04:20] ERROR red load_cogs 354: You're missing the cleverbot library.
+Install it with: 'pip3 install cleverbot' and reload the module.
+Traceback (most recent call last):
+  File "red.py", line 351, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 620, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 724, in load_extension
+    lib.setup(self)
+  File "/root/redbot-amigosprovaveis/cogs/cleverbot.py", line 74, in setup
+    raise RuntimeError("You're missing the cleverbot library.\n"
+RuntimeError: You're missing the cleverbot library.
+Install it with: 'pip3 install cleverbot' and reload the module.
+[18/10/2016 04:20] ERROR red load_cogs 354: Run "pip install tabulate" in your CMD/Linux Terminal
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/punish.py", line 14, in <module>
+    from tabulate import tabulate
+ImportError: No module named 'tabulate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 351, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 618, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/redbot-amigosprovaveis/cogs/punish.py", line 16, in <module>
+    raise Exception('Run "pip install tabulate" in your CMD/Linux Terminal')
+Exception: Run "pip install tabulate" in your CMD/Linux Terminal
+[18/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[18/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[18/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[18/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[18/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[18/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[18/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[18/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[18/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[18/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[19/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[19/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[19/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[19/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[19/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[19/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[19/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[19/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[19/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[19/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[20/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[20/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[20/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[20/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[20/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[20/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[20/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[20/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[20/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[20/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[21/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[21/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[21/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[21/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[21/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[21/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[21/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[21/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[21/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[21/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[22/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[22/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[22/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[22/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[22/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[22/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[22/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[22/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[22/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[22/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[23/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[23/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[23/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[23/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[23/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[23/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[23/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[23/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[23/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[23/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[24/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[24/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[24/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[24/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[24/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[24/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[24/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[24/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[24/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[24/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[24/10/2016 21:40] INFO scheduler _scheduler_repeat 168: add pltop "pl add top https://www.youtube.com/playlist?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" to bots on Amigos Prováveis every 43200s
+[24/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[24/10/2016 21:40] INFO scheduler _scheduler_repeat 168: add pltrend "pl add trend https://www.youtube.com/playlist?list=PLw-VjHDlEOgvWPpRBs9FRGgJcKpDimTqf" to bots on Amigos Prováveis every 43200s
+[24/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[25/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[25/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[25/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[25/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[25/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[25/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[25/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[25/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[25/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[25/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[25/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[25/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[25/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[25/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[26/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[26/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[26/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[26/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[26/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[26/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[26/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[26/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[26/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[26/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[26/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[26/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[26/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[26/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[27/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[27/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[27/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[27/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[27/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[27/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[27/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[27/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[27/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[27/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[27/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[27/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[27/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[27/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[28/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[28/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[28/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[28/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[28/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[28/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[28/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[28/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[28/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[28/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[28/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[28/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[28/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[28/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[29/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[29/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[29/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[29/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[29/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[29/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[29/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[29/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[29/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[29/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[29/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[29/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[29/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[29/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[30/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[30/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[30/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[30/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[30/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[30/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[30/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[30/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[30/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[30/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[30/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[30/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[30/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[30/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[31/10/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[31/10/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[31/10/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[31/10/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[31/10/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[31/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[31/10/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[31/10/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[31/10/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[31/10/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[31/10/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[31/10/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[31/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[31/10/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[01/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[01/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[01/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[01/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[01/11/2016 09:40] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[01/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[01/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[01/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[01/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[01/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[01/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[01/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[01/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[01/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[02/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[02/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[02/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[02/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[02/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[02/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[02/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[02/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[02/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[02/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[02/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[02/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[02/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[02/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[03/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[03/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[03/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[03/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[03/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[03/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[03/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[03/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[03/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[03/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[03/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[03/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[03/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[03/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[04/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[04/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[04/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[04/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[04/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[04/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[04/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[04/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[04/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[04/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[04/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[04/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[04/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[04/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[06/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[06/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[06/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[06/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[06/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[06/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[06/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[06/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[06/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[06/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[06/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[06/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[06/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[06/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[07/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[07/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[07/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[07/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[07/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[07/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[07/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[07/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[07/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[07/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[07/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[07/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[07/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[07/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[08/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[08/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[08/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[08/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[08/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[08/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[08/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[08/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[08/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[08/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[08/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[08/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[08/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[08/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[09/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[09/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[09/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[09/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[09/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[09/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[09/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[09/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[09/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[09/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[09/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[09/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[09/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[09/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[10/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[10/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[10/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[10/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[10/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[10/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[10/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[10/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[10/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[10/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[10/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[10/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[10/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[10/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[11/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[11/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[11/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[11/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[11/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[11/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[11/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[11/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[11/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[11/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[11/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[11/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[11/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[11/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[12/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[12/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[12/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[12/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[12/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[12/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[12/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[12/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[12/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[12/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[12/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[12/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[12/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[12/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[13/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[13/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[13/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[13/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[13/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[13/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[13/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[13/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[13/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[13/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[13/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[13/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[13/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[13/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[14/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[14/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[14/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[14/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[14/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[14/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[14/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[14/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[14/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[14/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[14/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[14/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[14/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[14/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[15/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[15/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[15/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[15/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[15/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[15/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[15/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[15/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[15/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[15/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[15/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[15/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[15/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[15/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[16/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[16/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[16/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[16/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[16/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[16/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[16/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[16/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[16/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[16/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[16/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[16/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[16/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[16/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[17/11/2016 09:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[17/11/2016 09:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[17/11/2016 09:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[17/11/2016 09:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[17/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[17/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[17/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280

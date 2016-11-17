@@ -45,6 +45,7 @@ class Scheduler:
         self.bot = bot
         self.events = fileIO('data/scheduler/events.json', 'load')
         self.queue = asyncio.PriorityQueue(loop=self.bot.loop)
+        self.queue_lock = asyncio.Lock()
         self.to_kill = []
         self._load_events()
 
@@ -107,6 +108,18 @@ class Scheduler:
         await self._put_event(e)
 
         self.save_events()
+
+    async def _remove_event(self, name, server):
+        await self.queue_lock.acquire()
+        events = []
+        while self.queue.qsize() != 0:
+            time, event = await self.queue.get()
+            if not (name == event.name and server.id == event.server):
+                events.append((time, event))
+
+        for event in events:
+            await self.queue.put(event)
+        self.queue_lock.release()
 
     @commands.group(no_pm=True, pass_context=True)
     @checks.mod_or_permissions(manage_messages=True)
@@ -183,10 +196,11 @@ class Scheduler:
             await self.bot.say('That event does not exist on this server.')
             return
 
-        # self._remove_from_queue(name)
         del self.events[server.id][name]
+        await self._remove_event(name, server)
         self.save_events()
-        await self.bot.say('"{}" has successfully been removed.'.format(name))
+        await self.bot.say('"{}" has successfully been removed but'
+                           ' it may run once more.'.format(name))
 
     @scheduler.command(pass_context=True, name="list")
     async def _scheduler_list(self, ctx):
@@ -220,6 +234,7 @@ class Scheduler:
         data['author'] = {'id': event.author}
         data['nonce'] = randint(-2**32, (2**32) - 1)
         data['channel_id'] = event.channel
+        data['reactions'] = []
         fake_message = discord.Message(**data)
         # coro = self.bot.process_commands(fake_message)
         log.info("Running '{}' in {}".format(event.name, event.server))
@@ -228,6 +243,7 @@ class Scheduler:
 
     async def queue_manager(self):
         while self == self.bot.get_cog('Scheduler'):
+            await self.queue_lock.acquire()
             if self.queue.qsize() != 0:
                 curr_time = int(time.time())
                 next_tuple = await self.queue.get()
@@ -251,6 +267,7 @@ class Scheduler:
                     log.debug('Will run {} "{}" in {}s'.format(
                         next_event.name, next_event.command, diff))
                     await self._put_event(next_event, next_time)
+            self.queue_lock.release()
 
             to_delete = []
             for old_command in self.to_kill:

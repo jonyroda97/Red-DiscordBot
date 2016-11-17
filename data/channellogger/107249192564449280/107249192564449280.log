@@ -1190,3 +1190,55 @@ Times are formed as follows: 1s, 2m, 3h, 5d, 1w
 
 ```
 2016-08-28 21:40:35.354000 #geral @jonyroda97#9104: .clear
+2016-10-21 17:57:54.995000 #geral @jonyroda97#9104: .pl start proximity
+2016-10-21 17:57:55.289000 #geral @Amigos Prováveis#6605: You must be in a voice channel to start a playlist.
+2016-10-21 17:58:04.531000 #geral @jonyroda97#9104: .pl start proximity
+2016-10-21 17:58:05.021000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-10-22 00:01:27.848000 #geral @jonyroda97#9104: .stop
+2016-10-22 00:01:28.020000 #geral @Amigos Prováveis#6605: Stopping...
+2016-10-24 22:15:09.237000 #geral @taskopixa#5935: .play https://www.youtube.com/watch?v=JXj8l9L3TvQ
+2016-10-24 22:15:09.308000 #geral @Amigos Prováveis#6605: You must join a voice channel before I can play anything.
+2016-10-24 22:15:09.237000 #geral @taskopixa#5935: .play https://www.youtube.com/watch?v=JXj8l9L3TvQ
+2016-10-24 22:15:24.649000 #geral @taskopixa#5935: .play https://www.youtube.com/watch?v=JXj8l9L3TvQ
+2016-10-24 22:16:56.498000 #geral @taskopixa#5935: .pl start hits
+2016-10-24 22:16:56.645000 #geral @Amigos Prováveis#6605: That playlist does not exist.
+2016-10-24 22:17:58.426000 #geral @taskopixa#5935: .pl start trend
+2016-10-24 22:17:58.572000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-10-24 22:18:12.422000 #geral @taskopixa#5935: .play https://www.youtube.com/watch?v=JXj8l9L3TvQ
+2016-10-24 22:18:12.557000 #geral @Amigos Prováveis#6605: Queued.
+2016-10-24 22:18:24.619000 #geral @taskopixa#5935: .skip
+2016-10-24 22:18:24.828000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2016-10-24 22:19:33.614000 #geral @jonyroda97#9104: .top
+2016-10-24 22:19:35.339000 #geral @jonyroda97#9104: .stop
+2016-10-24 22:19:35.387000 #geral @Amigos Prováveis#6605: Stopping...
+2016-10-27 19:44:06.248000 #geral @jonyroda97#9104: .resume~
+2016-10-27 19:44:09.418000 #geral @jonyroda97#9104: .resume
+2016-10-27 19:44:09.604000 #geral @Amigos Prováveis#6605: Resuming.
+2016-10-27 19:44:36.832000 #geral @jonyroda97#9104: .skip
+2016-10-27 19:44:36.882000 #geral @Amigos Prováveis#6605: Skipping...
+2016-10-27 19:45:25.682000 #geral @jonyroda97#9104: .song
+2016-10-27 19:45:25.858000 #geral @Amigos Prováveis#6605: **Title:** Aminé - Caroline
+**Author:** Aminé
+**Uploader:** AmineVEVO
+**Views:** 22336779
+**Duration:** 4:9
+
+<https://www.youtube.com/watch?v=3j8ecF8Wt4E>
+2016-10-27 19:48:23.284000 #geral @jonyroda97#9104: .skip
+2016-10-27 19:48:23.444000 #geral @Amigos Prováveis#6605: Skipping...
+2016-10-27 19:51:58.199000 #geral @jonyroda97#9104: .pause
+2016-10-27 19:51:58.351000 #geral @Amigos Prováveis#6605: Paused.
+2016-10-31 20:36:39.120000 #geral @jonyroda97#9104: .song
+2016-10-31 20:36:39.494000 #geral @Amigos Prováveis#6605: **Title:** Young M.A "OOOUUU" (Official Video)
+**Uploader:** Young MA
+**Views:** 62781246
+**Duration:** 5:1
+
+<https://www.youtube.com/watch?v=gVf_4Ns3qLU>
+2016-10-31 20:43:16.264000 #geral @jonyroda97#9104: .pause
+2016-10-31 20:43:16.415000 #geral @Amigos Prováveis#6605: Paused.
+2016-11-03 01:25:42.609000 #geral @jonyroda97#9104: 🎮
+2016-11-11 22:44:03.353000 #geral @jonyroda97#9104: .resume´
+2016-11-11 22:44:41.058000 #geral @jonyroda97#9104: .resume
+2016-11-11 22:44:41.219000 #geral @Amigos Prováveis#6605: Resuming.
+2016-11-17 19:01:01.181000 #geral @jonyroda97#9104: .cleanup messages 15

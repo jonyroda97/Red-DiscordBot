@@ -7,7 +7,7 @@
     "cogs.cleverbot" : true,
     "cogs.customcom" : true,
     "cogs.downloader" : true,
-    "cogs.economy" : false,
+    "cogs.economy" : true,
     "cogs.emotes" : false,
     "cogs.fishinsult" : true,
     "cogs.fourinarow" : false,
@@ -17,14 +17,17 @@
     "cogs.lenny" : true,
     "cogs.lottery" : false,
     "cogs.massmove" : true,
-    "cogs.mentiontracker" : false,
+    "cogs.mentiontracker" : true,
     "cogs.mod" : true,
+    "cogs.owner" : true,
     "cogs.penis" : true,
     "cogs.punish" : true,
     "cogs.russianroulette" : true,
     "cogs.scheduler" : true,
     "cogs.speedtest" : true,
     "cogs.streams" : true,
+    "cogs.trigger" : true,
     "cogs.trivia" : true,
-    "cogs.weather" : true
+    "cogs.weather" : true,
+    "cogs.weatherMs" : true
 }
