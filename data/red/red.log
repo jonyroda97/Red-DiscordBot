@@ -34633,3 +34633,49 @@ Exception: Run "pip install tabulate" in your CMD/Linux Terminal
 [17/11/2016 09:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
 [17/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
 [17/11/2016 09:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[17/11/2016 20:47] ERROR red on_command_error 181: Exception in command 'temp'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/weatherMs.py", line 39, in temp
+    if self.settings["unit"] == "C":
+KeyError: 'unit'
+[17/11/2016 20:48] ERROR red on_command_error 181: Exception in command 'toggleunit'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/weatherMs.py", line 54, in toggleunit
+    if self.settings["unit"] == "C":
+KeyError: 'unit'
+[17/11/2016 20:48] ERROR red on_command_error 181: Exception in command 'temp'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/weatherMs.py", line 39, in temp
+    if self.settings["unit"] == "C":
+KeyError: 'unit'
+[17/11/2016 20:48] ERROR red on_command_error 181: Exception in command 'info'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 614, in info
+    embed = discord.Embed(colour=discord.Colour.red())
+AttributeError: module 'discord' has no attribute 'Embed'
+[17/11/2016 20:49] ERROR red on_command_error 181: Exception in command 'info'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 614, in info
+    embed = discord.Embed(colour=discord.Colour.red())
+AttributeError: module 'discord' has no attribute 'Embed'
+[17/11/2016 21:02] ERROR owner load 76: You need to install `python-dateutil`: `pip install python-dateutil`.
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 66, in load
+    self._load_cog(module)
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 646, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 724, in load_extension
+    lib.setup(self)
+  File "/root/redbot-amigosprovaveis/cogs/reviewemoji.py", line 360, in setup
+    raise RuntimeError("You need to install `python-dateutil`: `pip install python-dateutil`.")
+RuntimeError: You need to install `python-dateutil`: `pip install python-dateutil`.
