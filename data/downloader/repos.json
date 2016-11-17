@@ -226,7 +226,7 @@
         },
         "url" : "https://github.com/Canule/Mash-Cogs",
         "weatherMs" : {
-            "INSTALLED" : true,
+            "INSTALLED" : false,
             "file" : "data/downloader/mash/weatherMs/weatherMs.py",
             "folder" : "data/downloader/mash/weatherMs"
         },
@@ -253,12 +253,12 @@
             "folder" : "data/downloader/refactored/google"
         },
         "massmove" : {
-            "INSTALLED" : false,
+            "INSTALLED" : true,
             "file" : "data/downloader/refactored/massmove/massmove.py",
             "folder" : "data/downloader/refactored/massmove"
         },
         "punish" : {
-            "INSTALLED" : false,
+            "INSTALLED" : true,
             "file" : "data/downloader/refactored/punish/punish.py",
             "folder" : "data/downloader/refactored/punish"
         },
@@ -389,7 +389,7 @@
             "folder" : "data/downloader/tmerc/kz"
         },
         "massdm" : {
-            "INSTALLED" : false,
+            "INSTALLED" : true,
             "file" : "data/downloader/tmerc/massdm/massdm.py",
             "folder" : "data/downloader/tmerc/massdm"
         },
@@ -424,7 +424,7 @@
             "folder" : "data/downloader/tmerc/randimals"
         },
         "reviewemoji" : {
-            "INSTALLED" : false,
+            "INSTALLED" : true,
             "file" : "data/downloader/tmerc/reviewemoji/reviewemoji.py",
             "folder" : "data/downloader/tmerc/reviewemoji"
         },

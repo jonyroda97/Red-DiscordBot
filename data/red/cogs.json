@@ -16,12 +16,14 @@
     "cogs.image" : true,
     "cogs.lenny" : true,
     "cogs.lottery" : false,
+    "cogs.massdm" : true,
     "cogs.massmove" : true,
     "cogs.mentiontracker" : true,
     "cogs.mod" : true,
     "cogs.owner" : true,
     "cogs.penis" : true,
     "cogs.punish" : true,
+    "cogs.reviewemoji" : true,
     "cogs.russianroulette" : true,
     "cogs.scheduler" : true,
     "cogs.speedtest" : true,
@@ -29,5 +31,5 @@
     "cogs.trigger" : true,
     "cogs.trivia" : true,
     "cogs.weather" : true,
-    "cogs.weatherMs" : true
+    "cogs.weatherMs" : false
 }
