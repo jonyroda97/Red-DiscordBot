@@ -1,30 +1,21 @@
 {
     "107249192564449280" : {
-        "plcate" : {
-            "author" : "98159081583292416",
-            "channel" : "193925434273038346",
-            "command" : "pl add cate https://www.youtube.com/playlist?list=PLFX0HcKT6TMCoBtRg9azERAAGXQVCAphZ",
-            "name" : "plcate",
-            "repeat" : true,
-            "starttime" : 1472420267,
-            "timedelta" : 43200
-        },
         "pljoao" : {
             "author" : "98159081583292416",
             "channel" : "193925434273038346",
             "command" : "pl add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo",
             "name" : "pljoao",
             "repeat" : true,
-            "starttime" : 1472420240,
+            "starttime" : 1481149087,
             "timedelta" : 43200
         },
-        "plmonstercat" : {
+        "plmosntercat" : {
             "author" : "98159081583292416",
             "channel" : "193925434273038346",
             "command" : "pl add monstercat https://www.youtube.com/playlist?list=UUJ6td3C9QlPO9O_J5dF4ZzA",
-            "name" : "plmonstercat",
+            "name" : "plmosntercat",
             "repeat" : true,
-            "starttime" : 1472420399,
+            "starttime" : 1481149201,
             "timedelta" : 43200
         },
         "plproximity" : {
@@ -33,7 +24,7 @@
             "command" : "pl add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg",
             "name" : "plproximity",
             "repeat" : true,
-            "starttime" : 1472420317,
+            "starttime" : 1481149107,
             "timedelta" : 43200
         },
         "pltop" : {
@@ -42,7 +33,7 @@
             "command" : "pl add top https://www.youtube.com/playlist?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG",
             "name" : "pltop",
             "repeat" : true,
-            "starttime" : 1477345241,
+            "starttime" : 1481149140,
             "timedelta" : 43200
         },
         "pltrap" : {
@@ -51,16 +42,7 @@
             "command" : "pl add trap https://www.youtube.com/playlist?list=UUa10nxShhzNrCE1o2ZOPztg",
             "name" : "pltrap",
             "repeat" : true,
-            "starttime" : 1472420361,
-            "timedelta" : 43200
-        },
-        "pltrend" : {
-            "author" : "98159081583292416",
-            "channel" : "193925434273038346",
-            "command" : "pl add trend https://www.youtube.com/playlist?list=PLw-VjHDlEOgvWPpRBs9FRGgJcKpDimTqf",
-            "name" : "pltrend",
-            "repeat" : true,
-            "starttime" : 1477345247,
+            "starttime" : 1481149172,
             "timedelta" : 43200
         }
     }
