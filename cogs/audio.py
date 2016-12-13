@@ -6,6 +6,7 @@ from random import shuffle, choice
 from cogs.utils.dataIO import dataIO
 from cogs.utils import checks
 from __main__ import send_cmd_help, settings
+from json import JSONDecodeError
 import re
 import logging
 import collections
@@ -991,7 +992,7 @@ class Audio:
         self.settings["MAX_CACHE"] = size
         await self.bot.say("Max cache size set to {} MB.".format(size))
         self.save_settings()
-    
+
     @audioset.command(name="emptydisconnect", pass_context=True)
     @checks.mod_or_permissions(manage_messages=True)
     async def audioset_emptydisconnect(self, ctx):
@@ -1746,6 +1747,7 @@ class Audio:
         mod_role = settings.get_server_mod(server)
 
         is_owner = member.id == settings.owner
+        is_server_owner = member == server.owner
         is_admin = discord.utils.get(member.roles, name=admin_role) is not None
         is_mod = discord.utils.get(member.roles, name=mod_role) is not None
 
@@ -1753,7 +1755,7 @@ class Audio:
         nonbots = sum(not m.bot for m in member.voice_channel.voice_members)
         alone = nonbots <= 1
 
-        return is_owner or is_admin or is_mod or alone
+        return is_owner or is_server_owner or is_admin or is_mod or alone
 
     @commands.command(pass_context=True, no_pm=True)
     async def sing(self, ctx):
@@ -2087,7 +2089,13 @@ def check_files():
         print("Creating default audio settings.json...")
         dataIO.save_json(settings_path, default)
     else:  # consistency check
-        current = dataIO.load_json(settings_path)
+        try:
+            current = dataIO.load_json(settings_path)
+        except JSONDecodeError:
+            # settings.json keeps getting corrupted for unknown reasons. Let's
+            # try to keep it from making the cog load fail.
+            dataIO.save_json(settings_path, default)
+            current = dataIO.load_json(settings_path)
         if current.keys() != default.keys():
             for key in default.keys():
                 if key not in current.keys():
