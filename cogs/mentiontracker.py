@@ -3,7 +3,6 @@ from discord.enums import Status
 from cogs.utils import checks
 from cogs.utils.chat_formatting import *
 from cogs.utils.dataIO import fileIO
-from __main__ import send_cmd_help
 import os
 import datetime
 import time
@@ -20,7 +19,7 @@ class MentionTracker:
     async def mentionset(self, ctx):
         """Manage mentiontracker settings"""
         if ctx.invoked_subcommand is None:
-            await send_cmd_help(ctx)
+            await self.bot.send_cmd_help(ctx)
             msg = "```"
             for k, v in self.settings.items():
                 msg += str(k) + ": " + str(v) + "\n"
@@ -31,7 +30,7 @@ class MentionTracker:
     async def _mentionset_limit(self, ctx, num: int):
         """Number of minutes to wait in between saving mentions."""
         if num < 0:
-            send_cmd_help(ctx)
+            self.bot.send_cmd_help(ctx)
             return
         self.settings["MENTION_TIME_LIMIT"] = num
         fileIO("data/mentiontracker/settings.json", "save", self.settings)
@@ -41,7 +40,7 @@ class MentionTracker:
     async def mention(self, ctx):
         """Saves your mentions when you're not online."""
         if ctx.invoked_subcommand is None:
-            await send_cmd_help(ctx)
+            await self.bot.send_cmd_help(ctx)
 
     @mention.command(pass_context=True, name="register")
     async def _mention_register(self, ctx):
@@ -60,12 +59,15 @@ class MentionTracker:
     async def _mention_unregister(self, ctx):
         """Unregister yourself from mention tracking"""
         user = ctx.message.author
+        s = ctx.message.server
         if user.id in self.mail:
             del self.mail[user.id]
             await self.bot.say("You will stop receiving mention mail.")
         else:
             await self.bot.say("You haven't registered yet, try {}.".format(
-                inline(bot.command_prefix[0] + "mention register")))
+                inline(
+                    self.bot.settings.get_prefixes(s)[0] +
+                    "mention register")))
 
     @mention.command(pass_context=True, name="read")
     async def _mention_read(self, ctx):
@@ -75,7 +77,7 @@ class MentionTracker:
             await self.bot.reply("you're not registered!")
             temp_context = ctx
             temp_context.invoked_subcommand = self._mention_register
-            await send_cmd_help(temp_context)
+            await self.bot.send_cmd_help(temp_context)
             return
         if len(self.mail[user.id]['mail']) == 0:
             await self.bot.say("You have no mentions.")

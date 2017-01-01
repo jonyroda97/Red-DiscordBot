@@ -3,7 +3,6 @@ from discord.ext import commands
 from cogs.utils import checks
 from cogs.utils.dataIO import dataIO
 from cogs.utils.chat_formatting import box, pagify
-from __main__ import settings, send_cmd_help
 from copy import deepcopy
 import asyncio
 import logging
@@ -19,6 +18,7 @@ class Admin:
     def __init__(self, bot):
         self.bot = bot
         self._announce_msg = None
+        self._announce_server = None
         self._settings = dataIO.load_json('data/admin/settings.json')
         self._settable_roles = self._settings.get("ROLES", {})
 
@@ -94,11 +94,6 @@ class Admin:
             await self.bot.say('I don\'t have manage_roles.')
             return
 
-        if author.id == settings.owner:
-            pass
-        elif not channel.permissions_for(author).manage_roles:
-            raise commands.CheckFailure
-
         await self.bot.add_roles(user, role)
         await self.bot.say('Added role {} to {}'.format(role.name, user.name))
 
@@ -106,7 +101,7 @@ class Admin:
     async def adminset(self, ctx):
         """Manage Admin settings"""
         if ctx.invoked_subcommand is None:
-            await send_cmd_help(ctx)
+            await self.bot.send_cmd_help(ctx)
 
     @adminset.command(pass_context=True, name="selfroles")
     @checks.admin_or_permissions(manage_roles=True)
@@ -141,6 +136,7 @@ class Admin:
                                " issue a new announcement.")
         else:
             self._announce_msg = msg
+            self._announce_server = ctx.message.server
 
     @commands.command(pass_context=True)
     @checks.is_owner()
@@ -296,7 +292,8 @@ class Admin:
         """
         new_msg = deepcopy(ctx.message)
         new_msg.author = user
-        new_msg.content = self.bot.command_prefix[0] + command
+        new_msg.content = self.bot.settings.get_prefixes(new_msg.server)[0] \
+            + command
         await self.bot.process_commands(new_msg)
 
     @commands.command(pass_context=True, hidden=True)
@@ -331,6 +328,8 @@ class Admin:
                 break
             server = self.bot.get_server(server_id)
             if server is None:
+                continue
+            if server == self._announce_server:
                 continue
             chan = server.default_channel
             log.debug("Looking to announce to {} on {}".format(chan.name,

@@ -5,6 +5,16 @@
             "file" : "data/downloader/26/cleverbot/cleverbot.py",
             "folder" : "data/downloader/26/cleverbot"
         },
+        "nomassmentions" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26/nomassmentions/nomassmentions.py",
+            "folder" : "data/downloader/26/nomassmentions"
+        },
+        "rift" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26/rift/rift.py",
+            "folder" : "data/downloader/26/rift"
+        },
         "trigger" : {
             "INSTALLED" : true,
             "file" : "data/downloader/26/trigger/trigger.py",
@@ -236,6 +246,119 @@
             "folder" : "data/downloader/mash/wikipedia"
         }
     },
+    "paddo" : {
+        "away" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/away/away.py",
+            "folder" : "data/downloader/paddo/away"
+        },
+        "barpm" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/barpm/barpm.py",
+            "folder" : "data/downloader/paddo/barpm"
+        },
+        "calculator" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/calculator/calculator.py",
+            "folder" : "data/downloader/paddo/calculator"
+        },
+        "caramba" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/caramba/caramba.py",
+            "folder" : "data/downloader/paddo/caramba"
+        },
+        "customroles" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/customroles/customroles.py",
+            "folder" : "data/downloader/paddo/customroles"
+        },
+        "games" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/games/games.py",
+            "folder" : "data/downloader/paddo/games"
+        },
+        "goodreads" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/goodreads/goodreads.py",
+            "folder" : "data/downloader/paddo/goodreads"
+        },
+        "grenzpolizei" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/grenzpolizei/grenzpolizei.py",
+            "folder" : "data/downloader/paddo/grenzpolizei"
+        },
+        "invoice" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/invoice/invoice.py",
+            "folder" : "data/downloader/paddo/invoice"
+        },
+        "kill" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/paddo/kill/kill.py",
+            "folder" : "data/downloader/paddo/kill"
+        },
+        "konami" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/konami/konami.py",
+            "folder" : "data/downloader/paddo/konami"
+        },
+        "lastfm" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/lastfm/lastfm.py",
+            "folder" : "data/downloader/paddo/lastfm"
+        },
+        "logtools" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/logtools/logtools.py",
+            "folder" : "data/downloader/paddo/logtools"
+        },
+        "maolmao" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/maolmao/maolmao.py",
+            "folder" : "data/downloader/paddo/maolmao"
+        },
+        "memes" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/memes/memes.py",
+            "folder" : "data/downloader/paddo/memes"
+        },
+        "oweather" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/oweather/oweather.py",
+            "folder" : "data/downloader/paddo/oweather"
+        },
+        "quote" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/quote/quote.py",
+            "folder" : "data/downloader/paddo/quote"
+        },
+        "seen" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/seen/seen.py",
+            "folder" : "data/downloader/paddo/seen"
+        },
+        "statistics" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/paddo/statistics/statistics.py",
+            "folder" : "data/downloader/paddo/statistics"
+        },
+        "steam" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/steam/steam.py",
+            "folder" : "data/downloader/paddo/steam"
+        },
+        "url" : "https://github.com/PaddoInWonderland/PaddoCogs",
+        "wikipedia" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/wikipedia/wikipedia.py",
+            "folder" : "data/downloader/paddo/wikipedia"
+        },
+        "youtube" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/youtube/youtube.py",
+            "folder" : "data/downloader/paddo/youtube"
+        }
+    },
     "refactored" : {
         "antilink" : {
             "INSTALLED" : false,
@@ -300,6 +423,11 @@
             "file" : "data/downloader/squid/encoder/encoder.py",
             "folder" : "data/downloader/squid/encoder"
         },
+        "example518" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/squid/example518/example518.py",
+            "folder" : "data/downloader/squid/example518"
+        },
         "hublinker" : {
             "INSTALLED" : false,
             "file" : "data/downloader/squid/hublinker/hublinker.py",
@@ -359,6 +487,11 @@
             "INSTALLED" : true,
             "file" : "data/downloader/squid/scheduler/scheduler.py",
             "folder" : "data/downloader/squid/scheduler"
+        },
+        "selfbotstatus" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/squid/selfbotstatus/selfbotstatus.py",
+            "folder" : "data/downloader/squid/selfbotstatus"
         },
         "tickets" : {
             "INSTALLED" : false,

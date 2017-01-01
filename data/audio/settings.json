@@ -5,10 +5,17 @@
     "QUEUE_MODE" : true,
     "SERVERS" : {
         "107249192564449280" : {
+            "NOPPL_DISCONNECT" : false,
             "QUEUE_MODE" : true,
-            "VOLUME" : 25,
+            "VOLUME" : 20,
             "VOTE_ENABLED" : true,
-            "VOTE_THRESHOLD" : 51
+            "VOTE_THRESHOLD" : 52
+        },
+        "133049272517001216" : {
+            "NOPPL_DISCONNECT" : true,
+            "VOLUME" : 5.0,
+            "VOTE_ENABLED" : true,
+            "VOTE_THRESHOLD" : 50
         }
     },
     "SERVER_SFX_ON" : {

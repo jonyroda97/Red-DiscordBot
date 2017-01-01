@@ -1242,3 +1242,319 @@ Times are formed as follows: 1s, 2m, 3h, 5d, 1w
 2016-11-11 22:44:41.058000 #geral @jonyroda97#9104: .resume
 2016-11-11 22:44:41.219000 #geral @Amigos Prováveis#6605: Resuming.
 2016-11-17 19:01:01.181000 #geral @jonyroda97#9104: .cleanup messages 15
+2016-11-18 01:23:00.231000 #geral @jonyroda97#9104: .cog install paddo kill
+2016-11-18 01:23:00.401000 #geral @Amigos Prováveis#6605: Installation completed. Load it now? (yes/no)
+2016-11-18 01:23:02.385000 #geral @jonyroda97#9104: yes
+2016-11-18 01:23:02.492000 #geral @Amigos Prováveis#6605: Module enabled.
+2016-11-18 01:23:07.507000 #geral @jonyroda97#9104: .kil
+2016-11-18 01:23:10.481000 #geral @jonyroda97#9104: .kill
+2016-11-18 01:23:10.605000 #geral @Amigos Prováveis#6605: ```
+.kill <member>
+
+Have you always wanted to kill someone? If so, do it in a creative way!
+
+```
+2016-11-18 01:23:17.124000 #geral @jonyroda97#9104: .kill @João Roda
+2016-11-18 01:23:17.280000 #geral @Amigos Prováveis#6605: **Screaming in sheer terror and agony, @João Roda is horrifically dragged into the darkness by unseen forces, leaving nothing but bloody fingernails and a trail of scratch marks in the ground from which the young person had attempted to halt the dragging process.**
+2016-11-18 01:24:27.362000 #geral @jonyroda97#9104: .pl start proximity
+2016-11-18 01:24:27.778000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-18 01:24:31.198000 #geral @jonyroda97#9104: .cache
+2016-11-18 01:24:31.328000 #geral @Amigos Prováveis#6605: ```
+.cache
+
+Cache management tools.
+
+Commands:
+  dump    Dumps the cache.
+  minimum Current minimum cache size, based on server count.
+  size    Current size of the cache.
+
+Type .cache command for more info on a command.
+You can also type .cache category for more info on a category.
+```
+2016-11-18 01:24:40.381000 #geral @jonyroda97#9104: .cache dump
+2016-11-18 01:24:40.523000 #geral @Amigos Prováveis#6605: Dumped 6.220 MB of audio files.
+2016-11-18 01:30:19.497000 #geral @jonyroda97#9104: .pl start proximity
+2016-11-18 01:30:19.999000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-18 01:38:17.465000 #geral @jonyroda97#9104: .servers
+2016-11-18 01:38:17.613000 #geral @Amigos Prováveis#6605: 0: Amigos Prováveis
+
+To leave a server just type its number.
+2016-11-18 01:38:22.625000 #geral @jonyroda97#9104: 0
+2016-11-18 01:38:22.748000 #geral @Amigos Prováveis#6605: Are you sure you want me to leave Amigos Prováveis? (yes/no)
+2016-11-18 01:38:25.182000 #geral @jonyroda97#9104: yes
+2016-11-18 01:43:55.832000 #geral @jonyroda97#9104: .clear 10
+2016-11-18 01:44:04.696000 #geral @jonyroda97#9104: .clear 15
+2016-11-22 20:29:15.933000 #geral @taskopixa#5935: .pl start top
+2016-11-22 20:29:16.592000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-22 20:31:32.983000 #geral @taskopixa#5935: .pl start proximity
+2016-11-22 20:31:34.045000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-22 20:32:29.296000 #geral @taskopixa#5935: .pl stop
+2016-11-22 20:32:29.469000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2016-11-22 20:33:03.787000 #geral @taskopixa#5935: C=Ona
+2016-11-22 20:33:04.108000 #geral @taskopixa#5935: pq
+2016-11-22 20:33:04.660000 #geral @taskopixa#5935: ofk´paf
+2016-11-22 20:33:04.980000 #geral @taskopixa#5935: af
+2016-11-22 20:33:05.175000 #geral @taskopixa#5935: af
+2016-11-22 20:33:05.451000 #geral @taskopixa#5935: a
+2016-11-22 20:33:05.658000 #geral @taskopixa#5935: f
+2016-11-22 20:33:05.863000 #geral @taskopixa#5935: af
+2016-11-22 20:33:06.085000 #geral @taskopixa#5935: a
+2016-11-22 20:33:10.960000 #geral @jonyroda97#9104: .clear 10
+2016-11-22 20:33:17.499000 #geral @taskopixa#5935: .clear 50
+2016-11-22 20:33:19.788000 #geral @jonyroda97#9104: .clear 1
+2016-11-22 20:33:34.427000 #geral @taskopixa#5935: 🏍
+2016-11-22 20:33:42.740000 #geral @taskopixa#5935: 🤦
+2016-11-22 20:33:44.580000 #geral @jonyroda97#9104: <:FeelsWeirdMan:217835304990539779>
+2016-11-22 20:35:54.473000 #geral @jonyroda97#9104: .song
+2016-11-22 20:35:54.741000 #geral @Amigos Prováveis#6605: **Title:** Mako - Let Go Of The Wheel [Exclusive]
+**Uploader:** Proximity
+**Views:** 229508
+**Duration:** 4:01
+
+<https://www.youtube.com/watch?v=G798z-mziZ4>
+2016-11-22 20:36:14.019000 #geral @taskopixa#5935: .help
+2016-11-22 20:38:07.194000 #geral @taskopixa#5935: .gif cona
+2016-11-22 20:38:07.632000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/jason-poco-cona-YwcsNsgQ75292
+2016-11-22 20:38:07.632000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/jason-poco-cona-YwcsNsgQ75292
+2016-11-22 20:38:16.911000 #geral @taskopixa#5935: .gif vulva
+2016-11-22 20:38:17.222000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/ebCESzap3VG0g
+2016-11-22 20:38:17.222000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/ebCESzap3VG0g
+2016-11-22 20:38:29.348000 #geral @taskopixa#5935: .gif penis
+2016-11-22 20:38:29.724000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/funny-dancing-yZaiNB8rIoJlm
+2016-11-22 20:38:29.724000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/funny-dancing-yZaiNB8rIoJlm
+2016-11-22 20:38:37.911000 #geral @taskopixa#5935: .gif boobs
+2016-11-22 20:38:38.514000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/playboy-l0MYCsJp3Uj9uWJ6E
+2016-11-22 20:38:38.514000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/playboy-l0MYCsJp3Uj9uWJ6E
+2016-11-22 20:38:46.588000 #geral @taskopixa#5935: .gif boobies
+2016-11-22 20:38:46.934000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/therocketpanda-boobies-3d-boobs-5xtDarGOF3ReIbTE7te
+2016-11-22 20:38:46.934000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/therocketpanda-boobies-3d-boobs-5xtDarGOF3ReIbTE7te
+2016-11-22 20:39:01.526000 #geral @taskopixa#5935: .gif big penis
+2016-11-22 20:39:02.281000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/yosub-jeff-goldblum-12-angry-men-donkey-dick-l41lGEvEdmsuQdo2c
+2016-11-22 20:39:02.281000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/yosub-jeff-goldblum-12-angry-men-donkey-dick-l41lGEvEdmsuQdo2c
+2016-11-22 20:39:22.027000 #geral @jonyroda97#9104: .song
+2016-11-22 20:39:22.213000 #geral @Amigos Prováveis#6605: **Title:** OneRepublic – Kids (SeeB Remix) [Premiere]
+**Uploader:** Proximity
+**Views:** 128581
+**Duration:** 3:15
+
+<https://www.youtube.com/watch?v=vIwZYYUir2U>
+2016-11-22 20:39:22.804000 #geral @taskopixa#5935: .gif vaginas
+2016-11-22 20:39:23.259000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/key-and-peele-vaginas-cunnilingus-class-KsS8KDuvZl3YA
+2016-11-22 20:39:23.259000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/key-and-peele-vaginas-cunnilingus-class-KsS8KDuvZl3YA
+2016-11-22 20:39:34.284000 #geral @taskopixa#5935: .music
+2016-11-22 20:40:14.013000 #geral @jonyroda97#9104: .queue
+2016-11-22 20:40:14.251000 #geral @Amigos Prováveis#6605: Gathering information...
+2016-11-22 20:40:15.232000 #geral @Amigos Prováveis#6605: ***Now playing:***
+OneRepublic – Kids (SeeB Remix) [Premiere]
+
+***Next up:***
+1. The Chainsmokers X Justin Bieber X Gnash - I Love Closer Water (Kap Slap Mashup)
+2. Porter Robinson - Sad Machine (k?d Remix)
+3. Galantis & Hook N Sling - Love On Me  (Paris Blohm Remix) [Free]
+4. Matthew Koma - Kisses Back (Steve James Remix)
+5. 3LAU & Said The Sky - Fire (ft. NÉONHÈART) [Official Music Video]
+2016-11-22 20:42:17.247000 #geral @jonyroda97#9104: .skip
+2016-11-22 20:42:17.393000 #geral @Amigos Prováveis#6605: Skipping...
+2016-11-22 20:42:28.486000 #geral @taskopixa#5935: .kip
+2016-11-22 20:42:32.498000 #geral @taskopixa#5935: .skip
+2016-11-22 20:42:32.676000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2016-11-22 20:42:45.323000 #geral @jonyroda97#9104: .audioset
+2016-11-22 20:42:45.424000 #geral @Amigos Prováveis#6605: ```
+.audioset
+
+Audio settings.
+
+Commands:
+  cachemax  Set the max cache size in MB
+  maxlength Maximum track length (seconds) for requested links
+  player    Toggles between Ffmpeg and Avconv
+  status    Enables/disables songs' titles as status
+  volume    Sets the volume (0 - 100)
+  vote      Percentage needed for the masses to skip songs. 0 to disable.
+
+Type .audioset command for more info on a command.
+You can also type .audioset category for more info on a category.
+```
+2016-11-22 20:42:54.014000 #geral @jonyroda97#9104: .audioset vote 51
+2016-11-22 20:42:54.182000 #geral @Amigos Prováveis#6605: Vote percentage set to 51%
+2016-11-22 20:43:03.529000 #geral @taskopixa#5935: .skip
+2016-11-22 20:43:03.665000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2016-11-22 20:43:18.238000 #geral @jonyroda97#9104: .audioset vote 60
+2016-11-22 20:43:18.390000 #geral @Amigos Prováveis#6605: Vote percentage set to 60%
+2016-11-22 20:43:27.142000 #geral @taskopixa#5935: .skip
+2016-11-22 20:43:27.337000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2016-11-22 20:44:42.513000 #geral @jonyroda97#9104: .stop
+2016-11-22 20:44:42.697000 #geral @Amigos Prováveis#6605: Stopping...
+2016-11-22 20:44:55.411000 #geral @jonyroda97#9104: .pl start proximity
+2016-11-22 20:44:55.607000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-22 23:08:43.221000 #geral @jonyroda97#9104: .stop
+2016-11-22 23:08:43.387000 #geral @Amigos Prováveis#6605: Stopping...
+2016-11-23 00:53:15.593000 #geral @jonyroda97#9104: .pl start proximity
+2016-11-23 00:53:16.198000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-23 00:53:30.290000 #geral @jonyroda97#9104: .stop
+2016-11-23 00:53:30.507000 #geral @Amigos Prováveis#6605: Stopping...
+2016-11-23 00:53:39.831000 #geral @jonyroda97#9104: .cache dump
+2016-11-23 00:53:39.965000 #geral @Amigos Prováveis#6605: Dumped 49.390 MB of audio files.
+2016-11-23 00:53:45.729000 #geral @jonyroda97#9104: .cache
+2016-11-23 00:53:45.923000 #geral @Amigos Prováveis#6605: ```
+.cache
+
+Cache management tools.
+
+Commands:
+  dump    Dumps the cache.
+  minimum Current minimum cache size, based on server count.
+  size    Current size of the cache.
+
+Type .cache command for more info on a command.
+You can also type .cache category for more info on a category.
+```
+2016-11-23 00:54:04.894000 #geral @jonyroda97#9104: .cache size
+2016-11-23 00:54:05.090000 #geral @Amigos Prováveis#6605: Cache is currently at 0.000 MB.
+2016-11-23 00:54:13.830000 #geral @jonyroda97#9104: .cache minimum
+2016-11-23 00:54:14.169000 #geral @Amigos Prováveis#6605: The cache will be at least 60.000 MB
+2016-11-23 00:54:53.702000 #geral @jonyroda97#9104: .pl start proximity
+2016-11-23 00:54:53.762000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-23 00:58:43.266000 #geral @jonyroda97#9104: .pl start proximity
+2016-11-23 00:58:43.861000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-23 00:59:35.668000 #geral @jonyroda97#9104: .pause
+2016-11-23 00:59:35.849000 #geral @Amigos Prováveis#6605: Paused.
+2016-11-23 01:00:48.176000 #geral @jonyroda97#9104: .resume
+2016-11-23 01:00:48.312000 #geral @Amigos Prováveis#6605: Resuming.
+2016-11-23 01:04:15.765000 #geral @jonyroda97#9104: .pl start proximity
+2016-11-23 01:04:16.313000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-11-23 01:07:22.718000 #geral @jonyroda97#9104: .song
+2016-11-23 01:07:22.862000 #geral @Amigos Prováveis#6605: **Title:** Lost Kings - Phone Down ft. Emily Warren (Justice Skolnik Remix)
+**Uploader:** Proximity
+**Views:** 92598
+**Duration:** 3:10
+
+<https://www.youtube.com/watch?v=Tdl__VvpLyw>
+2016-11-25 20:22:46.923000 #geral @MUSIC SOLUTIONS#9792: .pl start proximity
+2016-11-25 20:22:47.451000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-12-01 02:08:23.121000 #geral @jonyroda97#9104: .clear 2
+2016-12-08 13:17:19.010000 #geral @jonyroda97#9104: .pl mix top
+2016-12-08 13:17:20.051000 #geral @Amigos Prováveis#6605: Playlist queued.
+2016-12-08 13:21:06.736000 #geral @jonyroda97#9104: .skip
+2016-12-08 13:21:06.844000 #geral @Amigos Prováveis#6605: Skipping...
+2016-12-08 13:21:32.714000 #geral @jonyroda97#9104: .pause
+2016-12-08 13:21:32.909000 #geral @Amigos Prováveis#6605: Paused.
+2016-12-08 14:10:38.920000 #geral @jonyroda97#9104: .stop
+2016-12-08 14:10:39.083000 #geral @Amigos Prováveis#6605: Stopping...
+2016-12-08 15:48:20.473000 #geral @jonyroda97#9104: .cog update
+2016-12-08 15:48:20.854000 #geral @Amigos Prováveis#6605: Downloading updated cogs, please wait...  0/8 repos updated
+2016-12-08 15:48:20.854000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/8 repos updated
+After: Downloading updated cogs, please wait...  1/8 repos updated
+2016-12-08 15:48:20.854000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/8 repos updated
+After: Downloading updated cogs, please wait...  5/8 repos updated
+2016-12-08 15:48:20.854000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/8 repos updated
+After: Downloading updated cogs, please wait...  8/8 repos updated
+2016-12-08 15:48:20.854000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  8/8 repos updated
+After: Downloading updated cogs, please wait... done. 
+New cogs: paddo/quote.
+Updated cogs: paddo/wikipedia, paddo/youtube, squid/botinfo, squid/mentiontracker, squid/scheduler, community/rndstatus, refactored/antilink, mash/imdb, mash/oboobs.
+2016-12-08 15:48:24.002000 #geral @Amigos Prováveis#6605: ```Prolog
+Patch Notes for squid/mentiontracker
+====================================
+commit 22defa42de67de657aeaaff4879411f5583f97f9
+Author: Will Tekulve <tekulve.will@gmail.com>
+Date:   24 hours ago
+
+    [BotInfo, MentionTracker] I really got nothing right wtf happened
+```
+2016-12-08 15:48:24.152000 #geral @Amigos Prováveis#6605: ```Prolog
+Patch Notes for squid/scheduler
+===============================
+commit 8400a01a022b1af3eb8844714ea717f94858c595
+Author: Will Tekulve <tekulve.will@gmail.com>
+Date:   25 hours ago
+
+    [Scheduler] How did I fuck up so bad
+```
+2016-12-08 15:48:24.297000 #geral @Amigos Prováveis#6605: Cogs updated. Reload updated cogs? (yes/no)
+2016-12-08 15:48:30.884000 #geral @jonyroda97#9104: yes
+2016-12-08 15:48:31.094000 #geral @Amigos Prováveis#6605: Done. The following cogs were reloaded: mentiontracker, scheduler
+2016-12-10 16:26:17.161000 #geral @jonyroda97#9104: .clear
+2016-12-10 16:26:17.409000 #geral @Amigos Prováveis#6605: ```
+.cleanup messages <number>
+
+Deletes last X messages.
+
+Example:
+cleanup messages 26
+
+```
+2016-12-10 16:26:25.036000 #geral @jonyroda97#9104: .clear 5
+2016-12-10 16:26:28.561000 #geral @jonyroda97#9104: .clear 5
+2016-12-10 16:26:40.715000 #geral @jonyroda97#9104: .clear 15
+2016-12-10 16:26:46.420000 #geral @jonyroda97#9104: .clear 15
+2016-12-10 16:26:58.668000 #geral @jonyroda97#9104: .clear 1
+2016-12-20 19:37:54.888000 #geral @jonyroda97#9104: .cleanup bot
+2016-12-20 19:37:54.988000 #geral @Amigos Prováveis#6605: ```
+.cleanup bot <number>
+
+Cleans up command messages and messages from the bot
+
+```
+2016-12-20 19:38:11.083000 #geral @jonyroda97#9104: .cleanup self
+2016-12-20 19:38:11.230000 #geral @Amigos Prováveis#6605: ```
+.cleanup self <number> [match_pattern]
+
+Cleans up messages owned by the bot.
+
+By default, all messages are cleaned. If a third argument is specified,
+it is used for pattern matching: If it begins with r( and ends with ),
+then it is interpreted as a regex, and messages that match it are
+deleted. Otherwise, it is used in a simple substring test.
+
+Some helpful regex flags to include in your pattern:
+Dots match newlines: (?s); Ignore case: (?i); Both: (?si)
+
+```
+2016-12-21 22:20:29.865000 #geral @jonyroda97#9104: .clear
+2016-12-21 22:20:30.039000 #geral @Amigos Prováveis#6605: ```
+.cleanup messages <number>
+
+Deletes last X messages.
+
+Example:
+cleanup messages 26
+
+```
+2016-12-21 22:20:43.680000 #geral @jonyroda97#9104: .clear 6
+2016-12-27 00:54:30.952000 #geral @jonyroda97#9104: .punish
+2016-12-27 00:54:31.200000 #geral @Amigos Prováveis#6605: ```
+.punish <user> [t=1] [unit=hour]
+
+Places a user in timeout for a period of time.
+
+Valid unit of times are minutes, hours & days.
+Example usage: !punish @Kowlin 3 hours
+
+```
+2016-12-27 00:54:48.363000 #geral @jonyroda97#9104: .punish @Rafa Roda 1 minute
+2016-12-27 00:54:48.771000 #geral @Amigos Prováveis#6605: ``Rafa Roda`` is now Punished for 1 minute by ``João Roda``.
+2016-12-27 22:25:35.762000 #geral @jonyroda97#9104: .clear 3

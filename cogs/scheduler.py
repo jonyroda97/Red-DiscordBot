@@ -3,7 +3,6 @@ from discord.ext import commands
 from cogs.utils import checks
 from cogs.utils.dataIO import fileIO
 from cogs.utils.chat_formatting import *
-from __main__ import send_cmd_help
 
 import logging
 import os
@@ -125,7 +124,7 @@ class Scheduler:
     @checks.mod_or_permissions(manage_messages=True)
     async def scheduler(self, ctx):
         if ctx.invoked_subcommand is None:
-            await send_cmd_help(ctx)
+            await self.bot.send_cmd_help(ctx)
             return
 
     @scheduler.command(pass_context=True, name="add")
@@ -142,7 +141,7 @@ class Scheduler:
             s = self._parse_time(time_interval)
             log.debug('run command in {}s'.format(s))
         except:
-            await send_cmd_help(ctx)
+            await self.bot.send_cmd_help(ctx)
             return
         if s < 30:
             await self.bot.reply('yeah I can\'t do that, your time'
@@ -169,7 +168,7 @@ class Scheduler:
             s = self._parse_time(time_interval)
             log.debug('run command in {}s'.format(s))
         except:
-            await send_cmd_help(ctx)
+            await self.bot.send_cmd_help(ctx)
             return
         if s < 30:
             await self.bot.reply('yeah I can\'t do that, your time'
@@ -226,10 +225,17 @@ class Scheduler:
         return timeint * translate.get(timespec)
 
     def run_coro(self, event):
+        channel = self.bot.get_channel(event.channel)
+        try:
+            server = channel.server
+            prefix = self.bot.settings.get_prefixes(server)[0]
+        except AttributeError:
+            log.debug("Channel no longer found, not running scheduled event.")
+            return
         data = {}
         data['timestamp'] = time.strftime("%Y-%m-%dT%H:%M:%S%z", time.gmtime())
         data['id'] = randint(10**(17), (10**18) - 1)
-        data['content'] = self.bot.command_prefix[0] + event.command
+        data['content'] = prefix + event.command
         data['channel'] = self.bot.get_channel(event.channel)
         data['author'] = {'id': event.author}
         data['nonce'] = randint(-2**32, (2**32) - 1)

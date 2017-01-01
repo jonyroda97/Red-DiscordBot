@@ -34679,3 +34679,765 @@ Traceback (most recent call last):
   File "/root/redbot-amigosprovaveis/cogs/reviewemoji.py", line 360, in setup
     raise RuntimeError("You need to install `python-dateutil`: `pip install python-dateutil`.")
 RuntimeError: You need to install `python-dateutil`: `pip install python-dateutil`.
+[17/11/2016 21:37] INFO scheduler run_coro 225: Running 'pljoao' in 107249192564449280
+[17/11/2016 21:37] INFO scheduler run_coro 225: Running 'plcate' in 107249192564449280
+[17/11/2016 21:38] INFO scheduler run_coro 225: Running 'plproximity' in 107249192564449280
+[17/11/2016 21:39] INFO scheduler run_coro 225: Running 'pltrap' in 107249192564449280
+[17/11/2016 21:39] INFO scheduler run_coro 225: Running 'plmonstercat' in 107249192564449280
+[17/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltop' in 107249192564449280
+[17/11/2016 21:40] INFO scheduler run_coro 225: Running 'pltrend' in 107249192564449280
+[18/11/2016 01:18] ERROR owner load 76: psutil is not installed. Do 'pip3 install psutil --upgrade' to use this cog.
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 66, in load
+    self._load_cog(module)
+  File "/root/redbot-amigosprovaveis/cogs/owner.py", line 646, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 724, in load_extension
+    lib.setup(self)
+  File "/root/redbot-amigosprovaveis/cogs/statistics.py", line 182, in setup
+    raise RuntimeError("psutil is not installed. Do 'pip3 install psutil --upgrade' to use this cog.")
+RuntimeError: psutil is not installed. Do 'pip3 install psutil --upgrade' to use this cog.
+[18/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[18/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[18/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[18/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[18/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[18/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[18/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[18/11/2016 20:55] ERROR red on_command_error 181: Exception in command 'speedtest'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/speedtest.py", line 17, in speedtest
+    x = subprocess.check_output("speedtest-cli --secure --simple", shell=True).decode()
+  File "/usr/lib/python3.5/subprocess.py", line 626, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.5/subprocess.py", line 708, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'speedtest-cli --secure --simple' returned non-zero exit status 127
+[18/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[18/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[18/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[18/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[18/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[18/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[18/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[19/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[19/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[19/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[19/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[19/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[19/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[19/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[19/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[19/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[19/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[19/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[19/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[19/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[19/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[20/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[20/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[20/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[20/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[20/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[20/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[20/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[20/11/2016 15:51] ERROR red on_command_error 181: Exception in command 'speedtest'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/speedtest.py", line 17, in speedtest
+    x = subprocess.check_output("speedtest-cli --secure --simple", shell=True).decode()
+  File "/usr/lib/python3.5/subprocess.py", line 626, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.5/subprocess.py", line 708, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'speedtest-cli --secure --simple' returned non-zero exit status 127
+[20/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[20/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[20/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[20/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[20/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[20/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[20/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[21/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[21/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[21/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[21/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[21/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[21/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[21/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[21/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[21/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[21/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[21/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[21/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[21/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[21/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[22/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[22/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[22/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[22/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[22/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[22/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[22/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[22/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[22/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[22/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[22/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[22/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[22/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[22/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[23/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[23/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[23/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[23/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[23/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[23/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[23/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[23/11/2016 16:35] ERROR audio _join_voice_channel 591: 
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 589, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[23/11/2016 16:35] ERROR red on_command_error 233: Exception in command 'sing'
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 589, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1746, in sing
+    await ctx.invoke(self.play, url_or_search_terms=url)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/context.py", line 115, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1276, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 592, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[23/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[23/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[23/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[23/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[23/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[23/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[23/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[24/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[24/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[24/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[24/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[24/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[24/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[24/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[24/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[24/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[24/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[24/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[24/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[24/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[24/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[25/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[25/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[25/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[25/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[25/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[25/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[25/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[25/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[25/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[25/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[25/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[25/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[25/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[25/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[26/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[26/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[26/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[26/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[26/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[26/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[26/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[26/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[26/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[26/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[26/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[26/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[26/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[26/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[27/11/2016 02:28] ERROR red on_command_error 233: Exception in command 'speedtest'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/speedtest.py", line 17, in speedtest
+    x = subprocess.check_output("speedtest-cli --secure --simple", shell=True).decode()
+  File "/usr/lib/python3.5/subprocess.py", line 626, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.5/subprocess.py", line 708, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'speedtest-cli --secure --simple' returned non-zero exit status 127
+[27/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[27/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[27/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[27/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[27/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[27/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[27/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[27/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[27/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[27/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[27/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[27/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[27/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[27/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[28/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[28/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[28/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[28/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[28/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[28/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[28/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[28/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[28/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[28/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[28/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[28/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[28/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[28/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[29/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[29/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[29/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[29/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[29/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[29/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[29/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[29/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[29/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[29/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[29/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[29/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[29/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[29/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[30/11/2016 09:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[30/11/2016 09:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[30/11/2016 09:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[30/11/2016 09:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[30/11/2016 09:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[30/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[30/11/2016 09:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[30/11/2016 21:37] INFO scheduler run_coro 240: Running 'pljoao' in 107249192564449280
+[30/11/2016 21:37] INFO scheduler run_coro 240: Running 'plcate' in 107249192564449280
+[30/11/2016 21:38] INFO scheduler run_coro 240: Running 'plproximity' in 107249192564449280
+[30/11/2016 21:39] INFO scheduler run_coro 240: Running 'pltrap' in 107249192564449280
+[30/11/2016 21:39] INFO scheduler run_coro 240: Running 'plmonstercat' in 107249192564449280
+[30/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltop' in 107249192564449280
+[30/11/2016 21:40] INFO scheduler run_coro 240: Running 'pltrend' in 107249192564449280
+[01/12/2016 02:23] ERROR audio _join_voice_channel 591: 
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 589, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[01/12/2016 02:23] ERROR red on_command_error 249: Exception in command 'play'
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 589, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1276, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 592, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[02/12/2016 23:46] ERROR red on_command_error 249: Exception in command 'userinfo'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/general.py", line 183, in userinfo
+    game = "Playing {}".format(user.game)
+TypeError: __str__ returned non-string (type NoneType)
+[03/12/2016 22:31] ERROR red on_command_error 249: Exception in command 'speedtest'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/speedtest.py", line 17, in speedtest
+    x = subprocess.check_output("speedtest-cli --secure --simple", shell=True).decode()
+  File "/usr/lib/python3.5/subprocess.py", line 626, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.5/subprocess.py", line 708, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'speedtest-cli --secure --simple' returned non-zero exit status 127
+[05/12/2016 19:16] ERROR red on_command_error 249: Exception in command 'help'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 143, in _default_help_command
+    yield from bot.send_message(destination, page)
+  File "/root/redbot-amigosprovaveis/red.py", line 87, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 1126, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 133, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Cannot send messages to this user
+[06/12/2016 15:50] ERROR audio _join_voice_channel 591: 
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 589, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[06/12/2016 15:50] ERROR red on_command_error 249: Exception in command 'local start'
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 589, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1185, in play_local
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 592, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[07/12/2016 22:18] INFO scheduler _scheduler_repeat 180: add pljoao "pl add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo" to bots on Amigos Prováveis every 43200s
+[07/12/2016 22:18] INFO scheduler _scheduler_repeat 180: add plproximity "pl add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg" to bots on Amigos Prováveis every 43200s
+[07/12/2016 22:19] INFO scheduler _scheduler_repeat 180: add pltop "pl add top https://www.youtube.com/playlist?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" to bots on Amigos Prováveis every 43200s
+[07/12/2016 22:19] INFO scheduler _scheduler_repeat 180: add pltrap "pl add trap https://www.youtube.com/playlist?list=UUa10nxShhzNrCE1o2ZOPztg" to bots on Amigos Prováveis every 43200s
+[07/12/2016 22:20] INFO scheduler _scheduler_repeat 180: add plmosntercat "pl add monstercat https://www.youtube.com/playlist?list=UUJ6td3C9QlPO9O_J5dF4ZzA" to bots on Amigos Prováveis every 43200s
+[08/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[08/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[08/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[08/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[08/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[09/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[09/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[09/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[09/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[09/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[09/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[09/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[09/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[09/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[09/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[10/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[10/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[10/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[10/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[10/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[10/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[10/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[10/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[11/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[11/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[11/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[11/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[11/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[11/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[11/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[11/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[11/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[11/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[12/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[12/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[12/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[12/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[12/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[12/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[12/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[12/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[12/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[12/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[13/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[13/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[13/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[13/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/12/2016 23:51] INFO mod messages 611: jonyroda97(98159081583292416) deleted 15 messages in channel bots
+[14/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[14/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[14/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[14/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[14/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[14/12/2016 16:54] ERROR audio _join_voice_channel 592: 
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[14/12/2016 16:54] ERROR red on_command_error 281: Exception in command 'play'
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1295, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 593, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[14/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[14/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[14/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[14/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[14/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[15/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[15/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[15/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[15/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[15/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[15/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[15/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[15/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[16/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[16/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[16/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[16/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[16/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[16/12/2016 18:29] INFO mod messages 611: jonyroda97(98159081583292416) deleted 7 messages in channel bots
+[16/12/2016 18:29] INFO mod messages 611: jonyroda97(98159081583292416) deleted 3 messages in channel bots
+[16/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[16/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[16/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[16/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[16/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[17/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[17/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[17/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[17/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[17/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[17/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[17/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[17/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[17/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[17/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[18/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[18/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[18/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[18/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[18/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[18/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[18/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[18/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[18/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[18/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[19/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[19/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[19/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[19/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[19/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[19/12/2016 19:59] ERROR audio _join_voice_channel 592: 
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[19/12/2016 19:59] ERROR red on_command_error 281: Exception in command 'play'
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1295, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 593, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[19/12/2016 20:11] ERROR audio _join_voice_channel 592: 
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[19/12/2016 20:11] ERROR red on_command_error 281: Exception in command 'play'
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1295, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 593, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[19/12/2016 20:12] ERROR audio _join_voice_channel 592: 
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[19/12/2016 20:12] ERROR red on_command_error 281: Exception in command 'play'
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1295, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 593, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[19/12/2016 20:14] ERROR audio _join_voice_channel 592: 
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[19/12/2016 20:14] ERROR red on_command_error 281: Exception in command 'play'
+Traceback (most recent call last):
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 590, in _join_voice_channel
+    await self.bot.join_voice_channel(channel)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 3137, in join_voice_channel
+    session_id_data = yield from asyncio.wait_for(session_id_future, timeout=10.0, loop=self.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 1295, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot-amigosprovaveis/cogs/audio.py", line 593, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel")
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel
+[19/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[19/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[19/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[19/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[19/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[20/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[20/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[20/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[20/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[20/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[20/12/2016 14:39] INFO mod messages 611: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[20/12/2016 15:27] WARNING audio _play 750: I can't play URL below because it is too long. Use [p]audioset maxlength to change this.
+
+https://www.youtube.com/watch?v=7JqUfZ1LwI8
+[20/12/2016 15:31] INFO mod messages 611: jonyroda97(98159081583292416) deleted 4 messages in channel bots
+[20/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[20/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[20/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[20/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[20/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[21/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[21/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[21/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[21/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[21/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[21/12/2016 22:17] WARNING audio _play 751: I can't play URL below because it is too long. Use [p]audioset maxlength to change this.
+
+https://www.youtube.com/watch?v=7JqUfZ1LwI8
+[21/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[21/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[21/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[21/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[21/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[21/12/2016 22:20] INFO mod messages 613: jonyroda97(98159081583292416) deleted 6 messages in channel geral
+[21/12/2016 22:32] WARNING audio _play 751: I can't play URL below because it is too long. Use [p]audioset maxlength to change this.
+
+https://www.youtube.com/watch?v=7JqUfZ1LwI8
+[22/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[22/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[22/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[22/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[22/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[22/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[22/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[22/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[22/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[22/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[23/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[23/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[23/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[23/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[23/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[23/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[23/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[23/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[23/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[23/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[24/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[24/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[24/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[24/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[24/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[24/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[24/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[24/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[24/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[24/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[25/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[25/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[25/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[25/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[25/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[25/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[25/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[25/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[25/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[25/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[26/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[26/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[26/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[26/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[26/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[26/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[26/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[26/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[26/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[26/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[27/12/2016 01:00] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel mod_log
+[27/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[27/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[27/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[27/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[27/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[27/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[27/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[27/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[27/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[27/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[27/12/2016 22:25] INFO mod messages 613: jonyroda97(98159081583292416) deleted 3 messages in channel geral
+[28/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[28/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[28/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[28/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[28/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[28/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[28/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[28/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[28/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[28/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[29/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[29/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[29/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[29/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[29/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[29/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[29/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[29/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[29/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[29/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[30/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[30/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[30/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[30/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[30/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[30/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[30/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[30/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[30/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[30/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[31/12/2016 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[31/12/2016 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[31/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[31/12/2016 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[31/12/2016 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[31/12/2016 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[31/12/2016 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[31/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[31/12/2016 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[31/12/2016 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[01/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[01/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[01/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[01/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[01/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280

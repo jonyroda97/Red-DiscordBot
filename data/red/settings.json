@@ -1,16 +1,25 @@
 {
     "107249192564449280" : {
         "ADMIN_ROLE" : "Dono",
-        "MOD_ROLE" : "Admin"
+        "MOD_ROLE" : "Admin",
+        "PREFIXES" : []
     },
-    "EMAIL" : "MTc2MTcwODYxMTEwMzYyMTE0.CgcH-Q.__JCEaewmDilEz0d5FqbcEIUsX0",
-    "LOGIN_TYPE" : "token",
+    "133049272517001216" : {
+        "ADMIN_ROLE" : "Admin",
+        "MOD_ROLE" : "Admin",
+        "PREFIXES" : [
+            "ap."
+        ]
+    },
+    "EMAIL" : null,
     "OWNER" : "98159081583292416",
-    "PASSWORD" : "",
+    "PASSWORD" : null,
     "PREFIXES" : [
+        "ap.",
         ".",
         "!"
     ],
+    "TOKEN" : "MTc2MTcwODYxMTEwMzYyMTE0.CgcH-Q.__JCEaewmDilEz0d5FqbcEIUsX0",
     "default" : {
         "ADMIN_ROLE" : "Admin",
         "MOD_ROLE" : "Admin"
