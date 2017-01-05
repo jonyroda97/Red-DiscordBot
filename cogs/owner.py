@@ -490,9 +490,31 @@ class Owner:
 
     @commands.command()
     @checks.is_owner()
-    async def shutdown(self):
+    async def shutdown(self, silently : bool=False):
         """Shuts down Red"""
-        await self.bot.logout()
+        wave = "\N{WAVING HAND SIGN}"
+        skin = "\N{EMOJI MODIFIER FITZPATRICK TYPE-3}"
+        try: # We don't want missing perms to stop our shutdown
+            if not silently:
+                await self.bot.say("Shutting down... " + wave + skin)
+        except:
+            pass
+        await self.bot.shutdown()
+
+    @commands.command()
+    @checks.is_owner()
+    async def restart(self, silently : bool=False):
+        """Attempts to restart Red
+
+        Makes Red quit with exit code 26
+        The restart is not guaranteed: it must be dealt
+        with by the process manager in use"""
+        try:
+            if not silently:
+                await self.bot.say("Restarting...")
+        except:
+            pass
+        await self.bot.shutdown(restart=True)
 
     @commands.group(name="command", pass_context=True)
     @checks.is_owner()
@@ -689,7 +711,7 @@ class Owner:
         dpy_repo = "https://github.com/Rapptz/discord.py"
         python_url = "https://www.python.org/"
         since = datetime.datetime(2016, 1, 2, 0, 0)
-        days_since = (datetime.datetime.now() - since).days
+        days_since = (datetime.datetime.utcnow() - since).days
         dpy_version = "[{}]({})".format(discord.__version__, dpy_repo)
         py_version = "[{}.{}.{}]({})".format(*os.sys.version_info[:3],
                                              python_url)
