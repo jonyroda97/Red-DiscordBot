@@ -410,22 +410,23 @@ class Downloader:
         cog_folder_path = self.repos[repo_name][cog]['folder']
         cog_data_path = os.path.join(cog_folder_path, 'data')
         data = self.get_info_data(repo_name, cog)
-        requirements = data.get("REQUIREMENTS", [])
+        if data is not None:
+            requirements = data.get("REQUIREMENTS", [])
 
-        requirements = [r for r in requirements
-                        if not self.is_lib_installed(r)]
+            requirements = [r for r in requirements
+                            if not self.is_lib_installed(r)]
 
-        if requirements and notify_reqs:
-            await self.bot.say("Installing cog's requirements...")
+            if requirements and notify_reqs:
+                await self.bot.say("Installing cog's requirements...")
 
-        for requirement in requirements:
-            if not self.is_lib_installed(requirement):
-                success = await self.bot.pip_install(requirement)
-                if not success:
-                    if no_install_on_reqs_fail:
-                        raise RequirementFail()
-                    else:
-                        reqs_failed = True
+            for requirement in requirements:
+                if not self.is_lib_installed(requirement):
+                    success = await self.bot.pip_install(requirement)
+                    if not success:
+                        if no_install_on_reqs_fail:
+                            raise RequirementFail()
+                        else:
+                            reqs_failed = True
 
         to_path = os.path.join("cogs/", cog + ".py")
 
@@ -547,7 +548,13 @@ class Downloader:
                 url = self.repos[name].get('url')
                 if not url:
                     raise UpdateError("Need to clone but no URL set")
-                p = run(["git", "clone", url, dd + name])
+                branch = None
+                if "@" in url: # Specific branch
+                    url, branch = url.rsplit("@", maxsplit=1)
+                if branch is None:
+                    p = run(["git", "clone", url, dd + name])
+                else:
+                    p = run(["git", "clone", "-b", branch, url, dd + name])
                 if p.returncode != 0:
                     raise CloningError()
                 self.populate_list(name)

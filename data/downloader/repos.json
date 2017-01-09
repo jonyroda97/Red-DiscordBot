@@ -11,7 +11,7 @@
             "folder" : "data/downloader/26/nomassmentions"
         },
         "rift" : {
-            "INSTALLED" : false,
+            "INSTALLED" : true,
             "file" : "data/downloader/26/rift/rift.py",
             "folder" : "data/downloader/26/rift"
         },

@@ -35441,3 +35441,188 @@ https://www.youtube.com/watch?v=7JqUfZ1LwI8
 [01/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
 [01/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
 [01/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[02/01/2017 00:07] ERROR red load_cogs 515: psutil is not installed. Do 'pip3 install psutil --upgrade' to use this cog.
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 512, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/root/redbot/cogs/owner.py", line 756, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 740, in load_extension
+    lib.setup(self)
+  File "/root/redbot/cogs/statistics.py", line 182, in setup
+    raise RuntimeError("psutil is not installed. Do 'pip3 install psutil --upgrade' to use this cog.")
+RuntimeError: psutil is not installed. Do 'pip3 install psutil --upgrade' to use this cog.
+[02/01/2017 00:07] ERROR red load_cogs 515: You need to install `python-dateutil`: `pip install python-dateutil`.
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 512, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/root/redbot/cogs/owner.py", line 756, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 740, in load_extension
+    lib.setup(self)
+  File "/root/redbot/cogs/reviewemoji.py", line 360, in setup
+    raise RuntimeError("You need to install `python-dateutil`: `pip install python-dateutil`.")
+RuntimeError: You need to install `python-dateutil`: `pip install python-dateutil`.
+[02/01/2017 00:07] ERROR red load_cogs 515: Run "pip install tabulate" in your CMD/Linux Terminal
+Traceback (most recent call last):
+  File "/root/redbot/cogs/punish.py", line 14, in <module>
+    from tabulate import tabulate
+ImportError: No module named 'tabulate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 512, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/root/redbot/cogs/owner.py", line 754, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/redbot/cogs/punish.py", line 16, in <module>
+    raise Exception('Run "pip install tabulate" in your CMD/Linux Terminal')
+Exception: Run "pip install tabulate" in your CMD/Linux Terminal
+[02/01/2017 00:07] ERROR red load_cogs 515: You need to run `pip3 install pyfiglet`
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 512, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/root/redbot/cogs/owner.py", line 756, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 740, in load_extension
+    lib.setup(self)
+  File "/root/redbot/cogs/ascii.py", line 29, in setup
+    raise NameError("You need to run `pip3 install pyfiglet`")
+NameError: You need to run `pip3 install pyfiglet`
+[02/01/2017 00:27] ERROR red on_command_error 320: Exception in command 'reviewemoji'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/reviewemoji.py", line 262, in _reviewemoji
+    if self._get_num_waiting_subs(server.id) == 0:
+  File "/root/redbot/cogs/reviewemoji.py", line 57, in _get_num_waiting_subs
+    list(self.submissions[server.id]["submissions"].values())
+NameError: name 'server' is not defined
+[02/01/2017 00:28] ERROR red on_command_error 320: Exception in command 'reviewemoji'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/reviewemoji.py", line 262, in _reviewemoji
+    if self._get_num_waiting_subs(server.id) == 0:
+  File "/root/redbot/cogs/reviewemoji.py", line 57, in _get_num_waiting_subs
+    list(self.submissions[server.id]["submissions"].values())
+NameError: name 'server' is not defined
+[02/01/2017 00:28] ERROR red on_command_error 320: Exception in command 'reviewemoji'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/reviewemoji.py", line 262, in _reviewemoji
+    if self._get_num_waiting_subs(server.id) == 0:
+  File "/root/redbot/cogs/reviewemoji.py", line 57, in _get_num_waiting_subs
+    list(self.submissions[server.id]["submissions"].values())
+NameError: name 'server' is not defined
+[02/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[02/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[02/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[02/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[02/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[02/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[02/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[02/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[02/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[02/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[03/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[03/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[03/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[03/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[03/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[03/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[03/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[03/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[03/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[03/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[04/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[04/01/2017 10:18] ERROR red on_command_error 320: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1434, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 734, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 763, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 188, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[04/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[04/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[04/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[04/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[04/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[04/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[04/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[04/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[04/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[05/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[05/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[05/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[05/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[05/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[05/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[05/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[05/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[05/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[05/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[06/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[06/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[06/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[06/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[06/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[06/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[06/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[06/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[06/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[06/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[07/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[07/01/2017 10:18] ERROR red on_command_error 361: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1434, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 734, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 763, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 188, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[07/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[07/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[07/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[07/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[07/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[07/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[07/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[07/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[07/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[08/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[08/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[08/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[08/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[08/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[08/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[08/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[08/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[08/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[08/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[09/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[09/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[09/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[09/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[09/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
