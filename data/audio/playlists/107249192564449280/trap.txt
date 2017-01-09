@@ -2,6 +2,13 @@
     "author" : "98159081583292416",
     "link" : "https://www.youtube.com/playlist?list=UUa10nxShhzNrCE1o2ZOPztg",
     "playlist" : [
+        "https://www.youtube.com/watch?v=g2jyqPOVUHc",
+        "https://www.youtube.com/watch?v=mIUKGKwBRk8",
+        "https://www.youtube.com/watch?v=40dh8Az2T04",
+        "https://www.youtube.com/watch?v=0_6gO7oMLuk",
+        "https://www.youtube.com/watch?v=uMDLxWkph8c",
+        "https://www.youtube.com/watch?v=UzA8CXK0KY4",
+        "https://www.youtube.com/watch?v=S4Fd2gVLLXY",
         "https://www.youtube.com/watch?v=uKF3nWssCoE",
         "https://www.youtube.com/watch?v=3CROBfyyXFk",
         "https://www.youtube.com/watch?v=5A4lnRSR-XY",

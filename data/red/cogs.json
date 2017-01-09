@@ -25,6 +25,7 @@
     "cogs.penis" : true,
     "cogs.punish" : true,
     "cogs.reviewemoji" : true,
+    "cogs.rift" : true,
     "cogs.russianroulette" : true,
     "cogs.scheduler" : true,
     "cogs.speedtest" : true,
