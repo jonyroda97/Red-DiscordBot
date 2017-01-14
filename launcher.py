@@ -4,7 +4,8 @@ import sys
 import subprocess
 try:                                        # Older Pythons lack this
     import urllib.request                   # We'll let them reach the Python
-except ImportError:                         # check anyway
+    from importlib.util import find_spec    # check anyway
+except ImportError:
     pass
 import platform
 import webbrowser
@@ -65,6 +66,7 @@ def parse_cli_arguments():
 
 
 def install_reqs(audio):
+    remove_reqs_readonly()
     interpreter = sys.executable
 
     if interpreter is None:
@@ -213,21 +215,12 @@ def download_ffmpeg(bitness):
 
 
 def verify_requirements():
-    try:
-        from discord.ext import commands
-    except ImportError:
-        return False
-    else:
-        return True
-
-
-def is_dpy_audio_installed():
-    """Detects if the audio portion of discord.py is installed"""
-    if not verify_requirements:
+    sys.path_importer_cache = {} # I don't know if the cache reset has any
+    basic = find_spec("discord") # side effect. Without it, the lib folder
+    audio = find_spec("nacl")    # wouldn't be seen if it didn't exist
+    if not basic:                # when the launcher was started
         return None
-    try:
-        import nacl.secret
-    except ImportError:
+    elif not audio:
         return False
     else:
         return True
@@ -279,6 +272,14 @@ def update_menu():
     clear_screen()
     while True:
         print(INTRO)
+        reqs = verify_requirements()
+        if reqs is None:
+            status = "No requirements installed"
+        elif reqs is False:
+            status = "Basic requirements installed (no audio)"
+        else:
+            status = "Basic + audio requirements installed"
+        print("Status: " + status + "\n")
         print("Update:\n")
         print("Red:")
         print("1. Update Red + requirements (recommended)")
@@ -291,9 +292,9 @@ def update_menu():
         if choice == "1":
             update_red()
             print("Updating requirements...")
-            audio = is_dpy_audio_installed()
-            if audio is not None:
-                install_reqs(audio=audio)
+            reqs = verify_requirements()
+            if reqs is not None:
+                install_reqs(audio=reqs)
             else:
                 print("The requirements haven't been installed yet.")
             wait()
@@ -301,9 +302,9 @@ def update_menu():
             update_red()
             wait()
         elif choice == "3":
-            audio = is_dpy_audio_installed()
-            if audio is not None:
-                install_reqs(audio=audio)
+            reqs = verify_requirements()
+            if reqs is not None:
+                install_reqs(audio=reqs)
             else:
                 print("The requirements haven't been installed yet.")
             wait()
@@ -361,7 +362,7 @@ def run_red(autorestart):
     if interpreter is None: # This should never happen
         raise RuntimeError("Couldn't find Python's interpreter")
 
-    if not verify_requirements():
+    if verify_requirements() is None:
         print("You don't have the requirements to start Red. "
               "Install them from the launcher.")
         if not INTERACTIVE_MODE:
@@ -419,6 +420,18 @@ def user_pick_yes_no():
 def remove_readonly(func, path, excinfo):
     os.chmod(path, stat.S_IWRITE)
     func(path)
+
+
+def remove_reqs_readonly():
+    """Workaround for issue #569"""
+    if not os.path.isdir(REQS_DIR):
+        return
+    os.chmod(REQS_DIR, stat.S_IWRITE)
+    for root, dirs, files in os.walk(REQS_DIR):
+        for d in dirs:
+            os.chmod(os.path.join(root, d), stat.S_IWRITE)
+        for f in files:
+            os.chmod(os.path.join(root, f), stat.S_IWRITE)
 
 
 def calculate_md5(filename):
