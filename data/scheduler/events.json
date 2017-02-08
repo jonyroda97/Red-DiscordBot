@@ -1,12 +1,21 @@
 {
     "107249192564449280" : {
-        "pljoao" : {
+        "pljoao16" : {
             "author" : "98159081583292416",
             "channel" : "193925434273038346",
-            "command" : "pl add joao https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo",
-            "name" : "pljoao",
+            "command" : "pl add joao16 https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo",
+            "name" : "pljoao16",
             "repeat" : true,
             "starttime" : 1481149087,
+            "timedelta" : 43200
+        },
+        "pljoao17" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add joao17 https://www.youtube.com/playlist?list=PLv2bnB-7iVJrvTjiL4iuNYtkUwMVSsl1C",
+            "name" : "pljoao17",
+            "repeat" : true,
+            "starttime" : 1481149100,
             "timedelta" : 43200
         },
         "plmosntercat" : {
