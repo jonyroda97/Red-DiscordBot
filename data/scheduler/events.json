@@ -18,6 +18,15 @@
             "starttime" : 1481149100,
             "timedelta" : 43200
         },
+        "plzuca" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add zuca https://www.youtube.com/playlist?list=PLcKj4-geSRBceJrVxtTUcnyeExwyr2YVw",
+            "name" : "plzuca",
+            "repeat" : true,
+            "starttime" : 1481149150,
+            "timedelta" : 43200
+        },
         "plmosntercat" : {
             "author" : "98159081583292416",
             "channel" : "193925434273038346",
