@@ -1,0 +1,5 @@
+{
+    "CHANNEL" : "133251234164375552",
+    "MESSAGE" : "```\nParallaxe The Future To Discord Bots\n\nCore:\n  halt       Shuts Parallaxe down.\n  load       Loads a cog.\n  reload     Reloads a cog.\n  settings   Sets Parallaxe's settings.\n  unload     Unloads a cog.\nUseful:\n  invite     Gets Parallaxe's invite URL.\n  ping       Checks to see if Parallaxe is responding.\n  serverinfo Shows server's informations\n  userinfo   Shows users's informations\nethan:\n  ethan      Some Ethan Commands :)\nfun:\n  choose     This / that\n  odds       Checks the ods of stuff.\n  penissize  How large is yours? :lenny:\n  randserver Pick a random server.\nselfbot:\n  edit       Edit stuff\n\u200bNo Category:\n  help       Shows this message.\n\nType $help command for more info on a command.\nYou can also type $help category for more info on a category.\n```",
+    "TIMESTAMP" : "2017-02-17 12:4:26"
+}

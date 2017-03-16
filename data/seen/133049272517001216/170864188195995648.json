@@ -1,0 +1,5 @@
+{
+    "CHANNEL" : "133251234164375552",
+    "MESSAGE" : "`Error in command 'uptime' - TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'int'`",
+    "TIMESTAMP" : "2017-03-07 8:28:27"
+}

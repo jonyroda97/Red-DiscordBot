@@ -7,9 +7,9 @@
         "107249192564449280" : {
             "NOPPL_DISCONNECT" : false,
             "QUEUE_MODE" : true,
-            "VOLUME" : 20,
+            "VOLUME" : 15,
             "VOTE_ENABLED" : true,
-            "VOTE_THRESHOLD" : 52
+            "VOTE_THRESHOLD" : 50
         },
         "133049272517001216" : {
             "NOPPL_DISCONNECT" : true,

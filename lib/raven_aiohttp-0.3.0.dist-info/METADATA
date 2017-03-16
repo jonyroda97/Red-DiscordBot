@@ -1,0 +1,47 @@
+Metadata-Version: 2.0
+Name: raven-aiohttp
+Version: 0.3.0
+Summary: An asyncio transport for raven-python
+Home-page: https://github.com/getsentry/raven-aiohttp
+Author: David Cramer
+Author-email: dcramer@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Requires-Dist: aiohttp (>=0.19)
+Requires-Dist: raven (>=5.4.0)
+Provides-Extra: test
+Requires-Dist: flake8 (>=2.1.0,<2.2.0); extra == 'test'
+Requires-Dist: pytest (<2.6.0,>=2.5.0); extra == 'test'
+Requires-Dist: pytest-cov (<1.7,>=1.6); extra == 'test'
+
+# raven-aiohttp
+
+A transport for [raven-python](https://github.com/getsentry/raven-python) which supports Python 3's asyncio interface.
+
+## Requirements
+
+- `raven-python>=5.4.0`
+- `python>=3.3`
+- `aiohttp>=0.19`
+
+## Usage
+
+After installing the package, configure the client with the transport:
+
+```
+from raven import Client
+from raven_aiohttp import AioHttpTransport
+
+client = Client(transport=AioHttpTransport)
+```
+
+

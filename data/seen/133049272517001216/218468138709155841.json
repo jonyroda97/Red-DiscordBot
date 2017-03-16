@@ -1,0 +1,5 @@
+{
+    "CHANNEL" : "133251234164375552",
+    "MESSAGE" : "Module was found and possibly loaded but something went wrong. Check your console or logs for more information.\n\nError: `ffmpeg isn't installed.\nConsult the guide for your operating system and do ALL the steps in order.\nhttps://twentysix26.github.io/Red-Docs/\n`",
+    "TIMESTAMP" : "2017-03-15 13:45:29"
+}

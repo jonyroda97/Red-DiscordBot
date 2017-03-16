@@ -1,0 +1,5 @@
+{
+    "CHANNEL" : "133251234164375552",
+    "MESSAGE" : "```py\n({<PHRASE_MODE.FIRST_PERSON: '_1p'>: ('I\\\\s+(fire|shoot)\\\\b\\\\s*(a|my)\\\\b\\\\s*(tranq|tranquilizer)\\\\b\\\\s*(at it)?[.!]',), <PHRASE_MODE.SECOND_PERSON: '_2p'>: ('(fire|shoot)\\\\b\\\\s*(a|your)\\\\b\\\\s*(tranq|tranquilizer)\\\\b\\\\s*at it',), <PHRASE_MODE.THIRD_PERSON: '_3p'>: ('\\\\*(fires|shoots)\\\\b\\\\s*(a|their)?\\\\b\\\\s*(tranq|tranquilizer)\\\\b\\\\s*(at it)?\\\\*',)}, {<PHRASE_MODE.FIRST_PERSON: '_1p'>: (((('fire', 'shoot'), False), (('a', 'my'), False), (('tranq', 'tranquilizer'), False), (('at it',), True)),), <PHRASE_MODE.SECOND_PERSON: '_2p'>: (((('fire', 'shoot'), False), (('a', 'your'), False), (('tranq', 'tranquilizer'), False), (('at it',), False)),), <PHRASE_MODE.THIRD_PERSON: '_3p'>: (((('fires', 'shoots'), False), (('a', 'their'), True), (('tranq', 'tranquilizer'), False), (('at it',), True)),)})\n```",
+    "TIMESTAMP" : "2017-03-05 11:36:43"
+}

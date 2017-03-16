@@ -5,15 +5,40 @@
             "file" : "data/downloader/26/cleverbot/cleverbot.py",
             "folder" : "data/downloader/26/cleverbot"
         },
+        "insult" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/26/insult/insult.py",
+            "folder" : "data/downloader/26/insult"
+        },
         "nomassmentions" : {
             "INSTALLED" : false,
             "file" : "data/downloader/26/nomassmentions/nomassmentions.py",
             "folder" : "data/downloader/26/nomassmentions"
         },
+        "penis" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/26/penis/penis.py",
+            "folder" : "data/downloader/26/penis"
+        },
+        "remindme" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26/remindme/remindme.py",
+            "folder" : "data/downloader/26/remindme"
+        },
         "rift" : {
             "INSTALLED" : true,
             "file" : "data/downloader/26/rift/rift.py",
             "folder" : "data/downloader/26/rift"
+        },
+        "rndstatus" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26/rndstatus/rndstatus.py",
+            "folder" : "data/downloader/26/rndstatus"
+        },
+        "stickyroles" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26/stickyroles/stickyroles.py",
+            "folder" : "data/downloader/26/stickyroles"
         },
         "trigger" : {
             "INSTALLED" : true,
@@ -130,6 +155,11 @@
             "INSTALLED" : false,
             "file" : "data/downloader/jumper/casino/casino.py",
             "folder" : "data/downloader/jumper/casino"
+        },
+        "cookie" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/jumper/cookie/cookie.py",
+            "folder" : "data/downloader/jumper/cookie"
         },
         "coupon" : {
             "INSTALLED" : false,
@@ -293,14 +323,9 @@
             "folder" : "data/downloader/paddo/invoice"
         },
         "kill" : {
-            "INSTALLED" : true,
+            "INSTALLED" : false,
             "file" : "data/downloader/paddo/kill/kill.py",
             "folder" : "data/downloader/paddo/kill"
-        },
-        "konami" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/konami/konami.py",
-            "folder" : "data/downloader/paddo/konami"
         },
         "lastfm" : {
             "INSTALLED" : false,
@@ -327,13 +352,23 @@
             "file" : "data/downloader/paddo/oweather/oweather.py",
             "folder" : "data/downloader/paddo/oweather"
         },
+        "pcm" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/pcm/pcm.py",
+            "folder" : "data/downloader/paddo/pcm"
+        },
         "quote" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/quote/quote.py",
             "folder" : "data/downloader/paddo/quote"
         },
-        "seen" : {
+        "schmeckles" : {
             "INSTALLED" : false,
+            "file" : "data/downloader/paddo/schmeckles/schmeckles.py",
+            "folder" : "data/downloader/paddo/schmeckles"
+        },
+        "seen" : {
+            "INSTALLED" : true,
             "file" : "data/downloader/paddo/seen/seen.py",
             "folder" : "data/downloader/paddo/seen"
         },
@@ -370,6 +405,16 @@
             "file" : "data/downloader/refactored/buyrole/buyrole.py",
             "folder" : "data/downloader/refactored/buyrole"
         },
+        "dynamicvoice" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/refactored/dynamicvoice/dynamicvoice.py",
+            "folder" : "data/downloader/refactored/dynamicvoice"
+        },
+        "githubcards" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/refactored/githubcards/githubcards.py",
+            "folder" : "data/downloader/refactored/githubcards"
+        },
         "google" : {
             "INSTALLED" : false,
             "file" : "data/downloader/refactored/google/google.py",
@@ -384,6 +429,11 @@
             "INSTALLED" : true,
             "file" : "data/downloader/refactored/punish/punish.py",
             "folder" : "data/downloader/refactored/punish"
+        },
+        "sentry" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/refactored/sentry/sentry.py",
+            "folder" : "data/downloader/refactored/sentry"
         },
         "url" : "https://github.com/Kowlin/refactored-cogs"
     },
@@ -493,6 +543,11 @@
             "file" : "data/downloader/squid/selfbotstatus/selfbotstatus.py",
             "folder" : "data/downloader/squid/selfbotstatus"
         },
+        "sentryio" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/squid/sentryio/sentryio.py",
+            "folder" : "data/downloader/squid/sentryio"
+        },
         "tickets" : {
             "INSTALLED" : false,
             "file" : "data/downloader/squid/tickets/tickets.py",
@@ -520,6 +575,11 @@
             "INSTALLED" : false,
             "file" : "data/downloader/tmerc/kz/kz.py",
             "folder" : "data/downloader/tmerc/kz"
+        },
+        "lenny" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/tmerc/lenny/lenny.py",
+            "folder" : "data/downloader/tmerc/lenny"
         },
         "massdm" : {
             "INSTALLED" : true,
@@ -560,6 +620,11 @@
             "INSTALLED" : true,
             "file" : "data/downloader/tmerc/reviewemoji/reviewemoji.py",
             "folder" : "data/downloader/tmerc/reviewemoji"
+        },
+        "streamrole" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/tmerc/streamrole/streamrole.py",
+            "folder" : "data/downloader/tmerc/streamrole"
         },
         "survey" : {
             "INSTALLED" : false,

@@ -1,0 +1,5 @@
+{
+    "CHANNEL" : "133251234164375552",
+    "MESSAGE" : "```\nA Discord bot by AileenLumina, based on Red-DiscordBot, written on top of discord.py.\n\nCore:\n  version   Shows the bot's current version\n  contact   Sends message to the owner of the bot.\n  get       Group of commands that show the bot's settings.\n  uninstall Uninstalls an extension.\n  add       Group of commands that add items to some of the bot's settings.\n  install   Installs an extension.\n  ping      Calculates the ping time.\n  about     Shows information about the bot.\n  set       Group of commands that change the bot's settings.\n  setup     Group of commands that remove items from some of the bot's settings.\n  remove    Group of commands that remove items from some of the bot's settings.\n\u200bNo Category:\n  help      Shows this message.\n\nType !help command for more info on a command.\nYou can also type !help category for more info on a category.\n```",
+    "TIMESTAMP" : "2017-02-21 5:18:33"
+}

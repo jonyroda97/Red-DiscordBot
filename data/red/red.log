@@ -35626,3 +35626,2861 @@ KeyError: 'content_html'
 [09/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
 [09/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
 [09/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[09/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[09/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[09/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[09/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[09/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[10/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[10/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[10/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[10/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[10/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[10/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[10/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[10/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[11/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[11/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[11/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[11/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[11/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[11/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[11/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[11/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[11/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[11/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[12/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[12/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[12/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[12/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[12/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[12/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[12/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[12/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[12/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[12/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[13/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[13/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[13/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[13/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[14/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[14/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[14/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[14/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[14/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[14/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[14/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[14/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[14/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[14/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[15/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[15/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[15/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[15/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[15/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[15/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[15/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[15/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[16/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[16/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[16/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[16/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[16/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[16/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[16/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[16/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[16/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[16/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[17/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[17/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[17/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[17/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[17/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[17/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[17/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[17/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[17/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[17/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[18/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[18/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[18/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[18/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[18/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[18/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[18/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[18/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[18/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[18/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[19/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[19/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[19/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[19/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[19/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[19/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[19/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[19/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[19/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[19/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[20/01/2017 01:18] ERROR red on_command_error 361: Exception in command 'reload'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/owner.py", line 151, in _reload
+    self._load_cog(module)
+  File "/root/redbot/cogs/owner.py", line 798, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 740, in load_extension
+    lib.setup(self)
+  File "/root/redbot/cogs/cleverbot.py", line 75, in setup
+    raise RuntimeError("Your cleverbot library is either missing or not "
+RuntimeError: Your cleverbot library is either missing or not up to date. Please do
+[p]debug bot.pip_install('cleverbot')
+and restart Red once you get a response.
+Then [p]load cleverbot
+[20/01/2017 01:22] ERROR owner load 75: Your cleverbot library is either missing or not up to date. Please do
+[p]debug bot.pip_install('cleverbot')
+and restart Red once you get a response.
+Then [p]load cleverbot
+Traceback (most recent call last):
+  File "/root/redbot/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/root/redbot/cogs/owner.py", line 798, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 740, in load_extension
+    lib.setup(self)
+  File "/root/redbot/cogs/cleverbot.py", line 75, in setup
+    raise RuntimeError("Your cleverbot library is either missing or not "
+RuntimeError: Your cleverbot library is either missing or not up to date. Please do
+[p]debug bot.pip_install('cleverbot')
+and restart Red once you get a response.
+Then [p]load cleverbot
+[20/01/2017 01:29] INFO mod messages 613: jonyroda97(98159081583292416) deleted 10 messages in channel bots
+[20/01/2017 01:29] INFO mod messages 613: jonyroda97(98159081583292416) deleted 20 messages in channel bots
+[20/01/2017 01:29] INFO mod messages 613: jonyroda97(98159081583292416) deleted 20 messages in channel bots
+[20/01/2017 01:30] INFO mod messages 613: jonyroda97(98159081583292416) deleted 5 messages in channel bots
+[20/01/2017 01:30] INFO mod messages 613: jonyroda97(98159081583292416) deleted 5 messages in channel bots
+[20/01/2017 01:30] INFO mod messages 613: jonyroda97(98159081583292416) deleted 5 messages in channel bots
+[20/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[20/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[20/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[20/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[20/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[20/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[20/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[20/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[20/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[20/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[20/01/2017 22:20] ERROR red on_command_error 361: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1434, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 734, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 763, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 188, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[21/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[21/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[21/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[21/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[21/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[21/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[21/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[21/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[21/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[21/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[22/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[22/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[22/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[22/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[22/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[22/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[22/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[22/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[22/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[22/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[23/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[23/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[23/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[23/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[23/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[23/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[23/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[23/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[23/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[23/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[24/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[24/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[24/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[24/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[24/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[24/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[24/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[24/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[24/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[24/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[25/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[25/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[25/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[25/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[25/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[25/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[25/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[25/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[25/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[25/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[26/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[26/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[26/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[26/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[26/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[26/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[26/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[26/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[26/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[26/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[27/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[27/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[27/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[27/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[27/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[27/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[27/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[27/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[27/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[27/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[28/01/2017 00:19] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[28/01/2017 00:19] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[28/01/2017 00:19] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[28/01/2017 00:19] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[28/01/2017 00:21] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[28/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[28/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[28/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[28/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[28/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[28/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[28/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[28/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[28/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[28/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[29/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[29/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[29/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[29/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[29/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[29/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[29/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[29/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[29/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[29/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[30/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[30/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[30/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[30/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[30/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[30/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[30/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[30/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[30/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[30/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[31/01/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[31/01/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[31/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[31/01/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[31/01/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[31/01/2017 10:20] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1443, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 741, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 770, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 188, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[31/01/2017 16:57] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel geral
+[31/01/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[31/01/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[31/01/2017 22:18] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1443, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 741, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 770, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[31/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[31/01/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[31/01/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[01/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[01/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[01/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[01/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[01/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[01/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[01/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[01/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[01/02/2017 22:19] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1443, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 741, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 770, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[01/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[01/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[02/02/2017 00:21] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel bots
+[02/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[02/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[02/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[02/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[02/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[02/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[02/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[02/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[02/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[02/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[02/02/2017 22:20] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1443, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 741, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 770, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[03/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[03/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[03/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[03/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[03/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[03/02/2017 10:20] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1443, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 741, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 770, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[03/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[03/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[03/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[03/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[03/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[04/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[04/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[04/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[04/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[04/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[04/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[04/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[04/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[04/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[04/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[05/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[05/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[05/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[05/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[05/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[05/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[05/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[05/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[05/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[05/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[06/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[06/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[06/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[06/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[06/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[06/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[06/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[06/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[06/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[06/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[06/02/2017 23:47] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel mod_log
+[06/02/2017 23:47] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel mod_log
+[06/02/2017 23:51] ERROR red on_command_error 363: Exception in command 'speedtest'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/speedtest.py", line 17, in speedtest
+    x = subprocess.check_output("speedtest-cli --secure --simple", shell=True).decode()
+  File "/usr/lib/python3.5/subprocess.py", line 626, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.5/subprocess.py", line 708, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'speedtest-cli --secure --simple' returned non-zero exit status 127
+[06/02/2017 23:52] ERROR red on_command_error 363: Exception in command 'help'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 115, in _default_help_command
+    pages = bot.formatter.format_help_for(ctx, command)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/formatter.py", line 291, in format_help_for
+    return self.format()
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/formatter.py", line 315, in format
+    signature = self.get_command_signature()
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/formatter.py", line 205, in get_command_signature
+    params = cmd.clean_params
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 235, in clean_params
+    result.popitem(last=False)
+KeyError: 'dictionary is empty'
+[06/02/2017 23:53] ERROR red on_command_error 376: CommandOnCooldown
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/bot.py", line 848, in process_commands
+    yield from command.invoke(ctx)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 362, in invoke
+    yield from self.prepare(ctx)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 346, in prepare
+    raise CommandOnCooldown(bucket, retry_after)
+discord.ext.commands.errors.CommandOnCooldown: You are on cooldown. Try again in 3453.02s
+[07/02/2017 00:00] INFO mod messages 613: jonyroda97(98159081583292416) deleted 5 messages in channel bots
+[07/02/2017 00:00] INFO mod messages 613: jonyroda97(98159081583292416) deleted 10 messages in channel bots
+[07/02/2017 00:00] INFO mod messages 613: jonyroda97(98159081583292416) deleted 4 messages in channel bots
+[07/02/2017 00:05] INFO mod messages 613: jonyroda97(98159081583292416) deleted 5 messages in channel bots
+[07/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[07/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[07/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[07/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[07/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[07/02/2017 22:15] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[07/02/2017 22:15] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[07/02/2017 22:15] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[07/02/2017 22:15] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[07/02/2017 22:17] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel bots
+[07/02/2017 22:17] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel bots
+[07/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[07/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[07/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[07/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[07/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[08/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao' in 107249192564449280
+[08/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[08/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[08/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[08/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[08/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[08/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[08/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[08/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[08/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[08/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[09/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[09/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[09/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[09/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[09/02/2017 10:19] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1443, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 741, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 770, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[09/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[09/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[09/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[09/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[09/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[09/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[09/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[09/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/02/2017 01:07] ERROR red <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 692, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/client.py", line 220, in _request
+    yield from resp.start(conn, read_until_eof)
+  File "lib/aiohttp/client_reqrep.py", line 614, in start
+    message = yield from httpstream.read()
+  File "lib/aiohttp/streams.py", line 625, in read
+    result = yield from super().read()
+  File "lib/aiohttp/streams.py", line 456, in read
+    yield from self._waiter
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+aiohttp.errors.ServerDisconnectedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 174, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 647, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 149, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 227, in _request
+    raise aiohttp.ClientResponseError() from exc
+aiohttp.errors.ClientResponseError
+[10/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[10/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[10/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[10/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[10/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[10/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[10/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[10/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[10/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[10/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[10/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/02/2017 22:54] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1 messages in channel mod_log
+[11/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[11/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[11/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[11/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[11/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[11/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[11/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[11/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[11/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[11/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[11/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[11/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[12/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[12/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[12/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[12/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[12/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[12/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[12/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[12/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[12/02/2017 22:18] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1453, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 751, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 780, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[12/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[12/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[12/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[12/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[13/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[13/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[13/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/02/2017 17:48] INFO mod messages 613: jonyroda97(98159081583292416) deleted 6 messages in channel geral
+[13/02/2017 17:48] INFO mod messages 613: jonyroda97(98159081583292416) deleted 4 messages in channel geral
+[13/02/2017 17:48] INFO mod messages 613: jonyroda97(98159081583292416) deleted 9 messages in channel geral
+[13/02/2017 18:12] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel geral
+[13/02/2017 18:12] INFO mod messages 613: jonyroda97(98159081583292416) deleted 4 messages in channel geral
+[13/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[13/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[13/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[13/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[14/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[14/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[14/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[14/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[14/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[14/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[14/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[14/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[14/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[14/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[14/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[14/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[15/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[15/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[15/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[15/02/2017 10:19] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1453, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 751, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 780, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[15/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[15/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[15/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[15/02/2017 22:18] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1453, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 751, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 780, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[15/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[15/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[15/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[15/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/02/2017 23:36] ERROR red on_command_error 363: Exception in command 'cog info'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/downloader.py", line 163, in info
+    cogs = self.list_cogs(repo_name)
+  File "/root/redbot/cogs/downloader.py", line 484, in list_cogs
+    folders = [f for f in os.listdir(repo_path)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/downloader/kowlin'
+[15/02/2017 23:43] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel mod_log
+[15/02/2017 23:47] INFO mod messages 613: jonyroda97(98159081583292416) deleted 15 messages in channel geral
+[16/02/2017 00:29] INFO mod user 538: jonyroda97(98159081583292416) deleted 6 messages  made by jonyroda97(98159081583292416) in channel geral
+[16/02/2017 00:30] INFO mod messages 613: jonyroda97(98159081583292416) deleted 4 messages in channel geral
+[16/02/2017 00:36] INFO mod messages 613: jonyroda97(98159081583292416) deleted 6 messages in channel geral
+[16/02/2017 00:38] INFO mod messages 613: jonyroda97(98159081583292416) deleted 15 messages in channel red_stats
+[16/02/2017 00:44] INFO mod messages 613: jonyroda97(98159081583292416) deleted 100000 messages in channel red_stats
+[16/02/2017 00:44] INFO mod messages 613: jonyroda97(98159081583292416) deleted 1000000 messages in channel mod_log
+[16/02/2017 00:53] INFO mod messages 613: jonyroda97(98159081583292416) deleted 15 messages in channel bots
+[16/02/2017 01:02] INFO mod messages 613: jonyroda97(98159081583292416) deleted 4 messages in channel bots
+[16/02/2017 01:04] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel bots
+[16/02/2017 02:36] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel bots
+[16/02/2017 03:29] INFO mod messages 613: jonyroda97(98159081583292416) deleted 4 messages in channel bots
+[16/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[16/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[16/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[16/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[16/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[16/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[16/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[16/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[16/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[16/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[16/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[16/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[17/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[17/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[17/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[17/02/2017 10:18] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1453, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 751, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 780, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[17/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[17/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[17/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[17/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[17/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[17/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[17/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[17/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[17/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[18/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[18/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[18/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[18/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[18/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[18/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[18/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[18/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[18/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[18/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[18/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[18/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[19/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[19/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[19/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[19/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[19/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[19/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[19/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[19/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[19/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[19/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[19/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[19/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[20/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[20/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[20/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[20/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[20/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[20/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[20/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[20/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[20/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[20/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[20/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[20/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[21/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[21/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[21/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[21/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[21/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[21/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[21/02/2017 22:05] INFO mod messages 613: jonyroda97(98159081583292416) deleted 6 messages in channel geral
+[21/02/2017 22:06] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel geral
+[21/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[21/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[21/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[21/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[21/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[21/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[21/02/2017 22:21] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel geral
+[21/02/2017 22:21] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel geral
+[21/02/2017 22:21] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel geral
+[21/02/2017 22:21] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel geral
+[22/02/2017 01:45] ERROR red <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 752, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 421, in sock_connect
+    return (yield from fut)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 451, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+OSError: [Errno 113] Connect call failed ('104.16.60.37', 443)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 175, in from_client
+    ws = yield from websockets.connect(gateway, loop=client.loop, klass=cls)
+  File "/usr/local/lib/python3.5/dist-packages/websockets/py35/client.py", line 19, in __await__
+    return (yield from self.client)
+  File "/usr/local/lib/python3.5/dist-packages/websockets/client.py", line 160, in connect
+    factory, wsuri.host, wsuri.port, **kwds)
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 774, in create_connection
+    ', '.join(str(exc) for exc in exceptions)))
+OSError: Multiple exceptions: [Errno 113] Connect call failed ('104.16.59.37', 443), [Errno 113] Connect call failed ('104.16.60.37', 443)
+[22/02/2017 04:24] ERROR red <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 692, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/client.py", line 220, in _request
+    yield from resp.start(conn, read_until_eof)
+  File "lib/aiohttp/client_reqrep.py", line 614, in start
+    message = yield from httpstream.read()
+  File "lib/aiohttp/streams.py", line 625, in read
+    result = yield from super().read()
+  File "lib/aiohttp/streams.py", line 456, in read
+    yield from self._waiter
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+aiohttp.errors.ServerDisconnectedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 174, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 634, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 227, in _request
+    raise aiohttp.ClientResponseError() from exc
+aiohttp.errors.ClientResponseError
+[22/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[22/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[22/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[22/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[22/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[22/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[22/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[22/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[22/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[22/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[22/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[22/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[23/02/2017 00:06] INFO mod messages 613: jonyroda97(98159081583292416) deleted 2 messages in channel geral
+[23/02/2017 01:47] ERROR red <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 692, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/client.py", line 220, in _request
+    yield from resp.start(conn, read_until_eof)
+  File "lib/aiohttp/client_reqrep.py", line 614, in start
+    message = yield from httpstream.read()
+  File "lib/aiohttp/streams.py", line 625, in read
+    result = yield from super().read()
+  File "lib/aiohttp/streams.py", line 456, in read
+    yield from self._waiter
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+aiohttp.errors.ServerDisconnectedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 174, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 634, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 227, in _request
+    raise aiohttp.ClientResponseError() from exc
+aiohttp.errors.ClientResponseError
+[23/02/2017 01:57] ERROR red <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 692, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/client.py", line 220, in _request
+    yield from resp.start(conn, read_until_eof)
+  File "lib/aiohttp/client_reqrep.py", line 614, in start
+    message = yield from httpstream.read()
+  File "lib/aiohttp/streams.py", line 625, in read
+    result = yield from super().read()
+  File "lib/aiohttp/streams.py", line 456, in read
+    yield from self._waiter
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+aiohttp.errors.ServerDisconnectedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 174, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 634, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 227, in _request
+    raise aiohttp.ClientResponseError() from exc
+aiohttp.errors.ClientResponseError
+[23/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[23/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[23/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[23/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[23/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[23/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[23/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[23/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[23/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[23/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[23/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[23/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[24/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[24/02/2017 10:18] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1453, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 751, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 780, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[24/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[24/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[24/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[24/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[24/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[24/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[24/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[24/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[24/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[24/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[24/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[25/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[25/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[25/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[25/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[25/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[25/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[25/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[25/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[25/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[25/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[25/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[25/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[26/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[26/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[26/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[26/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[26/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[26/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[26/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[26/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[26/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[26/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[26/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[26/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[27/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[27/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[27/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[27/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[27/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[27/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[27/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[27/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[27/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[27/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[27/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[27/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[28/02/2017 07:01] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 592, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 193, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 634, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 274, in _request
+    break
+  File "lib/aiohttp/helpers.py", line 758, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+[28/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[28/02/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[28/02/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[28/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[28/02/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[28/02/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[28/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[28/02/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[28/02/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[28/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[28/02/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[28/02/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[01/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[01/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[01/03/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[01/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[01/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[01/03/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[01/03/2017 21:14] ERROR owner avatar 496: Unsupported image type given
+Traceback (most recent call last):
+  File "/root/redbot/cogs/owner.py", line 490, in avatar
+    await self.bot.edit_profile(self.bot.settings.password, avatar=data)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 1841, in edit_profile
+    avatar = utils._bytes_to_base64_data(avatar_bytes)
+  File "/usr/local/lib/python3.5/dist-packages/discord/utils.py", line 247, in _bytes_to_base64_data
+    mime = _get_mime_type_for_image(data)
+  File "/usr/local/lib/python3.5/dist-packages/discord/utils.py", line 243, in _get_mime_type_for_image
+    raise InvalidArgument('Unsupported image type given')
+discord.errors.InvalidArgument: Unsupported image type given
+[01/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[01/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[01/03/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[01/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[01/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[01/03/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[02/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[02/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[02/03/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[02/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[02/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[02/03/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[02/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[02/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[02/03/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[02/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[02/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[02/03/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[02/03/2017 23:49] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 666, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 765, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 752, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 421, in sock_connect
+    return (yield from fut)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 451, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+OSError: [Errno 113] Connect call failed ('104.16.58.5', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 689, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 113] Can not connect to discordapp.com:443 [Connect call failed ('104.16.58.5', 443)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 592, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 193, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 634, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 113] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Connect call failed ('104.16.58.5', 443)]]
+[02/03/2017 23:51] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:51] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:52] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:53] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:54] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:54] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:55] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:56] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:57] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:57] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:58] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[02/03/2017 23:59] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:00] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:01] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:01] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:02] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:03] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:04] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:04] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:05] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:06] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:07] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:07] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:08] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:09] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 00:10] ERROR red <module> 622: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 350, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 643, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 654, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib/aiohttp/connector.py", line 626, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 379, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 297, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 603, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "/root/redbot/red.py", line 588, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 257, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.5/dist-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 577, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 215, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 360, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno -2] Cannot connect to host discordapp.com:443 ssl:True [Name or service not known]
+[03/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[03/03/2017 10:18] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1453, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 751, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 780, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 190, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[03/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[03/03/2017 10:18] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1453, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 751, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 780, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 190, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[03/03/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[03/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[03/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[03/03/2017 10:19] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1453, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 751, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 780, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 190, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[03/03/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[03/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[03/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[03/03/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[03/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[03/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[03/03/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[04/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[04/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[04/03/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[04/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[04/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[04/03/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[04/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[04/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[04/03/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[04/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[04/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[04/03/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[05/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[05/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[05/03/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[05/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[05/03/2017 10:19] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1463, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 755, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 784, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[05/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[05/03/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[05/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[05/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[05/03/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[05/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[05/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[05/03/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[05/03/2017 22:20] ERROR red on_command_error 363: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1463, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 755, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 784, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 189, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[06/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[06/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[06/03/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[06/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[06/03/2017 10:19] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[06/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[06/03/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[06/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[06/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[06/03/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[06/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[06/03/2017 22:19] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[06/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[06/03/2017 22:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[07/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[07/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[07/03/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[07/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[07/03/2017 10:19] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[07/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[07/03/2017 10:20] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[07/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[07/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[07/03/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[07/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[07/03/2017 22:19] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[11/03/2017 22:03] ERROR audio _join_voice_channel 647: 
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[11/03/2017 22:03] ERROR red on_command_error 363: Exception in command 'queue'
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1633, in _queue
+    await ctx.invoke(self.play, url_or_search_terms=url)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/context.py", line 112, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1362, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot/cogs/audio.py", line 649, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel,"
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.
+[12/03/2017 11:17] ERROR audio _join_voice_channel 647: 
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[12/03/2017 11:17] ERROR red on_command_error 363: Exception in command 'queue'
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1633, in _queue
+    await ctx.invoke(self.play, url_or_search_terms=url)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/context.py", line 112, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1362, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot/cogs/audio.py", line 649, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel,"
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.
+[12/03/2017 11:31] ERROR audio _join_voice_channel 647: 
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[12/03/2017 11:31] ERROR red on_command_error 363: Exception in command 'queue'
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1633, in _queue
+    await ctx.invoke(self.play, url_or_search_terms=url)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/context.py", line 112, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1362, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot/cogs/audio.py", line 649, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel,"
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.
+[12/03/2017 11:31] ERROR red on_command_error 363: Exception in command 'queue'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1633, in _queue
+    await ctx.invoke(self.play, url_or_search_terms=url)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/context.py", line 112, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1362, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot/cogs/audio.py", line 640, in _join_voice_channel
+    " seconds.".format(diff))
+cogs.audio.ConnectTimeout: You are on connect cooldown for another 279 seconds.
+[12/03/2017 11:31] ERROR red on_command_error 363: Exception in command 'queue'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1633, in _queue
+    await ctx.invoke(self.play, url_or_search_terms=url)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/context.py", line 112, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1362, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot/cogs/audio.py", line 640, in _join_voice_channel
+    " seconds.".format(diff))
+cogs.audio.ConnectTimeout: You are on connect cooldown for another 270 seconds.
+[12/03/2017 11:50] ERROR audio _join_voice_channel 647: 
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[12/03/2017 11:50] ERROR red on_command_error 363: Exception in command 'queue'
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1633, in _queue
+    await ctx.invoke(self.play, url_or_search_terms=url)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/context.py", line 112, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1362, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot/cogs/audio.py", line 649, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel,"
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.
+[13/03/2017 00:54] ERROR audio _join_voice_channel 647: 
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[13/03/2017 00:54] ERROR red on_command_error 363: Exception in command 'queue'
+Traceback (most recent call last):
+  File "/root/redbot/cogs/audio.py", line 645, in _join_voice_channel
+    timeout=5, loop=self.bot.loop)
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 397, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1633, in _queue
+    await ctx.invoke(self.play, url_or_search_terms=url)
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/context.py", line 112, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1362, in play
+    await self._join_voice_channel(voice_channel)
+  File "/root/redbot/cogs/audio.py", line 649, in _join_voice_channel
+    raise ConnectTimeout("We timed out connecting to a voice channel,"
+cogs.audio.ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.
+[13/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[13/03/2017 10:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[13/03/2017 10:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/03/2017 10:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/03/2017 10:19] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[13/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[13/03/2017 22:18] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[13/03/2017 22:18] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/03/2017 22:19] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/03/2017 22:19] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[14/03/2017 21:44] WARNING audio _play 814: I can't play URL below because it is too long. Use [p]audioset maxlength to change this.
+
+https://www.youtube.com/watch?v=OWFBqiUgspg

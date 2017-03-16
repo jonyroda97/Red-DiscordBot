@@ -1558,3 +1558,2661 @@ Example usage: !punish @Kowlin 3 hours
 2016-12-27 00:54:48.363000 #geral @jonyroda97#9104: .punish @Rafa Roda 1 minute
 2016-12-27 00:54:48.771000 #geral @Amigos Prováveis#6605: ``Rafa Roda`` is now Punished for 1 minute by ``João Roda``.
 2016-12-27 22:25:35.762000 #geral @jonyroda97#9104: .clear 3
+2017-01-31 16:57:14.623000 #geral @jonyroda97#9104: .pl start top
+2017-01-31 16:57:15.327000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-01-31 16:57:20.184000 #geral @jonyroda97#9104: .clear 2
+2017-02-06 19:02:21.572000 #geral @jonyroda97#9104: \@João Roda
+2017-02-10 15:06:48.890000 #geral @luso500#3797: ~summon
+2017-02-10 15:06:57.786000 #geral @jonyroda97#9104: .pl list
+2017-02-10 15:06:57.859000 #geral @Amigos Prováveis#6605: Available playlists:
+
+trend, future_bass, 50rock, top, joao17, trap, joao, proximity, monstercat, discordfm, neo_scavenger, transistor, joao16, cate
+2017-02-10 15:07:02.355000 #geral @jonyroda97#9104: .pl start
+2017-02-10 15:07:02.536000 #geral @Amigos Prováveis#6605: ```
+.playlist start <name>
+
+Plays a playlist.
+
+```
+2017-02-10 15:07:20.429000 #geral @jonyroda97#9104: .pl
+2017-02-10 15:07:20.498000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-10 15:07:26.619000 #geral @jonyroda97#9104: .pl remove joao
+2017-02-10 15:07:26.766000 #geral @Amigos Prováveis#6605: Playlist deleted.
+2017-02-10 15:07:38.454000 #geral @jonyroda97#9104: .pl mix joao17
+2017-02-10 15:07:39.124000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-10 15:08:09.828000 #geral @luso500#3797: .stop
+2017-02-10 15:08:10.017000 #geral @Amigos Prováveis#6605: You can't stop music when there are other people in the channel! Vote to skip instead.
+2017-02-10 15:14:54.143000 #geral @luso500#3797: add
+2017-02-10 15:20:36.923000 #geral @luso500#3797: .playlist
+2017-02-10 15:20:37.020000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-10 15:20:47.082000 #geral @luso500#3797: .play
+2017-02-10 15:20:47.274000 #geral @Amigos Prováveis#6605: ```
+.play <url_or_search_terms>
+
+Plays a link / searches and play
+
+```
+2017-02-10 15:21:13.864000 #geral @luso500#3797: .play five finger death punch
+2017-02-10 15:21:14.049000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-10 15:21:18.678000 #geral @luso500#3797: .skip
+2017-02-10 15:21:19.186000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-10 15:33:23.178000 #geral @jonyroda97#9104: .stop
+2017-02-10 15:33:23.349000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-10 22:18:59.057000 #geral @luso500#3797: proximity
+2017-02-10 22:19:07 #geral @luso500#3797: .proximity
+2017-02-10 22:47:36.624000 #geral @jonyroda97#9104: oilA
+2017-02-10 22:47:36.624000 #geral @jonyroda97#9104: EDIT: 
+Before: oilA
+After: oila
+2017-02-10 22:56:09.513000 #geral @jonyroda97#9104: .pl list
+2017-02-10 22:56:09.612000 #geral @Amigos Prováveis#6605: Available playlists:
+
+trend, future_bass, 50rock, top, joao17, trap, proximity, monstercat, discordfm, neo_scavenger, transistor, joao16, cate
+2017-02-10 22:56:29.740000 #geral @luso500#3797: .pl mix top
+2017-02-10 22:56:30.259000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-10 22:57:35.649000 #geral @luso500#3797: .pause
+2017-02-10 22:57:35.886000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-10 22:57:46.545000 #geral @luso500#3797: https://www.youtube.com/watch?v=N9_l7er67hQ&list=PLa2a9FJY91_0x1s4eq6mf9b91m3Pahv0G
+2017-02-10 22:57:46.545000 #geral @luso500#3797: https://www.youtube.com/watch?v=N9_l7er67hQ&list=PLa2a9FJY91_0x1s4eq6mf9b91m3Pahv0G
+2017-02-10 22:58:05.946000 #geral @luso500#3797: https://www.youtube.com/playlist?list=PLa2a9FJY91_0x1s4eq6mf9b91m3Pahv0G
+2017-02-10 22:58:05.946000 #geral @luso500#3797: https://www.youtube.com/playlist?list=PLa2a9FJY91_0x1s4eq6mf9b91m3Pahv0G
+2017-02-10 22:58:24.906000 #geral @luso500#3797: .pl add Gaming https://www.youtube.com/playlist?list=PLa2a9FJY91_0x1s4eq6mf9b91m3Pahv0G
+2017-02-10 22:58:25.779000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2017-02-10 22:58:26.516000 #geral @Amigos Prováveis#6605: Playlist 'Gaming' saved. Tracks: 71
+2017-02-10 22:58:40.140000 #geral @jonyroda97#9104: .pl del Gaming
+2017-02-10 22:58:40.780000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-10 22:58:46.993000 #geral @jonyroda97#9104: .pl remove Gaming
+2017-02-10 22:58:47.257000 #geral @Amigos Prováveis#6605: Playlist deleted.
+2017-02-10 22:58:55.120000 #geral @luso500#3797: .pl add gaming https://www.youtube.com/playlist?list=PLa2a9FJY91_0x1s4eq6mf9b91m3Pahv0G
+2017-02-10 22:58:55.636000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2017-02-10 22:58:56.589000 #geral @Amigos Prováveis#6605: Playlist 'gaming' saved. Tracks: 71
+2017-02-10 22:59:03.482000 #geral @luso500#3797: .pl mix gaming
+2017-02-10 22:59:03.634000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-10 22:59:20.646000 #geral @jonyroda97#9104: .song
+2017-02-10 22:59:20.737000 #geral @Amigos Prováveis#6605: **Title:** Of Monsters And Men - Dirty Paws (Housejunkee Edit)
+**Author:** Of Monsters And Men
+**Uploader:** The Vibe Guide
+**Views:** 87621
+**Duration:** 3:25
+
+<https://www.youtube.com/watch?v=Ao21sCdtgBM>
+2017-02-10 22:59:26.936000 #geral @jonyroda97#9104: .yt
+2017-02-10 22:59:27.059000 #geral @Amigos Prováveis#6605: ```
+.yt <search_terms>
+
+Searches and plays a video from YouTube
+
+```
+2017-02-10 22:59:49.556000 #geral @luso500#3797: ~play
+2017-02-10 23:00:05.218000 #geral @luso500#3797: .pause
+2017-02-10 23:00:05.400000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-10 23:00:14.112000 #geral @luso500#3797: .pl add gaming
+2017-02-10 23:00:14.267000 #geral @Amigos Prováveis#6605: ```
+.playlist add <name> <url>
+
+Add a YouTube or Soundcloud playlist.
+
+```
+2017-02-10 23:00:20.890000 #geral @luso500#3797: .pl gaming
+2017-02-10 23:00:21.049000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-10 23:00:33.924000 #geral @luso500#3797: .pl start gaming
+2017-02-10 23:00:34.060000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-10 23:01:51.880000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=OpdlQTOMzeM
+2017-02-10 23:01:52.220000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-10 23:01:55.842000 #geral @jonyroda97#9104: .q
+2017-02-10 23:01:56.069000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-10 23:01:57.752000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Tobtok ft. River - Fast Car
+
+***Next up:***
+1. Piruka - Se Eu Não Acordar Amanhã (Video Oficial)
+2. BUNT. ft. Beginners - Young Hearts (Official Music Video)
+3. Major Lazer ft. Wild Belle - Be Together (Cut Snake Remix)
+4. Allman Brown - Rivers (ConKi x RAMI Remix)
+5. F R A N C I S - B R E A T H I N G (Natio x RAMI Remix)
+2017-02-10 23:04:44.873000 #geral @luso500#3797: .pl summer's ending
+2017-02-10 23:04:44.980000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-10 23:04:53.384000 #geral @luso500#3797: .yt summers ending
+2017-02-10 23:04:53.552000 #geral @Amigos Prováveis#6605: Searching...
+2017-02-10 23:04:53.739000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-10 23:08:56.723000 #geral @luso500#3797: .volume 50
+2017-02-10 23:12:57.180000 #geral @jonyroda97#9104: .song
+2017-02-10 23:12:57.335000 #geral @Amigos Prováveis#6605: **Title:** BUNT. ft. Beginners - Young Hearts (Official Music Video)
+**Uploader:** The Vibe Guide
+**Views:** 180478
+**Duration:** 3:15
+
+<https://www.youtube.com/watch?v=e1FoiQIfbzc>
+2017-02-10 23:41:42.763000 #geral @luso500#3797: .q https://soundcloud.com/francisco-bandeira-755371486/olaumdoistres
+2017-02-10 23:41:43.083000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-10 23:41:42.763000 #geral @luso500#3797: .q https://soundcloud.com/francisco-bandeira-755371486/olaumdoistres
+2017-02-10 23:48:32.611000 #geral @luso500#3797: .q indian summer
+2017-02-10 23:48:32.737000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-10 23:48:37.460000 #geral @luso500#3797: .skip
+2017-02-10 23:48:37.637000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 00:04:04.625000 #geral @jonyroda97#9104: https://www.youtube.com/watch?v=E5pYlOGOV6A
+2017-02-11 00:04:04.625000 #geral @jonyroda97#9104: https://www.youtube.com/watch?v=E5pYlOGOV6A
+2017-02-11 00:56:36.973000 #geral @jonyroda97#9104: .pl mix joao17
+2017-02-11 00:56:38.701000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-11 00:57:00.151000 #geral @jonyroda97#9104: .streamset
+2017-02-11 00:57:00.338000 #geral @Amigos Prováveis#6605: ```
+.streamset
+
+Stream settings
+
+Commands:
+  mention     Sets mentions for stream alerts
+  twitchtoken Sets the Client-ID for Twitch
+
+Type .streamset command for more info on a command.
+You can also type .streamset category for more info on a category.
+```
+2017-02-11 00:57:07.798000 #geral @jonyroda97#9104: .streamset mention
+2017-02-11 00:57:07.899000 #geral @Amigos Prováveis#6605: ```
+.streamset mention <mention_type>
+
+Sets mentions for stream alerts
+
+Types: everyone, here, none
+
+```
+2017-02-11 00:57:35.046000 #geral @jonyroda97#9104: .streamset twitchtoken
+2017-02-11 00:57:35.271000 #geral @Amigos Prováveis#6605: ```
+.streamset twitchtoken <token>
+
+Sets the Client-ID for Twitch
+
+https://blog.twitch.tv/client-id-required-for-kraken-api-calls-afbb8e95f843
+
+```
+2017-02-11 00:58:27.919000 #geral @jonyroda97#9104: .streamset twitchtoken knjvp3ycoo1kyo20nufs9o65bryrt1o
+2017-02-11 00:58:28.039000 #geral @Amigos Prováveis#6605: Twitch Client-ID set.
+2017-02-11 00:59:28.245000 #geral @jonyroda97#9104: .streamset twitchtoken 98xn729veb1ilbmaghjfr2ol6aeku3
+2017-02-11 00:59:28.437000 #geral @Amigos Prováveis#6605: Twitch Client-ID set.
+2017-02-11 01:00:52.946000 #geral @jonyroda97#9104: .streamalert bhtt
+2017-02-11 01:00:53.133000 #geral @Amigos Prováveis#6605: ```
+.streamalert
+
+Adds/removes stream alerts from the current channel
+
+Commands:
+  beam   Adds/removes beam alerts from the current channel
+  hitbox Adds/removes hitbox alerts from the current channel
+  stop   Stops all streams alerts in the current channel
+  twitch Adds/removes twitch alerts from the current channel
+
+Type .streamalert command for more info on a command.
+You can also type .streamalert category for more info on a category.
+```
+2017-02-11 01:01:06.762000 #geral @jonyroda97#9104: .streamalert twitch bhtt
+2017-02-11 01:01:07.569000 #geral @Amigos Prováveis#6605: Owner: Client-ID is invalid or not set. See `.streamset twitchtoken`
+2017-02-11 01:01:41.645000 #geral @jonyroda97#9104: .streamset twitchtoken knjvp3ycoo1kyo20nufs9o65bryrt1o
+2017-02-11 01:01:41.813000 #geral @Amigos Prováveis#6605: Twitch Client-ID set.
+2017-02-11 01:01:57.828000 #geral @jonyroda97#9104: .streamalert twitch bhtt
+2017-02-11 01:01:58.636000 #geral @Amigos Prováveis#6605: Alert activated. I will notify this channel everytime bhtt is live.
+2017-02-11 01:02:46.265000 #geral @jonyroda97#9104: .streamset mention here
+2017-02-11 01:02:46.398000 #geral @Amigos Prováveis#6605: When a stream is online @​here will be mentioned.
+2017-02-11 01:04:56.692000 #geral @jonyroda97#9104: .stop
+2017-02-11 01:04:56.775000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-11 01:10:20.306000 #geral @jonyroda97#9104: .cog update
+2017-02-11 01:10:20.948000 #geral @Amigos Prováveis#6605: Downloading updated cogs, please wait...  0/8 repos updated
+2017-02-11 01:10:20.948000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/8 repos updated
+After: Downloading updated cogs, please wait...  1/8 repos updated
+2017-02-11 01:10:20.948000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/8 repos updated
+After: Downloading updated cogs, please wait...  5/8 repos updated
+2017-02-11 01:10:20.948000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/8 repos updated
+After: Downloading updated cogs, please wait... done. 
+Updated cogs: jumper/casino, squid/sentryio.
+2017-02-11 01:10:23.233000 #geral @Amigos Prováveis#6605: ```Prolog
+Patch Notes for squid/sentryio
+==============================
+commit 32610a67f39d3b1380ed726aa45283610b8ff59a
+Author: Will Tekulve <tekulve.will@gmail.com>
+Date:   20 hours ago
+
+    [SentryIO] oops
+```
+2017-02-11 01:10:23.323000 #geral @Amigos Prováveis#6605: Cogs updated. Reload updated cogs? (yes/no)
+2017-02-11 01:10:28.070000 #geral @jonyroda97#9104: yes
+2017-02-11 01:10:28.326000 #geral @Amigos Prováveis#6605: Done. The following cogs were reloaded: sentryio
+2017-02-11 01:10:30.453000 #geral @jonyroda97#9104: .cog
+2017-02-11 01:10:30.594000 #geral @Amigos Prováveis#6605: ```
+.cog
+
+Additional cogs management
+
+Commands:
+  info      Shows info about the specified cog
+  install   Installs specified cog
+  list      Lists installable cogs
+  repo      Repo management commands
+  uninstall Uninstalls a cog
+  update    Updates cogs
+
+Type .cog command for more info on a command.
+You can also type .cog category for more info on a category.
+```
+2017-02-11 01:10:45.840000 #geral @jonyroda97#9104: .cog uninstall
+2017-02-11 01:10:45.936000 #geral @Amigos Prováveis#6605: ```
+.cog uninstall <repo_name> <cog>
+
+Uninstalls a cog
+
+```
+2017-02-11 01:11:04.667000 #geral @jonyroda97#9104: .cog uninstall squid sentryio
+2017-02-11 01:11:04.832000 #geral @Amigos Prováveis#6605: That module file doesn't exist. I will not turn off autoloading at start just in case this isn't supposed to happen.
+2017-02-11 01:11:04.998000 #geral @Amigos Prováveis#6605: Module disabled.
+2017-02-11 01:11:05.164000 #geral @Amigos Prováveis#6605: Cog successfully uninstalled.
+2017-02-11 18:08:11.163000 #geral @luso500#3797: .pl the moan remix
+2017-02-11 18:08:11.279000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-11 18:08:16.028000 #geral @luso500#3797: .q the moan remix
+2017-02-11 18:08:16.258000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 18:08:47.454000 #geral @luso500#3797: .skip
+2017-02-11 18:08:47.675000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 18:10:30.482000 #geral @luso500#3797: .q jai wolf indian summer
+2017-02-11 18:10:30.628000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 18:10:32.086000 #geral @luso500#3797: .skip
+2017-02-11 18:10:32.165000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 18:12:52.900000 #geral @luso500#3797: .pl track gaming
+2017-02-11 18:12:52.948000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-11 18:13:06.093000 #geral @luso500#3797: .pl list
+2017-02-11 18:13:06.251000 #geral @Amigos Prováveis#6605: Available playlists:
+
+joao16, future_bass, gaming, cate, discordfm, trend, 50rock, neo_scavenger, monstercat, trap, proximity, joao17, transistor, top
+2017-02-11 18:13:16.419000 #geral @luso500#3797: .pl gaming
+2017-02-11 18:13:16.556000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-11 18:13:21.785000 #geral @luso500#3797: .pl add gaming
+2017-02-11 18:13:21.955000 #geral @Amigos Prováveis#6605: ```
+.playlist add <name> <url>
+
+Add a YouTube or Soundcloud playlist.
+
+```
+2017-02-11 18:13:30.639000 #geral @luso500#3797: .pl start gaming
+2017-02-11 18:13:30.749000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-11 19:13:28.088000 #geral @luso500#3797: .q skrillex take u there zeds dead remix
+2017-02-11 19:13:28.255000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 19:13:29.548000 #geral @luso500#3797: .skip
+2017-02-11 19:13:29.698000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 19:22:58.024000 #geral @luso500#3797: .q divine sorrow
+2017-02-11 19:22:58.221000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 19:22:59.308000 #geral @luso500#3797: .skip
+2017-02-11 19:22:59.438000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 19:32:39.461000 #geral @luso500#3797: .q zeds dead remix mix
+2017-02-11 19:32:39.662000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 19:32:49.654000 #geral @luso500#3797: .skip
+2017-02-11 19:32:49.767000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 19:33:24.200000 #geral @jonyroda97#9104: .s
+2017-02-11 19:33:26.713000 #geral @jonyroda97#9104: .np
+2017-02-11 19:33:26.928000 #geral @Amigos Prováveis#6605: **Title:** Blue Foundation - Eyes On Fire (Zeds Dead Remix)
+**Uploader:** UKF Dubstep
+**Views:** 102665597
+**Duration:** 5:11
+
+<https://www.youtube.com/watch?v=IUGzY-ihqWc>
+2017-02-11 19:33:44.051000 #geral @luso500#3797: .s
+2017-02-11 19:33:49.250000 #geral @luso500#3797: .np
+2017-02-11 19:33:49.418000 #geral @Amigos Prováveis#6605: **Title:** Blue Foundation - Eyes On Fire (Zeds Dead Remix)
+**Uploader:** UKF Dubstep
+**Views:** 102665597
+**Duration:** 5:11
+
+<https://www.youtube.com/watch?v=IUGzY-ihqWc>
+2017-02-11 19:44:39.864000 #geral @luso500#3797: .q what do you mean
+2017-02-11 19:44:40.112000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 19:44:42.076000 #geral @luso500#3797: .skip
+2017-02-11 19:44:42.290000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 19:44:53.848000 #geral @luso500#3797: .what do you mean lyrics
+2017-02-11 19:44:55.016000 #geral @luso500#3797: .skip
+2017-02-11 19:44:55.160000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 19:45:09.547000 #geral @luso500#3797: .skip
+2017-02-11 19:45:10.238000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 19:45:20.440000 #geral @luso500#3797: .q what do you mean skrillex
+2017-02-11 19:45:20.642000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 19:45:22.348000 #geral @luso500#3797: .skip
+2017-02-11 19:45:22.447000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 20:13:02.626000 #geral @luso500#3797: .q moan troll sound
+2017-02-11 20:13:04.012000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 20:13:05.004000 #geral @luso500#3797: .skip
+2017-02-11 20:13:05.166000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 20:13:44.146000 #geral @jonyroda97#9104: .skip
+2017-02-11 20:13:44.302000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-11 20:14:13.025000 #geral @luso500#3797: .q david guetta european championship music
+2017-02-11 20:14:13.105000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 20:14:14.705000 #geral @luso500#3797: .skip
+2017-02-11 20:14:14.908000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 20:18:16.068000 #geral @luso500#3797: .q tyler1 scream
+2017-02-11 20:18:16.313000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 21:16:04.864000 #geral @luso500#3797: .q wall of love
+2017-02-11 21:16:05.022000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 21:16:06.992000 #geral @luso500#3797: .skip
+2017-02-11 21:16:07.097000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 21:48:48.077000 #geral @luso500#3797: .q boohoo richie campbell
+2017-02-11 21:48:48.258000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 21:48:49.866000 #geral @luso500#3797: .skip
+2017-02-11 21:48:49.983000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 21:48:59.618000 #geral @luso500#3797: .q vai toma
+2017-02-11 21:48:59.783000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 21:49:15.105000 #geral @luso500#3797: .q Loud you aint shhh
+2017-02-11 21:49:15.278000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 21:49:29.090000 #geral @luso500#3797: .q jai wolf indian summer
+2017-02-11 21:49:29.221000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 22:15:46.276000 #geral @luso500#3797: .q vai toma
+2017-02-11 22:15:46.404000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 22:15:47.606000 #geral @luso500#3797: .skip
+2017-02-11 22:15:47.750000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-11 22:16:07.782000 #geral @luso500#3797: .q the pride
+2017-02-11 22:16:07.856000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 22:16:53.138000 #geral @luso500#3797: .q black beatles
+2017-02-11 22:16:53.342000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 22:17:57.424000 #geral @luso500#3797: .q gangnam style
+2017-02-11 22:17:57.626000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-11 22:27:21.510000 #geral @luso500#3797: .q dr dre the next episode san holo remix
+2017-02-11 22:27:21.664000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-12 00:25:48.616000 #geral @jonyroda97#9104: .stop
+2017-02-12 00:25:48.870000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-12 14:57:25.701000 #geral @jonyroda97#9104: .pl mix joao17
+2017-02-12 14:57:26.214000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-12 14:58:07.046000 #geral @jonyroda97#9104: .pause
+2017-02-12 14:58:07.169000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-12 14:58:07.723000 #geral @jonyroda97#9104: .pause
+2017-02-12 14:58:08.029000 #geral @Amigos Prováveis#6605: Nothing playing, nothing to pause.
+2017-02-12 15:04:32.810000 #geral @jonyroda97#9104: .resume
+2017-02-12 15:04:32.924000 #geral @Amigos Prováveis#6605: Resuming.
+2017-02-12 15:04:39.468000 #geral @jonyroda97#9104: .skip
+2017-02-12 15:04:39.726000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-12 15:08:44.377000 #geral @jonyroda97#9104: .skip
+2017-02-12 15:08:44.569000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-12 15:17:54.421000 #geral @jonyroda97#9104: .pause
+2017-02-12 15:17:54.579000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-12 15:26:09.531000 #geral @jonyroda97#9104: .pl mix gaming
+2017-02-12 15:26:09.908000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-12 16:28:18.909000 #geral @jonyroda97#9104: .pause
+2017-02-12 16:28:19.082000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-12 16:48:07.489000 #geral @jonyroda97#9104: .resume
+2017-02-12 16:48:07.637000 #geral @Amigos Prováveis#6605: Resuming.
+2017-02-12 17:29:54.344000 #geral @jonyroda97#9104: .skip
+2017-02-12 17:29:54.500000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-12 17:30:53.426000 #geral @jonyroda97#9104: .skip
+2017-02-12 17:30:53.720000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-12 17:46:43.609000 #geral @jonyroda97#9104: .skip
+2017-02-12 17:46:43.777000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-12 18:18:42.441000 #geral @jonyroda97#9104: .stop
+2017-02-12 18:18:42.734000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-13 01:07:41.787000 #geral @Amigos Prováveis#6605: @​here
+2017-02-13 01:07:41.787000 #geral @Amigos Prováveis#6605: @​here
+2017-02-13 16:32:12.456000 #geral @jonyroda97#9104: .pl mix top
+2017-02-13 16:32:12.587000 #geral @Amigos Prováveis#6605: You must be in a voice channel to start a playlist.
+2017-02-13 16:32:24.410000 #geral @jonyroda97#9104: .pl mix top
+2017-02-13 16:32:24.979000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-13 16:32:28.351000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ny8Le5n8M9k
+2017-02-13 16:32:28.547000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-13 16:32:44.743000 #geral @jonyroda97#9104: .pl mix joao17
+2017-02-13 16:32:44.938000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-13 16:32:53.162000 #geral @jonyroda97#9104: .q
+2017-02-13 16:32:53.372000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-13 16:32:54.314000 #geral @Amigos Prováveis#6605: ***Now playing:***
+ZAYN - PILLOWTALK
+
+***Next up:***
+1. Young M.A "OOOUUU" (Official Video)
+2. Chris Brown - Party (Official Video) ft. Gucci Mane, Usher
+3. Shawn Mendes - Mercy (Acoustic)
+4. Future - Poppin' Tags
+5. Famous Dex x Rich The Kid "So Mad" (Prod. by Polo Boy Shawty) (WSHH Exclusive - Music Video)
+2017-02-13 16:32:56.908000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ny8Le5n8M9k
+2017-02-13 16:32:57.053000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-13 16:33:00.345000 #geral @jonyroda97#9104: .skip
+2017-02-13 16:33:00.516000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-13 16:33:04.982000 #geral @jonyroda97#9104: .pl mix gaming
+2017-02-13 16:33:05.154000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-13 16:33:10.772000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ny8Le5n8M9k
+2017-02-13 16:33:10.930000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-13 17:00:10.542000 #geral @jonyroda97#9104: .pause
+2017-02-13 17:00:10.852000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-13 17:35:47.890000 #geral @jonyroda97#9104: .resume
+2017-02-13 17:35:48.165000 #geral @Amigos Prováveis#6605: Resuming.
+2017-02-13 17:35:50.846000 #geral @jonyroda97#9104: .cog update
+2017-02-13 17:35:51.133000 #geral @Amigos Prováveis#6605: Downloading updated cogs, please wait...  0/8 repos updated
+2017-02-13 17:35:51.133000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/8 repos updated
+After: Downloading updated cogs, please wait...  1/8 repos updated
+2017-02-13 17:35:51.133000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/8 repos updated
+After: Downloading updated cogs, please wait...  5/8 repos updated
+2017-02-13 17:35:51.133000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/8 repos updated
+After: Downloading updated cogs, please wait... done. 
+New cogs: refactored/sentry.
+Updated cogs: 26/cleverbot, tmerc/customjoinleave, refactored/githubcards.
+2017-02-13 17:35:54.706000 #geral @Amigos Prováveis#6605: ```Prolog
+Patch Notes for 26/cleverbot
+============================
+commit 4ce3844e80b27e0d5ccb8d39710fb1d9bf6aaeb8
+Author: Twentysix <Twentysix26@users.noreply.github.com>
+Date:   21 hours ago
+
+    [Cleverbot] Use cleverbot.io instead
+    
+    The original service has implemented a paid API. Even the free version requires a credit card to register.
+```
+2017-02-13 17:35:54.805000 #geral @Amigos Prováveis#6605: Cogs updated. Reload updated cogs? (yes/no)
+2017-02-13 17:35:59.503000 #geral @jonyroda97#9104: yes
+2017-02-13 17:35:59.580000 #geral @Amigos Prováveis#6605: Done. The following cogs were reloaded: cleverbot
+2017-02-13 17:36:47.601000 #geral @jonyroda97#9104: @Amigos Prováveis estás bem?
+2017-02-13 17:36:47.967000 #geral @Amigos Prováveis#6605: The owner needs to set the credentials first.
+See: `[p]cleverbot apikey`
+2017-02-13 17:36:59.646000 #geral @jonyroda97#9104: .cleverbot apikey
+2017-02-13 17:36:59.786000 #geral @Amigos Prováveis#6605: ```
+.cleverbot apikey <user> <key>
+
+Sets credentials to be used with cleverbot.io
+
+You can get them from https://cleverbot.io/keys
+Use this command in direct message to keep your
+credentials secret
+
+```
+2017-02-13 17:38:04.588000 #geral @jonyroda97#9104: .cleverbot eETNUoDtWc4WO1yg mKQkM74DdnTHC28V4VwMhykjQgV6Iuob
+2017-02-13 17:38:04.776000 #geral @Amigos Prováveis#6605: The owner needs to set the credentials first.
+See: `.cleverbot apikey`
+2017-02-13 17:38:29.344000 #geral @jonyroda97#9104: .cleverbot apikey eETNUoDtWc4WO1yg mKQkM74DdnTHC28V4VwMhykjQgV6Iuob
+2017-02-13 17:38:29.573000 #geral @Amigos Prováveis#6605: Credentials set.
+2017-02-13 17:38:36.404000 #geral @jonyroda97#9104: @Amigos Prováveis estás bem?
+2017-02-13 17:38:38.834000 #geral @Amigos Prováveis#6605: Ichimatsu.
+2017-02-13 17:46:38.030000 #geral @jonyroda97#9104: .cog reload cleverbot
+2017-02-13 17:46:38.329000 #geral @Amigos Prováveis#6605: ```
+.cog
+
+Additional cogs management
+
+Commands:
+  info      Shows info about the specified cog
+  install   Installs specified cog
+  list      Lists installable cogs
+  repo      Repo management commands
+  uninstall Uninstalls a cog
+  update    Updates cogs
+
+Type .cog command for more info on a command.
+You can also type .cog category for more info on a category.
+```
+2017-02-13 17:46:57.691000 #geral @jonyroda97#9104: .reload cleverbot
+2017-02-13 17:46:57.991000 #geral @Amigos Prováveis#6605: Module reloaded.
+2017-02-13 17:47:10.720000 #geral @jonyroda97#9104: @Amigos Prováveis is it you?
+2017-02-13 17:47:14.554000 #geral @Amigos Prováveis#6605: It is always me.
+2017-02-13 17:47:28.996000 #geral @jonyroda97#9104: @Amigos Prováveis who killed my friend?
+2017-02-13 17:47:35.202000 #geral @Amigos Prováveis#6605: Do you have friends?
+2017-02-13 17:47:42.587000 #geral @jonyroda97#9104: @Amigos Prováveis sure do
+2017-02-13 17:47:44.596000 #geral @Amigos Prováveis#6605: Are you sure? Don't bluff me.
+2017-02-13 17:48:00.399000 #geral @jonyroda97#9104: @Amigos Prováveis i would never try that
+2017-02-13 17:48:04.144000 #geral @Amigos Prováveis#6605: Oh but you did.
+2017-02-13 17:48:24.303000 #geral @jonyroda97#9104: .clear 6
+2017-02-13 17:48:32.483000 #geral @jonyroda97#9104: .clear 4
+2017-02-13 17:48:44.640000 #geral @jonyroda97#9104: .clear 9
+2017-02-13 18:12:02.627000 #geral @jonyroda97#9104: .version
+2017-02-13 18:12:02.892000 #geral @Amigos Prováveis#6605: 
+2017-02-13 18:12:02.892000 #geral @Amigos Prováveis#6605: 
+2017-02-13 18:12:13.821000 #geral @jonyroda97#9104: .clear 2
+2017-02-13 18:12:23.282000 #geral @jonyroda97#9104: .clear 4
+2017-02-14 01:16:24.580000 #geral @Amigos Prováveis#6605: @​here
+2017-02-14 01:16:24.580000 #geral @Amigos Prováveis#6605: @​here
+2017-02-15 01:05:42.548000 #geral @Amigos Prováveis#6605: @​here
+2017-02-15 01:05:42.548000 #geral @Amigos Prováveis#6605: @​here
+2017-02-15 21:29:42.363000 #geral @taskosan#2557: t,g.-
+2017-02-15 21:29:48.570000 #geral @jonyroda97#9104: hello
+2017-02-15 21:29:58.924000 #geral @taskosan#2557: chines
+2017-02-15 21:30:13.414000 #geral @jonyroda97#9104: carrega em lobby onde eu estou a esquerda
+2017-02-15 21:33:03.027000 #geral @taskosan#2557: .music
+2017-02-15 21:34:49.277000 #geral @jonyroda97#9104: .pl list
+2017-02-15 21:34:49.619000 #geral @Amigos Prováveis#6605: Available playlists:
+
+joao16, future_bass, gaming, cate, discordfm, trend, 50rock, neo_scavenger, monstercat, trap, proximity, joao17, transistor, top
+2017-02-15 22:24:33.577000 #geral @jonyroda97#9104: .pl mix gaming
+2017-02-15 22:24:34.336000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-15 22:41:54.644000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ImZv83_OpGo
+2017-02-15 22:41:54.644000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ImZv83_OpGo
+2017-02-15 22:42:22.562000 #geral @jonyroda97#9104: .volume 15
+2017-02-15 22:42:22.732000 #geral @Amigos Prováveis#6605: Volume is now set to 15.
+2017-02-15 22:42:32.355000 #geral @jonyroda97#9104: .stop
+2017-02-15 22:42:32.517000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-15 22:42:56.965000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ImZv83_OpGo
+2017-02-15 22:42:57.188000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-15 22:45:07.459000 #geral @jonyroda97#9104: .stop
+2017-02-15 22:45:07.783000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-15 23:01:01.951000 #geral @xraizen#6932: Fds
+2017-02-15 23:01:05.703000 #geral @xraizen#6932: o joao deu me mute
+2017-02-15 23:01:08.904000 #geral @xraizen#6932: ta quieto
+2017-02-15 23:04:42.345000 #geral @Bastos#1116: como se entra
+2017-02-15 23:11:30.587000 #geral @xraizen#6932: 🍂
+2017-02-15 23:11:33.577000 #geral @xraizen#6932: 🙄
+2017-02-15 23:11:37.053000 #geral @xraizen#6932: 😘 4
+2017-02-15 23:11:42.108000 #geral @xraizen#6932: 😇
+2017-02-15 23:32:53.432000 #geral @jonyroda97#9104: .unpunish @xraizen
+2017-02-15 23:32:53.813000 #geral @Amigos Prováveis#6605: ``xraizen`` is now unpunished.
+2017-02-15 23:40:14.055000 #geral @Bastos#1116: .punish @João Roda
+2017-02-15 23:40:26.648000 #geral @xraizen#6932: * for ever
+2017-02-15 23:40:35.555000 #geral @jonyroda97#9104: .punish @Bastos 1 minutes
+2017-02-15 23:40:35.861000 #geral @Amigos Prováveis#6605: ``Bastos`` is now Punished for 1 minutes by ``João Roda``.
+2017-02-15 23:41:02.119000 #geral @xraizen#6932: .Fuck @João Roda
+2017-02-15 23:41:24.378000 #geral @taskosan#2557: .q
+2017-02-15 23:41:24.496000 #geral @Amigos Prováveis#6605: Nothing queued on this server.
+2017-02-15 23:41:45.068000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=ghG4LdnGJkY
+2017-02-15 23:41:45.068000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=ghG4LdnGJkY
+2017-02-15 23:42:19.517000 #geral @jonyroda97#9104: .skip
+2017-02-15 23:42:19.659000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-15 23:43:39.521000 #geral @jonyroda97#9104: .pl mix joao17
+2017-02-15 23:43:39.684000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-15 23:44:14.322000 #geral @Bastos#1116: .pl musica nao paneleira
+2017-02-15 23:44:14.523000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-15 23:44:38.172000 #geral @jonyroda97#9104: .q musica nao paneleira
+2017-02-15 23:44:38.340000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-15 23:45:05.784000 #geral @Bastos#1116: .skip
+2017-02-15 23:45:06.140000 #geral @Amigos Prováveis#6605: @Bastos, you voted to skip. Votes: 1/5 (20% out of 52% needed)
+2017-02-15 23:45:21.928000 #geral @jonyroda97#9104: .help audio
+2017-02-15 23:45:22.038000 #geral @Amigos Prováveis#6605: No command called "audio" found.
+2017-02-15 23:45:44.892000 #geral @jonyroda97#9104: .audiostat
+2017-02-15 23:45:45.091000 #geral @Amigos Prováveis#6605: ```
+.audiostat
+
+General stats on audio stuff.
+
+Commands:
+  servers Number of servers currently playing.
+
+Type .audiostat command for more info on a command.
+You can also type .audiostat category for more info on a category.
+```
+2017-02-15 23:46:03.982000 #geral @jonyroda97#9104: .audioset
+2017-02-15 23:46:04.172000 #geral @Amigos Prováveis#6605: ```
+.audioset
+
+Audio settings.
+
+Commands:
+  cachemax        Set the max cache size in MB
+  emptydisconnect Toggles auto disconnection when everyone leaves the channel
+  maxlength       Maximum track length (seconds) for requested links
+  player          Toggles between Ffmpeg and Avconv
+  status          Enables/disables songs' titles as status
+  volume          Sets the volume (0 - 100)
+  vote            Percentage needed for the masses to skip songs. 0 to disable.
+
+Type .audioset command for more info on a command.
+You can also type .audioset category for more info on a category.
+```
+2017-02-15 23:46:23.200000 #geral @jonyroda97#9104: .audioset emptydisconnect
+2017-02-15 23:46:23.338000 #geral @Amigos Prováveis#6605: If there is no one left in the voice channel the bot will automatically disconnect after five minutes.
+2017-02-15 23:47:05.220000 #geral @jonyroda97#9104: .audioset vote 50
+2017-02-15 23:47:05.389000 #geral @Amigos Prováveis#6605: Vote percentage set to 50%
+2017-02-15 23:47:13.048000 #geral @jonyroda97#9104: .clear 15
+2017-02-15 23:47:23.955000 #geral @jonyroda97#9104: .q
+2017-02-15 23:47:24.074000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-15 23:47:27.292000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Zara Larsson - I Would Like (Lyric Video)
+
+***Next up:***
+1. Balas e Bolinhos 3 - Até Ficas paneleiro dos Olhos
+2. Lil Bibby "Thought It Was A Drought" (WSHH Exclusive - Official Music Video)
+3. Snakehips & MØ - Don't Leave (Official Video)
+4. Jemaine Clement - Shiny (From "Moana")
+5. Adele - Send My Love (To Your New Lover)
+2017-02-15 23:47:43.131000 #geral @jonyroda97#9104: .np
+2017-02-15 23:47:43.283000 #geral @Amigos Prováveis#6605: **Title:** Balas e Bolinhos 3 - Até Ficas paneleiro dos Olhos
+**Uploader:** S3MUSlC
+**Views:** 80613
+**Duration:** 2:50
+
+<https://www.youtube.com/watch?v=Mj3GzI2infQ>
+2017-02-15 23:47:48.524000 #geral @Bastos#1116: .q  https://www.youtube.com/watch?v=EWcOY14GWwM
+2017-02-15 23:47:48.524000 #geral @Bastos#1116: .q  https://www.youtube.com/watch?v=EWcOY14GWwM
+2017-02-15 23:47:48.662000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-15 23:49:03.373000 #geral @jonyroda97#9104: .skip
+2017-02-15 23:49:03.553000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-15 23:51:58.392000 #geral @jonyroda97#9104: .q ca bu fla ma nau
+2017-02-15 23:51:58.501000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-15 23:52:02.206000 #geral @jonyroda97#9104: .q
+2017-02-15 23:52:02.439000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-15 23:52:05.570000 #geral @Amigos Prováveis#6605: ***Now playing:***
+MCs Zaac & Jerry - Bumbum Granada (KondZilla)
+
+***Next up:***
+1. Piruka ft Mota Jr -  Ca Bu Fla Ma Nau
+2. Lil Bibby "Thought It Was A Drought" (WSHH Exclusive - Official Music Video)
+3. Snakehips & MØ - Don't Leave (Official Video)
+4. Jemaine Clement - Shiny (From "Moana")
+5. Adele - Send My Love (To Your New Lover)
+2017-02-15 23:59:24.190000 #geral @jonyroda97#9104: .skip
+2017-02-15 23:59:24.595000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-16 00:00:16.422000 #geral @jonyroda97#9104: .pl mix gaming
+2017-02-16 00:00:16.588000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-16 00:03:34.935000 #geral @jonyroda97#9104: .johncena
+2017-02-16 00:03:42.556000 #geral @jonyroda97#9104: .airhorn
+2017-02-16 00:03:49.154000 #geral @jonyroda97#9104: !johncena
+2017-02-16 00:04:01.888000 #geral @jonyroda97#9104: !johncena
+2017-02-16 00:04:56.562000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=LyX3qgVUweQ
+2017-02-16 00:04:56.562000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=LyX3qgVUweQ
+2017-02-16 00:04:56.733000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:06:47.258000 #geral @Tunes_NetWork#9569: .q
+2017-02-16 00:06:47.333000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-16 00:06:48.424000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Holly Hood - Fácil
+
+***Next up:***
+1. Selah Sue - I Truly Loved Ya (Kungs Bootleg)
+2. ZHU - Paradise Awaits (LCAW Remix)
+3. Scheinizzl & Chroph ft. David Lageder - Summer Nights
+4. Milky Chance - Fairytale (Florian Paetzold Bootleg)
+5. Oxford & Co - Love Is Gone (Nicolas Haelg Remix)
+2017-02-16 00:07:25.917000 #geral @jonyroda97#9104: .np
+2017-02-16 00:07:26.039000 #geral @Amigos Prováveis#6605: **Title:** Holly Hood - Fácil
+**Uploader:** Superbad.
+**Views:** 2602392
+**Duration:** 3:23
+
+<https://www.youtube.com/watch?v=LyX3qgVUweQ>
+2017-02-16 00:07:28.590000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=iq_d8VSM0nw
+2017-02-16 00:07:28.808000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:07:33.981000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=OSsKHSnG3kY&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=103
+2017-02-16 00:07:33.981000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=OSsKHSnG3kY&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=103
+2017-02-16 00:07:34.161000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:08:08.101000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=iRIkEYPdmno&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=102
+2017-02-16 00:08:08.101000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=iRIkEYPdmno&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=102
+2017-02-16 00:08:08.302000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:08:26.955000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=j4VeFDehD08&index=100&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 00:08:26.955000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=j4VeFDehD08&index=100&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 00:08:27.118000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:08:40.600000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-02-16 00:08:40.600000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-02-16 00:08:40.757000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:08:46.303000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=b4Bj7Zb-YD4&index=99&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 00:08:46.303000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=b4Bj7Zb-YD4&index=99&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 00:08:46.538000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:08:57.708000 #geral @Tunes_NetWork#9569: .q
+2017-02-16 00:08:57.929000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-16 00:09:00.477000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Holly Hood - Fácil
+
+***Next up:***
+1. IceJJFish - On The Floor (Official Music Video) ThatRaw.com Presents
+2. Victorious by Tyrone Briggs [lyrics]
+3. Avicii ft  Alesso   Come To Me
+4. Kungs vs Cookin' On 3 Burners - This Girl [Original Mix]
+5. Holly Hood -  COBRAS & RATAZANAS
+2017-02-16 00:09:18.549000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 00:09:18.695000 #geral @Amigos Prováveis#6605: @Tunes_NetWork, you voted to skip. Votes: 1/5 (20% out of 50% needed)
+2017-02-16 00:09:41.745000 #geral @xraizen#6932: .skip
+2017-02-16 00:09:42.005000 #geral @Amigos Prováveis#6605: @Tiago Duro, you voted to skip. Votes: 2/5 (40% out of 50% needed)
+2017-02-16 00:10:09.655000 #geral @jonyroda97#9104: .skip
+2017-02-16 00:10:09.857000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-16 00:13:58.149000 #geral @Bastos#1116: .skip
+2017-02-16 00:13:58.291000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/5 (20% out of 50% needed)
+2017-02-16 00:14:41.279000 #geral @jonyroda97#9104: !airhorn
+2017-02-16 00:14:55.848000 #geral @jonyroda97#9104: !johncena
+2017-02-16 00:14:59.752000 #geral @Tunes_NetWork#9569: !airhorn
+2017-02-16 00:15:08.183000 #geral @Bastos#1116: !johncena
+2017-02-16 00:15:10.536000 #geral @Tunes_NetWork#9569: !cena
+2017-02-16 00:15:20.661000 #geral @Bastos#1116: .lag
+2017-02-16 00:15:28.979000 #geral @Tunes_NetWork#9569: !cena
+2017-02-16 00:15:46.794000 #geral @jonyroda97#9104: .pause
+2017-02-16 00:15:46.971000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-16 00:15:48.856000 #geral @jonyroda97#9104: !cena
+2017-02-16 00:15:57.561000 #geral @jonyroda97#9104: !johncena
+2017-02-16 00:16:04.409000 #geral @Bastos#1116: .continue
+2017-02-16 00:16:06.938000 #geral @jonyroda97#9104: .resume
+2017-02-16 00:16:07.088000 #geral @Amigos Prováveis#6605: Resuming.
+2017-02-16 00:16:17.425000 #geral @Bastos#1116: .pause
+2017-02-16 00:16:17.649000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-16 00:16:22.074000 #geral @Bastos#1116: .resume
+2017-02-16 00:16:22.194000 #geral @Amigos Prováveis#6605: Resuming.
+2017-02-16 00:16:30.780000 #geral @Bastos#1116: .stop
+2017-02-16 00:16:31.017000 #geral @Amigos Prováveis#6605: You can't stop music when there are other people in the channel! Vote to skip instead.
+2017-02-16 00:17:16.731000 #geral @Bastos#1116: .adeus
+2017-02-16 00:17:19.461000 #geral @Bastos#1116: .voudormir
+2017-02-16 00:17:19.668000 #geral @jonyroda97#9104: .insult @Rafa Roda
+2017-02-16 00:17:27.740000 #geral @Tunes_NetWork#9569: fdp
+2017-02-16 00:17:36.326000 #geral @Bastos#1116: .BotPorco
+2017-02-16 00:17:41.707000 #geral @Tunes_NetWork#9569: porco es tu
+2017-02-16 00:17:50.574000 #geral @Bastos#1116: .LuisBébé
+2017-02-16 00:17:57.394000 #geral @Bastos#1116: .XixiCama
+2017-02-16 00:17:59.740000 #geral @jonyroda97#9104: .kill @Rafa Roda
+2017-02-16 00:17:59.968000 #geral @Amigos Prováveis#6605: **@João Roda grabs @Rafa Roda's head and tears it off with superhuman speed and efficiency. Using @Rafa Roda's head as a makeshift basketball, @João Roda expertly slams dunk it into the basketball hoop, much to the applause of the audience watching the gruesome scene.**
+2017-02-16 00:18:20.957000 #geral @Bastos#1116: JAVALE MCGEEEEEE
+2017-02-16 00:18:24.643000 #geral @Bastos#1116: with the dunk
+2017-02-16 00:18:34.576000 #geral @Tunes_NetWork#9569: JAVALEEEEEE MCGEEEEEEEEEEEEEEEE
+2017-02-16 00:19:03.230000 #geral @Tunes_NetWork#9569: .q
+2017-02-16 00:19:03.508000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-16 00:19:07.201000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Kungs vs Cookin' On 3 Burners - This Girl [Original Mix]
+
+***Next up:***
+1. Holly Hood -  COBRAS & RATAZANAS
+2. Calvin Harris - My Way (Official Video)
+3. Selah Sue - I Truly Loved Ya (Kungs Bootleg)
+4. ZHU - Paradise Awaits (LCAW Remix)
+5. Scheinizzl & Chroph ft. David Lageder - Summer Nights
+2017-02-16 00:19:44.414000 #geral @jonyroda97#9104: .insult @Rafa Roda
+2017-02-16 00:19:44.679000 #geral @Amigos Prováveis#6605: @Rafa Roda I wasn't born with enough middle fingers to let you know how I feel about you.
+2017-02-16 00:19:47.895000 #geral @Tunes_NetWork#9569: !cena
+2017-02-16 00:20:10.633000 #geral @Tunes_NetWork#9569: .insult @João Roda
+2017-02-16 00:20:10.765000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=87zvcCAcY68
+2017-02-16 00:20:10.814000 #geral @Amigos Prováveis#6605: @João Roda You're so fat you'd have to go to Sea World to get baptized.
+2017-02-16 00:20:10.765000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=87zvcCAcY68
+2017-02-16 00:20:11.001000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:20:29.607000 #geral @Bastos#1116: .skip
+2017-02-16 00:20:29.758000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-16 00:20:36.098000 #geral @Bastos#1116: para chegar à minha
+2017-02-16 00:20:37.213000 #geral @Bastos#1116: sff
+2017-02-16 00:20:49.367000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 00:20:49.521000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-16 00:20:59.038000 #geral @Bastos#1116: é a minha já?
+2017-02-16 00:21:02.732000 #geral @jonyroda97#9104: .1
+2017-02-16 00:21:04.170000 #geral @jonyroda97#9104: .q
+2017-02-16 00:21:04.339000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-16 00:21:06.398000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Holly Hood -  COBRAS & RATAZANAS
+
+***Next up:***
+1. Calvin Harris - My Way (Official Video)
+2. Joey Bada$$ - "DEVASTATED" (Explicit Audio)
+3. Selah Sue - I Truly Loved Ya (Kungs Bootleg)
+4. ZHU - Paradise Awaits (LCAW Remix)
+5. Scheinizzl & Chroph ft. David Lageder - Summer Nights
+2017-02-16 00:21:16.041000 #geral @Bastos#1116: a minha é a numero 2
+2017-02-16 00:21:20.098000 #geral @Bastos#1116: .skip
+2017-02-16 00:21:20.223000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-16 00:21:24.548000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 00:21:24.716000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-16 00:21:35.719000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 00:21:35.896000 #geral @Amigos Prováveis#6605: @Rafa Roda, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-16 00:21:39.092000 #geral @Bastos#1116: .skip
+2017-02-16 00:21:39.179000 #geral @jonyroda97#9104: .skip
+2017-02-16 00:21:39.295000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-16 00:21:39.431000 #geral @Amigos Prováveis#6605: Can't skip if I'm not playing.
+2017-02-16 00:21:52.793000 #geral @Bastos#1116: acho q esta é fixe
+2017-02-16 00:21:54.822000 #geral @Bastos#1116: a ver vamos
+2017-02-16 00:22:17.770000 #geral @Bastos#1116: !!!!!!!!!!!!!!!!!!!!!!
+2017-02-16 00:22:22.160000 #geral @Bastos#1116: .muitoboa
+2017-02-16 00:22:46.894000 #geral @jonyroda97#9104: !wowthatscool
+2017-02-16 00:23:12.136000 #geral @jonyroda97#9104: !birthday
+2017-02-16 00:23:25.571000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=LhuOHumPrK8&index=93&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 00:23:25.571000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=LhuOHumPrK8&index=93&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 00:23:25.730000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:23:49.970000 #geral @Bastos#1116: .skip
+2017-02-16 00:23:50.190000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-16 00:23:51.664000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=l7d3cxI6Geo&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=104
+2017-02-16 00:23:51.664000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=l7d3cxI6Geo&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=104
+2017-02-16 00:23:51.806000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:24:08.239000 #geral @Bastos#1116: .skip
+2017-02-16 00:24:08.377000 #geral @Amigos Prováveis#6605: @Francisco Bastos, I removed your vote to skip. Votes: 0/3 (0% out of 50% needed)
+2017-02-16 00:24:16.508000 #geral @Bastos#1116: .skip
+2017-02-16 00:24:16.656000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-16 00:24:20.250000 #geral @Bastos#1116: SKRT SKRT
+2017-02-16 00:24:40.577000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 00:24:40.680000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-16 00:25:04.161000 #geral @Bastos#1116: .ragequit
+2017-02-16 00:25:07.572000 #geral @Bastos#1116: !ragequit
+2017-02-16 00:25:19.692000 #geral @Bastos#1116: .uMaD
+2017-02-16 00:25:28.840000 #geral @Bastos#1116: vou bazar
+2017-02-16 00:25:31.539000 #geral @Bastos#1116: fiquem bro's
+2017-02-16 00:25:34.793000 #geral @Tunes_NetWork#9569: .1 https://www.youtube.com/watch?v=34CYmWLOeUE&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=70
+2017-02-16 00:25:34.793000 #geral @Tunes_NetWork#9569: .1 https://www.youtube.com/watch?v=34CYmWLOeUE&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=70
+2017-02-16 00:25:36.664000 #geral @Bastos#1116: discord até bate yaaaa
+2017-02-16 00:25:38.488000 #geral @Bastos#1116: .slip
+2017-02-16 00:25:40.257000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 00:25:40.377000 #geral @Amigos Prováveis#6605: @Rafa Roda, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-16 00:25:41.591000 #geral @Bastos#1116: .skip
+2017-02-16 00:25:41.722000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-16 00:25:46.853000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 00:25:47.074000 #geral @Amigos Prováveis#6605: @Rafa Roda, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-16 00:25:50.610000 #geral @Bastos#1116: .skip
+2017-02-16 00:25:50.900000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-16 00:26:02.148000 #geral @Tunes_NetWork#9569: .q
+2017-02-16 00:26:02.299000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-16 00:26:03.297000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Selah Sue - I Truly Loved Ya (Kungs Bootleg)
+
+***Next up:***
+1. ZHU - Paradise Awaits (LCAW Remix)
+2. Scheinizzl & Chroph ft. David Lageder - Summer Nights
+3. Milky Chance - Fairytale (Florian Paetzold Bootleg)
+4. Oxford & Co - Love Is Gone (Nicolas Haelg Remix)
+5. 4th Dimension - Long Time Ago
+2017-02-16 00:26:16.640000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=34CYmWLOeUE&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=70
+2017-02-16 00:26:16.855000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 00:26:19.863000 #geral @Bastos#1116: .skip
+2017-02-16 00:26:20.248000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-16 00:26:21.561000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 00:26:21.714000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-16 00:26:24.442000 #geral @jonyroda97#9104: .q
+2017-02-16 00:26:24.636000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-16 00:26:25.782000 #geral @Amigos Prováveis#6605: ***Now playing:***
+MC G15 e MC TH - Essa é a Hora (DJ RM) Musica nova 2016
+
+***Next up:***
+1. ZHU - Paradise Awaits (LCAW Remix)
+2. Scheinizzl & Chroph ft. David Lageder - Summer Nights
+3. Milky Chance - Fairytale (Florian Paetzold Bootleg)
+4. Oxford & Co - Love Is Gone (Nicolas Haelg Remix)
+5. 4th Dimension - Long Time Ago
+2017-02-16 00:26:47.344000 #geral @Bastos#1116: 💯
+2017-02-16 00:27:08.537000 #geral @Tunes_NetWork#9569: 🔝
+2017-02-16 00:27:13.610000 #geral @Tunes_NetWork#9569: 🔝 🔝
+2017-02-16 00:27:14.965000 #geral @Bastos#1116: 😩
+2017-02-16 00:27:29.709000 #geral @Bastos#1116: 👌🏽
+2017-02-16 00:27:39.602000 #geral @Bastos#1116: 3 point steph curry!!!!!
+2017-02-16 00:27:44.008000 #geral @jonyroda97#9104: !clown
+2017-02-16 00:27:45.298000 #geral @Tunes_NetWork#9569: Steph way downtown
+2017-02-16 00:27:49.601000 #geral @Tunes_NetWork#9569: BANGGGG
+2017-02-16 00:27:57.450000 #geral @Bastos#1116: Puts it up
+2017-02-16 00:27:57.653000 #geral @jonyroda97#9104: !spam
+2017-02-16 00:28:01.070000 #geral @Bastos#1116: PUTS IT IN
+2017-02-16 00:28:05.888000 #geral @Tunes_NetWork#9569: 👌 👌  👌  👌
+2017-02-16 00:28:07.917000 #geral @jonyroda97#9104: .cleanup
+2017-02-16 00:28:08.067000 #geral @Amigos Prováveis#6605: ```
+.cleanup
+
+Deletes messages.
+
+Commands:
+  after    Deletes all messages after specified message
+  bot      Cleans up command messages and messages from the bot
+  messages Deletes last X messages.
+  self     Cleans up messages owned by the bot.
+  text     Deletes last X messages matching the specified text.
+  user     Deletes last X messages from specified user.
+
+Type .cleanup command for more info on a command.
+You can also type .cleanup category for more info on a category.
+```
+2017-02-16 00:28:18.105000 #geral @jonyroda97#9104: .cleanup user 3
+2017-02-16 00:28:18.222000 #geral @Amigos Prováveis#6605: ```
+.cleanup user <user> <number>
+
+Deletes last X messages from specified user.
+
+Examples:
+cleanup user @​Twentysix 2
+cleanup user Red 6
+
+```
+2017-02-16 00:28:22.944000 #geral @Tunes_NetWork#9569: Canastonnn don stephennn
+2017-02-16 00:28:42.959000 #geral @Bastos#1116: Steph lets it go from beyond the arc
+2017-02-16 00:28:47.977000 #geral @Bastos#1116: and drills the 3 pointer!!!!!
+2017-02-16 00:29:02.731000 #geral @Bastos#1116: Steph.... NAILS THE 3POINTER
+2017-02-16 00:29:05.099000 #geral @Tunes_NetWork#9569: Javaleee Mcgeeee
+2017-02-16 00:29:29.423000 #geral @Bastos#1116: Steph tries a 3.... IT'S GOOD
+2017-02-16 00:29:43.156000 #geral @jonyroda97#9104: .cleanup user @João Roda 5
+2017-02-16 00:30:02.439000 #geral @Tunes_NetWork#9569: Steph puts it up, KABOOOOM
+2017-02-16 00:30:20.614000 #geral @jonyroda97#9104: !ethan
+2017-02-16 00:30:30.807000 #geral @jonyroda97#9104: !cow
+2017-02-16 00:30:38.282000 #geral @jonyroda97#9104: !anotherone
+2017-02-16 00:30:41.155000 #geral @jonyroda97#9104: !another
+2017-02-16 00:30:57.270000 #geral @jonyroda97#9104: .clear 4
+2017-02-16 00:31:37.017000 #geral @Bastos#1116: WAITER, KABOOOM
+2017-02-16 00:31:40.799000 #geral @Bastos#1116: WAITERS**
+2017-02-16 00:35:46.505000 #geral @jonyroda97#9104: .streamalert
+2017-02-16 00:35:46.630000 #geral @Amigos Prováveis#6605: ```
+.streamalert
+
+Adds/removes stream alerts from the current channel
+
+Commands:
+  beam   Adds/removes beam alerts from the current channel
+  hitbox Adds/removes hitbox alerts from the current channel
+  stop   Stops all streams alerts in the current channel
+  twitch Adds/removes twitch alerts from the current channel
+
+Type .streamalert command for more info on a command.
+You can also type .streamalert category for more info on a category.
+```
+2017-02-16 00:36:00.126000 #geral @jonyroda97#9104: .streamalert stop
+2017-02-16 00:36:00.324000 #geral @Amigos Prováveis#6605: There will be no more stream alerts in this channel.
+2017-02-16 00:36:16.327000 #geral @jonyroda97#9104: .streamalert stop
+2017-02-16 00:36:16.444000 #geral @Amigos Prováveis#6605: There will be no more stream alerts in this channel.
+2017-02-16 00:36:33.306000 #geral @jonyroda97#9104: .clear 6
+2017-02-16 01:09:19.607000 #geral @jonyroda97#9104: .stop
+2017-02-16 01:09:19.790000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-16 21:45:32.668000 #geral @taskosan#2557: porco
+2017-02-16 21:52:00.940000 #geral @jonyroda97#9104: calou
+2017-02-16 21:52:42.050000 #geral @jonyroda97#9104: .pl mix gaming
+2017-02-16 21:52:42.660000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-16 21:54:15.076000 #geral @jonyroda97#9104: .volume
+2017-02-16 21:54:15.222000 #geral @Amigos Prováveis#6605: Volume is currently set to 15%
+2017-02-16 21:58:23.668000 #geral @jonyroda97#9104: .pl mix gaming
+2017-02-16 21:58:24.219000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-16 22:08:35.079000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=Gj5YO0wV03E
+2017-02-16 22:08:35.079000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=Gj5YO0wV03E
+2017-02-16 22:08:35.155000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:08:45.918000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=JGwWNGJdvx8
+2017-02-16 22:08:46.219000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:09:21.612000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:09:21.638000 #geral @Tunes_NetWork#9569: .skip
+2017-02-16 22:09:21.781000 #geral @Amigos Prováveis#6605: @Rafa Roda, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-02-16 22:09:21.612000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:10:09.771000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=JAd--mEjcco
+2017-02-16 22:10:09.771000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=JAd--mEjcco
+2017-02-16 22:10:09.966000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:10:40.601000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=RYzQvj3icjs&index=11&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 22:10:40.601000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=RYzQvj3icjs&index=11&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 22:10:40.854000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:11:05.744000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=YwW3MSVu6Iw&index=17&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 22:11:05.744000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=YwW3MSVu6Iw&index=17&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 22:11:05.928000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:11:15.420000 #geral @luso500#3797: .q
+2017-02-16 22:11:15.595000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-16 22:11:18.065000 #geral @Amigos Prováveis#6605: ***Now playing:***
+twocolors - Runaways
+
+***Next up:***
+1. Ed Sheeran - Shape Of You (Midi Culture Remix)
+2. Ed Sheeran - Shape of You [Official Video]
+3. Chet Faker, Marcus Marr - The Trouble With Us
+4. Omi - Hula Hoop (Official Video)
+5. REGULA "mêmo a veres" ft. BLAYA
+2017-02-16 22:11:18.241000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=MgNUFCPNgXs&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=27
+2017-02-16 22:11:18.241000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=MgNUFCPNgXs&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=27
+2017-02-16 22:11:18.503000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:12:22.416000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=X7rdg_tKzKQ&index=45&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 22:12:22.416000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=X7rdg_tKzKQ&index=45&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB
+2017-02-16 22:12:22.496000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:12:22.632000 #geral @jonyroda97#9104: .1
+2017-02-16 22:12:24.061000 #geral @jonyroda97#9104: .q
+2017-02-16 22:12:24.345000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-16 22:12:26.921000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Ed Sheeran - Shape Of You (Midi Culture Remix)
+
+***Next up:***
+1. Ed Sheeran - Shape of You [Official Video]
+2. Chet Faker, Marcus Marr - The Trouble With Us
+3. Omi - Hula Hoop (Official Video)
+4. REGULA "mêmo a veres" ft. BLAYA
+5. Cezar & Rost - Cospe [Vídeo Oficial]
+2017-02-16 22:13:16.930000 #geral @jonyroda97#9104: .skip
+2017-02-16 22:13:17.052000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-16 22:15:59.137000 #geral @luso500#3797: A VERDADE SOBRE O WINDOH!
+2017-02-16 22:16:10.906000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:16:29.257000 #geral @luso500#3797: powerxikinho1
+2017-02-16 22:21:50.978000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:21:51.328000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:21:51.787000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:21:52.085000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:21:52.528000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:21:52.893000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:21:53.185000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-16 22:30:48.006000 #geral @taskosan#2557: .skip
+2017-02-16 22:30:48.078000 #geral @Amigos Prováveis#6605: @Rafa Santos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-02-16 22:31:31.159000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=4r4UnXz6Q3o
+2017-02-16 22:31:31.159000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=4r4UnXz6Q3o
+2017-02-16 22:31:31.322000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:32:03.989000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=tufU2Calfdg
+2017-02-16 22:32:03.989000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=tufU2Calfdg
+2017-02-16 22:32:04.214000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:36:42.394000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=1fdv0OIhzzA
+2017-02-16 22:36:42.394000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=1fdv0OIhzzA
+2017-02-16 22:36:42.678000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:38:30.844000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=j0viC_w_tws
+2017-02-16 22:38:30.844000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=j0viC_w_tws
+2017-02-16 22:38:30.956000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:38:51.164000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=V2vGc2GsH-A
+2017-02-16 22:38:51.360000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 22:48:54.257000 #geral @taskosan#2557: .q https://www.youtube.com/playlist?list=PLcKj4-geSRBceJrVxtTUcnyeExwyr2YVw
+2017-02-16 22:48:54.257000 #geral @taskosan#2557: .q https://www.youtube.com/playlist?list=PLcKj4-geSRBceJrVxtTUcnyeExwyr2YVw
+2017-02-16 22:48:54.525000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-16 23:00:28.953000 #geral @luso500#3797: .pl gaming
+2017-02-16 23:00:29.177000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-16 23:00:36.476000 #geral @luso500#3797: .pl add gaming
+2017-02-16 23:00:36.699000 #geral @Amigos Prováveis#6605: ```
+.playlist add <name> <url>
+
+Add a YouTube or Soundcloud playlist.
+
+```
+2017-02-16 23:00:39.261000 #geral @jonyroda97#9104: .pl add rafa https://www.youtube.com/playlist?list=PLcKj4-geSRBceJrVxtTUcnyeExwyr2YVw
+2017-02-16 23:00:39.378000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2017-02-16 23:00:40.100000 #geral @Amigos Prováveis#6605: Playlist 'rafa' saved. Tracks: 21
+2017-02-16 23:00:42.808000 #geral @luso500#3797: .pl start gaming
+2017-02-16 23:00:43.120000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-16 23:00:54.351000 #geral @jonyroda97#9104: .pl
+2017-02-16 23:00:54.526000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-02-16 23:01:10.516000 #geral @jonyroda97#9104: .pl mix rafa
+2017-02-16 23:01:10.667000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-16 23:03:34.874000 #geral @taskosan#2557: .skip
+2017-02-16 23:03:35.049000 #geral @Amigos Prováveis#6605: @Rafa Santos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-02-16 23:03:53.673000 #geral @jonyroda97#9104: .skip
+2017-02-16 23:03:53.928000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-16 23:10:23.757000 #geral @jonyroda97#9104: .np
+2017-02-16 23:10:24.004000 #geral @Amigos Prováveis#6605: **Title:** Rae Sremmurd - Black Beatles ft. Gucci Mane
+**Uploader:** RaeSremmurdVEVO
+**Views:** 399118403
+**Duration:** 4:53
+
+<https://www.youtube.com/watch?v=b8m9zhNAgKs>
+2017-02-16 23:19:54.557000 #geral @jonyroda97#9104: .skip
+2017-02-16 23:19:54.708000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-16 23:31:04.715000 #geral @Bastos#1116: .skip
+2017-02-16 23:31:04.862000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/5 (20% out of 50% needed)
+2017-02-16 23:41:24.781000 #geral @Bastos#1116: nng fala...
+2017-02-17 00:00:38.676000 #geral @jonyroda97#9104: .pause
+2017-02-17 00:00:38.861000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-17 00:04:31.476000 #geral @Bastos#1116: queria a musica q tava dar ha bcd
+2017-02-17 00:04:34.256000 #geral @Bastos#1116: ja n lembro
+2017-02-17 00:15:54.059000 #geral @luso500#3797: https://www.youtube.com/results?search_query=infestation+new+z
+2017-02-17 00:15:54.059000 #geral @luso500#3797: https://www.youtube.com/results?search_query=infestation+new+z
+2017-02-17 00:19:56.402000 #geral @luso500#3797: .q
+2017-02-17 00:19:56.646000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-17 00:19:57.596000 #geral @Amigos Prováveis#6605: ***Now playing:***
+MC Livinho - Tenebrosa (Video Clipe Oficial) DJ R7
+
+***Next up:***
+1. Misael - Frevo Top Official Vídeo
+2. MC Kekel - Quer Andar de Meiota (Videoclipe Oficial) (DJ Perera)
+3. MC Kevinho - Turutum (Vídeo Clipe Oficial) Jorgin Deejhay
+4. MC Igor Almeida - Tiro Pra Caralho (DJ R7) Lançamento Oficial 2016
+5. MC João - Curriculum (DJ R7) (Vídeo Clipe Oficial 2015)
+2017-02-17 00:20:08.391000 #geral @luso500#3797: .yt https://www.youtube.com/watch?v=lxw3C5HJ2XU
+2017-02-17 00:20:08.391000 #geral @luso500#3797: .yt https://www.youtube.com/watch?v=lxw3C5HJ2XU
+2017-02-17 00:20:08.578000 #geral @Amigos Prováveis#6605: Searching...
+2017-02-17 00:20:08.794000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-17 00:20:47.832000 #geral @jonyroda97#9104: .resume
+2017-02-17 00:20:47.943000 #geral @Amigos Prováveis#6605: Resuming.
+2017-02-17 00:20:52.870000 #geral @luso500#3797: .skip
+2017-02-17 00:20:52.998000 #geral @Amigos Prováveis#6605: @Xizikinho, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-02-17 00:20:56.849000 #geral @jonyroda97#9104: .np
+2017-02-17 00:20:56.955000 #geral @Amigos Prováveis#6605: **Title:** MC Livinho - Tenebrosa (Video Clipe Oficial) DJ R7
+**Uploader:** GR6 EXPLODE
+**Views:** 62472797
+**Duration:** 4:28
+
+<https://www.youtube.com/watch?v=dgD0F0it90k>
+2017-02-17 00:21:15.398000 #geral @jonyroda97#9104: .skip
+2017-02-17 00:21:15.588000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-17 00:22:15.584000 #geral @jonyroda97#9104: .np
+2017-02-17 00:22:15.775000 #geral @Amigos Prováveis#6605: **Title:** Jabba the Hutt (PewDiePie Song) by Schmoyoho
+**Uploader:** PewDiePie
+**Views:** 49458778
+**Duration:** 2:11
+
+<https://www.youtube.com/watch?v=lxw3C5HJ2XU>
+2017-02-17 00:22:53.959000 #geral @jonyroda97#9104: .pause
+2017-02-17 00:22:54.159000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-17 00:28:43.550000 #geral @luso500#3797: https://www.youtube.com/watch?v=lwk1DogcPmU
+2017-02-17 00:59:43.933000 #geral @jonyroda97#9104: .stop
+2017-02-17 00:59:44.068000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-17 20:59:11.168000 #geral @luso500#3797: .resume
+2017-02-17 20:59:11.413000 #geral @Amigos Prováveis#6605: Not voice connected in this server.
+2017-02-17 20:59:37.319000 #geral @luso500#3797: .summon
+2017-02-17 20:59:40.388000 #geral @luso500#3797: .help
+2017-02-17 21:00:09.486000 #geral @luso500#3797: .q
+2017-02-17 21:00:09.630000 #geral @Amigos Prováveis#6605: Nothing queued on this server.
+2017-02-17 21:00:18.695000 #geral @luso500#3797: .yt allen halloween
+2017-02-17 21:00:18.835000 #geral @Amigos Prováveis#6605: Searching...
+2017-02-17 21:52:50.664000 #geral @luso500#3797: .np
+2017-02-17 21:52:50.772000 #geral @Amigos Prováveis#6605: I'm not playing on this server.
+2017-02-17 21:52:59.706000 #geral @luso500#3797: .yt allen halloween
+2017-02-17 21:52:59.904000 #geral @Amigos Prováveis#6605: Searching...
+2017-02-17 22:02:03.426000 #geral @luso500#3797: .yt https://www.youtube.com/watch?v=JUOyL7VgAGc
+2017-02-17 22:02:03.583000 #geral @Amigos Prováveis#6605: Searching...
+2017-02-17 22:02:03.426000 #geral @luso500#3797: .yt https://www.youtube.com/watch?v=JUOyL7VgAGc
+2017-02-17 22:03:41.009000 #geral @luso500#3797: add http://steamcommunity.com/id/Powerxikinho1/
+2017-02-17 22:03:41.009000 #geral @luso500#3797: add http://steamcommunity.com/id/Powerxikinho1/
+2017-02-17 22:03:45.683000 #geral @rafa304#6472: foda-se
+2017-02-17 22:03:52.449000 #geral @rafa304#6472: Não consigo falar nesta merda
+2017-02-17 22:04:24.390000 #geral @rafa304#6472: Tás me a ouvir?
+2017-02-17 22:04:30.068000 #geral @luso500#3797: o teu mic
+2017-02-17 22:04:31.309000 #geral @luso500#3797: ta muted
+2017-02-17 22:04:34.019000 #geral @luso500#3797: tens q desmutar
+2017-02-17 22:04:36.212000 #geral @rafa304#6472: Não tá
+2017-02-17 22:04:39.020000 #geral @luso500#3797: ta sim
+2017-02-17 22:04:39.841000 #geral @rafa304#6472: Tá on
+2017-02-17 22:04:47.022000 #geral @luso500#3797: meu ta muted no discord
+2017-02-17 22:05:00.825000 #geral @rafa304#6472: Vai lá ao fb
+2017-02-17 22:05:59.036000 #geral @rafa304#6472: não dá para falar aqui
+2017-02-17 22:06:00.843000 #geral @rafa304#6472: lol
+2017-02-17 22:06:04.026000 #geral @rafa304#6472: fds
+2017-02-17 22:08:42.304000 #geral @luso500#3797: add no cs mase
+2017-02-17 22:08:44.142000 #geral @luso500#3797: bora jogar
+2017-02-17 22:08:57.892000 #geral @luso500#3797: http://steamcommunity.com/id/Powerxikinho1/
+2017-02-17 23:15:38.004000 #geral @luso500#3797: 53 kills, 1 ace. Aqui Maria Leal só para ti
+2017-02-18 03:02:36.809000 #geral @jonyroda97#9104: eu tinha que dar cargo de membro
+2017-02-18 03:03:00.002000 #geral @jonyroda97#9104: que e para se mandarem o link a gajos estupidos nao virem para aqui mandar merda
+2017-02-18 03:03:11.332000 #geral @jonyroda97#9104: ja agora quem é o rapaz?
+2017-02-18 03:05:06.824000 #geral @jonyroda97#9104: ja agora: FDS PUTA DE NABOS OS DA TUA EQUIPA (a print)
+2017-02-18 14:40:33.923000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-02-18 14:40:33.923000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-02-18 14:41:52.859000 #geral @Bastos#1116: .skip
+2017-02-18 14:41:52.944000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/5 (20% out of 50% needed)
+2017-02-18 14:42:15.193000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=UX6vao_sfso
+2017-02-18 14:42:15.193000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=UX6vao_sfso
+2017-02-18 14:42:15.419000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 14:42:32.040000 #geral @xraizen#6932: .skip
+2017-02-18 14:42:32.310000 #geral @Amigos Prováveis#6605: @Tiago Duro, you voted to skip. Votes: 2/5 (40% out of 50% needed)
+2017-02-18 14:43:44.950000 #geral @Bastos#1116: Ahahahah
+2017-02-18 14:43:49.966000 #geral @Bastos#1116: Ca ganda estupido
+2017-02-18 14:44:50.645000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=EWcOY14GWwM&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=105
+2017-02-18 14:44:50.645000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=EWcOY14GWwM&list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB&index=105
+2017-02-18 14:44:50.823000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 14:44:58.370000 #geral @Bastos#1116: Sabes
+2017-02-18 14:46:16.968000 #geral @Bastos#1116: .skip
+2017-02-18 14:46:17.169000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/5 (20% out of 50% needed)
+2017-02-18 14:53:17.706000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-02-18 14:53:17.706000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-02-18 14:53:17.952000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 14:58:24.670000 #geral @xraizen#6932: .qhttps://www.youtube.com/watch?v=ot_nlOI_QoI
+2017-02-18 14:58:24.670000 #geral @xraizen#6932: .qhttps://www.youtube.com/watch?v=ot_nlOI_QoI
+2017-02-18 15:01:15.027000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=JGwWNGJdvx8
+2017-02-18 15:01:15.141000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:05:55.318000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=TXV3HjHwGl4
+2017-02-18 15:05:55.318000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=TXV3HjHwGl4
+2017-02-18 15:05:55.642000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:14:17.905000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=708mjaHTwKc
+2017-02-18 15:15:08.292000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=RqQGUJK7Na4
+2017-02-18 15:15:08.292000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=RqQGUJK7Na4
+2017-02-18 15:15:08.516000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:15:40.308000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=Lq2UrnDsI_s
+2017-02-18 15:15:40.308000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=Lq2UrnDsI_s
+2017-02-18 15:15:40.582000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:16:14.608000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=Sf0ZmBlAnOQ
+2017-02-18 15:16:14.608000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=Sf0ZmBlAnOQ
+2017-02-18 15:16:14.669000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:19:56.702000 #geral @xraizen#6932: PT QUEM TA A POR ESTA BOSTA
+2017-02-18 15:20:44.629000 #geral @Bastos#1116: SHUT UP!!!
+2017-02-18 15:20:45.251000 #geral @Bastos#1116: AHAHA
+2017-02-18 15:21:11.708000 #geral @Bastos#1116: se pgntares aos ingleses eles conhecem a do shut up, é bué conhecida a musica
+2017-02-18 15:22:01.620000 #geral @jonyroda97#9104: .skip
+2017-02-18 15:22:01.699000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-18 15:23:35.119000 #geral @Bastos#1116: skip o crl
+2017-02-18 15:27:43.449000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=PT2_F-1esPk
+2017-02-18 15:27:43.665000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:28:28.010000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=zFt0tO4Op14
+2017-02-18 15:28:28.010000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=zFt0tO4Op14
+2017-02-18 15:28:28.192000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:28:57.282000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=tYQ1Okyi3g4
+2017-02-18 15:28:57.282000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=tYQ1Okyi3g4
+2017-02-18 15:28:57.376000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:29:38.591000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=gG_dA32oH44
+2017-02-18 15:29:38.865000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:29:58.645000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=bjAsGUuXeQA
+2017-02-18 15:29:58.645000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=bjAsGUuXeQA
+2017-02-18 15:29:58.792000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:30:25.146000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=0AoUDbti7Nk
+2017-02-18 15:30:25.146000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=0AoUDbti7Nk
+2017-02-18 15:30:25.278000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:30:58.431000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=eCGV26aj-mM
+2017-02-18 15:30:58.431000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=eCGV26aj-mM
+2017-02-18 15:30:58.540000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:31:47.689000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=KrVC5dm5fFc~
+2017-02-18 15:31:47.689000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=KrVC5dm5fFc~
+2017-02-18 15:31:47.854000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:31:53.317000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=KrVC5dm5fFc
+2017-02-18 15:31:53.317000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=KrVC5dm5fFc
+2017-02-18 15:31:53.469000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 15:47:27.275000 #geral @jonyroda97#9104: .np
+2017-02-18 15:47:27.410000 #geral @Amigos Prováveis#6605: **Title:** Deejay Telio - Ficou (Video Oficial HD)
+**Uploader:** DeejayTelioPáginaOfficial
+**Views:** 3854204
+**Duration:** 3:23
+
+<https://www.youtube.com/watch?v=bjAsGUuXeQA>
+2017-02-18 16:24:27.399000 #geral @Luis Miguel#9482: bastos
+2017-02-18 16:24:32.587000 #geral @Luis Miguel#9482: apostaste bayern?
+2017-02-18 16:26:17.920000 #geral @Luis Miguel#9482: tiago
+2017-02-18 16:27:07.306000 #geral @jonyroda97#9104: @Tiago Duro pandula
+2017-02-18 17:18:52.290000 #geral @Bastos#1116: apostei luis
+2017-02-18 17:20:42.473000 #geral @jonyroda97#9104: podem mencionar as pessoas @Francisco Bastos para receberem notificacao
+2017-02-18 17:20:57.805000 #geral @Bastos#1116: @Tiago Duro ola
+2017-02-18 17:32:46.912000 #geral @Bastos#1116: rafa roda...
+2017-02-18 17:32:55.409000 #geral @Bastos#1116: n me ouvem?
+2017-02-18 17:38:01.301000 #geral @Tunes_NetWork#9569: Nepia
+2017-02-18 17:38:03.764000 #geral @Bastos#1116: ???
+2017-02-18 17:38:07.287000 #geral @Tunes_NetWork#9569: faka agr
+2017-02-18 17:38:12.755000 #geral @Bastos#1116: tou a flr
+2017-02-18 17:38:19.020000 #geral @Bastos#1116: espera
+2017-02-18 17:38:51.425000 #geral @luso500#3797: @João Roda  Preciso de falar ctg
+2017-02-18 17:41:17.372000 #geral @luso500#3797: .yt halloween
+2017-02-18 17:41:17.729000 #geral @Amigos Prováveis#6605: Searching...
+2017-02-18 17:41:33.949000 #geral @luso500#3797: .yt allen halloween bandido velho
+2017-02-18 17:41:34.194000 #geral @Amigos Prováveis#6605: Searching...
+2017-02-18 17:41:34.332000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-18 17:41:50.877000 #geral @luso500#3797: .skip
+2017-02-18 17:41:51.150000 #geral @Amigos Prováveis#6605: @Xizikinho, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-02-18 17:42:05.938000 #geral @Bastos#1116: .skip
+2017-02-18 17:42:06.105000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-18 17:42:44.235000 #geral @Tunes_NetWork#9569: .q
+2017-02-18 17:42:44.413000 #geral @Amigos Prováveis#6605: Nothing queued on this server.
+2017-02-18 17:42:57.594000 #geral @jonyroda97#9104: diga
+2017-02-18 17:43:46.583000 #geral @jonyroda97#9104: @Xizikinho
+2017-02-18 17:44:36.476000 #geral @luso500#3797: Meu, da ai cargo de lider, pa dps quando o meu amigo entrar, assim pode jogar
+2017-02-18 17:44:40.727000 #geral @luso500#3797: ele ja jogou connosco
+2017-02-18 17:45:34.166000 #geral @jonyroda97#9104: ja dei membro a ele
+2017-02-18 17:45:44.908000 #geral @luso500#3797: Ok
+2017-02-18 17:45:58.490000 #geral @Bastos#1116: Achas
+2017-02-18 17:46:05.096000 #geral @Bastos#1116: João quer ser unico lider
+2017-02-18 17:46:11.254000 #geral @luso500#3797: Mesmo.
+2017-02-18 17:47:03.777000 #geral @jonyroda97#9104: o xizikinho nao sei mas vcs nao precisam disso para nada. nem sabem ainda mexer nas coisas basicas precisam mais permissoes para que?
+2017-02-18 17:47:26.792000 #geral @luso500#3797: era so pa membros mesmo, calma mo puto
+2017-02-18 17:48:01.800000 #geral @jonyroda97#9104: o bastos e que mal entrou aqui pela 1a vez comeca logo a dizer que eu queria lider e nao sei o que
+2017-02-18 17:48:01.800000 #geral @jonyroda97#9104: EDIT: 
+Before: o bastos e que mal entrou aqui pela 1a vez comeca logo a dizer que eu queria lider e nao sei o que
+After: o bastos e que mal entrou aqui pela 1a vez comeca logo a dizer que eu queria lider so para mim e nao sei o que
+2017-02-18 17:49:40.925000 #geral @jonyroda97#9104: vcs ja têm as permissoes para fazer tudo. as uncias que nao tem e para nao mexerem nas configuracoes que estao para nao fazerem merda
+2017-02-18 17:50:00.755000 #geral @jonyroda97#9104: expulsar, banir tamb nao têm porque nao precisam
+2017-02-18 17:50:18.637000 #geral @jonyroda97#9104: e eu so tenho pq fui eu que criei o servidor porque tamb nao preciso
+2017-02-18 17:53:07.366000 #geral @jonyroda97#9104: tamb nao têm permissao para eliminar mens de outras pessoas, mover pessoas para outros canais de voz, dar server mute a outros (para que nao consiga falar nos canais de voz todos) e desativar o audio dos outros
+2017-02-18 20:07:12.814000 #geral @rafa304#6472: vou ver o jogo
+2017-02-18 20:07:13.780000 #geral @rafa304#6472: fui´~
+2017-02-19 22:42:28.178000 #geral @taskosan#2557: porcalhões
+2017-02-19 22:42:49.248000 #geral @Bastos#1116: boas
+2017-02-19 22:42:59.097000 #geral @luso500#3797: oi
+2017-02-19 22:43:37.788000 #geral @taskosan#2557: 🇨
+2017-02-19 22:43:47.084000 #geral @luso500#3797: ?
+2017-02-19 22:48:24.554000 #geral @Luis Miguel#9482: rafa
+2017-02-19 22:48:28.203000 #geral @Luis Miguel#9482: qures ir um paladins?
+2017-02-19 22:53:34.456000 #geral @jonyroda97#9104: .shutdown
+2017-02-19 22:53:34.668000 #geral @Amigos Prováveis#6605: Shutting down... 👋🏼
+2017-02-19 23:00:25.849000 #geral @jonyroda97#9104: .cog update
+2017-02-19 23:00:26.809000 #geral @Amigos Prováveis#6605: Downloading updated cogs, please wait...  0/8 repos updated
+2017-02-19 23:00:26.809000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/8 repos updated
+After: Downloading updated cogs, please wait...  1/8 repos updated
+2017-02-19 23:00:26.809000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/8 repos updated
+After: Downloading updated cogs, please wait...  5/8 repos updated
+2017-02-19 23:00:26.809000 #geral @Amigos Prováveis#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/8 repos updated
+After: Downloading updated cogs, please wait... done.  No updates to apply.
+2017-02-19 23:00:42.542000 #geral @jonyroda97#9104: .pl mix gaming
+2017-02-19 23:00:43.020000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-19 23:00:57.030000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=JGwWNGJdvx8
+2017-02-19 23:00:57.353000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-19 23:55:36.522000 #geral @jonyroda97#9104: .stop
+2017-02-19 23:55:36.882000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-20 16:56:21.657000 #geral @luso500#3797: .q bandido velho
+2017-02-20 16:56:28.977000 #geral @luso500#3797: .yt bandido velho
+2017-02-20 16:56:29.223000 #geral @Amigos Prováveis#6605: Searching...
+2017-02-20 16:56:29.383000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-20 17:00:56.928000 #geral @luso500#3797: .stop
+2017-02-20 17:00:57.079000 #geral @Amigos Prováveis#6605: You can't stop music when there are other people in the channel! Vote to skip instead.
+2017-02-20 17:01:00.974000 #geral @luso500#3797: .skip
+2017-02-20 17:01:01.129000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-02-20 18:03:58.811000 #geral @jonyroda97#9104: https://www.facebook.com/thebestofgaming1/videos/1243174169065297/?hc_ref=NEWSFEED
+2017-02-20 18:03:58.811000 #geral @jonyroda97#9104: https://www.facebook.com/thebestofgaming1/videos/1243174169065297/?hc_ref=NEWSFEED
+2017-02-20 18:08:10.202000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=4kOX-qE6Ka4
+2017-02-20 18:08:10.202000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=4kOX-qE6Ka4
+2017-02-20 21:52:56.981000 #geral @Bastos#1116: boas porcos
+2017-02-20 22:19:20.355000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=4kOX-qE6Ka4
+2017-02-20 22:23:04.366000 #geral @jonyroda97#9104: !rlrankup pc raizenx
+2017-02-20 22:23:09.650000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/lQ8R3t>**
+2017-02-20 22:38:53.872000 #geral @jonyroda97#9104: !rlrankup pc tunesnetwork
+2017-02-20 22:38:57.416000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/2QNIAU>**
+2017-02-20 22:39:05.381000 #geral @jonyroda97#9104: !rlrankup pc jonyroda97
+2017-02-20 22:39:08.556000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-02-20 23:17:27.551000 #geral @Bastos#1116: https://www.youtube.com/watch?v=bvp5E7XES2g
+2017-02-20 23:17:27.551000 #geral @Bastos#1116: https://www.youtube.com/watch?v=bvp5E7XES2g
+2017-02-21 21:35:49.035000 #geral @taskosan#2557: calhao
+2017-02-21 21:37:12.274000 #geral @jonyroda97#9104: .l.
+2017-02-21 22:01:14.663000 #geral @jonyroda97#9104: .pl mix gaming
+2017-02-21 22:01:15.133000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-21 22:03:48.886000 #geral @jonyroda97#9104: ¯\_(ツ)_/¯
+2017-02-21 22:03:56.715000 #geral @jonyroda97#9104: /ppt és parvo
+2017-02-21 22:04:10.397000 #geral @jonyroda97#9104: es parvo
+2017-02-21 22:05:07.821000 #geral @jonyroda97#9104: és parvo
+2017-02-21 22:05:15.723000 #geral @jonyroda97#9104: .pause
+2017-02-21 22:05:15.974000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-21 22:05:42.031000 #geral @jonyroda97#9104: Olá a todos!
+2017-02-21 22:05:59.390000 #geral @jonyroda97#9104: .clear 6
+2017-02-21 22:06:01.937000 #geral @jonyroda97#9104: .resume
+2017-02-21 22:06:02.152000 #geral @Amigos Prováveis#6605: Resuming.
+2017-02-21 22:06:06.860000 #geral @jonyroda97#9104: .clear 2
+2017-02-21 22:19:58.070000 #geral @jonyroda97#9104: .q xama
+2017-02-21 22:19:58.212000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-21 22:19:58.674000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-02-21 22:19:58.674000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-02-21 22:19:58.824000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-21 22:20:06.178000 #geral @jonyroda97#9104: .q
+2017-02-21 22:20:07.803000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-21 22:20:10.998000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Hoodlem - Old Friend (WKND Remix)
+
+***Next up:***
+1. ProfJam - Xamã (Prod. Lhast)
+2. ProfJam - Xamã (Prod. Lhast)
+3. Amy Steele - The Wolves (Tep No Remix)
+4. 4th Dimension - Nazali Mabe
+5. Broken Back - Seven Words
+2017-02-21 22:20:20.981000 #geral @jonyroda97#9104: .help audio
+2017-02-21 22:20:21.305000 #geral @Amigos Prováveis#6605: No command called "audio" found.
+2017-02-21 22:21:01.489000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=UnrThjYCrdY&t=19s
+2017-02-21 22:21:01.489000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=UnrThjYCrdY&t=19s
+2017-02-21 22:21:01.727000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-21 22:21:15.597000 #geral @jonyroda97#9104: .audiostat
+2017-02-21 22:21:15.744000 #geral @Amigos Prováveis#6605: ```
+.audiostat
+
+General stats on audio stuff.
+
+Commands:
+  servers Number of servers currently playing.
+
+Type .audiostat command for more info on a command.
+You can also type .audiostat category for more info on a category.
+```
+2017-02-21 22:21:22.261000 #geral @jonyroda97#9104: .clear 2
+2017-02-21 22:21:33.609000 #geral @jonyroda97#9104: .clear 2
+2017-02-21 22:21:39.954000 #geral @jonyroda97#9104: .clear 2
+2017-02-21 22:21:43.323000 #geral @jonyroda97#9104: .q
+2017-02-21 22:21:43.550000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-21 22:21:45.209000 #geral @Amigos Prováveis#6605: ***Now playing:***
+ProfJam - Xamã (Prod. Lhast)
+
+***Next up:***
+1. ProfJam - Xamã (Prod. Lhast)
+2. REGULA - NADA A VER
+3. Amy Steele - The Wolves (Tep No Remix)
+4. 4th Dimension - Nazali Mabe
+5. Broken Back - Seven Words
+2017-02-21 22:21:49.232000 #geral @jonyroda97#9104: .clear 2
+2017-02-21 22:21:59.021000 #geral @jonyroda97#9104: .q
+2017-02-21 22:21:59.150000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-02-21 22:22:00.823000 #geral @Amigos Prováveis#6605: ***Now playing:***
+ProfJam - Xamã (Prod. Lhast)
+
+***Next up:***
+1. ProfJam - Xamã (Prod. Lhast)
+2. REGULA - NADA A VER
+3. Amy Steele - The Wolves (Tep No Remix)
+4. 4th Dimension - Nazali Mabe
+5. Broken Back - Seven Words
+2017-02-21 22:25:21.346000 #geral @jonyroda97#9104: .skip
+2017-02-21 22:25:21.526000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-21 22:31:16.946000 #geral @jonyroda97#9104: .pl mix joao17
+2017-02-21 22:31:17.176000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-21 22:31:45.511000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=UX6vao_sfso
+2017-02-21 22:31:45.511000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=UX6vao_sfso
+2017-02-21 22:31:45.678000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-21 22:31:50.610000 #geral @jonyroda97#9104: .skip
+2017-02-21 22:31:50.804000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-21 22:36:23.890000 #geral @Bastos#1116: chunga
+2017-02-21 22:36:25.329000 #geral @Bastos#1116: .skip
+2017-02-21 22:36:25.545000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-02-21 22:48:46.609000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=LyX3qgVUweQ
+2017-02-21 22:48:46.609000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=LyX3qgVUweQ
+2017-02-21 22:48:46.819000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-21 23:16:57.009000 #geral @jonyroda97#9104: .np
+2017-02-21 23:16:57.232000 #geral @Amigos Prováveis#6605: **Title:** Young M.A "Get This Money" (Official Video)
+**Uploader:** Young MA
+**Views:** 1917588
+**Duration:** 4:38
+
+<https://www.youtube.com/watch?v=jAFGTOhfR7Y>
+2017-02-21 23:17:32.118000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2017-02-21 23:17:32.369000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-21 23:17:42.029000 #geral @Bastos#1116: .cena
+2017-02-21 23:17:50.784000 #geral @Bastos#1116: não? fail
+2017-02-21 23:18:59.040000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=edefncEW8tg
+2017-02-21 23:18:59.040000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=edefncEW8tg
+2017-02-21 23:18:59.240000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-21 23:19:02.431000 #geral @jonyroda97#9104: .skip
+2017-02-21 23:19:02.673000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-21 23:19:17.411000 #geral @jonyroda97#9104: bastos é com "!"
+2017-02-21 23:19:19.838000 #geral @jonyroda97#9104: !cena
+2017-02-21 23:19:27.241000 #geral @Bastos#1116: !cena
+2017-02-21 23:19:31.386000 #geral @jonyroda97#9104: !johncena
+2017-02-21 23:19:44.687000 #geral @Bastos#1116: !curry
+2017-02-21 23:19:47.097000 #geral @Bastos#1116: não?
+2017-02-21 23:19:49.389000 #geral @Bastos#1116: ohhh
+2017-02-21 23:19:51.708000 #geral @jonyroda97#9104: nope
+2017-02-21 23:20:09.075000 #geral @Bastos#1116: !naosei
+2017-02-21 23:20:13.795000 #geral @Bastos#1116: !undertaker
+2017-02-21 23:20:18.775000 #geral @jonyroda97#9104: !bd
+2017-02-21 23:20:22.270000 #geral @jonyroda97#9104: !bithday
+2017-02-21 23:20:26.232000 #geral @jonyroda97#9104: !birthday
+2017-02-21 23:20:29.403000 #geral @Bastos#1116: !birthday
+2017-02-21 23:20:33.477000 #geral @Bastos#1116: !cena
+2017-02-21 23:20:38.688000 #geral @Bastos#1116: !cena
+2017-02-21 23:20:40.820000 #geral @Bastos#1116: mt bom ahah
+2017-02-21 23:20:42.442000 #geral @jonyroda97#9104: !airhorn
+2017-02-21 23:20:48.935000 #geral @jonyroda97#9104: ahahha
+2017-02-21 23:20:49.191000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:20:55.397000 #geral @Bastos#1116: !cena
+2017-02-21 23:20:58.639000 #geral @Bastos#1116: !birthday
+2017-02-21 23:21:01.078000 #geral @jonyroda97#9104: !airhorn
+2017-02-21 23:21:01.522000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:21:03.409000 #geral @Bastos#1116: !cena
+2017-02-21 23:21:06.092000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:21:43.707000 #geral @jonyroda97#9104: .np
+2017-02-21 23:21:43.910000 #geral @Amigos Prováveis#6605: **Title:** The Weeknd - Party Monster (Vevo Presents)
+**Uploader:** TheWeekndVEVO
+**Views:** 5639937
+**Duration:** 4:18
+
+<https://www.youtube.com/watch?v=lysp-BVbf9Q>
+2017-02-21 23:22:31.457000 #geral @jonyroda97#9104: !airhorn spam
+2017-02-21 23:22:42.690000 #geral @jonyroda97#9104: !eb
+2017-02-21 23:22:49.313000 #geral @jonyroda97#9104: !eb high
+2017-02-21 23:22:57.977000 #geral @Bastos#1116: joao
+2017-02-21 23:22:58.234000 #geral @jonyroda97#9104: !eb classic
+2017-02-21 23:23:00.056000 #geral @Bastos#1116: kebab sexta
+2017-02-21 23:23:01.940000 #geral @Bastos#1116: 13hrs
+2017-02-21 23:23:04.891000 #geral @Bastos#1116: com kevs
+2017-02-21 23:23:16.506000 #geral @jonyroda97#9104: vou ver se tenho aula
+2017-02-21 23:23:21.427000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:23:22.477000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:23:23.297000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:23:24.108000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:23:24.715000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:23:25.543000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:23:26.379000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:23:27.054000 #geral @Bastos#1116: !airhorn
+2017-02-21 23:23:30.494000 #geral @jonyroda97#9104: bastos
+2017-02-21 23:23:31.686000 #geral @jonyroda97#9104: https://www.reddit.com/r/discordapp/comments/4fuvkd/all_airhornsolution_commands/
+2017-02-21 23:23:31.686000 #geral @jonyroda97#9104: https://www.reddit.com/r/discordapp/comments/4fuvkd/all_airhornsolution_commands/
+2017-02-21 23:23:37.931000 #geral @jonyroda97#9104: os comandos que existem
+2017-02-21 23:23:42.479000 #geral @Bastos#1116: vou ver
+2017-02-21 23:23:44.449000 #geral @jonyroda97#9104: !eb slowandlow
+2017-02-21 23:23:49.997000 #geral @jonyroda97#9104: !stan x3
+2017-02-21 23:23:56.462000 #geral @jonyroda97#9104: !stan herd
+2017-02-21 23:24:01.885000 #geral @jonyroda97#9104: !stan moo
+2017-02-21 23:24:07.052000 #geral @jonyroda97#9104: ahahah
+2017-02-21 23:24:11.092000 #geral @Bastos#1116: !anotha one
+2017-02-21 23:24:13.937000 #geral @jonyroda97#9104: !wtc
+2017-02-21 23:24:18.969000 #geral @Bastos#1116: !anotha one
+2017-02-21 23:24:36.297000 #geral @Bastos#1116: !anotha one
+2017-02-21 23:24:52.252000 #geral @jonyroda97#9104: !cena spam
+2017-02-21 23:24:58.125000 #geral @jonyroda97#9104: !cena full
+2017-02-21 23:25:17.817000 #geral @jonyroda97#9104: !airhorn clownspam
+2017-02-21 23:26:15.040000 #geral @jonyroda97#9104: !birthday sadhorn
+2017-02-21 23:26:21.794000 #geral @Bastos#1116: ja chega ahaha
+2017-02-21 23:26:22.128000 #geral @jonyroda97#9104: !birthday weakhorn
+2017-02-21 23:26:32.362000 #geral @jonyroda97#9104: !stanislav~
+2017-02-21 23:26:33.911000 #geral @jonyroda97#9104: !stanislav
+2017-02-21 23:27:20.765000 #geral @jonyroda97#9104: !airhorn highfartlong
+2017-02-21 23:27:44.703000 #geral @jonyroda97#9104: !cena nameis
+2017-02-21 23:28:12.441000 #geral @jonyroda97#9104: !h3h3 sodiepop
+2017-02-21 23:28:21.523000 #geral @jonyroda97#9104: !h3h3
+2017-02-21 23:29:53.368000 #geral @jonyroda97#9104: https://github.com/hammerandchisel/airhornbot/blob/master/cmd/bot/bot.go
+se perceberes
+2017-02-21 23:29:53.368000 #geral @jonyroda97#9104: https://github.com/hammerandchisel/airhornbot/blob/master/cmd/bot/bot.go
+se perceberes
+2017-02-21 23:30:18.753000 #geral @jonyroda97#9104: !wtc
+2017-02-21 23:58:31.168000 #geral @jonyroda97#9104: .stop
+2017-02-21 23:58:31.334000 #geral @Amigos Prováveis#6605: You need to be in the voice channel to stop the music.
+2017-02-22 00:00:04.400000 #geral @jonyroda97#9104: .pause
+2017-02-22 00:00:04.787000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-22 01:01:13.691000 #geral @jonyroda97#9104: .stop
+2017-02-22 01:01:13.794000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-22 22:06:58.193000 #geral @jonyroda97#9104: !johncena
+2017-02-22 22:07:08.109000 #geral @jonyroda97#9104: !wtc
+2017-02-22 22:09:03.771000 #geral @jonyroda97#9104: .q https://youtu.be/H6T1FW7qMxA?t=10s
+2017-02-22 22:09:03.771000 #geral @jonyroda97#9104: .q https://youtu.be/H6T1FW7qMxA?t=10s
+2017-02-22 22:09:22.836000 #geral @jonyroda97#9104: .prev
+2017-02-22 22:09:22.986000 #geral @Amigos Prováveis#6605: Going back 1 song.
+2017-02-22 22:09:38.782000 #geral @jonyroda97#9104: .prev
+2017-02-22 22:09:38.870000 #geral @Amigos Prováveis#6605: Going back 1 song.
+2017-02-22 22:09:45.108000 #geral @jonyroda97#9104: .volume 25
+2017-02-22 22:09:45.301000 #geral @Amigos Prováveis#6605: Volume is now set to 25.
+2017-02-22 22:09:56.826000 #geral @jonyroda97#9104: .volume 15
+2017-02-22 22:09:57.029000 #geral @Amigos Prováveis#6605: Volume is now set to 15.
+2017-02-22 22:10:01.078000 #geral @jonyroda97#9104: .prev
+2017-02-22 22:10:01.274000 #geral @Amigos Prováveis#6605: Going back 1 song.
+2017-02-22 22:10:15.687000 #geral @jonyroda97#9104: .pl mix joao17
+2017-02-22 22:10:15.826000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-22 22:10:57.815000 #geral @jonyroda97#9104: .skip
+2017-02-22 22:10:57.889000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-22 22:12:42.306000 #geral @jonyroda97#9104: .skip
+2017-02-22 22:12:42.452000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-22 22:13:20.960000 #geral @jonyroda97#9104: .pause
+2017-02-22 22:13:21.108000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-22 22:14:44.730000 #geral @jonyroda97#9104: .q xama
+2017-02-22 22:14:45.067000 #geral @Amigos Prováveis#6605: Queued.
+2017-02-22 22:15:00.732000 #geral @jonyroda97#9104: .resume
+2017-02-22 22:15:00.961000 #geral @Amigos Prováveis#6605: Resuming.
+2017-02-22 22:15:14.189000 #geral @jonyroda97#9104: .skip
+2017-02-22 22:15:14.365000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-22 22:30:59.829000 #geral @jonyroda97#9104: .stop
+2017-02-22 22:30:59.876000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-22 22:50:22.947000 #geral @jonyroda97#9104: twitch.tv/dreezyy10
+2017-02-22 22:50:22.947000 #geral @jonyroda97#9104: EDIT: 
+Before: twitch.tv/dreezyy10
+After: www.twitch.tv/dreezyy10
+2017-02-22 22:50:43.046000 #geral @jonyroda97#9104: www.twitch.tv/dreezyy10
+2017-02-22 23:14:04.537000 #geral @Bastos#1116: tiagoo
+2017-02-22 23:14:09.281000 #geral @Bastos#1116: o rafa roda chamou-te
+2017-02-22 23:14:10.115000 #geral @Bastos#1116: burro
+2017-02-23 00:05:51.188000 #geral @jonyroda97#9104: .pl mix joao1
+2017-02-23 00:05:51.367000 #geral @Amigos Prováveis#6605: That playlist does not exist.
+2017-02-23 00:05:51.188000 #geral @jonyroda97#9104: EDIT: 
+Before: .pl mix joao1
+After: .pl mix joao17
+2017-02-23 00:06:05.566000 #geral @jonyroda97#9104: .clear 2
+2017-02-23 00:06:12.462000 #geral @jonyroda97#9104: .pl mix joao17
+2017-02-23 00:06:13.019000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-02-23 00:06:28.628000 #geral @jonyroda97#9104: .skip
+2017-02-23 00:06:28.806000 #geral @Amigos Prováveis#6605: Skipping...
+2017-02-23 00:06:51.864000 #geral @jonyroda97#9104: .pause
+2017-02-23 00:06:51.998000 #geral @Amigos Prováveis#6605: Paused.
+2017-02-23 00:30:35.191000 #geral @jonyroda97#9104: .stop´
+2017-02-23 00:30:37.292000 #geral @jonyroda97#9104: .stop
+2017-02-23 00:30:37.602000 #geral @Amigos Prováveis#6605: Stopping...
+2017-02-23 22:46:19.506000 #geral @Bastos#1116: Já venho rapazes
+2017-02-23 22:46:21.386000 #geral @Bastos#1116: 23 e tal
+2017-02-23 22:56:09.337000 #geral @jonyroda97#9104: https://clips.twitch.tv/dynamicio/PleasantLorisDOOMGuy
+2017-02-23 22:56:15.015000 #geral @jonyroda97#9104: vejam
+2017-02-23 23:24:52.316000 #geral @jonyroda97#9104: !bday
+2017-02-23 23:24:57.425000 #geral @jonyroda97#9104: !cena
+2017-02-23 23:25:07.760000 #geral @jonyroda97#9104: !airhorn
+2017-02-23 23:25:14.452000 #geral @jonyroda97#9104: !wtc
+2017-02-23 23:25:39.428000 #geral @jonyroda97#9104: !rlrankup pc jonyroda97
+2017-02-23 23:25:42.897000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-02-23 23:26:14.100000 #geral @jonyroda97#9104: !rlrank pc jonyroda97
+2017-02-23 23:26:16.328000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-02-23 23:32:48.027000 #geral @luso500#3797: !sena
+2017-02-23 23:33:01.123000 #geral @luso500#3797: !cena
+2017-02-23 23:33:15.222000 #geral @luso500#3797: !cena
+2017-02-23 23:33:30.272000 #geral @jonyroda97#9104: !wtc
+2017-02-23 23:33:34.088000 #geral @jonyroda97#9104: !airhorn
+2017-02-23 23:33:40.113000 #geral @jonyroda97#9104: !h3h3
+2017-02-23 23:33:47.452000 #geral @jonyroda97#9104: !airhorn
+2017-02-24 00:08:25.023000 #geral @jonyroda97#9104: .rlrankup pc jonyroda97
+2017-02-24 00:08:40.109000 #geral @jonyroda97#9104: !rlrankup pc jonyroda97
+2017-02-24 00:08:52.084000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-03-01 23:16:13.595000 #geral @Luis Miguel#9482: https://www.youtube.com/watch?v=zVcaMXWS4dU
+2017-03-01 23:23:51.005000 #geral @Bastos#1116: metam musica
+2017-03-01 23:24:02.709000 #geral @Bastos#1116: .q e escrevam
+2017-03-01 23:24:06.505000 #geral @Bastos#1116: ele aparece logo
+2017-03-01 23:24:15.415000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-01 23:24:15.537000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:24:15.415000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-01 23:24:17.336000 #geral @Bastos#1116: fui eu
+2017-03-01 23:24:30.833000 #geral @Bastos#1116: é o rafa
+2017-03-01 23:24:50.834000 #geral @Bastos#1116: tou a ouvir isso tambem
+2017-03-01 23:24:55.518000 #geral @Luis Miguel#9482: .skip
+2017-03-01 23:24:55.806000 #geral @Amigos Prováveis#6605: @Luis Miguel, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-01 23:24:58.240000 #geral @Bastos#1116: .skip
+2017-03-01 23:24:58.442000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-03-01 23:24:59.015000 #geral @taskosan#2557: .skip
+2017-03-01 23:24:59.260000 #geral @Amigos Prováveis#6605: @Rafa Santos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-01 23:25:01.472000 #geral @Tunes_NetWork#9569: .skip
+2017-03-01 23:25:01.718000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-03-01 23:25:12.489000 #geral @Tunes_NetWork#9569: .q
+2017-03-01 23:25:12.579000 #geral @Amigos Prováveis#6605: Nothing queued on this server.
+2017-03-01 23:25:15.973000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-01 23:25:16.140000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:25:23.880000 #geral @taskosan#2557: .skip
+2017-03-01 23:25:24.053000 #geral @Amigos Prováveis#6605: @Rafa Santos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-01 23:25:38.441000 #geral @Bastos#1116: fui eu
+2017-03-01 23:25:43.490000 #geral @Bastos#1116: é so fazer
+2017-03-01 23:25:47.669000 #geral @Bastos#1116: ".q"
+2017-03-01 23:26:46.277000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=V2vGc2GsH-A
+2017-03-01 23:26:46.420000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:26:46.277000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=V2vGc2GsH-A
+2017-03-01 23:26:55.303000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-03-01 23:26:55.403000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:26:55.303000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-03-01 23:27:21.936000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=4LGl-dgt1ps
+2017-03-01 23:27:22.085000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:27:21.936000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=4LGl-dgt1ps
+2017-03-01 23:27:38.110000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=joBzYZJNtRU
+2017-03-01 23:27:38.246000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:27:38.110000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=joBzYZJNtRU
+2017-03-01 23:29:16.881000 #geral @taskosan#2557: .skip
+2017-03-01 23:29:16.970000 #geral @Amigos Prováveis#6605: @Rafa Santos, I removed your vote to skip. Votes: 0/4 (0% out of 50% needed)
+2017-03-01 23:33:13.291000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=kho6vC6S3kY
+2017-03-01 23:33:13.395000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:33:13.291000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=kho6vC6S3kY
+2017-03-01 23:33:47.163000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=Y8jkOOVCBMs
+2017-03-01 23:33:47.312000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:33:47.163000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=Y8jkOOVCBMs
+2017-03-01 23:38:08.983000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=iWYTrzsk9ZE
+2017-03-01 23:38:08.983000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=iWYTrzsk9ZE
+2017-03-01 23:38:09.145000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:38:14.095000 #geral @Bastos#1116: sa
+2017-03-01 23:38:14.560000 #geral @Bastos#1116: ds
+2017-03-01 23:38:15.007000 #geral @Bastos#1116: fs
+2017-03-01 23:38:15.473000 #geral @Bastos#1116: sdf
+2017-03-01 23:38:15.899000 #geral @Bastos#1116: s
+2017-03-01 23:38:16.241000 #geral @Bastos#1116: dcds
+2017-03-01 23:38:16.559000 #geral @Bastos#1116: g
+2017-03-01 23:38:16.790000 #geral @Bastos#1116: sd
+2017-03-01 23:38:17.047000 #geral @Bastos#1116: sv
+2017-03-01 23:38:17.333000 #geral @Bastos#1116: fdg
+2017-03-01 23:38:24.383000 #geral @Bastos#1116: gf
+2017-03-01 23:38:24.801000 #geral @Bastos#1116: gf
+2017-03-01 23:38:25.033000 #geral @Bastos#1116: d
+2017-03-01 23:38:25.207000 #geral @Bastos#1116: f
+2017-03-01 23:38:25.556000 #geral @Bastos#1116: h
+2017-03-01 23:38:25.794000 #geral @Bastos#1116: d
+2017-03-01 23:44:28.210000 #geral @Bastos#1116: q musica é esta
+2017-03-01 23:49:59.300000 #geral @taskosan#2557: .q https://www.redtube.com/2010887
+2017-03-01 23:49:59.398000 #geral @Amigos Prováveis#6605: That's not a valid URL.
+2017-03-01 23:49:59.300000 #geral @taskosan#2557: .q https://www.redtube.com/2010887
+2017-03-01 23:50:04.425000 #geral @Bastos#1116: hahahahahah
+2017-03-01 23:51:01.773000 #geral @Luis Miguel#9482: .skip
+2017-03-01 23:51:02.033000 #geral @Amigos Prováveis#6605: @Luis Miguel, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-01 23:51:03.277000 #geral @Bastos#1116: .skip
+2017-03-01 23:51:03.417000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-03-01 23:51:09.184000 #geral @taskosan#2557: .skip
+2017-03-01 23:51:09.293000 #geral @Amigos Prováveis#6605: @Rafa Santos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-01 23:51:13.648000 #geral @Luis Miguel#9482: .skip
+2017-03-01 23:51:13.802000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-03-01 23:51:23.657000 #geral @Bastos#1116: .skip
+2017-03-01 23:51:23.839000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-01 23:53:10.947000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=3yd_eoMOvqk
+2017-03-01 23:53:11.126000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:53:20.520000 #geral @Luis Miguel#9482: .skip
+2017-03-01 23:53:20.682000 #geral @Amigos Prováveis#6605: @Luis Miguel, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-01 23:53:25.601000 #geral @taskosan#2557: .skip
+2017-03-01 23:53:25.745000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-03-01 23:53:32.109000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=EiQmbrvvDaY
+2017-03-01 23:53:32.237000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:53:32.109000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=EiQmbrvvDaY
+2017-03-01 23:56:32.704000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=g-AoBLXXShQ
+2017-03-01 23:56:32.894000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-01 23:56:32.704000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=g-AoBLXXShQ
+2017-03-02 00:01:31.966000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=4r4UnXz6Q3o
+2017-03-02 00:01:32.284000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 00:01:31.966000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=4r4UnXz6Q3o
+2017-03-02 00:03:59.123000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=_d3YrMfVLKQ
+2017-03-02 00:03:59.199000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 00:03:59.123000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=_d3YrMfVLKQ
+2017-03-02 00:04:50.686000 #geral @Tunes_NetWork#9569: .q
+2017-03-02 00:04:50.904000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-03-02 00:04:51.613000 #geral @Amigos Prováveis#6605: ***Now playing:***
+MC João - Curriculum (DJ R7) (Vídeo Clipe Oficial 2015)
+
+***Next up:***
+1. MC Kevinho - Essa Novinha é Terrorista - Olha a Explosão (KondZilla) Jorgin Deejhay
+2017-03-02 00:06:41.526000 #geral @taskosan#2557: .skip
+2017-03-02 00:06:41.694000 #geral @Amigos Prováveis#6605: @Rafa Santos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-02 00:06:52.527000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=5PhM9lkfKas
+2017-03-02 00:06:52.741000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 00:07:03.627000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=5PhM9lkfKas
+2017-03-02 00:07:03.813000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 00:07:29.143000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=EWcOY14GWwM
+2017-03-02 00:07:29.307000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 00:07:29.143000 #geral @Tunes_NetWork#9569: .q https://www.youtube.com/watch?v=EWcOY14GWwM
+2017-03-02 00:08:06.340000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=tufU2Calfdg
+2017-03-02 00:08:06.530000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 00:08:17.904000 #geral @Bastos#1116: bancas bem
+2017-03-02 00:08:20.793000 #geral @Bastos#1116: !cena
+2017-03-02 00:08:21.812000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=QXnxVcv0Cbc
+2017-03-02 00:08:22.034000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 00:09:30.600000 #geral @Luis Miguel#9482: .skip
+2017-03-02 00:09:30.805000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-03-02 00:09:39.772000 #geral @Bastos#1116: .skip
+2017-03-02 00:09:40.003000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/4 (25% out of 50% needed)
+2017-03-02 00:09:48.434000 #geral @taskosan#2557: .skip
+2017-03-02 00:09:48.624000 #geral @Amigos Prováveis#6605: Vote threshold met. Skipping...
+2017-03-02 00:19:40.273000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=YS3kaYkjNvc
+2017-03-02 00:19:40.459000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 00:19:40.273000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=YS3kaYkjNvc
+2017-03-02 00:20:40.503000 #geral @Bastos#1116: como se chama esta
+2017-03-02 22:02:51.677000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=xtnUu2LeSdo&list=RDMMxtnUu2LeSdo
+2017-03-02 22:02:51.677000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=xtnUu2LeSdo&list=RDMMxtnUu2LeSdo
+2017-03-02 22:17:33.893000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=JGwWNGJdvx8&list=RDV2vGc2GsH-A&index=12
+2017-03-02 22:17:33.893000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=JGwWNGJdvx8&list=RDV2vGc2GsH-A&index=12
+2017-03-02 22:17:55.086000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=k9-Q4sLl8QE&list=RDV2vGc2GsH-A&index=22
+2017-03-02 22:17:55.086000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=k9-Q4sLl8QE&list=RDV2vGc2GsH-A&index=22
+2017-03-02 22:17:55.258000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:18:09.324000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=byXfKMEmVZc&index=25&list=RDV2vGc2GsH-A
+2017-03-02 22:18:09.324000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=byXfKMEmVZc&index=25&list=RDV2vGc2GsH-A
+2017-03-02 22:18:12.014000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:18:30.632000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=34Na4j8AVgA&index=38&list=RDV2vGc2GsH-A
+2017-03-02 22:18:30.632000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=34Na4j8AVgA&index=38&list=RDV2vGc2GsH-A
+2017-03-02 22:18:32.315000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:18:51.286000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=QXnxVcv0Cbc&index=40&list=RDV2vGc2GsH-A~
+2017-03-02 22:18:51.286000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=QXnxVcv0Cbc&index=40&list=RDV2vGc2GsH-A~
+2017-03-02 22:18:51.436000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:19:05.969000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=aio4Bc7ziXU&list=RDV2vGc2GsH-A&index=35
+2017-03-02 22:19:05.969000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=aio4Bc7ziXU&list=RDV2vGc2GsH-A&index=35
+2017-03-02 22:19:06.115000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:19:16.336000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=bqayL5R_iTs&list=RDV2vGc2GsH-A&index=27
+2017-03-02 22:19:16.336000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=bqayL5R_iTs&list=RDV2vGc2GsH-A&index=27
+2017-03-02 22:19:16.507000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:19:27.180000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=CWbyyhjU_2Q&list=RDV2vGc2GsH-A&index=30
+2017-03-02 22:19:27.180000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=CWbyyhjU_2Q&list=RDV2vGc2GsH-A&index=30
+2017-03-02 22:19:27.298000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:19:41.278000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=cGubxwDI6pU&index=27&list=RDV2vGc2GsH-A
+2017-03-02 22:19:41.278000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=cGubxwDI6pU&index=27&list=RDV2vGc2GsH-A
+2017-03-02 22:19:41.483000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:19:59.675000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=Dt68bSxYkyg&list=RDV2vGc2GsH-A&index=30
+2017-03-02 22:19:59.675000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=Dt68bSxYkyg&list=RDV2vGc2GsH-A&index=30
+2017-03-02 22:19:59.847000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:20:12.528000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=oqZZv8fQqc0&list=RDV2vGc2GsH-A&index=29
+2017-03-02 22:20:12.528000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=oqZZv8fQqc0&list=RDV2vGc2GsH-A&index=29
+2017-03-02 22:20:12.681000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:20:30.158000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=XfrtVyLgUhk&index=32&list=RDV2vGc2GsH-A
+2017-03-02 22:20:30.158000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=XfrtVyLgUhk&index=32&list=RDV2vGc2GsH-A
+2017-03-02 22:20:30.352000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:50:29.796000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=uo35R9zQsAI&list=RDGMEMHDXYb1_DDSgDsobPsOFxpAVMuo35R9zQsAI
+2017-03-02 22:50:29.796000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=uo35R9zQsAI&list=RDGMEMHDXYb1_DDSgDsobPsOFxpAVMuo35R9zQsAI
+2017-03-02 22:50:29.996000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:50:41.065000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=g-AoBLXXShQ&list=RDGMEMHDXYb1_DDSgDsobPsOFxpAVMuo35R9zQsAI&index=5
+2017-03-02 22:50:41.065000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=g-AoBLXXShQ&list=RDGMEMHDXYb1_DDSgDsobPsOFxpAVMuo35R9zQsAI&index=5
+2017-03-02 22:50:41.191000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:50:50.855000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=K6P0c9YSib4&list=RDGMEMHDXYb1_DDSgDsobPsOFxpAVMuo35R9zQsAI&index=10
+2017-03-02 22:50:50.855000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=K6P0c9YSib4&list=RDGMEMHDXYb1_DDSgDsobPsOFxpAVMuo35R9zQsAI&index=10
+2017-03-02 22:50:51.036000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:52:04.667000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=H1WhXh3_YWs
+2017-03-02 22:52:04.667000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=H1WhXh3_YWs
+2017-03-02 22:52:04.852000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 22:52:18.141000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=iWYTrzsk9ZE
+2017-03-02 22:52:18.141000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=iWYTrzsk9ZE
+2017-03-02 22:52:18.376000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:10:25.687000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=TcQyiYy8klc
+2017-03-02 23:10:25.687000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=TcQyiYy8klc
+2017-03-02 23:10:25.867000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:10:40.639000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=dF0TQ_2CtUs
+2017-03-02 23:10:40.639000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=dF0TQ_2CtUs
+2017-03-02 23:10:40.806000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:10:59.830000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=39PlBjOs2HM
+2017-03-02 23:10:59.830000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=39PlBjOs2HM
+2017-03-02 23:10:59.920000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:11:18.754000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=bjAsGUuXeQA
+2017-03-02 23:11:18.754000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=bjAsGUuXeQA
+2017-03-02 23:11:18.942000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:32:44.101000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=3yd_eoMOvqk
+2017-03-02 23:32:44.101000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=3yd_eoMOvqk
+2017-03-02 23:32:44.245000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:33:03.034000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-02 23:33:03.034000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-02 23:33:03.195000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:33:13.969000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-03-02 23:33:13.969000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-03-02 23:33:14.122000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:33:48.352000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=byXfKMEmVZc&index=25&list=RDV2vGc2GsH-A
+2017-03-02 23:33:48.352000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=byXfKMEmVZc&index=25&list=RDV2vGc2GsH-A
+2017-03-02 23:33:48.479000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-02 23:34:59.453000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=vowlsR3TpfI
+2017-03-02 23:34:59.594000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:12:11.917000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=V2vGc2GsH-A
+2017-03-04 14:12:21.141000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=VwcubyFxYmU
+2017-03-04 14:12:21.141000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=VwcubyFxYmU
+2017-03-04 14:12:21.358000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:12:38.727000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-04 14:12:38.727000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-04 14:12:39.030000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:14:19.300000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=lYxcW8jtFw0
+2017-03-04 14:14:19.300000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=lYxcW8jtFw0
+2017-03-04 14:14:19.468000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:14:32.200000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=byXfKMEmVZc
+2017-03-04 14:14:32.347000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:31:44.364000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=3yd_eoMOvqk
+2017-03-04 14:31:44.493000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:31:50.940000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=5PhM9lkfKas
+2017-03-04 14:31:50.940000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=5PhM9lkfKas
+2017-03-04 14:31:51.059000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:32:07.386000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=5PhM9lkfKas
+2017-03-04 14:32:07.539000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:32:13.319000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=k9-Q4sLl8QE
+2017-03-04 14:32:13.472000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:32:21.738000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=HIgP-Xk7DxQ
+2017-03-04 14:32:21.738000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=HIgP-Xk7DxQ
+2017-03-04 14:32:21.897000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 14:32:31.533000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-03-04 14:32:31.533000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=JVyXprz0knI
+2017-03-04 14:32:31.666000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-04 16:18:36.047000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=Tvmmum7lVJ4
+2017-03-04 16:18:36.047000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=Tvmmum7lVJ4
+2017-03-04 16:28:48.409000 #geral @jonyroda97#9104: .channellogger
+2017-03-04 16:28:48.632000 #geral @Amigos Prováveis#6605: Logging enabled for #geral
+2017-03-04 16:28:56.364000 #geral @jonyroda97#9104: .clear 4
+2017-03-05 15:28:23.156000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=63AnE-Bp_ys
+2017-03-05 15:28:23.156000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=63AnE-Bp_ys
+2017-03-05 15:30:13.574000 #geral @Luis Miguel#9482: .skip
+2017-03-05 15:30:13.748000 #geral @Amigos Prováveis#6605: @Luis Miguel, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-03-05 15:32:52.375000 #geral @jonyroda97#9104: .skip
+2017-03-05 15:32:52.541000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 17:36:31.272000 #geral @jonyroda97#9104: .pl mix joao17
+2017-03-05 17:36:31.783000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-05 17:37:52.987000 #geral @jonyroda97#9104: .skip
+2017-03-05 17:37:53.102000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 17:38:18.844000 #geral @jonyroda97#9104: .pause
+2017-03-05 17:38:18.975000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-05 18:04:26.176000 #geral @jonyroda97#9104: .resume
+2017-03-05 18:04:26.294000 #geral @Amigos Prováveis#6605: Resuming.
+2017-03-05 18:07:19.517000 #geral @jonyroda97#9104: !owhelp
+2017-03-05 18:07:19.683000 #geral @Master Overwatch#6402: 
+2017-03-05 18:07:19.683000 #geral @Master Overwatch#6402: 
+2017-03-05 18:09:15.265000 #geral @jonyroda97#9104: !owstats jonyroda97#2520
+2017-03-05 18:09:19.643000 #geral @Master Overwatch#6402: 
+2017-03-05 18:09:19.643000 #geral @Master Overwatch#6402: 
+2017-03-05 18:20:19.818000 #geral @jonyroda97#9104: !owstats jonyroda97#2520
+2017-03-05 18:20:21.870000 #geral @Master Overwatch#6402: 
+2017-03-05 18:20:21.870000 #geral @Master Overwatch#6402: 
+2017-03-05 18:20:45.821000 #geral @jonyroda97#9104: .clear 4
+2017-03-05 18:20:54.844000 #geral @jonyroda97#9104: !owpatch
+2017-03-05 18:20:55.361000 #geral @Master Overwatch#6402: There was an unknown problem while trying to fetch patch data.
+2017-03-05 18:21:08.332000 #geral @jonyroda97#9104: !owrating jonyroda97#2520
+2017-03-05 18:21:08.436000 #geral @Master Overwatch#6402: 
+2017-03-05 18:21:08.436000 #geral @Master Overwatch#6402: 
+2017-03-05 18:21:30.582000 #geral @jonyroda97#9104: .claer 6
+2017-03-05 18:21:34.992000 #geral @jonyroda97#9104: .clear 7
+2017-03-05 18:22:07.105000 #geral @jonyroda97#9104: .skip
+2017-03-05 18:22:07.257000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 18:23:17.053000 #geral @jonyroda97#9104: .pause
+2017-03-05 18:23:17.263000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-05 19:19:42.263000 #geral @jonyroda97#9104: @Rafa Santos liga som
+2017-03-05 19:19:46.927000 #geral @jonyroda97#9104: .resume
+2017-03-05 19:19:47.003000 #geral @Amigos Prováveis#6605: Resuming.
+2017-03-05 19:19:52.229000 #geral @jonyroda97#9104: .pause
+2017-03-05 19:19:52.421000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-05 19:28:53.231000 #geral @jonyroda97#9104: .resume
+2017-03-05 19:28:53.425000 #geral @Amigos Prováveis#6605: Resuming.
+2017-03-05 19:42:02.539000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=QXnxVcv0Cbc
+2017-03-05 19:42:02.539000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=QXnxVcv0Cbc
+2017-03-05 19:42:02.724000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-05 19:42:06.402000 #geral @jonyroda97#9104: .q
+2017-03-05 19:42:06.620000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-03-05 19:42:08.574000 #geral @Amigos Prováveis#6605: ***Now playing:***
+MC João - Ostentar Superação (Video Clipe Oficial) Jorgin Deejhay
+
+***Next up:***
+1. MC Dede - Pow Pow Tey Tey (KondZilla)
+2. MC Kekel - Partiu (KondZilla)
+3. Ty Dolla $ign & Wiz Khalifa - Brand New [Official Video]
+4. James Arthur - Say You Won't Let Go
+5. Hailee Steinfeld, Grey - Starving ft. Zedd
+2017-03-05 19:42:43.681000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=F-XhH1FTKm0
+2017-03-05 19:42:43.681000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=F-XhH1FTKm0
+2017-03-05 19:42:43.809000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-05 20:04:53.143000 #geral @jonyroda97#9104: .skip
+2017-03-05 20:04:53.269000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 20:06:16.198000 #geral @jonyroda97#9104: !rlstats raizenx
+2017-03-05 20:06:26.849000 #geral @jonyroda97#9104: !rlhelp
+2017-03-05 20:06:30.809000 #geral @jonyroda97#9104: !rl
+2017-03-05 20:06:35.535000 #geral @jonyroda97#9104: .clear 3
+2017-03-05 20:08:27.270000 #geral @jonyroda97#9104: !rlrankup pc raizenx
+2017-03-05 20:08:30.072000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/lQ8R3t>**
+2017-03-05 20:08:40.477000 #geral @jonyroda97#9104: !rlstats pc raizenx
+2017-03-05 20:08:49.975000 #geral @jonyroda97#9104: !rlstat pc raizenx
+2017-03-05 20:09:51.531000 #geral @jonyroda97#9104: !rlrank pc raizenx
+2017-03-05 20:09:54.312000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/lQ8R3t>**
+2017-03-05 20:10:21.399000 #geral @jonyroda97#9104: !rlrankup pc jonyroda97
+2017-03-05 20:10:23.955000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-03-05 20:10:37.266000 #geral @jonyroda97#9104: !rlrank pc jonyroda97
+2017-03-05 20:10:41.672000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-03-05 21:18:33.230000 #geral @jonyroda97#9104: @Tiago Duro anda voz
+2017-03-05 21:24:42.707000 #geral @xraizen#6932: Neps
+2017-03-05 21:24:48.267000 #geral @xraizen#6932: tou com fnes sem micro
+2017-03-05 21:27:56.699000 #geral @jonyroda97#9104: .skip
+2017-03-05 21:27:56.756000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 21:34:28.585000 #geral @jonyroda97#9104: .skip
+2017-03-05 21:34:28.727000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 21:47:08.457000 #geral @jonyroda97#9104: .skip
+2017-03-05 21:47:08.610000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 21:53:26.097000 #geral @jonyroda97#9104: .skip
+2017-03-05 21:53:26.208000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 21:55:30.369000 #geral @jonyroda97#9104: .np
+2017-03-05 21:55:30.558000 #geral @Amigos Prováveis#6605: **Title:** Rick Ross - Buy Back the Block ft. 2 Chainz, Gucci Mane
+**Uploader:** RickRossVEVO
+**Views:** 12373335
+**Duration:** 8:00
+
+<https://www.youtube.com/watch?v=BUu8u7fX8Pc>
+2017-03-05 21:55:43.274000 #geral @jonyroda97#9104: .skip
+2017-03-05 21:55:43.448000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 22:12:01.155000 #geral @jonyroda97#9104: .skip
+2017-03-05 22:12:01.374000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 22:13:19.611000 #geral @jonyroda97#9104: .skip
+2017-03-05 22:13:19.828000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-05 23:29:01.852000 #geral @xraizen#6932: Joao
+2017-03-05 23:29:08.860000 #geral @xraizen#6932: podes parar de snifar o micro sff
+2017-03-05 23:33:55.164000 #geral @Bastos#1116: tiago
+2017-03-05 23:33:57.615000 #geral @Bastos#1116: nao falas?
+2017-03-05 23:34:10.949000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=jPajWtrDRFk
+2017-03-05 23:34:10.949000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=jPajWtrDRFk
+2017-03-05 23:34:33.215000 #geral @xraizen#6932: pq?
+2017-03-05 23:34:37.185000 #geral @xraizen#6932: Queres ouvir me?
+2017-03-05 23:34:43.257000 #geral @Bastos#1116: sim
+2017-03-05 23:34:49.934000 #geral @Bastos#1116: curtam a musica
+2017-03-05 23:34:58.565000 #geral @xraizen#6932: Tou a curtir
+2017-03-05 23:35:02.378000 #geral @xraizen#6932: No volume no 0
+2017-03-05 23:35:05.608000 #geral @xraizen#6932: ta mm sabi
+2017-03-05 23:36:38.056000 #geral @xraizen#6932: querem musicas?
+2017-03-05 23:36:45.399000 #geral @Bastos#1116: ya
+2017-03-05 23:36:53.951000 #geral @Bastos#1116: sem ser xamã
+2017-03-05 23:36:58.865000 #geral @Bastos#1116: e a da linha da azambuja
+2017-03-05 23:37:00.963000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=Wp6_v1u0aZQ
+2017-03-05 23:37:00.963000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=Wp6_v1u0aZQ
+2017-03-05 23:37:01.187000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-05 23:37:45.669000 #geral @xraizen#6932: Tens que ouvir esta bastos
+2017-03-05 23:37:48.301000 #geral @xraizen#6932: mt gozo
+2017-03-05 23:37:52.890000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=qdJpsmlN20w´
+2017-03-05 23:37:52.890000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=qdJpsmlN20w´
+2017-03-05 23:37:53.035000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-05 23:37:57.773000 #geral @xraizen#6932: mete skip
+2017-03-05 23:38:09.014000 #geral @xraizen#6932: .skip
+2017-03-05 23:38:09.171000 #geral @Amigos Prováveis#6605: @Tiago Duro, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-03-05 23:40:09.117000 #geral @Bastos#1116: .skip
+2017-03-05 23:40:09.228000 #geral @Amigos Prováveis#6605: @Francisco Bastos, you voted to skip. Votes: 1/3 (33% out of 50% needed)
+2017-03-05 23:40:32.056000 #geral @jonyroda97#9104: .pl add zuca https://www.youtube.com/playlist?list=PLcKj4-geSRBceJrVxtTUcnyeExwyr2YVw
+2017-03-05 23:40:32.056000 #geral @jonyroda97#9104: .pl add zuca https://www.youtube.com/playlist?list=PLcKj4-geSRBceJrVxtTUcnyeExwyr2YVw
+2017-03-05 23:40:32.152000 #geral @Amigos Prováveis#6605: Enumerating song list... This could take a few moments.
+2017-03-05 23:40:32.772000 #geral @Amigos Prováveis#6605: Playlist 'zuca' saved. Tracks: 19
+2017-03-05 23:40:47.969000 #geral @xraizen#6932: Oiçam a que vem depois desta´
+2017-03-05 23:40:52.229000 #geral @xraizen#6932: que ta a tocar agr
+2017-03-05 23:40:54.074000 #geral @xraizen#6932: mt boa
+2017-03-05 23:41:00.363000 #geral @xraizen#6932: do gj do dáma
+2017-03-05 23:42:16.750000 #geral @jonyroda97#9104: .stat
+2017-03-05 23:42:19.262000 #geral @jonyroda97#9104: .sats
+2017-03-05 23:42:21.665000 #geral @jonyroda97#9104: .stats
+2017-03-05 23:42:22.095000 #geral @Amigos Prováveis#6605: 
+2017-03-05 23:42:22.095000 #geral @Amigos Prováveis#6605: 
+2017-03-05 23:42:27.989000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=qdJpsmlN20w
+2017-03-05 23:42:34.657000 #geral @xraizen#6932: metam alto
+2017-03-05 23:42:37.091000 #geral @xraizen#6932: e içam
+2017-03-05 23:44:23.586000 #geral @Bastos#1116: ja ta a dar?
+2017-03-05 23:44:27.728000 #geral @Bastos#1116: volume 0 ta sabi
+2017-03-05 23:44:37.983000 #geral @xraizen#6932: Tas a falar á toa
+2017-03-05 23:44:41.223000 #geral @xraizen#6932: tu nem es boa
+2017-03-05 23:44:45.411000 #geral @xraizen#6932: quando n ha pao
+2017-03-05 23:44:48.369000 #geral @xraizen#6932: comemos broa
+2017-03-05 23:46:59.357000 #geral @xraizen#6932: Neps
+2017-03-05 23:47:02.855000 #geral @xraizen#6932: mas podemos ur
+2017-03-05 23:47:09.981000 #geral @xraizen#6932: anda
+2017-03-05 23:47:11.893000 #geral @xraizen#6932: anda
+2017-03-05 23:47:13.167000 #geral @xraizen#6932: ada
+2017-03-05 23:47:13.980000 #geral @xraizen#6932: nda
+2017-03-05 23:47:15.149000 #geral @xraizen#6932: anda
+2017-03-05 23:47:16.323000 #geral @xraizen#6932: anda
+2017-03-05 23:47:17.593000 #geral @xraizen#6932: ia
+2017-03-05 23:47:19.905000 #geral @xraizen#6932: com o joao
+2017-03-05 23:47:23.820000 #geral @xraizen#6932: e com mais
+2017-03-05 23:47:27.123000 #geral @xraizen#6932: vcs n quiseram
+2017-03-05 23:47:29.857000 #geral @xraizen#6932: aya mayo´
+2017-03-05 23:47:32.794000 #geral @xraizen#6932: ginasio mayo
+2017-03-05 23:47:36.087000 #geral @xraizen#6932: homem dos mayos
+2017-03-05 23:47:42.461000 #geral @xraizen#6932: francisco mayo
+2017-03-05 23:48:02.914000 #geral @xraizen#6932: Santinho
+2017-03-05 23:48:10.647000 #geral @xraizen#6932: Saude
+2017-03-05 23:48:31.069000 #geral @xraizen#6932: Saude
+2017-03-05 23:48:54.394000 #geral @jonyroda97#9104: .pl mix zuca
+2017-03-05 23:48:54.533000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-05 23:48:59.596000 #geral @jonyroda97#9104: .pause
+2017-03-05 23:48:59.766000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-05 23:49:29.375000 #geral @jonyroda97#9104: .resume
+2017-03-05 23:49:29.459000 #geral @Amigos Prováveis#6605: Resuming.
+2017-03-05 23:49:50.475000 #geral @xraizen#6932: Passando passando
+2017-03-05 23:49:54.568000 #geral @xraizen#6932: O volume para o 0
+2017-03-06 00:27:22.703000 #geral @jonyroda97#9104: .stop
+2017-03-06 00:27:22.861000 #geral @Amigos Prováveis#6605: Stopping...
+2017-03-06 15:23:33.697000 #geral @jonyroda97#9104: .pl
+2017-03-06 15:23:33.834000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-03-06 15:24:00.963000 #geral @jonyroda97#9104: .pl list queue
+2017-03-06 15:24:01.230000 #geral @Amigos Prováveis#6605: Available playlists:
+
+rafa, monstercat, cate, neo_scavenger, future_bass, joao16, zuca, 50rock, trend, discordfm, transistor, proximity, gaming, trap, top, joao17
+2017-03-06 15:24:04.931000 #geral @jonyroda97#9104: .q
+2017-03-06 15:24:05.121000 #geral @Amigos Prováveis#6605: Nothing queued on this server.
+2017-03-06 15:48:14.199000 #geral @jonyroda97#9104: !gif
+2017-03-06 15:48:14.383000 #geral @Amigos Prováveis#6605: gif [text]
+2017-03-06 15:48:22.253000 #geral @jonyroda97#9104: !gif pussy
+2017-03-06 15:48:22.523000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/news-donald-trump-grab-them-by-the-pussy-l3vQZYTEHoqiKl5yU
+2017-03-06 15:48:22.523000 #geral @Amigos Prováveis#6605: http://giphy.com/gifs/news-donald-trump-grab-them-by-the-pussy-l3vQZYTEHoqiKl5yU
+2017-03-06 15:48:56.030000 #geral @jonyroda97#9104: .clear 4
+2017-03-06 15:53:24.072000 #geral @jonyroda97#9104: .seen
+2017-03-06 15:53:24.299000 #geral @Amigos Prováveis#6605: ```
+.seen <username>
+
+seen <@username>
+
+```
+2017-03-06 15:53:29.374000 #geral @jonyroda97#9104: .clear 2
+2017-03-06 16:13:16.871000 #geral @jonyroda97#9104: .pl mix gaming
+2017-03-06 16:13:18.168000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-06 16:15:08.983000 #geral @jonyroda97#9104: .pause
+2017-03-06 16:15:09.174000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-06 16:32:22.430000 #geral @jonyroda97#9104: .resume
+2017-03-06 16:32:22.563000 #geral @Amigos Prováveis#6605: Resuming.
+2017-03-06 17:15:21.279000 #geral @jonyroda97#9104: .pl mix joao17
+2017-03-06 17:15:21.535000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-06 17:15:43.897000 #geral @jonyroda97#9104: .skip
+2017-03-06 17:15:43.990000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-06 17:26:11.819000 #geral @jonyroda97#9104: .skip
+2017-03-06 17:26:11.995000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-06 18:44:21.487000 #geral @taskosan#2557: .stop
+2017-03-06 18:44:21.632000 #geral @Amigos Prováveis#6605: Stopping...
+2017-03-06 22:24:05.240000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=qdJpsmlN20w
+2017-03-06 22:25:04.721000 #geral @jonyroda97#9104: .q
+2017-03-06 22:25:04.926000 #geral @Amigos Prováveis#6605: Nothing queued on this server.
+2017-03-06 22:25:11.847000 #geral @jonyroda97#9104: .np
+2017-03-06 22:25:11.914000 #geral @Amigos Prováveis#6605: **Title:** Valdir - Quando Não Há Pão (Videoclip)
+**Uploader:** Valdir Furtado
+**Views:** 34168
+**Duration:** 2:34
+
+<https://www.youtube.com/watch?v=qdJpsmlN20w>
+2017-03-06 22:24:05.240000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=qdJpsmlN20w
+2017-03-06 22:27:21.901000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=f2JuxM-snGc
+2017-03-06 22:27:22.050000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-06 22:28:08.077000 #geral @jonyroda97#9104: .q shooting stars
+2017-03-06 22:28:08.244000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-06 22:31:09.374000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=jPajWtrDRFk
+2017-03-06 22:31:09.374000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=jPajWtrDRFk
+2017-03-06 22:31:09.575000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-06 22:32:12.800000 #geral @jonyroda97#9104: .skip
+2017-03-06 22:32:12.985000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-06 22:32:56.366000 #geral @jonyroda97#9104: .skip
+2017-03-06 22:32:56.466000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-06 22:33:00.470000 #geral @jonyroda97#9104: .pl mix zuca
+2017-03-06 22:33:00.666000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-06 22:33:09.980000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=SC4xMk98Pdc
+2017-03-06 22:33:09.980000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=SC4xMk98Pdc
+2017-03-06 22:33:10.203000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-06 22:41:21.086000 #geral @Bastos#1116: https://www.youtube.com/watch?v=jPajWtrDRFk
+2017-03-06 22:43:17.921000 #geral @jonyroda97#9104: !rlrankup pc raizenx
+2017-03-06 22:43:21.394000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/lQ8R3t>**
+2017-03-06 22:43:26.615000 #geral @jonyroda97#9104: !rlrankup pc tunesnetwork
+2017-03-06 22:43:30.505000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/2QNIAU>**
+2017-03-06 22:43:34.725000 #geral @jonyroda97#9104: !rlrankup pc jonyroda97
+2017-03-06 22:43:38.587000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-03-07 00:04:29.438000 #geral @jonyroda97#9104: .stop
+2017-03-07 00:04:29.570000 #geral @Amigos Prováveis#6605: Stopping...
+2017-03-07 00:04:39.573000 #geral @jonyroda97#9104: !rlrankup pc jonyroda97
+2017-03-07 00:04:42.762000 #geral @Stat Tracker#4986: **@João Roda, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-03-07 00:47:48.868000 #geral @jonyroda97#9104: !ow
+2017-03-07 00:47:48.867000 #geral @Master Overwatch#6402: You didn't specify a player to lookup.
+2017-03-07 00:48:01.114000 #geral @jonyroda97#9104: !ow jonyroda97#2520
+2017-03-07 00:48:04.602000 #geral @Master Overwatch#6402: 
+2017-03-07 00:48:04.602000 #geral @Master Overwatch#6402: 
+2017-03-07 00:48:34.652000 #geral @luso500#3797: Enpowering
+2017-03-07 00:48:37.001000 #geral @luso500#3797: #2528
+2017-03-07 00:48:54.073000 #geral @jonyroda97#9104: !ow Enpowering#2528
+2017-03-07 00:48:55.886000 #geral @Master Overwatch#6402: We couldn't find a player with that name.
+2017-03-07 00:49:06.572000 #geral @jonyroda97#9104: !ow EnPowering#2528
+2017-03-07 00:49:13.102000 #geral @Master Overwatch#6402: 
+2017-03-07 00:49:13.102000 #geral @Master Overwatch#6402: 
+2017-03-07 00:49:57.904000 #geral @jonyroda97#9104: !ow EnPowering#2528
+2017-03-07 00:50:00.675000 #geral @Master Overwatch#6402: 
+2017-03-07 00:50:00.675000 #geral @Master Overwatch#6402: 
+2017-03-07 00:50:25.419000 #geral @jonyroda97#9104: !csgostatnet
+2017-03-07 00:50:34.994000 #geral @jonyroda97#9104: !csgostat jonyroda97
+2017-03-07 00:50:38.408000 #geral @jonyroda97#9104: !csgo
+2017-03-07 00:50:42.885000 #geral @jonyroda97#9104: !csgostats
+2017-03-07 00:50:43.292000 #geral @CSGO-STATS.NET#0943: @João Roda, please add the Steam custom URL or Steam64 ID: !csgostats <CUSTOMURL>
+2017-03-07 00:50:52.304000 #geral @jonyroda97#9104: !csgostats jonyroda97
+2017-03-07 00:50:55.593000 #geral @CSGO-STATS.NET#0943: **Kills:** 35780 **Deaths:** 31082 **K/D:** 1.15
+**Headshots:** 26.7% **Accuracy:** 16.9%
+https://csgo-stats.net/player/jonyroda97/
+2017-03-07 00:51:03.468000 #geral @jonyroda97#9104: !csgorank
+2017-03-07 00:51:03.772000 #geral @CSGO-STATS.NET#0943: @João Roda, please add the Steam custom URL or Steam64 ID: !csgorank <CUSTOMURL>
+2017-03-07 00:51:09.238000 #geral @jonyroda97#9104: !csgorank jonyroda97
+2017-03-07 00:51:09.788000 #geral @CSGO-STATS.NET#0943: **Rank:** Master Guardian 2
+https://csgo-stats.net/player/jonyroda97/
+2017-03-07 00:54:15.879000 #geral @jonyroda97#9104: https://csgo-stats.net/tools/steam
+2017-03-07 00:54:15.879000 #geral @jonyroda97#9104: https://csgo-stats.net/tools/steam
+2017-03-07 00:56:15.069000 #geral @luso500#3797: n te oico
+2017-03-07 00:56:16.707000 #geral @luso500#3797: ahhhhhhhhh
+2017-03-07 00:56:17.309000 #geral @jonyroda97#9104: tou
+2017-03-07 00:56:18.935000 #geral @luso500#3797: o skype tira o som
+2017-03-07 00:56:26.444000 #geral @jonyroda97#9104: wtf
+2017-03-07 00:56:59.518000 #geral @luso500#3797: steam
+2017-03-07 00:57:03.893000 #geral @luso500#3797: id/powerxikinhoyt
+2017-03-07 00:57:54.861000 #geral @jonyroda97#9104: !csgostats powerxikinhoyt
+2017-03-07 00:57:57.725000 #geral @CSGO-STATS.NET#0943: **Kills:** 6880 **Deaths:** 6544 **K/D:** 1.05
+**Headshots:** 24.9% **Accuracy:** 14.9%
+https://csgo-stats.net/player/Powerxikinhoyt/
+2017-03-07 00:58:08.213000 #geral @jonyroda97#9104: !csgorank powerxikinhoyt
+2017-03-07 00:58:08.597000 #geral @CSGO-STATS.NET#0943: The rank is **unknown**, you can capture your own here: https://csgo-stats.net/tools/steam
+https://csgo-stats.net/player/Powerxikinhoyt/
+2017-03-07 12:59:19.028000 #geral @jonyroda97#9104: .scheduler
+2017-03-07 12:59:19.185000 #geral @Amigos Prováveis#6605: ```
+.scheduler
+
+Commands:
+  add    Add a command to run in [time_interval] seconds.
+  list   Lists all repeated commands
+  remove Removes scheduled command from running.
+  repeat Add a command to run every [time_interval] seconds.
+
+Type .scheduler command for more info on a command.
+You can also type .scheduler category for more info on a category.
+```
+2017-03-07 12:59:45.703000 #geral @jonyroda97#9104: .scheduler list plzuca
+2017-03-07 12:59:45.917000 #geral @Amigos Prováveis#6605: ```
+Names:
+	pljoao16
+	pljoao17
+	plmosntercat
+	plproximity
+	pltop
+	pltrap
+	plzuca
+```
+2017-03-07 13:00:00.358000 #geral @jonyroda97#9104: .pl
+2017-03-07 13:00:01.254000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-03-07 13:00:20.379000 #geral @jonyroda97#9104: .pl list zuca
+2017-03-07 13:00:20.523000 #geral @Amigos Prováveis#6605: Available playlists:
+
+rafa, monstercat, cate, neo_scavenger, future_bass, joao16, zuca, 50rock, trend, discordfm, transistor, proximity, gaming, trap, top, joao17
+2017-03-07 20:03:57.303000 #geral @taskosan#2557: !cena
+2017-03-07 20:04:07.608000 #geral @taskosan#2557: !cena
+2017-03-07 20:04:17.841000 #geral @taskosan#2557: !wtc
+2017-03-07 20:04:28.737000 #geral @taskosan#2557: !bday
+2017-03-07 20:04:43.910000 #geral @taskosan#2557: !johncena
+2017-03-07 20:04:49.533000 #geral @taskosan#2557: !cena
+2017-03-07 20:04:55.573000 #geral @taskosan#2557: !cena
+2017-03-07 20:05:00.608000 #geral @taskosan#2557: !cena
+2017-03-07 20:05:05.873000 #geral @taskosan#2557: !cena
+2017-03-07 20:05:11.131000 #geral @taskosan#2557: !cena
+2017-03-07 20:05:27.946000 #geral @taskosan#2557: .clear 10
+2017-03-07 20:07:35.625000 #geral @taskosan#2557: .q dáma
+2017-03-07 20:12:03.388000 #geral @taskosan#2557: .stop
+2017-03-07 20:12:03.469000 #geral @Amigos Prováveis#6605: Can't stop if I'm not playing.
+2017-03-07 20:13:02.869000 #geral @taskosan#2557: .help
+2017-03-07 20:13:41.796000 #geral @taskosan#2557: @Amigos Prováveis suck my dick
+2017-03-07 20:13:43.096000 #geral @Amigos Prováveis#6605: I heard you didn't have one anymore.
+2017-03-07 20:16:18.523000 #geral @taskosan#2557: !rlrankup jonyroda97
+2017-03-07 20:16:18.610000 #geral @Stat Tracker#4986: ```Grabs a users Rocket League Rank up stats.
+
+!rlrankup [Platform] [ID]
+!rlrankup PC StatBot```
+2017-03-07 20:16:43.947000 #geral @taskosan#2557: !rlrankup pc jonyroda97
+2017-03-07 20:16:48.623000 #geral @Stat Tracker#4986: **@Rafa Santos, For your full stats, visit: <https://goo.gl/svO6dq>**
+2017-03-07 20:18:11.241000 #geral @taskosan#2557: .penis @Rafa Santos
+2017-03-07 20:18:11.435000 #geral @Amigos Prováveis#6605: Size: 8=====================D
+2017-03-07 20:19:29.296000 #geral @taskosan#2557: .kill @João Roda
+2017-03-07 20:19:29.574000 #geral @Amigos Prováveis#6605: **@João Roda screams in terror as a giant creature with huge muscular arms grab @João Roda's head; @João Roda's screams of terror are cut off as the creature tears off the head with a sickening crunching sound. @João Roda's spinal cord, which is still attached to the dismembered head, is used by the creature as a makeshift sword to slice a perfect asymmetrical line down @João Roda's body, causing the organs to spill out as the two halves fall to their respective sides.**
+2017-03-07 20:22:13.586000 #geral @taskosan#2557: .insult @João Roda
+2017-03-07 20:22:13.729000 #geral @Amigos Prováveis#6605: @João Roda It's kinda sad watching you attempt to fit your entire vocabulary into a sentence.
+2017-03-07 20:49:25.358000 #geral @jonyroda97#9104: .clear 10
+2017-03-07 21:13:05.264000 #geral @luso500#3797: roasted
+2017-03-07 21:16:38.006000 #geral @Luis Miguel#9482: !cena
+2017-03-07 21:16:52.680000 #geral @Luis Miguel#9482: .wtf
+2017-03-07 21:17:05.798000 #geral @Luis Miguel#9482: .wtc
+2017-03-07 21:56:48.096000 #geral @jonyroda97#9104: .pl mix joao17
+2017-03-07 21:56:48.556000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-07 22:02:59.419000 #geral @jonyroda97#9104: .pause
+2017-03-07 22:03:01.867000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-07 22:10:41.355000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-07 22:10:41.572000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:10:41.355000 #geral @Luis Miguel#9482: .q https://www.youtube.com/watch?v=psgLiVGWExU
+2017-03-07 22:10:48.924000 #geral @xraizen#6932: Fds
+2017-03-07 22:10:51.777000 #geral @Luis Miguel#9482: ehehehehe
+2017-03-07 22:11:01.171000 #geral @Luis Miguel#9482: mete ai as tas
+2017-03-07 22:11:01.845000 #geral @xraizen#6932: para de ouvir as minhas musicas
+2017-03-07 22:11:11.455000 #geral @Luis Miguel#9482: mete as tuas
+2017-03-07 22:11:20.913000 #geral @xraizen#6932: Nao
+2017-03-07 22:11:24.991000 #geral @xraizen#6932: Dps vais ouvi las
+2017-03-07 22:11:31.104000 #geral @Luis Miguel#9482: sim
+2017-03-07 22:11:33.698000 #geral @jonyroda97#9104: .resume
+2017-03-07 22:11:35.081000 #geral @Amigos Prováveis#6605: Resuming.
+2017-03-07 22:11:40.107000 #geral @jonyroda97#9104: .skip
+2017-03-07 22:11:40.256000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-07 22:12:04.535000 #geral @jonyroda97#9104: @Amigos Prováveis ouvi dizer que o @Xizikinho come merda
+2017-03-07 22:12:06.328000 #geral @Amigos Prováveis#6605: It is movie with Jennifer Lawrence.
+2017-03-07 22:12:13.691000 #geral @jonyroda97#9104: .clear 2
+2017-03-07 22:12:37.814000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=LyX3qgVUweQ
+2017-03-07 22:12:37.814000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=LyX3qgVUweQ
+2017-03-07 22:12:38.076000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:13:41.998000 #geral @jonyroda97#9104: @Amigos Prováveis did you knew that Francisco Bandeira eats poop?
+2017-03-07 22:13:45.107000 #geral @Amigos Prováveis#6605: And a little bit of lemon and mint.
+2017-03-07 22:14:14.123000 #geral @jonyroda97#9104: .sudo
+2017-03-07 22:14:14.347000 #geral @Amigos Prováveis#6605: ```
+.sudo <user> <command>
+
+Runs the [command] as if [user] had run it. DON'T ADD A PREFIX
+        
+
+```
+2017-03-07 22:14:54.233000 #geral @jonyroda97#9104: .sudo @Tiago Duro cleverbot suck my dick
+2017-03-07 22:14:55.337000 #geral @Amigos Prováveis#6605: They lock us in the tower whenever we get caught.
+2017-03-07 22:15:20.005000 #geral @jonyroda97#9104: .clear 4
+2017-03-07 22:15:33.360000 #geral @jonyroda97#9104: euweee @Xizikinho
+2017-03-07 22:20:09.783000 #geral @jonyroda97#9104: .np
+2017-03-07 22:20:09.943000 #geral @Amigos Prováveis#6605: **Title:** Alok, Bruno Martini feat. Zeeba - Hear Me Now (Official Music Video)
+**Uploader:** Spinnin' Records
+**Views:** 53479786
+**Duration:** 4:24
+
+<https://www.youtube.com/watch?v=JVpTp8IHdEg>
+2017-03-07 22:21:47.989000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=hEQGlQmXMlQ&index=466&list=PLv2bnB-7iVJrvTjiL4iuNYtkUwMVSsl1C
+2017-03-07 22:21:47.989000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=hEQGlQmXMlQ&index=466&list=PLv2bnB-7iVJrvTjiL4iuNYtkUwMVSsl1C
+2017-03-07 22:21:49.449000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:22:06.478000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=qK_NeRZOdq4
+2017-03-07 22:22:06.651000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:24:48.855000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=7wtfhZwyrcc
+2017-03-07 22:24:48.971000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:25:07.054000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=WVpU8aOt8So
+2017-03-07 22:25:07.054000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=WVpU8aOt8So
+2017-03-07 22:25:07.202000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:25:34.707000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=AlYVNyq2i_0
+2017-03-07 22:25:34.884000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:25:45.721000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=WH9C6oLEtOg
+2017-03-07 22:25:45.721000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=WH9C6oLEtOg
+2017-03-07 22:25:45.875000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:25:56.561000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ZZMZiBCRX4c
+2017-03-07 22:25:56.561000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ZZMZiBCRX4c
+2017-03-07 22:25:56.713000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-07 22:49:23.513000 #geral @jonyroda97#9104: .skip
+2017-03-07 22:49:23.693000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-07 22:49:45.310000 #geral @jonyroda97#9104: .np
+2017-03-07 22:49:45.415000 #geral @Amigos Prováveis#6605: **Title:** Kungs - Don't You Know (Official Video) ft. Jamie N Commons
+**Uploader:** KungsVEVO
+**Views:** 27127110
+**Duration:** 3:20
+
+<https://www.youtube.com/watch?v=Nf-FLiO4p3c>
+2017-03-07 23:07:59.279000 #geral @jonyroda97#9104: .stop
+2017-03-07 23:07:59.500000 #geral @Amigos Prováveis#6605: Stopping...
+2017-03-08 22:35:36.750000 #geral @jonyroda97#9104: .q xama
+2017-03-08 23:14:57.560000 #geral @xraizen#6932: O que?
+2017-03-08 23:17:27.329000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=wNN-Jdk9Q8Y
+2017-03-08 23:17:27.329000 #geral @Bastos#1116: .q https://www.youtube.com/watch?v=wNN-Jdk9Q8Y
+2017-03-08 23:54:40.736000 #geral @jonyroda97#9104: .q skin rag
+2017-03-08 23:58:13.540000 #geral @jonyroda97#9104: .stop
+2017-03-08 23:58:13.735000 #geral @Amigos Prováveis#6605: Stopping...
+2017-03-09 17:26:37.150000 #geral @jonyroda97#9104: .pl mix joao17
+2017-03-09 17:26:37.651000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-09 17:38:26.067000 #geral @jonyroda97#9104: .skip
+2017-03-09 17:38:26.212000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-09 17:38:41.744000 #geral @jonyroda97#9104: .q skin rag
+2017-03-09 17:38:41.860000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-09 18:24:56.662000 #geral @jonyroda97#9104: .stop
+2017-03-09 18:24:56.842000 #geral @Amigos Prováveis#6605: Stopping...
+2017-03-09 21:47:19.974000 #geral @jonyroda97#9104: .pl mix joao17
+2017-03-09 21:47:20.622000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-09 21:47:28.581000 #geral @jonyroda97#9104: .pl
+2017-03-09 21:47:28.723000 #geral @Amigos Prováveis#6605: ```
+.playlist
+
+Playlist management/control.
+
+Commands:
+  add    Add a YouTube or Soundcloud playlist.
+  append Appends to a playlist.
+  create Creates an empty playlist
+  extend Extends a playlist with a playlist link
+  list   Lists all available playlists
+  mix    Plays and mixes a playlist.
+  queue  Adds a song to the playlist loop.
+  remove Deletes a saved playlist.
+  start  Plays a playlist.
+
+Type .playlist command for more info on a command.
+You can also type .playlist category for more info on a category.
+```
+2017-03-09 22:04:22.322000 #geral @jonyroda97#9104: .skip
+2017-03-09 22:04:22.419000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-09 22:10:13.225000 #geral @xraizen#6932: Bancam muito bem
+2017-03-09 22:10:21.949000 #geral @xraizen#6932: Para variar
+2017-03-09 22:10:31.065000 #geral @xraizen#6932: Musica de porcaria´
+2017-03-09 22:10:39.590000 #geral @xraizen#6932: .mute
+2017-03-09 22:10:47.818000 #geral @xraizen#6932: .mute musica para sempre
+2017-03-09 22:11:49.082000 #geral @jonyroda97#9104: .pl mix zuca
+2017-03-09 22:11:49.254000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-09 22:12:53.504000 #geral @jonyroda97#9104: @Tiago Duro nao gostas da musica crias uma playlist tu no youtube das me o link e eu meto aqui a dar com musica de jeito
+2017-03-11 16:30:44.476000 #geral @taskosan#2557: banco bem
+2017-03-11 18:52:27.054000 #geral @jonyroda97#9104: nah es uma merda
+2017-03-11 22:03:10.824000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-11 22:03:10.824000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-11 22:03:15.971000 #geral @Amigos Prováveis#6605: `Error in command 'queue' - ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.`
+2017-03-12 11:17:37.788000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-12 11:17:37.788000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-12 11:17:42.955000 #geral @Amigos Prováveis#6605: `Error in command 'queue' - ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.`
+2017-03-12 11:30:57.301000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-12 11:31:02.502000 #geral @Amigos Prováveis#6605: `Error in command 'queue' - ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.`
+2017-03-12 11:31:22.434000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-12 11:31:22.608000 #geral @Amigos Prováveis#6605: `Error in command 'queue' - ConnectTimeout: You are on connect cooldown for another 279 seconds.`
+2017-03-12 11:31:31.948000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-12 11:31:32.119000 #geral @Amigos Prováveis#6605: `Error in command 'queue' - ConnectTimeout: You are on connect cooldown for another 270 seconds.`
+2017-03-12 11:50:02.896000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-12 11:50:02.896000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=0jXqujgf0GI
+2017-03-12 11:50:08.084000 #geral @Amigos Prováveis#6605: `Error in command 'queue' - ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.`
+2017-03-12 12:43:48.264000 #geral @taskosan#2557: http://dioguinho.pt/festa-privada-bem-quente-com-sefora-e-andreia-machado-novo-canal-18/
+2017-03-12 12:43:48.264000 #geral @taskosan#2557: http://dioguinho.pt/festa-privada-bem-quente-com-sefora-e-andreia-machado-novo-canal-18/
+2017-03-13 00:54:21.990000 #geral @jonyroda97#9104: .STOP
+2017-03-13 00:54:26.639000 #geral @jonyroda97#9104: .stop
+2017-03-13 00:54:26.792000 #geral @Amigos Prováveis#6605: Can't stop if I'm not playing.
+2017-03-13 00:54:34.662000 #geral @jonyroda97#9104: .stop
+2017-03-13 00:54:34.743000 #geral @Amigos Prováveis#6605: Can't stop if I'm not playing.
+2017-03-13 00:54:43.199000 #geral @jonyroda97#9104: .q ola
+2017-03-13 00:54:48.288000 #geral @Amigos Prováveis#6605: `Error in command 'queue' - ConnectTimeout: We timed out connecting to a voice channel, please try again in 10 minutes.`
+2017-03-13 00:55:48.155000 #geral @jonyroda97#9104: .shutdown
+2017-03-13 10:55:28.261000 #geral @jonyroda97#9104: .clear 9
+2017-03-13 16:26:07.678000 #geral @jonyroda97#9104: .q dont want to know
+2017-03-13 16:40:13.243000 #geral @jonyroda97#9104: .penis @Rafa Roda
+2017-03-13 16:40:13.689000 #geral @Amigos Prováveis#6605: Size: 8==============================D
+2017-03-13 22:03:58.093000 #geral @jonyroda97#9104: .pl mix joao17
+2017-03-13 22:03:58.661000 #geral @Amigos Prováveis#6605: Playlist queued.
+2017-03-13 22:12:37.961000 #geral @jonyroda97#9104: .pause
+2017-03-13 22:12:38.183000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-13 22:20:36.646000 #geral @jonyroda97#9104: .resume
+2017-03-13 22:20:36.898000 #geral @Amigos Prováveis#6605: Resuming.
+2017-03-13 22:20:52.601000 #geral @jonyroda97#9104: .pause
+2017-03-13 22:20:52.815000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-13 22:20:55.017000 #geral @luso500#3797: roda
+2017-03-13 22:21:11.556000 #geral @luso500#3797: Consegues sacar um email de alguem apenas com pouca informação?
+2017-03-13 22:21:32.923000 #geral @luso500#3797: @João Roda
+2017-03-13 22:21:43.133000 #geral @jonyroda97#9104: como assim?
+2017-03-13 22:21:49.031000 #geral @luso500#3797: liga o micro
+2017-03-13 22:41:06.637000 #geral @luso500#3797: EDUMITRA
+2017-03-13 23:37:18.707000 #geral @xraizen#6932: xzikinho
+2017-03-13 23:37:21.556000 #geral @xraizen#6932: poe te manso
+2017-03-14 00:06:31.104000 #geral @jonyroda97#9104: .stop
+2017-03-14 00:06:31.245000 #geral @Amigos Prováveis#6605: Stopping...
+2017-03-14 16:27:02.085000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ijL-ISAARxc
+2017-03-14 16:27:02.085000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ijL-ISAARxc
+2017-03-14 16:27:11.291000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=uFvnnbEYW-8
+2017-03-14 16:27:11.291000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=uFvnnbEYW-8
+2017-03-14 16:27:11.446000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 16:27:19.083000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=V8-IlmBG3hM
+2017-03-14 16:27:19.235000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 16:27:59.030000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=OWFBqiUgspg
+2017-03-14 16:27:59.298000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 16:27:59.030000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=OWFBqiUgspg
+2017-03-14 16:28:12.269000 #geral @jonyroda97#9104: .pause
+2017-03-14 16:28:12.336000 #geral @Amigos Prováveis#6605: Paused.
+2017-03-14 16:38:23.287000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=ykwqXuMPsoc
+2017-03-14 16:38:23.477000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 16:42:17.664000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=NyiEaSzpdMk
+2017-03-14 16:42:17.664000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=NyiEaSzpdMk
+2017-03-14 16:42:17.842000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 20:58:06.833000 #geral @jonyroda97#9104: @Rafa Santos https://www.mmobomb.com/giveaway/paladins-closed-beta-keys-europe
+2017-03-14 20:58:06.833000 #geral @jonyroda97#9104: @Rafa Santos https://www.mmobomb.com/giveaway/paladins-closed-beta-keys-europe
+2017-03-14 21:17:31.286000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=kJQP7kiw5Fk
+2017-03-14 21:17:31.327000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 21:17:57.207000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=zFt0tO4Op14
+2017-03-14 21:17:57.332000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 21:18:17.635000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=byXfKMEmVZc
+2017-03-14 21:18:17.635000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=byXfKMEmVZc
+2017-03-14 21:18:17.804000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 21:18:31.481000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=F-XhH1FTKm0
+2017-03-14 21:18:31.682000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 21:18:31.481000 #geral @taskosan#2557: .q https://www.youtube.com/watch?v=F-XhH1FTKm0
+2017-03-14 21:18:49.991000 #geral @taskosan#2557: .start
+2017-03-14 21:18:55.927000 #geral @taskosan#2557: .help
+2017-03-14 21:18:56.557000 #geral @Luis Miguel#9482: .q
+2017-03-14 21:18:56.737000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-03-14 21:18:57.783000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Vindata - Right Now (feat. Njomza and Alex & Alex)
+
+***Next up:***
+1. Barely Alive & Habstrakt - Gumby
+2. Kill The Noise - Dolphin On Wheels with Dillon Francis
+3. Amazing Horse | 10 Hours
+4. Narwhals : animated music video : MrWeebl
+5. Russian Dancing Men : animated music video : MrWeebl
+2017-03-14 21:19:07.626000 #geral @taskosan#2557: .help
+2017-03-14 21:41:39.667000 #geral @jonyroda97#9104: .resume
+2017-03-14 21:41:39.803000 #geral @Amigos Prováveis#6605: Resuming.
+2017-03-14 21:42:17.502000 #geral @jonyroda97#9104: .skip
+2017-03-14 21:42:17.680000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-14 21:43:27.270000 #geral @jonyroda97#9104: .skip
+2017-03-14 21:43:27.482000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-14 21:44:35.085000 #geral @jonyroda97#9104: .skip
+2017-03-14 21:44:35.274000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-14 21:45:00.608000 #geral @jonyroda97#9104: .skip
+2017-03-14 21:45:00.756000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-14 21:45:06.889000 #geral @jonyroda97#9104: .skip
+2017-03-14 21:45:07.155000 #geral @Amigos Prováveis#6605: Skipping...
+2017-03-14 21:45:15.832000 #geral @jonyroda97#9104: .q
+2017-03-14 21:45:15.980000 #geral @Amigos Prováveis#6605: Gathering information...
+2017-03-14 21:45:16.868000 #geral @Amigos Prováveis#6605: ***Now playing:***
+Luis Fonsi - Despacito ft. Daddy Yankee
+
+***Next up:***
+1. Logic - Man Of The Year (Prod. No I.D.)
+2. MC Kekel - Namorar Pra Quê? (KondZilla)
+3. MC Kekel - Quem Mandou Tu Terminar? (KondZilla)
+2017-03-14 21:53:01.751000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=GUl9_5kK9ts
+2017-03-14 21:53:01.751000 #geral @jonyroda97#9104: .q https://www.youtube.com/watch?v=GUl9_5kK9ts
+2017-03-14 21:53:01.937000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-14 22:19:38.647000 #geral @jonyroda97#9104: https://www.mmobomb.com/giveaway/paladins-closed-beta-keys-europe
+2017-03-14 22:19:38.647000 #geral @jonyroda97#9104: https://www.mmobomb.com/giveaway/paladins-closed-beta-keys-europe
+2017-03-15 22:30:59.293000 #geral @Bastos#1116: es bom
+2017-03-15 22:31:06.772000 #geral @Bastos#1116: vou ver filme pornoooo
+2017-03-15 22:31:11.428000 #geral @Bastos#1116: 50sombras de grey
+2017-03-15 22:31:17.133000 #geral @xraizen#6932: Ok
+2017-03-15 22:31:19.708000 #geral @xraizen#6932: Ate amanha
+2017-03-15 22:39:56.569000 #geral @jonyroda97#9104: .q amazing horse
+2017-03-15 22:40:09.777000 #geral @jonyroda97#9104: .q
+2017-03-15 22:40:09.908000 #geral @Amigos Prováveis#6605: Nothing queued on this server.
+2017-03-15 22:41:24.442000 #geral @jonyroda97#9104: 
+2017-03-15 22:46:23.322000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=sbbYPqgSe-M
+2017-03-15 22:46:23.322000 #geral @xraizen#6932: .q https://www.youtube.com/watch?v=sbbYPqgSe-M
+2017-03-15 22:47:51.772000 #geral @taskosan#2557: .Q https://www.youtube.com/watch?v=kJQP7kiw5Fk
+2017-03-15 22:47:51.924000 #geral @Amigos Prováveis#6605: Queued.
+2017-03-15 23:35:46.820000 #geral @luso500#3797: 
+2017-03-15 23:37:14.821000 #geral @luso500#3797: https://steamcommunity.com/id/anonymous__
+2017-03-15 23:37:14.821000 #geral @luso500#3797: https://steamcommunity.com/id/anonymous__
+2017-03-15 23:48:22.506000 #geral @luso500#3797: 
+2017-03-16 00:07:45.390000 #geral @jonyroda97#9104: !knife

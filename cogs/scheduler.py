@@ -45,7 +45,7 @@ class Scheduler:
         self.events = fileIO('data/scheduler/events.json', 'load')
         self.queue = asyncio.PriorityQueue(loop=self.bot.loop)
         self.queue_lock = asyncio.Lock()
-        self.to_kill = []
+        self.to_kill = {}
         self._load_events()
 
     def save_events(self):
@@ -262,7 +262,7 @@ class Scheduler:
                         next_event.name, diff))
                     fut = self.bot.loop.call_later(diff, self.run_coro,
                                                    next_event)
-                    self.to_kill.append(fut)
+                    self.to_kill[next_time] = fut
                     if next_event.repeat:
                         await self._put_event(next_event, next_time,
                                               next_event.timedelta)
@@ -276,12 +276,12 @@ class Scheduler:
             self.queue_lock.release()
 
             to_delete = []
-            for old_command in self.to_kill:
-                if self.bot.loop.time() - 30 > old_command._when:
+            for start_time, old_command in self.to_kill.items():
+                if time.time() > start_time + 30:
                     old_command.cancel()
-                    to_delete.append(old_command)
+                    to_delete.append(start_time)
             for item in to_delete:
-                self.to_kill.remove(item)
+                del self.to_kill[start_time]
 
             await asyncio.sleep(5)
         log.debug('manager dying')
