@@ -6,7 +6,7 @@
             "command" : "pl add joao16 https://www.youtube.com/playlist?list=PLv2bnB-7iVJqLd2WyhIIqXA0MqRkfSDoo",
             "name" : "pljoao16",
             "repeat" : true,
-            "starttime" : 1481149087,
+            "starttime" : 1481149000,
             "timedelta" : 43200
         },
         "pljoao17" : {
@@ -15,7 +15,7 @@
             "command" : "pl add joao17 https://www.youtube.com/playlist?list=PLv2bnB-7iVJrvTjiL4iuNYtkUwMVSsl1C",
             "name" : "pljoao17",
             "repeat" : true,
-            "starttime" : 1481149100,
+            "starttime" : 1481149050,
             "timedelta" : 43200
         },
         "plzuca" : {
@@ -24,25 +24,16 @@
             "command" : "pl add zuca https://www.youtube.com/playlist?list=PLcKj4-geSRBceJrVxtTUcnyeExwyr2YVw",
             "name" : "plzuca",
             "repeat" : true,
+            "starttime" : 1481149100,
+            "timedelta" : 43200
+        },
+        "plrafael" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add rafael https://www.youtube.com/playlist?list=PLckv0WrLIn0FLxUlocLPslXWW1ltiHkwB",
+            "name" : "plrafael",
+            "repeat" : true,
             "starttime" : 1481149150,
-            "timedelta" : 43200
-        },
-        "plmosntercat" : {
-            "author" : "98159081583292416",
-            "channel" : "193925434273038346",
-            "command" : "pl add monstercat https://www.youtube.com/playlist?list=UUJ6td3C9QlPO9O_J5dF4ZzA",
-            "name" : "plmosntercat",
-            "repeat" : true,
-            "starttime" : 1481149201,
-            "timedelta" : 43200
-        },
-        "plproximity" : {
-            "author" : "98159081583292416",
-            "channel" : "193925434273038346",
-            "command" : "pl add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg",
-            "name" : "plproximity",
-            "repeat" : true,
-            "starttime" : 1481149107,
             "timedelta" : 43200
         },
         "pltop" : {
@@ -51,7 +42,7 @@
             "command" : "pl add top https://www.youtube.com/playlist?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG",
             "name" : "pltop",
             "repeat" : true,
-            "starttime" : 1481149140,
+            "starttime" : 1481149200,
             "timedelta" : 43200
         },
         "pltrap" : {
@@ -60,7 +51,25 @@
             "command" : "pl add trap https://www.youtube.com/playlist?list=UUa10nxShhzNrCE1o2ZOPztg",
             "name" : "pltrap",
             "repeat" : true,
-            "starttime" : 1481149172,
+            "starttime" : 1481149250,
+            "timedelta" : 43200
+        },
+        "plmosntercat" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add monstercat https://www.youtube.com/playlist?list=UUJ6td3C9QlPO9O_J5dF4ZzA",
+            "name" : "plmosntercat",
+            "repeat" : true,
+            "starttime" : 1481149300,
+            "timedelta" : 43200
+        },
+        "plproximity" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add proximity https://www.youtube.com/playlist?list=UU3ifTl5zKiCAhHIBQYcaTeg",
+            "name" : "plproximity",
+            "repeat" : true,
+            "starttime" : 1481149350,
             "timedelta" : 43200
         }
     }
