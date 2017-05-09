@@ -3,7 +3,8 @@
         "ban_mention_spam" : false,
         "delete_delay" : -1,
         "delete_repeats" : false,
-        "mod-log" : "237001047166418945"
+        "mod-log" : "237001047166418945",
+        "respect_hierarchy" : true
     },
     "133049272517001216" : {
         "ban_mention_spam" : false,

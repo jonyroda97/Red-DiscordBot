@@ -1,5 +1,5 @@
 {
     "CHANNEL" : "133251234164375552",
-    "MESSAGE" : "each page will now break at 900 characters (was 300)",
-    "TIMESTAMP" : "2017-03-16 1:58:26"
+    "MESSAGE" : "`Error in command 'rtfs' - TypeError: <built-in function min> is not a module, class, method, function, traceback, frame, or code object`",
+    "TIMESTAMP" : "2017-03-22 1:36:55"
 }

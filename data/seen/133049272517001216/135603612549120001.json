@@ -1,5 +1,5 @@
 {
     "CHANNEL" : "133251234164375552",
-    "MESSAGE" : "```[p]cog update\n[p]load cleverbot\n[p]cleverbot apikey```",
-    "TIMESTAMP" : "2017-03-16 1:14:55"
+    "MESSAGE" : "Take advice at your own risk. Red isn't build for Heroku, this is somewhat proven already due the fact that our data structure isn't setup for it, and it won't be for a long time. It's a security risk by not commiting the token data to a env var.\n\nOne Heroku user (jamfarts) wrote:  `i had to set it all up first locally so that I HAD the settings TO commit. Then I had to commit the settings. I cloned the repo and committed to my own, with the /data folder and all its contents. \nI can't rely on it for anything time related overnight. and any changes i need to do i have to pull it down, do them locally, commit it, and restart the bot. so if i want to add to the filter list, or custom commands, i have to do that, but i only did it because I could make the repo private`",
+    "TIMESTAMP" : "2017-03-22 2:9:54"
 }

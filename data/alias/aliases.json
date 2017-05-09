@@ -5,5 +5,8 @@
         "pl" : "playlist",
         "q" : "queue",
         "volume" : "audioset volume"
+    },
+    "269509897169797121" : {
+        "clear" : "cleanup messages"
     }
 }

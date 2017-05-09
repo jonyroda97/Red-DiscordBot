@@ -11,6 +11,15 @@
             "ap."
         ]
     },
+    "269509897169797121" : {
+        "ADMIN_ROLE" : "Admin",
+        "MOD_ROLE" : "Admin",
+        "PREFIXES" : [
+            "ap.",
+            "\\",
+            "."
+        ]
+    },
     "EMAIL" : null,
     "OWNER" : "98159081583292416",
     "PASSWORD" : null,

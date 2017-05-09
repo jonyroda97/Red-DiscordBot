@@ -1,5 +1,5 @@
 {
     "CHANNEL" : "133251234164375552",
-    "MESSAGE" : "",
-    "TIMESTAMP" : "2017-03-13 23:48:53"
+    "MESSAGE" : "`Error in command 'help' - Forbidden: FORBIDDEN (status code: 403): Cannot send messages to this user`",
+    "TIMESTAMP" : "2017-03-20 3:21:36"
 }

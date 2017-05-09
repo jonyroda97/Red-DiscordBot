@@ -1,5 +1,5 @@
 {
     "CHANNEL" : "133251234164375552",
-    "MESSAGE" : "No command called \"audio\" found.",
-    "TIMESTAMP" : "2017-03-15 1:8:12"
+    "MESSAGE" : "```\nRed - A multifunction Discord bot by Twentysix\n\nCustomCommands:\n  customcommands Shows custom commands list\nGeneral:\n  8              Ask 8 ball a question\n  choose         Chooses between multiple choices.\n  flip           Flips a coin... or a user.\n  lmgtfy         Creates a lmgtfy link\n  poll           Starts/stops a poll\n  roll           Rolls random number (between 1 and user choice)\n  rps            Play rock paper scissors\n  serverinfo     Shows server's informations\n  stopwatch      Starts/stops stopwatch\n  urban          Urban Dictionary search\n  userinfo       Shows users's informations\nOwner:\n  contact        Sends message to the owner\n  info           Shows info about Red\n  set            Changes Red's global settings.\n  uptime         Shows Red's uptime\n  version        Shows Red's current version\n\u200bNo Category:\n  help           Shows this message.\n\nType !help command for more info on a command.\nYou can also type !help category for more info on a category.\n```",
+    "TIMESTAMP" : "2017-03-21 23:21:25"
 }

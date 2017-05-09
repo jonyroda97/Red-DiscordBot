@@ -1,5 +1,5 @@
 {
     "CHANNEL" : "133251234164375552",
-    "MESSAGE" : ":no_entry: **that command is for Developers only!**",
-    "TIMESTAMP" : "2017-03-15 21:7:48"
+    "MESSAGE" : "`Error in command 'join' - NameError: name 'ctx' is not defined`",
+    "TIMESTAMP" : "2017-03-20 14:14:53"
 }

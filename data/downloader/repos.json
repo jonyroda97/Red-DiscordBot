@@ -276,6 +276,44 @@
             "folder" : "data/downloader/mash/wikipedia"
         }
     },
+    "orels" : {
+        "apitools" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/orels/apitools/apitools.py",
+            "folder" : "data/downloader/orels/apitools"
+        },
+        "dota" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/orels/dota/dota.py",
+            "folder" : "data/downloader/orels/dota"
+        },
+        "drawing" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/orels/drawing/drawing.py",
+            "folder" : "data/downloader/orels/drawing"
+        },
+        "fetch" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/orels/fetch/fetch.py",
+            "folder" : "data/downloader/orels/fetch"
+        },
+        "gaming" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/orels/gaming/gaming.py",
+            "folder" : "data/downloader/orels/gaming"
+        },
+        "roller" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/orels/roller/roller.py",
+            "folder" : "data/downloader/orels/roller"
+        },
+        "steam" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/orels/steam/steam.py",
+            "folder" : "data/downloader/orels/steam"
+        },
+        "url" : "https://github.com/orels1/ORELS-Cogs"
+    },
     "paddo" : {
         "away" : {
             "INSTALLED" : false,
@@ -317,6 +355,11 @@
             "file" : "data/downloader/paddo/grenzpolizei/grenzpolizei.py",
             "folder" : "data/downloader/paddo/grenzpolizei"
         },
+        "hunting" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/hunting/hunting.py",
+            "folder" : "data/downloader/paddo/hunting"
+        },
         "invoice" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/invoice/invoice.py",
@@ -347,6 +390,11 @@
             "file" : "data/downloader/paddo/memes/memes.py",
             "folder" : "data/downloader/paddo/memes"
         },
+        "nobot" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/nobot/nobot.py",
+            "folder" : "data/downloader/paddo/nobot"
+        },
         "oweather" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/oweather/oweather.py",
@@ -371,6 +419,11 @@
             "INSTALLED" : true,
             "file" : "data/downloader/paddo/seen/seen.py",
             "folder" : "data/downloader/paddo/seen"
+        },
+        "spotify" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/spotify/spotify.py",
+            "folder" : "data/downloader/paddo/spotify"
         },
         "statistics" : {
             "INSTALLED" : true,
@@ -406,7 +459,7 @@
             "folder" : "data/downloader/refactored/buyrole"
         },
         "dynamicvoice" : {
-            "INSTALLED" : false,
+            "INSTALLED" : true,
             "file" : "data/downloader/refactored/dynamicvoice/dynamicvoice.py",
             "folder" : "data/downloader/refactored/dynamicvoice"
         },

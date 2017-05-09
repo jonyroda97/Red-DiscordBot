@@ -82,7 +82,17 @@ class Statistics:
                 self.settings['CHANNEL_ID'] = None
                 message = 'No channel set'
                 await send_cmd_help(context)
+        await self.bot.say(message)
 
+    @commands.command(no_pm=True, pass_context=True)
+    @checks.serverowner_or_permissions(manage_server=True)
+    async def clearstatschannel(self):
+        """
+        Clear statistics channel
+        """
+        self.settings['CHANNEL_ID'] = False
+        dataIO.save_json('data/statistics/settings.json', self.settings)
+        message = 'Channel cleared'
         await self.bot.say(message)
 
     async def retrieve_statistics(self):
