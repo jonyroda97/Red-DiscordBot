@@ -39130,3 +39130,180 @@ KeyError: 'content_html'
 [09/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
 [09/05/2017 22:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
 [09/05/2017 22:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[10/05/2017 10:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[10/05/2017 10:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[10/05/2017 10:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[10/05/2017 10:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[10/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[10/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[10/05/2017 10:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/05/2017 10:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[10/05/2017 22:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[10/05/2017 22:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[10/05/2017 22:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[10/05/2017 22:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[10/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[10/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[10/05/2017 22:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[10/05/2017 22:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[11/05/2017 10:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[11/05/2017 10:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[11/05/2017 10:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[11/05/2017 10:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[11/05/2017 10:19] ERROR red on_command_error 369: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1463, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 755, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 784, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 272, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[11/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[11/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[11/05/2017 10:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[11/05/2017 10:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[11/05/2017 22:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[11/05/2017 22:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[11/05/2017 22:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[11/05/2017 22:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[11/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[11/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[11/05/2017 22:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[11/05/2017 22:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[12/05/2017 10:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[12/05/2017 10:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[12/05/2017 10:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[12/05/2017 10:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[12/05/2017 10:19] ERROR red on_command_error 369: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1463, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 755, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 784, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 272, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[12/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[12/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[12/05/2017 10:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[12/05/2017 10:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[12/05/2017 22:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[12/05/2017 22:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[12/05/2017 22:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[12/05/2017 22:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[12/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[12/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[12/05/2017 22:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[12/05/2017 22:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/05/2017 10:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[13/05/2017 10:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[13/05/2017 10:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[13/05/2017 10:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[13/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[13/05/2017 10:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/05/2017 10:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[13/05/2017 22:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[13/05/2017 22:16] ERROR red on_command_error 369: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1463, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 755, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 784, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 272, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[13/05/2017 22:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[13/05/2017 22:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[13/05/2017 22:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[13/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[13/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[13/05/2017 22:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[13/05/2017 22:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[14/05/2017 10:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[14/05/2017 10:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[14/05/2017 10:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[14/05/2017 10:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[14/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[14/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[14/05/2017 10:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[14/05/2017 10:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[14/05/2017 22:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[14/05/2017 22:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[14/05/2017 22:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[14/05/2017 22:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[14/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[14/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[14/05/2017 22:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[14/05/2017 22:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[15/05/2017 10:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[15/05/2017 10:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[15/05/2017 10:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[15/05/2017 10:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[15/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[15/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[15/05/2017 10:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/05/2017 10:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[15/05/2017 22:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[15/05/2017 22:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[15/05/2017 22:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[15/05/2017 22:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[15/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[15/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[15/05/2017 22:20] ERROR red on_command_error 369: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1463, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 755, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 784, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 272, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[15/05/2017 22:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[15/05/2017 22:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[16/05/2017 10:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[16/05/2017 10:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[16/05/2017 10:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[16/05/2017 10:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[16/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[16/05/2017 10:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[16/05/2017 10:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[16/05/2017 10:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280
+[16/05/2017 22:16] INFO scheduler run_coro 246: Running 'pljoao16' in 107249192564449280
+[16/05/2017 22:17] INFO scheduler run_coro 246: Running 'pljoao17' in 107249192564449280
+[16/05/2017 22:18] INFO scheduler run_coro 246: Running 'plzuca' in 107249192564449280
+[16/05/2017 22:19] INFO scheduler run_coro 246: Running 'plrafael' in 107249192564449280
+[16/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltop' in 107249192564449280
+[16/05/2017 22:20] INFO scheduler run_coro 246: Running 'pltrap' in 107249192564449280
+[16/05/2017 22:20] ERROR red on_command_error 369: Exception in command 'playlist add'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/root/redbot/cogs/audio.py", line 1463, in playlist_add
+    songlist = await self._parse_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 755, in _parse_playlist
+    return await self._parse_yt_playlist(url)
+  File "/root/redbot/cogs/audio.py", line 784, in _parse_yt_playlist
+    for entry in d.song.entries:
+  File "/usr/local/lib/python3.5/dist-packages/youtube_dl/extractor/youtube.py", line 272, in _entries
+    content_html = more['content_html']
+KeyError: 'content_html'
+[16/05/2017 22:21] INFO scheduler run_coro 246: Running 'plmosntercat' in 107249192564449280
+[16/05/2017 22:22] INFO scheduler run_coro 246: Running 'plproximity' in 107249192564449280

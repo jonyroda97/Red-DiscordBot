@@ -140,6 +140,8 @@
         "https://www.youtube.com/watch?v=GzU8KqOY8YA",
         "https://www.youtube.com/watch?v=IYHI_F6dG-0",
         "https://www.youtube.com/watch?v=jPajWtrDRFk",
-        "https://www.youtube.com/watch?v=BuSBo8AVpV0"
+        "https://www.youtube.com/watch?v=BuSBo8AVpV0",
+        "https://www.youtube.com/watch?v=826kv4IQSd4",
+        "https://www.youtube.com/watch?v=aUWYDaVp92I"
     ]
 }
