@@ -72,5 +72,14 @@
             "starttime" : 1481149350,
             "timedelta" : 43200
         }
+        "plraptuga" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add raptuga https://www.youtube.com/playlist?list=PLafhs2h7HkPoMVGtQbqf6ju8Yaat5Nn_x",
+            "name" : "plraptuga",
+            "repeat" : true,
+            "starttime" : 1481149400,
+            "timedelta" : 43200
+        }
     }
 }
