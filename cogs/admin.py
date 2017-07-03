@@ -50,6 +50,8 @@ class Admin:
     def _role_from_string(self, server, rolename, roles=None):
         if roles is None:
             roles = server.roles
+
+        roles = [r for r in roles if r is not None]
         role = discord.utils.find(lambda r: r.name.lower() == rolename.lower(),
                                   roles)
         try:
@@ -232,8 +234,8 @@ class Admin:
                                " server.")
             return
 
-        roles = list(map(lambda r: self._role_from_string(server, r),
-                         role_names))
+        f = self._role_from_string
+        roles = [f(server, r) for r in role_names if r is not None]
 
         role_to_add = self._role_from_string(server, rolename, roles=roles)
 
@@ -265,8 +267,9 @@ class Admin:
                                " server.")
             return
 
-        roles = list(map(lambda r: self._role_from_string(server, r),
-                         role_names))
+        f = self._role_from_string
+        roles = [f(server, r) for r in role_names if r is not None]
+
         role_to_remove = self._role_from_string(server, rolename, roles=roles)
 
         try:
@@ -284,6 +287,25 @@ class Admin:
                                                              author.name,
                                                              server.id))
             await self.bot.say("Role removed.")
+
+    @selfrole.command(no_pm=True, pass_context=True, name="list")
+    async def selfrole_list(self, ctx):
+        """Views all current roles you can assign to yourself.
+
+        Configurable using `adminset`"""
+        server = ctx.message.server
+        if self._get_selfrole_names(ctx.message.server) is None:
+            await self.bot.say("There are no selfroles set.")
+        else:
+            selfroles = self._settable_roles[server.id]
+            if len(selfroles) == 2:
+                await self.bot.say("You can currently"
+                                   " give yourself\n{}."
+                                   "".format(" and ".join(selfroles)))
+            else:
+                await self.bot.say("You can currently"
+                                   "give yourself\n{}."
+                                   "".format(", ".join(selfroles)))
 
     @commands.command(pass_context=True)
     @checks.is_owner()

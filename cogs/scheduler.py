@@ -281,7 +281,7 @@ class Scheduler:
                     old_command.cancel()
                     to_delete.append(start_time)
             for item in to_delete:
-                del self.to_kill[start_time]
+                del self.to_kill[item]
 
             await asyncio.sleep(5)
         log.debug('manager dying')

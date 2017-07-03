@@ -1,12 +1,29 @@
 {
     "107249192564449280" : {
         "clear" : "cleanup messages",
+        "mm" : "massmove",
         "np" : "song",
         "pl" : "playlist",
         "q" : "queue",
-        "volume" : "audioset volume"
+        "vol" : "audioset volume"
     },
     "269509897169797121" : {
         "clear" : "cleanup messages"
+    },
+    "318903758954430465" : {
+        "clear" : "cleanup messages",
+        "mm" : "massmove",
+        "np" : "song",
+        "pl" : "playlist",
+        "q" : "queue",
+        "vol" : "audioset volume"
+    },
+    "319144738206777344" : {
+        "clear" : "cleanup messages",
+        "mm" : "massmove",
+        "np" : "song",
+        "pl" : "playlist",
+        "q" : "queue",
+        "vol" : "audioset volume"
     }
 }

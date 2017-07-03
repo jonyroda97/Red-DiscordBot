@@ -16,6 +16,18 @@
             "VOLUME" : 5.0,
             "VOTE_ENABLED" : true,
             "VOTE_THRESHOLD" : 50
+        },
+        "318903758954430465" : {
+            "NOPPL_DISCONNECT" : true,
+            "VOLUME" : 5,
+            "VOTE_ENABLED" : true,
+            "VOTE_THRESHOLD" : 50
+        },
+        "319144738206777344" : {
+            "NOPPL_DISCONNECT" : true,
+            "VOLUME" : 50,
+            "VOTE_ENABLED" : true,
+            "VOTE_THRESHOLD" : 50
         }
     },
     "SERVER_SFX_ON" : {

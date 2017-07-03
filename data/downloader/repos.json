@@ -307,6 +307,11 @@
             "file" : "data/downloader/orels/roller/roller.py",
             "folder" : "data/downloader/orels/roller"
         },
+        "sinon" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/orels/sinon/sinon.py",
+            "folder" : "data/downloader/orels/sinon"
+        },
         "steam" : {
             "INSTALLED" : false,
             "file" : "data/downloader/orels/steam/steam.py",
@@ -324,11 +329,6 @@
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/barpm/barpm.py",
             "folder" : "data/downloader/paddo/barpm"
-        },
-        "calculator" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/calculator/calculator.py",
-            "folder" : "data/downloader/paddo/calculator"
         },
         "caramba" : {
             "INSTALLED" : false,
@@ -399,11 +399,6 @@
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/oweather/oweather.py",
             "folder" : "data/downloader/paddo/oweather"
-        },
-        "pcm" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/pcm/pcm.py",
-            "folder" : "data/downloader/paddo/pcm"
         },
         "quote" : {
             "INSTALLED" : false,
@@ -653,6 +648,11 @@
             "INSTALLED" : false,
             "file" : "data/downloader/tmerc/quotes/quotes.py",
             "folder" : "data/downloader/tmerc/quotes"
+        },
+        "rainbow6siege" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/tmerc/rainbow6siege/rainbow6siege.py",
+            "folder" : "data/downloader/tmerc/rainbow6siege"
         },
         "randgame" : {
             "INSTALLED" : false,
