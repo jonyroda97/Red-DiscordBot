@@ -71,7 +71,7 @@
             "repeat" : true,
             "starttime" : 1481149350,
             "timedelta" : 43200
-        }
+        },
         "plraptuga" : {
             "author" : "98159081583292416",
             "channel" : "193925434273038346",
@@ -79,6 +79,15 @@
             "name" : "plraptuga",
             "repeat" : true,
             "starttime" : 1481149400,
+            "timedelta" : 43200
+        },
+        "pltophits" : {
+            "author" : "98159081583292416",
+            "channel" : "193925434273038346",
+            "command" : "pl add tophits https://www.youtube.com/playlist?list=PLLdPJGHquctFFaYNmcSIZVjpHxjO9dZTS",
+            "name" : "pltophits",
+            "repeat" : true,
+            "starttime" : 1481149450,
             "timedelta" : 43200
         }
     }
