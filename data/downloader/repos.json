@@ -325,11 +325,6 @@
             "file" : "data/downloader/paddo/away/away.py",
             "folder" : "data/downloader/paddo/away"
         },
-        "barpm" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/barpm/barpm.py",
-            "folder" : "data/downloader/paddo/barpm"
-        },
         "caramba" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/caramba/caramba.py",
@@ -339,11 +334,6 @@
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/customroles/customroles.py",
             "folder" : "data/downloader/paddo/customroles"
-        },
-        "games" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/games/games.py",
-            "folder" : "data/downloader/paddo/games"
         },
         "goodreads" : {
             "INSTALLED" : false,
@@ -385,25 +375,10 @@
             "file" : "data/downloader/paddo/maolmao/maolmao.py",
             "folder" : "data/downloader/paddo/maolmao"
         },
-        "memes" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/memes/memes.py",
-            "folder" : "data/downloader/paddo/memes"
-        },
-        "nobot" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/nobot/nobot.py",
-            "folder" : "data/downloader/paddo/nobot"
-        },
         "oweather" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/oweather/oweather.py",
             "folder" : "data/downloader/paddo/oweather"
-        },
-        "quote" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/quote/quote.py",
-            "folder" : "data/downloader/paddo/quote"
         },
         "schmeckles" : {
             "INSTALLED" : false,
@@ -668,6 +643,11 @@
             "INSTALLED" : false,
             "file" : "data/downloader/tmerc/randimals/randimals.py",
             "folder" : "data/downloader/tmerc/randimals"
+        },
+        "retakechannels" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/tmerc/retakechannels/retakechannels.py",
+            "folder" : "data/downloader/tmerc/retakechannels"
         },
         "reviewemoji" : {
             "INSTALLED" : true,

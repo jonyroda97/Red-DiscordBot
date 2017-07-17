@@ -5541,3 +5541,186 @@ You can also type .playlist category for more info on a category.
 ```
 2017-07-03 20:54:19.090000 #bots @jonyroda97#9104: .pl remove trend
 2017-07-03 20:54:19.247000 #bots @🎧 DJ AP#6605: Playlist deleted.
+2017-07-03 21:00:37.155000 #bots @jonyroda97#9104: .pl start tophits
+2017-07-03 21:00:37.426000 #bots @🎧 DJ AP#6605: That playlist does not exist.
+2017-07-03 21:01:17.170000 #bots @jonyroda97#9104: .pl add tophits https://www.youtube.com/playlist?list=PLLdPJGHquctFFaYNmcSIZVjpHxjO9dZTS
+2017-07-03 21:01:17.269000 #bots @🎧 DJ AP#6605: Enumerating song list... This could take a few moments.
+2017-07-03 21:01:17.170000 #bots @jonyroda97#9104: .pl add tophits https://www.youtube.com/playlist?list=PLLdPJGHquctFFaYNmcSIZVjpHxjO9dZTS
+2017-07-03 21:01:19.163000 #bots @🎧 DJ AP#6605: Playlist 'tophits' saved. Tracks: 110
+2017-07-03 21:01:30.008000 #bots @jonyroda97#9104: .pl start tophits
+2017-07-03 21:01:30.331000 #bots @🎧 DJ AP#6605: Playlist queued.
+2017-07-03 21:08:28.098000 #bots @jonyroda97#9104: .skip
+2017-07-03 21:08:28.139000 #bots @🎧 DJ AP#6605: Skipping...
+2017-07-03 21:09:05.372000 #bots @jonyroda97#9104: .skip
+2017-07-03 21:09:05.538000 #bots @🎧 DJ AP#6605: Skipping...
+2017-07-03 21:09:07.536000 #bots @jonyroda97#9104: .skip
+2017-07-03 21:09:07.764000 #bots @🎧 DJ AP#6605: Skipping...
+2017-07-03 21:37:42.413000 #bots @jonyroda97#9104: .pl start tophits
+2017-07-03 21:37:42.538000 #bots @🎧 DJ AP#6605: Playlist queued.
+2017-07-03 21:54:58.947000 #bots @jonyroda97#9104: .skip
+2017-07-03 21:54:59.080000 #bots @🎧 DJ AP#6605: Skipping...
+2017-07-05 00:36:10.465000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-05 00:36:10.465000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-05 01:11:22.240000 #bots @jonyroda97#9104: .cog update
+2017-07-05 01:11:22.521000 #bots @🎧 DJ AP#6605: Downloading updated cogs, please wait...  0/9 repos updated
+2017-07-05 01:11:22.521000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/9 repos updated
+After: Downloading updated cogs, please wait...  1/9 repos updated
+2017-07-05 01:11:22.521000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/9 repos updated
+After: Downloading updated cogs, please wait...  5/9 repos updated
+2017-07-05 01:11:22.521000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/9 repos updated
+After: Downloading updated cogs, please wait...  9/9 repos updated
+2017-07-05 01:11:22.521000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  9/9 repos updated
+After: Downloading updated cogs, please wait... done. 
+Updated cogs: paddo/seen.
+2017-07-05 01:11:26.014000 #bots @🎧 DJ AP#6605: ```Prolog
+Patch Notes for paddo/seen
+==========================
+commit f9c8b3243bf9e80e78d5c980bcf7f5ff40322123
+Author: PaddoInWonderland <PaddoInWonderland@users.noreply.github.com>
+Date:   2 days ago
+
+    [seen] fixed the error (I hope)
+```
+2017-07-05 01:11:26.059000 #bots @🎧 DJ AP#6605: Cogs updated. Reload updated cogs? (yes/no)
+2017-07-05 01:11:29.035000 #bots @jonyroda97#9104: yes
+2017-07-05 01:11:29.189000 #bots @🎧 DJ AP#6605: Done. The following cogs were reloaded: seen
+2017-07-05 01:11:38.211000 #bots @jonyroda97#9104: .seen
+2017-07-05 01:11:38.350000 #bots @🎧 DJ AP#6605: ```
+.seen <username>
+
+seen <@username>
+
+```
+2017-07-05 01:11:54.199000 #bots @jonyroda97#9104: .seen @João Roda
+2017-07-05 01:11:54.352000 #bots @🎧 DJ AP#6605: 
+2017-07-05 01:11:54.352000 #bots @🎧 DJ AP#6605: 
+2017-07-05 22:34:05.201000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-05 22:34:05.201000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-07 00:20:11.409000 #bots @jonyroda97#9104: .cog update
+2017-07-07 00:20:11.844000 #bots @🎧 DJ AP#6605: Downloading updated cogs, please wait...  0/9 repos updated
+2017-07-07 00:20:11.844000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/9 repos updated
+After: Downloading updated cogs, please wait...  1/9 repos updated
+2017-07-07 00:20:11.844000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/9 repos updated
+After: Downloading updated cogs, please wait...  5/9 repos updated
+2017-07-07 00:20:11.844000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/9 repos updated
+After: Downloading updated cogs, please wait...  9/9 repos updated
+2017-07-07 00:20:11.844000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  9/9 repos updated
+After: Downloading updated cogs, please wait... done.  No updates to apply. 
+Updated cogs: paddo/spotify, tmerc/membership.
+2017-07-08 22:17:18.788000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-08 22:17:18.788000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-09 01:23:05.271000 #bots @jonyroda97#9104: .cog update
+2017-07-09 01:23:05.680000 #bots @🎧 DJ AP#6605: Downloading updated cogs, please wait...  0/9 repos updated
+2017-07-09 01:23:05.680000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/9 repos updated
+After: Downloading updated cogs, please wait...  1/9 repos updated
+2017-07-09 01:23:05.680000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/9 repos updated
+After: Downloading updated cogs, please wait...  5/9 repos updated
+2017-07-09 01:23:05.680000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/9 repos updated
+After: Downloading updated cogs, please wait...  9/9 repos updated
+2017-07-09 01:23:05.680000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  9/9 repos updated
+After: Downloading updated cogs, please wait... done.  No updates to apply.
+2017-07-09 21:43:15.831000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-09 21:43:15.831000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-10 16:46:23.213000 #bots @jonyroda97#9104: .cog update
+2017-07-10 16:46:23.505000 #bots @🎧 DJ AP#6605: Downloading updated cogs, please wait...  0/9 repos updated
+2017-07-10 16:46:23.505000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/9 repos updated
+After: Downloading updated cogs, please wait...  1/9 repos updated
+2017-07-10 16:46:23.505000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/9 repos updated
+After: Downloading updated cogs, please wait...  5/9 repos updated
+2017-07-10 16:46:23.505000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/9 repos updated
+After: Downloading updated cogs, please wait...  9/9 repos updated
+2017-07-10 16:46:23.505000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  9/9 repos updated
+After: Downloading updated cogs, please wait... done. 
+New cogs: tmerc/retakechannels.
+Updated cogs: paddo/spotify, paddo/statistics, mash/bartender, tmerc/membership.
+2017-07-10 16:46:27.070000 #bots @🎧 DJ AP#6605: ```Prolog
+Patch Notes for paddo/statistics
+================================
+commit 04a5aed37c29b77a004b99248146f2756bdc1369
+Author: PaddoInWonderland <PaddoInWonderland@users.noreply.github.com>
+Date:   25 hours ago
+
+    [statistics] Solved long lasting problems
+
+commit 433301c4ca7ec8dcd22b3f8f4a4067e041c351e6
+Author: PaddoInWonderland <PaddoInWonderland@users.noreply.github.com>
+Date:   20 hours ago
+
+    [statistics] Some optimization for future projects
+```
+2017-07-10 16:46:27.225000 #bots @🎧 DJ AP#6605: Cogs updated. Reload updated cogs? (yes/no)
+2017-07-10 16:46:30.449000 #bots @jonyroda97#9104: yes
+2017-07-10 16:46:30.531000 #bots @🎧 DJ AP#6605: Done. The following cogs were reloaded: statistics
+2017-07-11 23:57:45.463000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-11 23:57:45.463000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-13 00:48:16.964000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-13 00:48:16.964000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-13 18:44:23.669000 #bots @jonyroda97#9104: .cog update
+2017-07-13 18:44:24.727000 #bots @🎧 DJ AP#6605: Downloading updated cogs, please wait...  0/9 repos updated
+2017-07-13 18:44:24.727000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  0/9 repos updated
+After: Downloading updated cogs, please wait...  1/9 repos updated
+2017-07-13 18:44:24.727000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  1/9 repos updated
+After: Downloading updated cogs, please wait...  5/9 repos updated
+2017-07-13 18:44:24.727000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  5/9 repos updated
+After: Downloading updated cogs, please wait...  9/9 repos updated
+2017-07-13 18:44:24.727000 #bots @🎧 DJ AP#6605: EDIT: 
+Before: Downloading updated cogs, please wait...  9/9 repos updated
+After: Downloading updated cogs, please wait... done. 
+Deleted cogs: paddo/barpm, paddo/games, paddo/memes, paddo/nobot, paddo/quote.
+Updated cogs: jumper/shop, paddo/grenzpolizei, paddo/statistics, paddo/youtube.
+2017-07-13 18:44:27.460000 #bots @🎧 DJ AP#6605: ```Prolog
+Patch Notes for paddo/statistics
+================================
+commit 715f39dc0348105f71ef1d4adbe59065e093c44d
+Author: PaddoInWonderland <PaddoInWonderland@users.noreply.github.com>
+Date:   3 days ago
+
+    [statistics] RedAPI prepared
+
+commit e1093fcea5273901b29fecdbc05b1b5b4f897c71
+Author: PaddoInWonderland <PaddoInWonderland@users.noreply.github.com>
+Date:   3 days ago
+
+    [statistics] Freezing?
+
+commit 1d71f0b8ef75c7f3a371563bef341489592c3247
+Author: PaddoInWonderland <PaddoInWonderland@users.noreply.github.com>
+Date:   2 days ago
+
+    [statistics] Moar informazziones!
+
+commit 35bbdaea6de0180f1717abeabe10808f193c4e4e
+Author: PaddoInWonderland <PaddoInWonderland@users.noreply.github.com>
+Date:   2 days ago
+
+    [statistics] blocking hotfix
+    
+    Will not block the whole bot anymore when an invalid channel has been
+    set.
+```
+2017-07-13 18:44:27.671000 #bots @🎧 DJ AP#6605: Cogs updated. Reload updated cogs? (yes/no)
+2017-07-13 18:44:32.029000 #bots @jonyroda97#9104: yes
+2017-07-13 18:44:32.190000 #bots @🎧 DJ AP#6605: Done. The following cogs were reloaded: statistics
+2017-07-15 00:44:16.358000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-15 00:44:16.358000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-17 00:39:48.037000 #bots @🎧 DJ AP#6605: @​here bhtt is live!
+2017-07-17 00:39:48.037000 #bots @🎧 DJ AP#6605: @​here bhtt is live!

@@ -40073,3 +40073,56 @@ https://www.youtube.com/watch?v=LrezuwCXnIc
 [23/06/2017 13:51] WARNING audio _play 813: I can't play URL below because it is too long. Use [p]audioset maxlength to change this.
 
 https://www.youtube.com/watch?v=LrezuwCXnIc
+[10/07/2017 01:21] WARNING audio _play 813: I can't play URL below because it is too long. Use [p]audioset maxlength to change this.
+
+[SEARCH:]hardwell umf 2017
+[10/07/2017 01:23] WARNING audio _play 813: I can't play URL below because it is too long. Use [p]audioset maxlength to change this.
+
+https://www.youtube.com/watch?v=xGPjonxrUYc
+[11/07/2017 12:16] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 409, in poll_event
+    msg = yield from self.recv()
+  File "/usr/local/lib/python3.5/dist-packages/websockets/protocol.py", line 299, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: no code, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 414, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/redbot/red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 457, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "/root/redbot/red.py", line 603, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.5/dist-packages/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "/usr/local/lib/python3.5/dist-packages/discord/gateway.py", line 194, in from_client
+    ws = yield from websockets.connect(gateway, loop=client.loop, klass=cls)
+  File "/usr/local/lib/python3.5/dist-packages/websockets/py35/client.py", line 19, in __await__
+    return (yield from self.client)
+  File "/usr/local/lib/python3.5/dist-packages/websockets/client.py", line 160, in connect
+    factory, wsuri.host, wsuri.port, **kwds)
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 721, in create_connection
+    infos = f1.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 292, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
