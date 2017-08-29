@@ -406,6 +406,11 @@
             "folder" : "data/downloader/paddo/steam"
         },
         "url" : "https://github.com/PaddoInWonderland/PaddoCogs",
+        "webstatistics" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/paddo/webstatistics/webstatistics.py",
+            "folder" : "data/downloader/paddo/webstatistics"
+        },
         "wikipedia" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/wikipedia/wikipedia.py",

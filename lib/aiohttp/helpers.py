@@ -3,37 +3,26 @@
 import asyncio
 import base64
 import binascii
-import cgi
 import datetime
 import functools
-import heapq
 import io
 import os
 import re
-import sys
-import time
 import warnings
-from collections import MutableSequence, namedtuple
-from functools import total_ordering
+from collections import namedtuple
 from pathlib import Path
-from time import gmtime
-from urllib.parse import urlencode
+from urllib.parse import quote, urlencode
 
 from async_timeout import timeout
 from multidict import MultiDict, MultiDictProxy
 
 from . import hdrs
+from .errors import InvalidURL
 
 try:
     from asyncio import ensure_future
 except ImportError:
     ensure_future = asyncio.async
-
-
-if sys.version_info >= (3, 4, 3):
-    from http.cookies import SimpleCookie  # noqa
-else:
-    from .backport_cookies import SimpleCookie  # noqa
 
 
 __all__ = ('BasicAuth', 'create_future', 'FormData', 'parse_mimetype',
@@ -58,10 +47,6 @@ class BasicAuth(namedtuple('BasicAuth', ['login', 'password', 'encoding'])):
 
         if password is None:
             raise ValueError('None is not allowed as password value')
-
-        if ':' in login:
-            raise ValueError(
-                'A ":" is not allowed in login (RFC 1945#section-11.1)')
 
         return super().__new__(cls, login, password, encoding)
 
@@ -105,12 +90,11 @@ class FormData:
     """Helper class for multipart/form-data and
     application/x-www-form-urlencoded body generation."""
 
-    def __init__(self, fields=(), quote_fields=True):
+    def __init__(self, fields=()):
         from . import multipart
         self._writer = multipart.MultipartWriter('form-data')
         self._fields = []
         self._is_multipart = False
-        self._quote_fields = quote_fields
 
         if isinstance(fields, dict):
             fields = list(fields.items())
@@ -184,8 +168,7 @@ class FormData:
             else:
                 raise TypeError('Only io.IOBase, multidict and (name, file) '
                                 'pairs allowed, use .add_field() for passing '
-                                'more complex parameters, got {!r}'
-                                .format(rec))
+                                'more complex parameters')
 
     def _gen_form_urlencoded(self, encoding):
         # form data (x-www-form-urlencoded)
@@ -201,9 +184,7 @@ class FormData:
         for dispparams, headers, value in self._fields:
             part = self._writer.append(value, headers)
             if dispparams:
-                part.set_content_disposition(
-                    'form-data', quote_fields=self._quote_fields, **dispparams
-                )
+                part.set_content_disposition('form-data', **dispparams)
                 # FIXME cgi.FieldStorage doesn't likes body parts with
                 # Content-Length which were sent via chunked transfer encoding
                 part.headers.pop(hdrs.CONTENT_LENGTH, None)
@@ -287,28 +268,11 @@ class AccessLogger:
         %{FOO}e  os.environ['FOO']
 
     """
-    LOG_FORMAT_MAP = {
-        'a': 'remote_address',
-        't': 'request_time',
-        'P': 'process_id',
-        'r': 'first_request_line',
-        's': 'response_status',
-        'b': 'response_size',
-        'O': 'bytes_sent',
-        'T': 'request_time',
-        'Tf': 'request_time_frac',
-        'D': 'request_time_micro',
-        'i': 'request_header',
-        'o': 'response_header',
-        'e': 'environ'
-    }
 
     LOG_FORMAT = '%a %l %u %t "%r" %s %b "%{Referrer}i" "%{User-Agent}i"'
-    FORMAT_RE = re.compile(r'%(\{([A-Za-z0-9\-_]+)\}([ioe])|[atPrsbOD]|Tf?)')
+    FORMAT_RE = re.compile(r'%(\{([A-Za-z\-]+)\}([ioe])|[atPrsbOD]|Tf?)')
     CLEANUP_RE = re.compile(r'(%[^s])')
     _FORMAT_CACHE = {}
-
-    KeyMethod = namedtuple('KeyMethod', 'key method')
 
     def __init__(self, logger, log_format=LOG_FORMAT):
         """Initialise the logger.
@@ -318,12 +282,10 @@ class AccessLogger:
 
         """
         self.logger = logger
-
         _compiled_format = AccessLogger._FORMAT_CACHE.get(log_format)
         if not _compiled_format:
             _compiled_format = self.compile_format(log_format)
             AccessLogger._FORMAT_CACHE[log_format] = _compiled_format
-
         self._log_format, self._methods = _compiled_format
 
     def compile_format(self, log_format):
@@ -350,22 +312,14 @@ class AccessLogger:
 
         log_format = log_format.replace("%l", "-")
         log_format = log_format.replace("%u", "-")
-
-        # list of (key, method) tuples, we don't use an OrderedDict as users
-        # can repeat the same key more than once
-        methods = list()
+        methods = []
 
         for atom in self.FORMAT_RE.findall(log_format):
             if atom[1] == '':
-                format_key = self.LOG_FORMAT_MAP[atom[0]]
-                m = getattr(AccessLogger, '_format_%s' % atom[0])
+                methods.append(getattr(AccessLogger, '_format_%s' % atom[0]))
             else:
-                format_key = (self.LOG_FORMAT_MAP[atom[2]], atom[1])
                 m = getattr(AccessLogger, '_format_%s' % atom[2])
-                m = functools.partial(m, atom[1])
-
-            methods.append(self.KeyMethod(format_key, m))
-
+                methods.append(functools.partial(m, atom[1]))
         log_format = self.FORMAT_RE.sub(r'%s', log_format)
         log_format = self.CLEANUP_RE.sub(r'%\1', log_format)
         return log_format, methods
@@ -378,7 +332,6 @@ class AccessLogger:
     def _format_i(key, args):
         if not args[0]:
             return '(no headers)'
-
         # suboptimal, make istr(key) once
         return args[0].headers.get(key, '-')
 
@@ -438,7 +391,7 @@ class AccessLogger:
         return round(args[4] * 1000000)
 
     def _format_line(self, args):
-        return ((key, method(args)) for key, method in self._methods)
+        return tuple(m(args) for m in self._methods)
 
     def log(self, message, environ, response, transport, time):
         """Log access.
@@ -450,20 +403,8 @@ class AccessLogger:
         :param float time: Time taken to serve the request.
         """
         try:
-            fmt_info = self._format_line(
-                [message, environ, response, transport, time])
-
-            values = list()
-            extra = dict()
-            for key, value in fmt_info:
-                values.append(value)
-
-                if key.__class__ is str:
-                    extra[key] = value
-                else:
-                    extra[key[0]] = {key[1]: value}
-
-            self.logger.info(self._log_format % tuple(values), extra=extra)
+            self.logger.info(self._log_format % self._format_line(
+                [message, environ, response, transport, time]))
         except Exception:
             self.logger.exception("Error in logging")
 
@@ -488,28 +429,76 @@ class reify:
     def __get__(self, inst, owner, _sentinel=sentinel):
         if inst is None:
             return self
-        val = inst._cache.get(self.name, _sentinel)
+        val = inst.__dict__.get(self.name, _sentinel)
         if val is not _sentinel:
             return val
         val = self.wrapped(inst)
-        inst._cache[self.name] = val
+        inst.__dict__[self.name] = val
         return val
 
     def __set__(self, inst, value):
         raise AttributeError("reified property is read-only")
 
 
-_ipv4_pattern = (r'^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}'
-                 r'(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$')
+# The unreserved URI characters (RFC 3986)
+UNRESERVED_SET = frozenset(
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" +
+    "0123456789-._~")
+
+
+def unquote_unreserved(uri):
+    """Un-escape any percent-escape sequences in a URI that are unreserved
+    characters. This leaves all reserved, illegal and non-ASCII bytes encoded.
+    """
+    parts = uri.split('%')
+    for i in range(1, len(parts)):
+        h = parts[i][0:2]
+        if len(h) == 2 and h.isalnum():
+            try:
+                c = chr(int(h, 16))
+            except ValueError:
+                raise InvalidURL("Invalid percent-escape sequence: '%s'" % h)
+
+            if c in UNRESERVED_SET:
+                parts[i] = c + parts[i][2:]
+            else:
+                parts[i] = '%' + parts[i]
+        else:
+            parts[i] = '%' + parts[i]
+    return ''.join(parts)
+
+
+def requote_uri(uri):
+    """Re-quote the given URI.
+
+    This function passes the given URI through an unquote/quote cycle to
+    ensure that it is fully and consistently quoted.
+    """
+    safe_with_percent = "!#$%&'()*+,/:;=?@[]~"
+    safe_without_percent = "!#$&'()*+,/:;=?@[]~"
+    try:
+        # Unquote only the unreserved characters
+        # Then quote only illegal characters (do not quote reserved,
+        # unreserved, or '%')
+        return quote(unquote_unreserved(uri), safe=safe_with_percent)
+    except InvalidURL:
+        # We couldn't unquote the given URI, so let's try quoting it, but
+        # there may be unquoted '%'s in the URI. We need to make sure they're
+        # properly quoted so they do not cause issues elsewhere.
+        return quote(uri, safe=safe_without_percent)
+
+
+_ipv4_pattern = ('^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}'
+                 '(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$')
 _ipv6_pattern = (
-    r'^(?:(?:(?:[A-F0-9]{1,4}:){6}|(?=(?:[A-F0-9]{0,4}:){0,6}'
-    r'(?:[0-9]{1,3}\.){3}[0-9]{1,3}$)(([0-9A-F]{1,4}:){0,5}|:)'
-    r'((:[0-9A-F]{1,4}){1,5}:|:)|::(?:[A-F0-9]{1,4}:){5})'
-    r'(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}'
-    r'(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])|(?:[A-F0-9]{1,4}:){7}'
-    r'[A-F0-9]{1,4}|(?=(?:[A-F0-9]{0,4}:){0,7}[A-F0-9]{0,4}$)'
-    r'(([0-9A-F]{1,4}:){1,7}|:)((:[0-9A-F]{1,4}){1,7}|:)|(?:[A-F0-9]{1,4}:){7}'
-    r':|:(:[A-F0-9]{1,4}){7})$')
+    '^(?:(?:(?:[A-F0-9]{1,4}:){6}|(?=(?:[A-F0-9]{0,4}:){0,6}'
+    '(?:[0-9]{1,3}\.){3}[0-9]{1,3}$)(([0-9A-F]{1,4}:){0,5}|:)'
+    '((:[0-9A-F]{1,4}){1,5}:|:)|::(?:[A-F0-9]{1,4}:){5})'
+    '(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}'
+    '(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])|(?:[A-F0-9]{1,4}:){7}'
+    '[A-F0-9]{1,4}|(?=(?:[A-F0-9]{0,4}:){0,7}[A-F0-9]{0,4}$)'
+    '(([0-9A-F]{1,4}:){1,7}|:)((:[0-9A-F]{1,4}){1,7}|:)|(?:[A-F0-9]{1,4}:){7}'
+    ':|:(:[A-F0-9]{1,4}){7})$')
 _ipv4_regex = re.compile(_ipv4_pattern)
 _ipv6_regex = re.compile(_ipv6_pattern, flags=re.IGNORECASE)
 _ipv4_regexb = re.compile(_ipv4_pattern.encode('ascii'))
@@ -543,265 +532,3 @@ def _get_kwarg(kwargs, old, new, value):
         return val
     else:
         return value
-
-
-@total_ordering
-class FrozenList(MutableSequence):
-
-    __slots__ = ('_frozen', '_items')
-
-    def __init__(self, items=None):
-        self._frozen = False
-        if items is not None:
-            items = list(items)
-        else:
-            items = []
-        self._items = items
-
-    def freeze(self):
-        self._frozen = True
-
-    def __getitem__(self, index):
-        return self._items[index]
-
-    def __setitem__(self, index, value):
-        if self._frozen:
-            raise RuntimeError("Cannot modify frozen list.")
-        self._items[index] = value
-
-    def __delitem__(self, index):
-        if self._frozen:
-            raise RuntimeError("Cannot modify frozen list.")
-        del self._items[index]
-
-    def __len__(self):
-        return self._items.__len__()
-
-    def __iter__(self):
-        return self._items.__iter__()
-
-    def __reversed__(self):
-        return self._items.__reversed__()
-
-    def __eq__(self, other):
-        return list(self) == other
-
-    def __le__(self, other):
-        return list(self) <= other
-
-    def insert(self, pos, item):
-        if self._frozen:
-            raise RuntimeError("Cannot modify frozen list.")
-        self._items.insert(pos, item)
-
-
-class TimerHandle(asyncio.TimerHandle):
-
-    def cancel(self):
-        asyncio.Handle.cancel(self)
-
-
-class TimeService:
-
-    def __init__(self, loop, *, interval=1.0):
-        self._loop = loop
-        self._interval = interval
-        self._time = time.time()
-        self._loop_time = loop.time()
-        self._count = 0
-        self._strtime = None
-        self._cb = loop.call_at(self._loop_time + self._interval, self._on_cb)
-        self._scheduled = []
-
-    def close(self):
-        if self._cb:
-            self._cb.cancel()
-
-        # cancel all scheduled handles
-        for handle in self._scheduled:
-            handle.cancel()
-
-        self._cb = None
-        self._scheduled = []
-        self._loop = None
-
-    def _on_cb(self, reset_count=10*60):
-        self._loop_time = self._loop.time()
-
-        if self._count >= reset_count:
-            # reset timer every 10 minutes
-            self._count = 0
-            self._time = time.time()
-        else:
-            self._time += self._interval
-
-        # Handle 'later' callbacks that are ready.
-        ready = []
-        end_time = self._loop_time
-        while self._scheduled:
-            handle = self._scheduled[0]
-            if handle._when >= end_time:
-                break
-            handle = heapq.heappop(self._scheduled)
-            ready.append(handle)
-
-        for handle in ready:
-            if not handle._cancelled:
-                handle._run()
-
-        self._strtime = None
-        self._cb = self._loop.call_at(
-            self._loop_time + self._interval, self._on_cb)
-
-    def _format_date_time(self):
-        # Weekday and month names for HTTP date/time formatting;
-        # always English!
-        # Tuples are contants stored in codeobject!
-        _weekdayname = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
-        _monthname = (None,  # Dummy so we can use 1-based month numbers
-                      "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                      "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
-
-        year, month, day, hh, mm, ss, wd, y, z = gmtime(self._time)
-        return "%s, %02d %3s %4d %02d:%02d:%02d GMT" % (
-            _weekdayname[wd], day, _monthname[month], year, hh, mm, ss
-        )
-
-    def time(self):
-        return self._time
-
-    def strtime(self):
-        s = self._strtime
-        if s is None:
-            self._strtime = s = self._format_date_time()
-        return self._strtime
-
-    def loop_time(self):
-        return self._loop_time
-
-    def call_later(self, delay, callback, *args):
-        """Arrange for a callback to be called at a given time.
-
-        Return a Handle: an opaque object with a cancel() method that
-        can be used to cancel the call.
-
-        The delay can be an int or float, expressed in seconds.  It is
-        always relative to the current time.
-
-        Any positional arguments after the callback will be passed to
-        the callback when it is called.
-
-        Time resolution is aproximatly one second.
-        """
-        return self._call_at(self._loop_time + delay, callback, *args)
-
-    def _call_at(self, when, callback, *args):
-        """Like call_later(), but uses an absolute time.
-
-        Absolute time corresponds to the loop's time() method.
-        """
-        timer = TimerHandle(when, callback, args, self._loop)
-        heapq.heappush(self._scheduled, timer)
-        return timer
-
-    def timeout(self, timeout):
-        """low resolution timeout context manager.
-
-        timeout - value in seconds or None to disable timeout logic
-        """
-        if timeout:
-            when = self._loop_time + timeout
-            ctx = _TimeServiceTimeoutContext(when, self._loop)
-            heapq.heappush(self._scheduled, ctx)
-        else:
-            ctx = _TimeServiceTimeoutNoop()
-
-        return ctx
-
-
-class _TimeServiceTimeoutNoop:
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        return False
-
-
-class _TimeServiceTimeoutContext(TimerHandle):
-    """ Low resolution timeout context manager """
-
-    def __init__(self, when, loop):
-        super().__init__(when, self.cancel, (), loop)
-
-        self._tasks = []
-        self._cancelled = False
-
-    def __enter__(self):
-        task = asyncio.Task.current_task(loop=self._loop)
-        if task is None:
-            raise RuntimeError('Timeout context manager should be used '
-                               'inside a task')
-
-        if self._cancelled:
-            task.cancel()
-            raise asyncio.TimeoutError from None
-
-        self._tasks.append(task)
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        if self._tasks:
-            self._tasks.pop()
-
-        if exc_type is asyncio.CancelledError and self._cancelled:
-            raise asyncio.TimeoutError from None
-
-    def cancel(self):
-        if not self._cancelled:
-            for task in self._tasks:
-                task.cancel()
-
-            self._tasks = []
-            self._cancelled = True
-
-
-class HeadersMixin:
-
-    _content_type = None
-    _content_dict = None
-    _stored_content_type = sentinel
-
-    def _parse_content_type(self, raw):
-        self._stored_content_type = raw
-        if raw is None:
-            # default value according to RFC 2616
-            self._content_type = 'application/octet-stream'
-            self._content_dict = {}
-        else:
-            self._content_type, self._content_dict = cgi.parse_header(raw)
-
-    @property
-    def content_type(self, *, _CONTENT_TYPE=hdrs.CONTENT_TYPE):
-        """The value of content part for Content-Type HTTP header."""
-        raw = self.headers.get(_CONTENT_TYPE)
-        if self._stored_content_type != raw:
-            self._parse_content_type(raw)
-        return self._content_type
-
-    @property
-    def charset(self, *, _CONTENT_TYPE=hdrs.CONTENT_TYPE):
-        """The value of charset part for Content-Type HTTP header."""
-        raw = self.headers.get(_CONTENT_TYPE)
-        if self._stored_content_type != raw:
-            self._parse_content_type(raw)
-        return self._content_dict.get('charset')
-
-    @property
-    def content_length(self, *, _CONTENT_LENGTH=hdrs.CONTENT_LENGTH):
-        """The value of Content-Length HTTP header."""
-        l = self.headers.get(_CONTENT_LENGTH)
-        if l is None:
-            return None
-        else:
-            return int(l)

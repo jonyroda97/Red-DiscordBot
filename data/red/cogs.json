@@ -30,7 +30,7 @@
     "cogs.reviewemoji" : true,
     "cogs.rift" : true,
     "cogs.russianroulette" : true,
-    "cogs.scheduler" : false,
+    "cogs.scheduler" : true,
     "cogs.seen" : true,
     "cogs.sentryio" : false,
     "cogs.speedtest" : true,

@@ -15,6 +15,7 @@ __all__ = (
 PY_35 = sys.version_info >= (3, 5)
 PY_352 = sys.version_info >= (3, 5, 2)
 
+EOF_MARKER = b''
 DEFAULT_LIMIT = 2 ** 16
 
 
@@ -40,7 +41,7 @@ if PY_35:
                 rv = yield from self.read_func()
             except EofStream:
                 raise StopAsyncIteration  # NOQA
-            if rv == b'':
+            if rv == EOF_MARKER:
                 raise StopAsyncIteration  # NOQA
             return rv
 
@@ -86,7 +87,7 @@ class StreamReader(AsyncStreamReaderMixin):
 
     total_bytes = 0
 
-    def __init__(self, limit=DEFAULT_LIMIT, timer=None, loop=None):
+    def __init__(self, limit=DEFAULT_LIMIT, timeout=None, loop=None):
         self._limit = limit
         if loop is None:
             loop = asyncio.get_event_loop()
@@ -96,9 +97,10 @@ class StreamReader(AsyncStreamReaderMixin):
         self._buffer_offset = 0
         self._eof = False
         self._waiter = None
+        self._canceller = None
         self._eof_waiter = None
         self._exception = None
-        self._timer = timer
+        self._timeout = timeout
 
     def __repr__(self):
         info = ['StreamReader']
@@ -126,6 +128,11 @@ class StreamReader(AsyncStreamReaderMixin):
             if not waiter.cancelled():
                 waiter.set_exception(exc)
 
+        canceller = self._canceller
+        if canceller is not None:
+            self._canceller = None
+            canceller.cancel()
+
     def feed_eof(self):
         self._eof = True
 
@@ -134,6 +141,11 @@ class StreamReader(AsyncStreamReaderMixin):
             self._waiter = None
             if not waiter.cancelled():
                 waiter.set_result(True)
+
+        canceller = self._canceller
+        if canceller is not None:
+            self._canceller = None
+            canceller.cancel()
 
         waiter = self._eof_waiter
         if waiter is not None:
@@ -189,6 +201,11 @@ class StreamReader(AsyncStreamReaderMixin):
             if not waiter.cancelled():
                 waiter.set_result(False)
 
+        canceller = self._canceller
+        if canceller is not None:
+            self._canceller = None
+            canceller.cancel()
+
     @asyncio.coroutine
     def _wait(self, func_name):
         # StreamReader uses a future to link the protocol feed_data() method
@@ -198,16 +215,18 @@ class StreamReader(AsyncStreamReaderMixin):
         if self._waiter is not None:
             raise RuntimeError('%s() called while another coroutine is '
                                'already waiting for incoming data' % func_name)
-
         waiter = self._waiter = helpers.create_future(self._loop)
+        if self._timeout:
+            self._canceller = self._loop.call_later(self._timeout,
+                                                    self.set_exception,
+                                                    asyncio.TimeoutError())
         try:
-            if self._timer:
-                with self._timer:
-                    yield from waiter
-            else:
-                yield from waiter
+            yield from waiter
         finally:
             self._waiter = None
+            if self._canceller is not None:
+                self._canceller.cancel()
+                self._canceller = None
 
     @asyncio.coroutine
     def readline(self):
@@ -259,7 +278,7 @@ class StreamReader(AsyncStreamReaderMixin):
                         'might be infinite loop: \n%s', stack)
 
         if not n:
-            return b''
+            return EOF_MARKER
 
         if n < 0:
             # This used to just loop creating a new waiter hoping to
@@ -311,6 +330,7 @@ class StreamReader(AsyncStreamReaderMixin):
         #
         # I believe the most users don't know about the method and
         # they are not affected.
+        assert n is not None, "n should be -1"
         if self._exception is not None:
             raise self._exception
 
@@ -349,7 +369,7 @@ class StreamReader(AsyncStreamReaderMixin):
                 if n == 0:
                     break
 
-        return b''.join(chunks) if chunks else b''
+        return b''.join(chunks) if chunks else EOF_MARKER
 
 
 class EmptyStreamReader(AsyncStreamReaderMixin):
@@ -378,22 +398,22 @@ class EmptyStreamReader(AsyncStreamReaderMixin):
 
     @asyncio.coroutine
     def readline(self):
-        return b''
+        return EOF_MARKER
 
     @asyncio.coroutine
     def read(self, n=-1):
-        return b''
+        return EOF_MARKER
 
     @asyncio.coroutine
     def readany(self):
-        return b''
+        return EOF_MARKER
 
     @asyncio.coroutine
     def readexactly(self, n):
         raise asyncio.streams.IncompleteReadError(b'', n)
 
     def read_nowait(self):
-        return b''
+        return EOF_MARKER
 
 
 class DataQueue:
@@ -484,7 +504,7 @@ class ChunksQueue(DataQueue):
         try:
             return (yield from super().read())
         except EofStream:
-            return b''
+            return EOF_MARKER
 
     readany = read
 
@@ -515,7 +535,6 @@ class FlowControlStreamReader(StreamReader):
 
         self._stream = stream
         self._b_limit = limit * 2
-        self._allow_pause = False
 
         # resume transport reading
         if stream.paused:
@@ -525,7 +544,6 @@ class FlowControlStreamReader(StreamReader):
                 pass
             else:
                 self._stream.paused = False
-                self._allow_pause = True
 
     def _check_buffer_size(self):
         if self._stream.paused:
@@ -550,7 +568,7 @@ class FlowControlStreamReader(StreamReader):
 
         super().feed_data(data)
 
-        if (self._allow_pause and not self._stream.paused and
+        if (not self._stream.paused and
                 not has_waiter and self._buffer_size > self._b_limit):
             try:
                 self._stream.transport.pause_reading()
@@ -594,7 +612,6 @@ class FlowControlDataQueue(DataQueue):
 
         self._stream = stream
         self._limit = limit * 2
-        self._allow_pause = False
 
         # resume transport reading
         if stream.paused:
@@ -604,14 +621,13 @@ class FlowControlDataQueue(DataQueue):
                 pass
             else:
                 self._stream.paused = False
-                self._allow_pause = True
 
     def feed_data(self, data, size):
         has_waiter = self._waiter is not None and not self._waiter.cancelled()
 
         super().feed_data(data, size)
 
-        if (self._allow_pause and not self._stream.paused and
+        if (not self._stream.paused and
                 not has_waiter and self._size > self._limit):
             try:
                 self._stream.transport.pause_reading()
@@ -651,6 +667,6 @@ class FlowControlChunksQueue(FlowControlDataQueue):
         try:
             return (yield from super().read())
         except EofStream:
-            return b''
+            return EOF_MARKER
 
     readany = read

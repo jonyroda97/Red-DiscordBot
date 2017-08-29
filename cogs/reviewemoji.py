@@ -55,7 +55,7 @@ class ReviewEmoji:
 
     def _get_num_waiting_subs(self, server_id: int) -> int:
         return len([sub for sub in
-                    list(self.submissions[server.id]["submissions"].values())
+                    list(self.submissions[server_id]["submissions"].values())
                     if sub["status"] == "waiting"])
 
     async def _send_update_pm(self, server: discord.Server, subid: str):
@@ -177,7 +177,7 @@ class ReviewEmoji:
         path += "/" + new_emoji_id
         os.makedirs(path)
 
-        path += "/" + attach[0]["filename"]
+        path += "/" + os.path.basename(url)
 
         async with aiohttp.get(url) as new_emoji_file:
             f = open(path, "wb")

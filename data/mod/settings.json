@@ -1,6 +1,7 @@
 {
     "107249192564449280" : {
         "ban_mention_spam" : false,
+        "cmute_cases" : true,
         "delete_delay" : -1,
         "delete_repeats" : false,
         "mod-log" : "237001047166418945",

@@ -36,16 +36,12 @@ ALLOWED_CLOSE_CODES = {int(i) for i in WSCloseCode}
 
 
 class WSMsgType(IntEnum):
-    # websocket spec types
     CONTINUATION = 0x0
     TEXT = 0x1
     BINARY = 0x2
     PING = 0x9
     PONG = 0xa
     CLOSE = 0x8
-
-    # aiohttp specific types
-    CLOSING = 0x100
     CLOSED = 0x101
     ERROR = 0x102
 
@@ -54,7 +50,6 @@ class WSMsgType(IntEnum):
     ping = PING
     pong = PONG
     close = CLOSE
-    closing = CLOSING
     closed = CLOSED
     error = ERROR
 
@@ -70,7 +65,6 @@ PACK_LEN2 = Struct('!BBH').pack
 PACK_LEN3 = Struct('!BBQ').pack
 PACK_CLOSE_CODE = Struct('!H').pack
 MSG_SIZE = 2 ** 14
-DEFAULT_LIMIT = 2 ** 16
 
 
 _WSMessageBase = collections.namedtuple('_WSMessageBase',
@@ -91,7 +85,6 @@ class WSMessage(_WSMessageBase):
 
 
 CLOSED_MESSAGE = WSMessage(WSMsgType.CLOSED, None, None)
-CLOSING_MESSAGE = WSMessage(WSMsgType.CLOSING, None, None)
 
 
 class WebSocketError(Exception):
@@ -306,20 +299,13 @@ def parse_frame(buf, continuation=False):
 
 class WebSocketWriter:
 
-    def __init__(self, writer, *,
-                 use_mask=False, limit=DEFAULT_LIMIT, random=random.Random()):
+    def __init__(self, writer, *, use_mask=False, random=random.Random()):
         self.writer = writer
         self.use_mask = use_mask
         self.randrange = random.randrange
-        self._closing = False
-        self._limit = limit
-        self._output_size = 0
 
     def _send_frame(self, message, opcode):
         """Send a frame over the websocket with message as its payload."""
-        if self._closing:
-            ws_logger.warning('websocket connection is closing.')
-
         msg_length = len(message)
 
         use_mask = self.use_mask
@@ -339,7 +325,6 @@ class WebSocketWriter:
             mask = mask.to_bytes(4, 'big')
             message = _websocket_mask(mask, bytearray(message))
             self.writer.write(header + mask + message)
-            self._output_size += len(header) + len(mask) + len(message)
         else:
             if len(message) > MSG_SIZE:
                 self.writer.write(header)
@@ -347,48 +332,36 @@ class WebSocketWriter:
             else:
                 self.writer.write(header + message)
 
-            self._output_size += len(header) + len(message)
-
-        if self._output_size > self._limit:
-            self._output_size = 0
-            return self.writer.drain()
-
-        return ()
-
     def pong(self, message=b''):
         """Send pong message."""
         if isinstance(message, str):
             message = message.encode('utf-8')
-        return self._send_frame(message, WSMsgType.PONG)
+        self._send_frame(message, WSMsgType.PONG)
 
     def ping(self, message=b''):
         """Send ping message."""
         if isinstance(message, str):
             message = message.encode('utf-8')
-        return self._send_frame(message, WSMsgType.PING)
+        self._send_frame(message, WSMsgType.PING)
 
     def send(self, message, binary=False):
         """Send a frame over the websocket with message as its payload."""
         if isinstance(message, str):
             message = message.encode('utf-8')
         if binary:
-            return self._send_frame(message, WSMsgType.BINARY)
+            self._send_frame(message, WSMsgType.BINARY)
         else:
-            return self._send_frame(message, WSMsgType.TEXT)
+            self._send_frame(message, WSMsgType.TEXT)
 
     def close(self, code=1000, message=b''):
         """Close the websocket, sending the specified code and message."""
         if isinstance(message, str):
             message = message.encode('utf-8')
-        try:
-            return self._send_frame(
-                PACK_CLOSE_CODE(code) + message, opcode=WSMsgType.CLOSE)
-        finally:
-            self._closing = True
+        self._send_frame(
+            PACK_CLOSE_CODE(code) + message, opcode=WSMsgType.CLOSE)
 
 
-def do_handshake(method, headers, transport,
-                 protocols=(), write_buffer_size=DEFAULT_LIMIT):
+def do_handshake(method, headers, transport, protocols=()):
     """Prepare WebSocket handshake.
 
     It return HTTP response code, response headers, websocket parser,
@@ -398,7 +371,6 @@ def do_handshake(method, headers, transport,
     the returned response headers contain the first protocol in this list
     which the server also knows.
 
-    `write_buffer_size` max size of write buffer before `drain()` get called.
     """
     # WebSocket accepts only GET
     if method.upper() != hdrs.METH_GET:
@@ -462,5 +434,5 @@ def do_handshake(method, headers, transport,
     return (101,
             response_headers,
             WebSocketParser,
-            WebSocketWriter(transport, limit=write_buffer_size),
+            WebSocketWriter(transport),
             protocol)

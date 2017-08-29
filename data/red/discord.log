@@ -19,3 +19,10 @@
 [03/07/2017 22:42] WARNING gateway run 73: We have stopped responding to the gateway.
 [11/07/2017 12:15] WARNING gateway run 73: We have stopped responding to the gateway.
 [14/07/2017 17:19] WARNING gateway run 73: We have stopped responding to the gateway.
+[24/07/2017 00:32] WARNING gateway run 83: We have stopped responding to the gateway.
+[16/08/2017 03:31] WARNING gateway run 83: We have stopped responding to the gateway.
+[22/08/2017 14:47] WARNING state parse_message_reaction_remove 299: Unexpected reaction remove {'channel_id': '133251234164375552', 'message_id': '349564834511192065', 'user_id': '100406911567949824', 'emoji': {'id': '311202237701554187', 'name': 'blobthinkingglare'}}
+[22/08/2017 14:47] WARNING state parse_message_reaction_remove 299: Unexpected reaction remove {'channel_id': '133251234164375552', 'message_id': '349564834511192065', 'user_id': '100406911567949824', 'emoji': {'id': '311202237701554187', 'name': 'blobthinkingglare'}}
+[22/08/2017 15:33] WARNING state parse_message_reaction_remove 299: Unexpected reaction remove {'channel_id': '133251234164375552', 'message_id': '349576094757814272', 'user_id': '100406911567949824', 'emoji': {'id': '230234948366368768', 'name': 'eslyfail'}}
+[23/08/2017 09:31] WARNING state parse_message_reaction_remove 299: Unexpected reaction remove {'channel_id': '133251234164375552', 'message_id': '349847989574959104', 'user_id': '100406911567949824', 'emoji': {'id': '245239175908032514', 'name': 'pr_denied'}}
+[24/08/2017 22:21] WARNING gateway run 83: We have stopped responding to the gateway.

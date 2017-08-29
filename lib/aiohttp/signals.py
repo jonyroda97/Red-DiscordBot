@@ -1,12 +1,8 @@
 import asyncio
 from itertools import count
 
-from aiohttp.helpers import FrozenList
 
-
-class BaseSignal(FrozenList):
-
-    __slots__ = ()
+class BaseSignal(list):
 
     @asyncio.coroutine
     def _send(self, *args, **kwargs):
@@ -14,6 +10,12 @@ class BaseSignal(FrozenList):
             res = receiver(*args, **kwargs)
             if asyncio.iscoroutine(res) or isinstance(res, asyncio.Future):
                 yield from res
+
+    def copy(self):
+        raise NotImplementedError("copy() is forbidden")
+
+    def sort(self):
+        raise NotImplementedError("sort() is forbidden")
 
 
 class Signal(BaseSignal):
@@ -24,8 +26,6 @@ class Signal(BaseSignal):
     Signals are fired using the :meth:`send` coroutine, which takes named
     arguments.
     """
-
-    __slots__ = ('_app', '_name', '_pre', '_post')
 
     def __init__(self, app):
         super().__init__()
@@ -52,16 +52,12 @@ class Signal(BaseSignal):
 
 class DebugSignal(BaseSignal):
 
-    __slots__ = ()
-
     @asyncio.coroutine
     def send(self, ordinal, name, *args, **kwargs):
         yield from self._send(ordinal, name, *args, **kwargs)
 
 
 class PreSignal(DebugSignal):
-
-    __slots__ = ('_counter',)
 
     def __init__(self):
         super().__init__()
@@ -72,5 +68,4 @@ class PreSignal(DebugSignal):
 
 
 class PostSignal(DebugSignal):
-
-    __slots__ = ()
+    pass

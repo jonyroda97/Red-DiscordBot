@@ -61,6 +61,9 @@ class Seen:
                 avatar = author.avatar_url if author.avatar else author.default_avatar_url
                 em.set_author(name='{} was seen {}'.format(author.display_name, ts), icon_url=avatar)
                 await self.bot.say(embed=em)
+            else:
+                message = 'I haven\'t seen {} yet.'.format(author.display_name)
+                await self.bot.say('{}'.format(message))
         else:
             message = 'I haven\'t seen {} yet.'.format(author.display_name)
             await self.bot.say('{}'.format(message))

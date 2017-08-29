@@ -58,6 +58,7 @@ _SocketSocketTransport ->
 
 import asyncio
 import asyncio.streams
+import inspect
 import socket
 
 from . import errors
@@ -88,7 +89,7 @@ class StreamParser:
     """
 
     def __init__(self, *, loop=None, buf=None,
-                 limit=DEFAULT_LIMIT, eof_exc_class=RuntimeError):
+                 limit=DEFAULT_LIMIT, eof_exc_class=RuntimeError, **kwargs):
         self._loop = loop
         self._eof = False
         self._exception = None
@@ -182,6 +183,7 @@ class StreamParser:
 
         # init parser
         p = parser(output, self._buffer)
+        assert inspect.isgenerator(p), 'Generator is required'
 
         try:
             # initialize parser with data and parser buffers
@@ -194,7 +196,6 @@ class StreamParser:
             # parser still require more data
             self._parser = p
             self._output = output
-            self._output._allow_pause = True  # stricktly internal use!
 
             if self._eof:
                 self.unset_parser()
@@ -243,23 +244,16 @@ class StreamWriter(asyncio.streams.StreamWriter):
         value = bool(value)
         if self._tcp_nodelay == value:
             return
+        self._tcp_nodelay = value
         if self._socket is None:
             return
         if self._socket.family not in (socket.AF_INET, socket.AF_INET6):
             return
-
-        # socket may be closed already, on windows OSError get raised
-        try:
-            if self._tcp_cork:
-                if CORK is not None:  # pragma: no branch
-                    self._socket.setsockopt(socket.IPPROTO_TCP, CORK, False)
-                    self._tcp_cork = False
-
-            self._socket.setsockopt(
-                socket.IPPROTO_TCP, socket.TCP_NODELAY, value)
-            self._tcp_nodelay = value
-        except OSError:
-            pass
+        if self._tcp_cork:
+            self._tcp_cork = False
+            if CORK is not None:  # pragma: no branch
+                self._socket.setsockopt(socket.IPPROTO_TCP, CORK, False)
+        self._socket.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, value)
 
     @property
     def tcp_cork(self):
@@ -269,21 +263,18 @@ class StreamWriter(asyncio.streams.StreamWriter):
         value = bool(value)
         if self._tcp_cork == value:
             return
+        self._tcp_cork = value
         if self._socket is None:
             return
         if self._socket.family not in (socket.AF_INET, socket.AF_INET6):
             return
-
-        try:
-            if self._tcp_nodelay:
-                self._socket.setsockopt(
-                    socket.IPPROTO_TCP, socket.TCP_NODELAY, False)
-                self._tcp_nodelay = False
-            if CORK is not None:  # pragma: no branch
-                self._socket.setsockopt(socket.IPPROTO_TCP, CORK, value)
-                self._tcp_cork = value
-        except OSError:
-            pass
+        if self._tcp_nodelay:
+            self._socket.setsockopt(socket.IPPROTO_TCP,
+                                    socket.TCP_NODELAY,
+                                    False)
+            self._tcp_nodelay = False
+        if CORK is not None:  # pragma: no branch
+            self._socket.setsockopt(socket.IPPROTO_TCP, CORK, value)
 
 
 class StreamProtocol(asyncio.streams.FlowControlMixin, asyncio.Protocol):

@@ -15,6 +15,7 @@ from multidict import CIMultiDict, istr
 import aiohttp
 
 from . import errors, hdrs
+from .helpers import reify
 from .log import internal_logger
 
 __all__ = ('HttpMessage', 'Request', 'Response',
@@ -25,8 +26,8 @@ __all__ = ('HttpMessage', 'Request', 'Response',
 
 ASCIISET = set(string.printable)
 METHRE = re.compile('[A-Z0-9$-_.]+')
-VERSRE = re.compile(r'HTTP/(\d+).(\d+)')
-HDRRE = re.compile(rb'[\x00-\x1F\x7F()<>@,;:\[\]={} \t\\\\\"]')
+VERSRE = re.compile('HTTP/(\d+).(\d+)')
+HDRRE = re.compile(b'[\x00-\x1F\x7F()<>@,;:\[\]={} \t\\\\\"]')
 EOF_MARKER = object()
 EOL_MARKER = object()
 STATUS_LINE_READY = object()
@@ -101,9 +102,7 @@ class HttpParser:
                     header_length += len(line)
                     if header_length > self.max_field_size:
                         raise errors.LineTooLong(
-                            'request header field {}'.format(
-                                bname.decode("utf8", "xmlcharrefreplace")),
-                            self.max_field_size)
+                            'limit request headers fields size')
                     bvalue.append(line)
 
                     # next line
@@ -114,9 +113,7 @@ class HttpParser:
             else:
                 if header_length > self.max_field_size:
                     raise errors.LineTooLong(
-                        'request header field {}'.format(
-                            bname.decode("utf8", "xmlcharrefreplace")),
-                        self.max_field_size)
+                        'limit request headers fields size')
 
             bvalue = bvalue.strip()
 
@@ -176,7 +173,7 @@ class HttpRequestParser(HttpParser):
             raw_data = yield from buf.readuntil(
                 b'\r\n\r\n', self.max_headers)
         except errors.LineLimitExceededParserError as exc:
-            raise errors.LineTooLong('request header', exc.limit) from None
+            raise errors.LineTooLong(exc.limit) from None
 
         lines = raw_data.split(b'\r\n')
 
@@ -230,7 +227,7 @@ class HttpResponseParser(HttpParser):
             raw_data = yield from buf.readuntil(
                 b'\r\n\r\n', self.max_line_size + self.max_headers)
         except errors.LineLimitExceededParserError as exc:
-            raise errors.LineTooLong('response header', exc.limit) from None
+            raise errors.LineTooLong(exc.limit) from None
 
         lines = raw_data.split(b'\r\n')
 
@@ -377,14 +374,12 @@ class DeflateBuffer:
 
     def __init__(self, out, encoding):
         self.out = out
-        self.size = 0
         zlib_mode = (16 + zlib.MAX_WBITS
                      if encoding == 'gzip' else -zlib.MAX_WBITS)
 
         self.zlib = zlib.decompressobj(wbits=zlib_mode)
 
     def feed_data(self, chunk, size):
-        self.size += size
         try:
             chunk = self.zlib.decompress(chunk)
         except Exception:
@@ -395,11 +390,9 @@ class DeflateBuffer:
 
     def feed_eof(self):
         chunk = self.zlib.flush()
-
-        if chunk or self.size > 0:
-            self.out.feed_data(chunk, len(chunk))
-            if not self.zlib.eof:
-                raise errors.ContentEncodingError('deflate')
+        self.out.feed_data(chunk, len(chunk))
+        if not self.zlib.eof:
+            raise errors.ContentEncodingError('deflate')
 
         self.out.feed_eof()
 
@@ -562,7 +555,6 @@ class HttpMessage(ABC):
         self.output_length = 0
         self.headers_length = 0
         self._output_size = 0
-        self._cache = {}
 
     @property
     @abstractmethod
@@ -641,7 +633,7 @@ class HttpMessage(ABC):
         elif name == hdrs.UPGRADE:
             if 'websocket' in value.lower():
                 self.websocket = True
-            self.headers[name] = value
+                self.headers[name] = value
 
         elif name not in self.HOP_HEADERS:
             # ignore hop-by-hop headers
@@ -688,7 +680,7 @@ class HttpMessage(ABC):
         # set the connection header
         connection = None
         if self.upgrade:
-            connection = 'Upgrade'
+            connection = 'upgrade'
         elif not self.closing if self.keepalive is None else self.keepalive:
             if self.version == HttpVersion10:
                 connection = 'keep-alive'
@@ -715,6 +707,8 @@ class HttpMessage(ABC):
 
         if self._send_headers and not self.headers_sent:
             self.send_headers()
+
+        assert self.writer is not None, 'send_headers() is not called.'
 
         if self.filter:
             chunk = self.filter.send(chunk)
@@ -868,7 +862,7 @@ class Response(HttpMessage):
     def reason(self):
         return self._reason
 
-    @property
+    @reify
     def status_line(self):
         version = self.version
         return 'HTTP/{}.{} {} {}\r\n'.format(
@@ -876,7 +870,7 @@ class Response(HttpMessage):
 
     def autochunked(self):
         return (self.length is None and
-                self._version >= HttpVersion11)
+                self.version >= HttpVersion11)
 
     def _add_default_headers(self):
         super()._add_default_headers()
@@ -885,12 +879,6 @@ class Response(HttpMessage):
             # format_date_time(None) is quite expensive
             self.headers.setdefault(hdrs.DATE, format_date_time(None))
         self.headers.setdefault(hdrs.SERVER, self.SERVER_SOFTWARE)
-
-
-class WebResponse(Response):
-    """For usage in aiohttp.web only"""
-    def _add_default_headers(self):
-        pass
 
 
 class Request(HttpMessage):
@@ -917,12 +905,12 @@ class Request(HttpMessage):
     def path(self):
         return self._path
 
-    @property
+    @reify
     def status_line(self):
         return '{0} {1} HTTP/{2[0]}.{2[1]}\r\n'.format(
             self.method, self.path, self.version)
 
     def autochunked(self):
         return (self.length is None and
-                self._version >= HttpVersion11 and
+                self.version >= HttpVersion11 and
                 self.status not in (304, 204))

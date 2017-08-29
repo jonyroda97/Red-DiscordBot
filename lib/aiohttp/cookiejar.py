@@ -1,32 +1,30 @@
 import datetime
-import pathlib
-import pickle
 import re
 from collections import defaultdict
 from collections.abc import Mapping
-from http.cookies import Morsel
+from http.cookies import Morsel, SimpleCookie
 from math import ceil
-from yarl import URL
+from urllib.parse import urlsplit
 
 from .abc import AbstractCookieJar
-from .helpers import SimpleCookie, is_ip_address
+from .helpers import is_ip_address
 
 
 class CookieJar(AbstractCookieJar):
     """Implements cookie storage adhering to RFC 6265."""
 
     DATE_TOKENS_RE = re.compile(
-        r"[\x09\x20-\x2F\x3B-\x40\x5B-\x60\x7B-\x7E]*"
-        r"(?P<token>[\x00-\x08\x0A-\x1F\d:a-zA-Z\x7F-\xFF]+)")
+        "[\x09\x20-\x2F\x3B-\x40\x5B-\x60\x7B-\x7E]*"
+        "(?P<token>[\x00-\x08\x0A-\x1F\d:a-zA-Z\x7F-\xFF]+)")
 
-    DATE_HMS_TIME_RE = re.compile(r"(\d{1,2}):(\d{1,2}):(\d{1,2})")
+    DATE_HMS_TIME_RE = re.compile("(\d{1,2}):(\d{1,2}):(\d{1,2})")
 
-    DATE_DAY_OF_MONTH_RE = re.compile(r"(\d{1,2})")
+    DATE_DAY_OF_MONTH_RE = re.compile("(\d{1,2})")
 
     DATE_MONTH_RE = re.compile("(jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|"
                                "(aug)|(sep)|(oct)|(nov)|(dec)", re.I)
 
-    DATE_YEAR_RE = re.compile(r"(\d{2,4})")
+    DATE_YEAR_RE = re.compile("(\d{2,4})")
 
     MAX_TIME = 2051215261.0  # so far in future (2035-01-01)
 
@@ -37,16 +35,6 @@ class CookieJar(AbstractCookieJar):
         self._unsafe = unsafe
         self._next_expiration = ceil(self._loop.time())
         self._expirations = {}
-
-    def save(self, file_path):
-        file_path = pathlib.Path(file_path)
-        with file_path.open(mode='wb') as f:
-            pickle.dump(self._cookies, f, pickle.HIGHEST_PROTOCOL)
-
-    def load(self, file_path):
-        file_path = pathlib.Path(file_path)
-        with file_path.open(mode='rb') as f:
-            self._cookies = pickle.load(f)
 
     def clear(self):
         self._cookies.clear()
@@ -88,9 +76,10 @@ class CookieJar(AbstractCookieJar):
         self._next_expiration = min(self._next_expiration, when)
         self._expirations[(domain, name)] = when
 
-    def update_cookies(self, cookies, response_url=URL()):
+    def update_cookies(self, cookies, response_url=None):
         """Update cookies."""
-        hostname = response_url.raw_host
+        url_parsed = urlsplit(response_url or "")
+        hostname = url_parsed.hostname
 
         if not self._unsafe and is_ip_address(hostname):
             # Don't accept cookies from IPs
@@ -130,7 +119,7 @@ class CookieJar(AbstractCookieJar):
             path = cookie["path"]
             if not path or not path.startswith("/"):
                 # Set the cookie's path to the response path
-                path = response_url.path
+                path = url_parsed.path
                 if not path.startswith("/"):
                     path = "/"
                 else:
@@ -163,12 +152,13 @@ class CookieJar(AbstractCookieJar):
 
         self._do_expiration()
 
-    def filter_cookies(self, request_url=URL()):
+    def filter_cookies(self, request_url):
         """Returns this jar's cookies filtered by their attributes."""
         self._do_expiration()
+        url_parsed = urlsplit(request_url)
         filtered = SimpleCookie()
-        hostname = request_url.raw_host or ""
-        is_not_secure = request_url.scheme not in ("https", "wss")
+        hostname = url_parsed.hostname or ""
+        is_not_secure = url_parsed.scheme not in ("https", "wss")
 
         for cookie in self:
             name = cookie.key
@@ -188,17 +178,13 @@ class CookieJar(AbstractCookieJar):
             elif not self._is_domain_match(domain, hostname):
                 continue
 
-            if not self._is_path_match(request_url.path, cookie["path"]):
+            if not self._is_path_match(url_parsed.path, cookie["path"]):
                 continue
 
             if is_not_secure and cookie["secure"]:
                 continue
 
-            # It's critical we use the Morsel so the coded_value
-            # (based on cookie version) is preserved
-            mrsl_val = cookie.get(cookie.key, Morsel())
-            mrsl_val.set(cookie.key, cookie.value, cookie.coded_value)
-            filtered[name] = mrsl_val
+            filtered[name] = cookie.value
 
         return filtered
 
