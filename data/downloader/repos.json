@@ -47,6 +47,107 @@
         },
         "url" : "https://github.com/Twentysix26/26-Cogs"
     },
+    "Ati-Cogs" : {
+        "bible" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Ati-Cogs/bible/bible.py",
+            "folder" : "data/downloader/Ati-Cogs/bible"
+        },
+        "btcprice" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Ati-Cogs/btcprice/btcprice.py",
+            "folder" : "data/downloader/Ati-Cogs/btcprice"
+        },
+        "caramba" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Ati-Cogs/caramba/caramba.py",
+            "folder" : "data/downloader/Ati-Cogs/caramba"
+        },
+        "cowsay" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Ati-Cogs/cowsay/cowsay.py",
+            "folder" : "data/downloader/Ati-Cogs/cowsay"
+        },
+        "spotify" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Ati-Cogs/spotify/spotify.py",
+            "folder" : "data/downloader/Ati-Cogs/spotify"
+        },
+        "statistics" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/Ati-Cogs/statistics/statistics.py",
+            "folder" : "data/downloader/Ati-Cogs/statistics"
+        },
+        "url" : "https://github.com/atiwiex/Ati-Cogs",
+        "webstatistics" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Ati-Cogs/webstatistics/webstatistics.py",
+            "folder" : "data/downloader/Ati-Cogs/webstatistics"
+        }
+    },
+    "aikaterna-cogs" : {
+        "autoeconomy" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/autoeconomy/autoeconomy.py",
+            "folder" : "data/downloader/aikaterna-cogs/autoeconomy"
+        },
+        "away" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/away/away.py",
+            "folder" : "data/downloader/aikaterna-cogs/away"
+        },
+        "cah" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/aikaterna-cogs/cah/cah.py",
+            "folder" : "data/downloader/aikaterna-cogs/cah"
+        },
+        "chatchart" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/aikaterna-cogs/chatchart/chatchart.py",
+            "folder" : "data/downloader/aikaterna-cogs/chatchart"
+        },
+        "hunting" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/hunting/hunting.py",
+            "folder" : "data/downloader/aikaterna-cogs/hunting"
+        },
+        "imgwelcome" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/imgwelcome/imgwelcome.py",
+            "folder" : "data/downloader/aikaterna-cogs/imgwelcome"
+        },
+        "otherbot" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/otherbot/otherbot.py",
+            "folder" : "data/downloader/aikaterna-cogs/otherbot"
+        },
+        "picwelcome" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/picwelcome/picwelcome.py",
+            "folder" : "data/downloader/aikaterna-cogs/picwelcome"
+        },
+        "pug" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/pug/pug.py",
+            "folder" : "data/downloader/aikaterna-cogs/pug"
+        },
+        "riot" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/riot/riot.py",
+            "folder" : "data/downloader/aikaterna-cogs/riot"
+        },
+        "seen" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/aikaterna-cogs/seen/seen.py",
+            "folder" : "data/downloader/aikaterna-cogs/seen"
+        },
+        "serverlimit" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/aikaterna-cogs/serverlimit/serverlimit.py",
+            "folder" : "data/downloader/aikaterna-cogs/serverlimit"
+        },
+        "url" : "https://github.com/aikaterna/aikaterna-cogs"
+    },
     "community" : {
         "dota" : {
             "INSTALLED" : false,
@@ -196,6 +297,11 @@
             "file" : "data/downloader/jumper/pokedex/pokedex.py",
             "folder" : "data/downloader/jumper/pokedex"
         },
+        "race" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/jumper/race/race.py",
+            "folder" : "data/downloader/jumper/race"
+        },
         "raffle" : {
             "INSTALLED" : false,
             "file" : "data/downloader/jumper/raffle/raffle.py",
@@ -320,16 +426,6 @@
         "url" : "https://github.com/orels1/ORELS-Cogs"
     },
     "paddo" : {
-        "away" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/away/away.py",
-            "folder" : "data/downloader/paddo/away"
-        },
-        "caramba" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/caramba/caramba.py",
-            "folder" : "data/downloader/paddo/caramba"
-        },
         "customroles" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/customroles/customroles.py",
@@ -344,11 +440,6 @@
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/grenzpolizei/grenzpolizei.py",
             "folder" : "data/downloader/paddo/grenzpolizei"
-        },
-        "hunting" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/hunting/hunting.py",
-            "folder" : "data/downloader/paddo/hunting"
         },
         "invoice" : {
             "INSTALLED" : false,
@@ -385,32 +476,12 @@
             "file" : "data/downloader/paddo/schmeckles/schmeckles.py",
             "folder" : "data/downloader/paddo/schmeckles"
         },
-        "seen" : {
-            "INSTALLED" : true,
-            "file" : "data/downloader/paddo/seen/seen.py",
-            "folder" : "data/downloader/paddo/seen"
-        },
-        "spotify" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/spotify/spotify.py",
-            "folder" : "data/downloader/paddo/spotify"
-        },
-        "statistics" : {
-            "INSTALLED" : true,
-            "file" : "data/downloader/paddo/statistics/statistics.py",
-            "folder" : "data/downloader/paddo/statistics"
-        },
         "steam" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/steam/steam.py",
             "folder" : "data/downloader/paddo/steam"
         },
         "url" : "https://github.com/PaddoInWonderland/PaddoCogs",
-        "webstatistics" : {
-            "INSTALLED" : false,
-            "file" : "data/downloader/paddo/webstatistics/webstatistics.py",
-            "folder" : "data/downloader/paddo/webstatistics"
-        },
         "wikipedia" : {
             "INSTALLED" : false,
             "file" : "data/downloader/paddo/wikipedia/wikipedia.py",

@@ -221,8 +221,8 @@ class ReviewEmoji:
         server = ctx.message.server
 
         if submission_id not in self.submissions[server.id]["submissions"]:
-            self.bot.reply(cf.error(
-                "Submission with ID {} not found.")).format(submission_id)
+            await self.bot.reply(cf.error(
+                "Submission with ID {} not found.".format(submission_id)))
             return
 
         sub = self.submissions[server.id]["submissions"][submission_id]
@@ -290,7 +290,7 @@ class ReviewEmoji:
                         timeout=15, channel=ctx.message.channel,
                         author=ctx.message.author)
                     if r is None:
-                        break
+                        continue
                     resp = r.content.strip().lower().split()
                     if resp[0] not in ("approve", "reject", "skip", "exit"):
                         await self.bot.reply(cf.warning(
@@ -328,7 +328,7 @@ class ReviewEmoji:
                 elif decision[0] == "exit" or decision is None:
                     break
 
-        more = selg._get_num_waiting_subs(server.id)
+        more = self._get_num_waiting_subs(server.id)
         await self.bot.reply(cf.info(
             "Exiting review process.\n"
             "This session: {} approved, {} rejected, {} skipped.\n"

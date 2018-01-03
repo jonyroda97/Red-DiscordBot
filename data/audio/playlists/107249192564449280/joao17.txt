@@ -891,7 +891,6 @@
         "https://www.youtube.com/watch?v=hLZ9f05dnEw",
         "https://www.youtube.com/watch?v=e3AyM9SFBJY",
         "https://www.youtube.com/watch?v=ucy-k_c_ex0",
-        "https://www.youtube.com/watch?v=svgkBA2GEFk",
         "https://www.youtube.com/watch?v=D0_GWTy9FEM",
         "https://www.youtube.com/watch?v=QywbFhmmr3s",
         "https://www.youtube.com/watch?v=qJ4exC_a_BQ",
