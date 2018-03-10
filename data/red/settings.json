@@ -28,7 +28,7 @@
         ".",
         "!"
     ],
-    "TOKEN" : "MTc2MTcwODYxMTEwMzYyMTE0.CgcH-Q.__JCEaewmDilEz0d5FqbcEIUsX0",
+    "TOKEN" : "---SECRET---",
     "default" : {
         "ADMIN_ROLE" : "Admin",
         "MOD_ROLE" : "Admin"
