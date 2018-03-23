@@ -1,12 +1,3 @@
+__pycache__
 data/audio/cache/*
 data/red/settings.json
-*.pyc
-__pycache__
-!data/trivia/*
-!data/audio/playlists/*
-*.exe
-*.dll
-+start_red*
-+start_launcher.sh
-+start_launcher.command
-+lib
