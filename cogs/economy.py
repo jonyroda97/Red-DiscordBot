@@ -454,14 +454,10 @@ class Economy:
     async def leaderboard(self, ctx):
         """Server / global leaderboard
 
-        Defaults to \"server\" if not issued in DM"""
-        if ctx.invoked_subcommand is None:
-            if ctx.message.server:
-                await ctx.invoke(self._server_leaderboard)
-            else:
-                await ctx.invoke(self._global_leaderboard)
+        Defaults to server"""
+        await ctx.invoke(self._server_leaderboard)
 
-    @leaderboard.command(name="server", pass_context=True, no_pm=True)
+    @leaderboard.command(name="server", pass_context=True)
     async def _server_leaderboard(self, ctx, top: int=10):
         """Prints out the server's leaderboard
 
