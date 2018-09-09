@@ -28,9 +28,9 @@
         ".",
         "!"
     ],
-    "TOKEN" : "MTc2MTcwODYxMTEwMzYyMTE0.CgcH-Q.__JCEaewmDilEz0d5FqbcEIUsX0",
+    "TOKEN" : "MTc2MTcwODYxMTEwMzYyMTE0.DYTigw.7DqL0b5XNniLY6oaXnRyQ0ndot4",
     "default" : {
-        "ADMIN_ROLE" : "Admin",
-        "MOD_ROLE" : "Admin"
+        "ADMIN_ROLE" : "Dono",
+        "MOD_ROLE" : "Mod"
     }
 }

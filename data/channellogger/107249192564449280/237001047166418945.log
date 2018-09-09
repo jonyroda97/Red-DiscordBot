@@ -2,3 +2,72 @@
 2017-03-04 16:29:41.697000 #mod_log @Amigos Prováveis#6605: Logging enabled for #mod_log
 2017-03-04 16:29:45.294000 #mod_log @jonyroda97#9104: .clear 2
 2017-07-29 18:57:59.852000 #mod_log @jonyroda97#9104: .clear 100
+2018-02-02 01:22:16.818000 #mod_log @🎧 DJ AP#6605: **Case #1** | Channel mute 🔇 in #geral
+**User:** xraizen#6932 (281558577360011276)
+**Moderator:** jonyroda97#9104 (98159081583292416)
+**Reason:** Type [p]reason 1 <reason> to add it
+2018-02-02 01:25:05.729000 #mod_log @jonyroda97#9104: .modset
+2018-02-02 01:25:05.851000 #mod_log @🎧 DJ AP#6605: ```
+.modset
+
+Manages server administration settings.
+
+Commands:
+  banmentionspam Enables auto ban for messages mentioning X different people
+  cases          Enables or disables case creation for each type of mod action
+  deletedelay    Sets the delay until the bot removes the command message.
+  deleterepeats  Enables auto deletion of repeated messages
+  hierarchy      Toggles role hierarchy check for mods / admins
+  modlog         Sets a channel as mod log
+  resetcases     Resets modlog's cases
+
+Type .modset command for more info on a command.
+You can also type .modset category for more info on a category.
+```
+2018-02-02 01:25:05.928000 #mod_log @🎧 DJ AP#6605: ```
+Admin role: Dono
+Mod role: Admin
+Mod-log: 237001047166418945
+Delete repeats: False
+Ban mention spam: False
+Delete delay: -1
+Respects hierarchy: True
+```
+2018-02-02 01:25:15.089000 #mod_log @jonyroda97#9104: .modset resetcases
+2018-02-02 01:25:15.132000 #mod_log @🎧 DJ AP#6605: Cases have been reset.
+2018-02-02 01:25:20.965000 #mod_log @jonyroda97#9104: .clear 5
+2018-02-02 01:25:25.519000 #mod_log @jonyroda97#9104: .clear 5
+2018-02-18 23:59:33.494000 #mod_log @🎧 DJ AP#6605: **Case #1** | Kick 👢
+**User:** Eurico#8169 (98181018028105728)
+**Moderator:** jonyroda97#9104 (98159081583292416)
+**Reason:** Type [p]reason 1 <reason> to add it
+2018-02-18 23:59:44.023000 #mod_log @jonyroda97#9104: .modset
+2018-02-18 23:59:44.078000 #mod_log @🎧 DJ AP#6605: ```
+.modset
+
+Manages server administration settings.
+
+Commands:
+  banmentionspam Enables auto ban for messages mentioning X different people
+  cases          Enables or disables case creation for each type of mod action
+  deletedelay    Sets the delay until the bot removes the command message.
+  deleterepeats  Enables auto deletion of repeated messages
+  hierarchy      Toggles role hierarchy check for mods / admins
+  modlog         Sets a channel as mod log
+  resetcases     Resets modlog's cases
+
+Type .modset command for more info on a command.
+You can also type .modset category for more info on a category.
+```
+2018-02-18 23:59:44.269000 #mod_log @🎧 DJ AP#6605: ```
+Admin role: Dono
+Mod role: Admin
+Mod-log: 237001047166418945
+Delete repeats: False
+Ban mention spam: False
+Delete delay: -1
+Respects hierarchy: True
+```
+2018-02-18 23:59:52.885000 #mod_log @jonyroda97#9104: .modset resetcases
+2018-02-18 23:59:52.996000 #mod_log @🎧 DJ AP#6605: Cases have been reset.
+2018-02-18 23:59:58.861000 #mod_log @jonyroda97#9104: .clear 15

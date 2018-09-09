@@ -7,7 +7,7 @@
         "107249192564449280" : {
             "NOPPL_DISCONNECT" : false,
             "QUEUE_MODE" : true,
-            "VOLUME" : 20,
+            "VOLUME" : 50,
             "VOTE_ENABLED" : true,
             "VOTE_THRESHOLD" : 100
         },
@@ -24,6 +24,18 @@
             "VOTE_THRESHOLD" : 50
         },
         "319144738206777344" : {
+            "NOPPL_DISCONNECT" : true,
+            "VOLUME" : 50,
+            "VOTE_ENABLED" : true,
+            "VOTE_THRESHOLD" : 50
+        },
+        "425941459255033857" : {
+            "NOPPL_DISCONNECT" : true,
+            "VOLUME" : 25,
+            "VOTE_ENABLED" : true,
+            "VOTE_THRESHOLD" : 50
+        },
+        "439901710048034826" : {
             "NOPPL_DISCONNECT" : true,
             "VOLUME" : 50,
             "VOTE_ENABLED" : true,

@@ -187,7 +187,8 @@ class MultiDict(_Base, MutableMultiMapping):
     def __init__(self, *args, **kwargs):
         self._impl = _Impl()
 
-        self._extend(args, kwargs, self.__class__.__name__, self.add)
+        self._extend(args, kwargs, self.__class__.__name__,
+                     self._extend_items)
 
     def __reduce__(self):
         return (self.__class__, (list(self.items()),))
@@ -197,7 +198,7 @@ class MultiDict(_Base, MutableMultiMapping):
 
     def _key(self, key):
         if isinstance(key, str):
-            return str(key)
+            return key
         else:
             raise TypeError("MultiDict keys should be either str "
                             "or subclasses of str")
@@ -217,7 +218,7 @@ class MultiDict(_Base, MutableMultiMapping):
 
         This method must be used instead of update.
         """
-        self._extend(args, kwargs, 'extend', self.add)
+        self._extend(args, kwargs, 'extend', self._extend_items)
 
     def _extend(self, args, kwargs, name, method):
         if len(args) > 1:
@@ -225,26 +226,32 @@ class MultiDict(_Base, MutableMultiMapping):
                             " ({} given)".format(name, len(args)))
         if args:
             arg = args[0]
-            if isinstance(args[0], MultiDictProxy):
+            if isinstance(args[0], (MultiDict, MultiDictProxy)) and not kwargs:
                 items = arg._impl._items
-            elif isinstance(args[0], MultiDict):
-                items = arg._impl._items
-            elif hasattr(arg, 'items'):
-                items = [(k, k, v) for k, v in arg.items()]
             else:
+                if hasattr(arg, 'items'):
+                    arg = arg.items()
+                if kwargs:
+                    arg = list(arg)
+                    arg.extend(list(kwargs.items()))
                 items = []
                 for item in arg:
                     if not len(item) == 2:
                         raise TypeError(
                             "{} takes either dict or list of (key, value) "
                             "tuples".format(name))
-                    items.append((item[0], item[0], item[1]))
+                    items.append((self._title(item[0]),
+                                  self._key(item[0]),
+                                  item[1]))
 
-            for identity, key, value in items:
-                method(key, value)
+            method(items)
+        else:
+            method([(self._title(key), self._key(key), value)
+                    for key, value in kwargs.items()])
 
-        for key, value in kwargs.items():
-            method(key, value)
+    def _extend_items(self, items):
+        for identity, key, value in items:
+            self.add(key, value)
 
     def clear(self):
         """Remove all items from MultiDict."""
@@ -254,15 +261,14 @@ class MultiDict(_Base, MutableMultiMapping):
     # Mapping interface #
 
     def __setitem__(self, key, value):
-        key = self._title(key)
         self._replace(key, value)
 
     def __delitem__(self, key):
-        key = self._title(key)
+        identity = self._title(key)
         items = self._impl._items
         found = False
         for i in range(len(items) - 1, -1, -1):
-            if items[i][0] == key:
+            if items[i][0] == identity:
                 del items[i]
                 found = True
         if not found:
@@ -272,9 +278,9 @@ class MultiDict(_Base, MutableMultiMapping):
 
     def setdefault(self, key, default=None):
         """Return value for key, set value to default if key is not present."""
-        key = self._title(key)
+        identity = self._title(key)
         for i, k, v in self._impl._items:
-            if i == key:
+            if i == identity:
                 return v
         self.add(key, default)
         return default
@@ -286,9 +292,9 @@ class MultiDict(_Base, MutableMultiMapping):
         KeyError is raised.
 
         """
-        key = self._title(key)
+        identity = self._title(key)
         for i in range(len(self._impl._items)):
-            if self._impl._items[i][0] == key:
+            if self._impl._items[i][0] == identity:
                 value = self._impl._items[i][2]
                 del self._impl._items[i]
                 self._impl.incr_version()
@@ -338,14 +344,46 @@ class MultiDict(_Base, MutableMultiMapping):
 
     def update(self, *args, **kwargs):
         """Update the dictionary from *other*, overwriting existing keys."""
-        self._extend(args, kwargs, 'update', self._replace)
+        self._extend(args, kwargs, 'update', self._update_items)
+
+    def _update_items(self, items):
+        if not items:
+            return
+        used_keys = {}
+        for identity, key, value in items:
+            start = used_keys.get(identity, 0)
+            for i in range(start, len(self._impl._items)):
+                item = self._impl._items[i]
+                if item[0] == identity:
+                    used_keys[identity] = i + 1
+                    self._impl._items[i] = (identity, key, value)
+                    break
+            else:
+                self._impl._items.append((identity, key, value))
+                used_keys[identity] = len(self._impl._items)
+
+        # drop tails
+        i = 0
+        while i < len(self._impl._items):
+            item = self._impl._items[i]
+            identity = item[0]
+            pos = used_keys.get(identity)
+            if pos is None:
+                i += 1
+                continue
+            if i >= pos:
+                del self._impl._items[i]
+            else:
+                i += 1
+
+        self._impl.incr_version()
 
     def _replace(self, key, value):
         key = self._key(key)
         identity = self._title(key)
         items = self._impl._items
 
-        for i in range(len(items)-1, -1, -1):
+        for i in range(len(items)):
             item = items[i]
             if item[0] == identity:
                 items[i] = (identity, key, value)
@@ -358,13 +396,12 @@ class MultiDict(_Base, MutableMultiMapping):
             self._impl.incr_version()
             return
 
-        # remove all precending items
-        i = 0
-        while i < rgt:
+        # remove all tail items
+        i = rgt + 1
+        while i < len(items):
             item = items[i]
             if item[0] == identity:
                 del items[i]
-                rgt -= 1
             else:
                 i += 1
 

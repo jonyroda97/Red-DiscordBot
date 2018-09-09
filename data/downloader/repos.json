@@ -47,6 +47,54 @@
         },
         "url" : "https://github.com/Twentysix26/26-Cogs"
     },
+    "26-Cogs" : {
+        "cleverbot" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/cleverbot/cleverbot.py",
+            "folder" : "data/downloader/26-Cogs/cleverbot"
+        },
+        "insult" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/insult/insult.py",
+            "folder" : "data/downloader/26-Cogs/insult"
+        },
+        "nomassmentions" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/nomassmentions/nomassmentions.py",
+            "folder" : "data/downloader/26-Cogs/nomassmentions"
+        },
+        "penis" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/penis/penis.py",
+            "folder" : "data/downloader/26-Cogs/penis"
+        },
+        "remindme" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/remindme/remindme.py",
+            "folder" : "data/downloader/26-Cogs/remindme"
+        },
+        "rift" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/rift/rift.py",
+            "folder" : "data/downloader/26-Cogs/rift"
+        },
+        "rndstatus" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/rndstatus/rndstatus.py",
+            "folder" : "data/downloader/26-Cogs/rndstatus"
+        },
+        "stickyroles" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/stickyroles/stickyroles.py",
+            "folder" : "data/downloader/26-Cogs/stickyroles"
+        },
+        "trigger" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/trigger/trigger.py",
+            "folder" : "data/downloader/26-Cogs/trigger"
+        },
+        "url" : "https://github.com/Twentysix26/26-Cogs"
+    },
     "Ati-Cogs" : {
         "bible" : {
             "INSTALLED" : false,
@@ -147,6 +195,94 @@
             "folder" : "data/downloader/aikaterna-cogs/serverlimit"
         },
         "url" : "https://github.com/aikaterna/aikaterna-cogs"
+    },
+    "calebj-cogs" : {
+        "activitylog" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/activitylog/activitylog.py",
+            "folder" : "data/downloader/calebj-cogs/activitylog"
+        },
+        "customgcom" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/customgcom/customgcom.py",
+            "folder" : "data/downloader/calebj-cogs/customgcom"
+        },
+        "datadog" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/datadog/datadog.py",
+            "folder" : "data/downloader/calebj-cogs/datadog"
+        },
+        "description" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/description/description.py",
+            "folder" : "data/downloader/calebj-cogs/description"
+        },
+        "dice" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/dice/dice.py",
+            "folder" : "data/downloader/calebj-cogs/dice"
+        },
+        "duel" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/duel/duel.py",
+            "folder" : "data/downloader/calebj-cogs/duel"
+        },
+        "embedwiz" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/embedwiz/embedwiz.py",
+            "folder" : "data/downloader/calebj-cogs/embedwiz"
+        },
+        "galias" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/galias/galias.py",
+            "folder" : "data/downloader/calebj-cogs/galias"
+        },
+        "gallery" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/gallery/gallery.py",
+            "folder" : "data/downloader/calebj-cogs/gallery"
+        },
+        "punish" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/calebj-cogs/punish/punish.py",
+            "folder" : "data/downloader/calebj-cogs/punish"
+        },
+        "purgepins" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/purgepins/purgepins.py",
+            "folder" : "data/downloader/calebj-cogs/purgepins"
+        },
+        "recensor" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/recensor/recensor.py",
+            "folder" : "data/downloader/calebj-cogs/recensor"
+        },
+        "serverquotes" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/serverquotes/serverquotes.py",
+            "folder" : "data/downloader/calebj-cogs/serverquotes"
+        },
+        "sinfo" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/sinfo/sinfo.py",
+            "folder" : "data/downloader/calebj-cogs/sinfo"
+        },
+        "url" : "https://github.com/calebj/calebj-cogs",
+        "watchdog" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/watchdog/watchdog.py",
+            "folder" : "data/downloader/calebj-cogs/watchdog"
+        },
+        "xorole" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/xorole/xorole.py",
+            "folder" : "data/downloader/calebj-cogs/xorole"
+        },
+        "zalgo" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/calebj-cogs/zalgo/zalgo.py",
+            "folder" : "data/downloader/calebj-cogs/zalgo"
+        }
     },
     "community" : {
         "dota" : {
