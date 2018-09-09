@@ -29,10 +29,14 @@
         "!"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "TOKEN" : "MTc2MTcwODYxMTEwMzYyMTE0.DYTigw.7DqL0b5XNniLY6oaXnRyQ0ndot4",
 =======
     "TOKEN" : "---SECRET---",
 >>>>>>> 0459ee2c6f9f8970eb1bb317c33cee338837cd96
+=======
+    "TOKEN" : "---SECRET---",
+>>>>>>> 51d76328b85406ec6c0f6b04e6ad0179abe71540
     "default" : {
         "ADMIN_ROLE" : "Dono",
         "MOD_ROLE" : "Mod"
