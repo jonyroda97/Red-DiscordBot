@@ -1,5 +1,6 @@
  data/audio/cache/*
  data/red/settings.json
+ .github/*
 *.pyc
 __pycache__
 !data/trivia/*
